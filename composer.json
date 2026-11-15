@@ -1,8 +1,8 @@
 {
   "name": "shmuelakam/greenjeans",
   "description": "PHP SDK and persistence layer for Geni.com API",
-  "minimum-stability": "dev",
-  "license": "proprietary",
+  "license": "MIT",
+  "prefer-stable": true,
   "authors": [
     {
       "name": "Shmuel A. Kam",

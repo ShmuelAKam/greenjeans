@@ -38,17 +38,18 @@ $serverConfig = require $configFile;
 
 $storeFile      = $GLOBALS ['PACKAGE_ROOT'] . '/SessionAuth.json';
 
-$appNumber      = $serverConfig['app_num'];
+$appNumber      = (int) $serverConfig['app_num'];
 $appID          = $serverConfig['app_id'];
 $appSecret      = $serverConfig['app_secret'];
 $appRedirectURL = $serverConfig['app_redirect'];
 
 session_start();
 
-// Get connection to Server. Log output defaults to 'silent'.
+// Get connection to Server. Log output set to 'silent'.
+// Initialize the client. The wrapper self-registers for access without global var..
 
 $API_Wrap = new API_WrapperServer(
-    (int) $appNumber,
+    $appNumber,
     $appID,
     $appSecret,
     $appRedirectURL,
@@ -87,7 +88,8 @@ if (!$API_Wrap->retrieve($storeFile))
         $API_Wrap->requestAccessToken($accessCode);
 
         /**
-         * 6. Optionally store session auth parameters to file, so retrieve() works next time.
+         * 6. Optionally store session auth parameters to file, so retrieve() works next time,
+         *    and auth step is skipped.
          */
         $API_Wrap->store($storeFile);
     }

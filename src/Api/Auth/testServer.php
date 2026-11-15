@@ -9,18 +9,15 @@
 namespace ShmuelAKam\Greenjeans\Api\Auth;
 
 /**
- * testServer.php - Example script for starting session with Server-flow authentation.
+ * testServer.php - Example script for starting session with Server-flow authentication.
  *
- * The purpose of this script is to authenticate with the Geni's Server. It then
- * saves the authentication parameters in a file, that can be used by the CLI
- * test application. A bit awkward, but it works.
- *
- * Because this script is entirely separate from the CLI application, there is
- * NO need to change it, The connection parameters are set in geni.local.php
- * See below.
+ * There is NO need to change this script. The connection parameters are set in
+ * geni.local.php in the project root directory.
  */
 
-require_once $GLOBALS ['PACKAGE_ROOT'] . '/vendor/autoload.php';
+$GLOBALS ['PACKAGE_ROOT'] = dirname(__DIR__, 2);
+require_once  $GLOBALS ['PACKAGE_ROOT'] . '/vendor/autoload.php';
+$configFile = $GLOBALS ['PACKAGE_ROOT'] . '/geni.local.php';
 
 use ShmuelAKam\Greenjeans\Api\API_Profile;
 use ShmuelAKam\Greenjeans\Api\Core\API_WrapperServer;
@@ -29,8 +26,6 @@ use ShmuelAKam\Greenjeans\Api\Core\API_WrapperServer;
  * 1. Get Server connection credentials.
  */
 
-$GLOBALS ['PACKAGE_ROOT'] = dirname(__DIR__, 2);
-$configFile = $GLOBALS ['PACKAGE_ROOT'] . '/geni.local.php';
 
 if (!file_exists($configFile))
 {
@@ -51,7 +46,7 @@ $appRedirectURL = $serverConfig['app_redirect'];
 session_start();
 
 // Get connection to Server. Log output set to 'silent'.
-// The class self-registers for access without global var..
+// Initialize the client. The wrapper self-registers for access without global var..
 
 $API_Wrap = new API_WrapperServer(
     $appNumber,
@@ -59,7 +54,7 @@ $API_Wrap = new API_WrapperServer(
     $appSecret,
     $appRedirectURL,
     silent: true,
-    useSandbox: true,
+    useSandbox: false,
 );
 
 /**

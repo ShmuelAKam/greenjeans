@@ -1,12 +1,18 @@
 <?php
-
 namespace ShmuelAKam\Greenjeans\Api\Auth;
 
 /**
  * testDesktop.php - Example script for starting CLI session with Desktop-flow authentication.
+ *
  * Uses the OS-native 'open' command to automate the browser step.
+ *
+ * There is NO need to change this script. The connection parameters are set in
+ * geni.local.php in the project root directory.
  */
-require_once $GLOBALS ['PACKAGE_ROOT'] . '/vendor/autoload.php';
+
+$GLOBALS ['PACKAGE_ROOT'] = dirname(__DIR__, 2);
+require_once  $GLOBALS ['PACKAGE_ROOT'] . '/vendor/autoload.php';
+$configFile = $GLOBALS ['PACKAGE_ROOT'] . '/geni.local.php';
 
 use Exception;
 use ShmuelAKam\Greenjeans\Api\API_Profile;
@@ -16,8 +22,6 @@ use ShmuelAKam\Greenjeans\Api\Core\API_WrapperDesktop;
  * 1. Get Server connection credentials.
  */
 
-$GLOBALS ['PACKAGE_ROOT'] = dirname(__DIR__, 2);
-$configFile = $GLOBALS ['PACKAGE_ROOT'] . '/geni.local.php';
 
 if (!file_exists($configFile))
 {
@@ -36,13 +40,16 @@ $appSecret      = $serverConfig['app_secret'];
 $appRedirectURL = $serverConfig['app_redirect'];
 
 // Initialize the Desktop client.
-// Initialize the client. The class self-registers for access without global var..
+
+// Get connection to Server. Log output set to 'silent'.
+// Initialize the client. The wrapper self-registers for access without global var..
 
 $API_Wrap = new API_WrapperDesktop(
     $appNumber,
     $appID,
     $appSecret,
     silent: true
+    useSandbox: false,
 );
 
 /**

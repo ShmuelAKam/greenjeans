@@ -12,7 +12,7 @@ if [[ "${1:-}" == "--dry-run" || "${1:-}" == "-n" ]]; then
   echo
 fi
 
-rsync -rlvz $DRY_RUN --delete --no-p \
+rsync -rlvz $DRY_RUN --delete --no-p --stats -h \
   --chmod=D2775,F664 \
   --filter="P /tests/Api/fixture-prev/***" \
   --filter="P /tests/Api/fixtures-prev/***" \

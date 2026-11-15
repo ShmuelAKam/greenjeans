@@ -1,13 +1,16 @@
 <?php
-
 namespace ShmuelAKam\Greenjeans\Api\Auth;
 
 /**
  * testClient.php - Example script for starting CLI session with Client-flow authentation.
+ *
+ * There is NO need to change this script. The connection parameters are set in
+ * geni.local.php in the project root directory.
  */
 
-require_once $GLOBALS ['PACKAGE_ROOT'] . '/vendor/autoload.php';
-
+$GLOBALS ['PACKAGE_ROOT'] = dirname(__DIR__, 2);
+require_once  $GLOBALS ['PACKAGE_ROOT'] . '/vendor/autoload.php';
+$configFile = $GLOBALS ['PACKAGE_ROOT'] . '/geni.local.php';
 
 use Exception;
 use ShmuelAKam\Greenjeans\Api\API_Profile;
@@ -17,8 +20,6 @@ use ShmuelAKam\Greenjeans\Api\Core\API_WrapperClient;
  * 1. Get Server connection credentials.
  */
 
-$GLOBALS ['PACKAGE_ROOT'] = dirname(__DIR__, 2);
-$configFile = $GLOBALS ['PACKAGE_ROOT'] . '/geni.local.php';
 
 if (!file_exists($configFile))
 {
@@ -31,15 +32,20 @@ $serverConfig = require $configFile;
 
 $storeFile      = $GLOBALS ['PACKAGE_ROOT'] . '/SessionAuth.json';
 
-$appNumber      = $serverConfig['app_num'];
+$appNumber      = (int) $serverConfig['app_num'];
 $appID          = $serverConfig['app_id'];
 $appSecret      = $serverConfig['app_secret'];
 
 
 // Get connection to Server. Log output set to 'silent'.
-// The class self-registers for access without global var..
+// Initialize the client. The wrapper self-registers for access without global var..
 
-$API_Wrap = new API_WrapperClient((int) $appNumber, $appID, $appSecret, silent: true);
+$API_Wrap = new API_WrapperClient(
+    $appNumber,
+    $appID,
+    $appSecret,
+    silent: true
+);
 
 /**
  * 2. Check for existing session

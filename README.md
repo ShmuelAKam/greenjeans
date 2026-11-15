@@ -27,3 +27,9 @@ Note: Both *.local.php files are excluded from Git via .gitignore and will not b
 
 the Api/Auth directory contains php files for the three types of authentication that Geni uses. Copy the relevant file to your app directory, and adjust the definition of PACKAGE_ROOT.
 
+## Disclaimer
+
+This project is an unofficial, community-maintained SDK and persistence wrapper for the Geni.com API. It is not affiliated with, endorsed by, sponsored by, or officially connected to Geni.com or MyHeritage. 
+
+All product names, logos, and brands (including Geni and MyHeritage) are the property of their respective owners. Users of this library are responsible for complying with the [Geni.com Terms of Use](https://geni.com), API rate limits, and applicable data privacy laws when storing or processing genealogical data.
+

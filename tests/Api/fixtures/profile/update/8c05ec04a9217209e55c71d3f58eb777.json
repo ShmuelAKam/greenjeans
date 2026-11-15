@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678598",
+    "public": false,
+    "name": "Italy Ohayon",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Italy Ohayon",
+        "date": {
+            "day": 5,
+            "month": 12,
+            "year": 1926,
+            "formatted_date": "December 5, 1926"
+        },
+        "location": {
+            "street_address1": "View Street 84",
+            "city": "Sudan",
+            "county": "Khartoum",
+            "state": "Khartoum",
+            "country": "Khartoum",
+            "latitude": 15.597431,
+            "longitude": 32.535587,
+            "formatted_location": "View Street 84, Sudan, Khartoum, Khartoum, Khartoum"
+        }
+    }
+}

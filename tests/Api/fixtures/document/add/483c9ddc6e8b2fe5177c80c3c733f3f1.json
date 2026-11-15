@@ -1,0 +1,26 @@
+{
+    "id": "document-47260296",
+    "guid": "6000000225689335886",
+    "created_at": "1779859642",
+    "updated_at": "1779859642",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260296",
+    "title": "US Constitution",
+    "description": "Non-equal rights",
+    "date": {
+        "day": 30,
+        "month": 4,
+        "year": 1928,
+        "formatted_date": "April 30, 1928"
+    },
+    "labels": [
+        "United States"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260296"
+    }
+}

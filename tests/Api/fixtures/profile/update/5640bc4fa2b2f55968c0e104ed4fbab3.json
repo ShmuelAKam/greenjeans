@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678642",
+    "public": false,
+    "name": "Jude Bitton",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Jude Bitton",
+        "date": {
+            "day": 20,
+            "month": 6,
+            "year": 1970,
+            "formatted_date": "June 20, 1970"
+        },
+        "location": {
+            "street_address1": "Pine Street 1",
+            "city": "Austria",
+            "county": "Vienna",
+            "state": "Vienna",
+            "country": "Vienna",
+            "latitude": 48.2080696,
+            "longitude": 16.3713095,
+            "formatted_location": "Pine Street 1, Austria, Vienna, Vienna, Vienna"
+        }
+    }
+}

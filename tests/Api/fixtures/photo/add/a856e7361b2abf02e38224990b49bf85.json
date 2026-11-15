@@ -1,0 +1,27 @@
+{
+    "id": "photo-51987041",
+    "guid": "6000000225689558825",
+    "created_at": "1779860611",
+    "updated_at": "1779860611",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51987041",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 4,
+        "month": 3,
+        "year": 1969,
+        "formatted_date": "March 4, 1969"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/40\/6c\/d2\/79\/5344486a787d5f29\/file-sdk-1_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/40\/6c\/d2\/79\/5344486a787d5f29\/file-sdk-1_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/40\/6c\/d2\/79\/5344486a787d5f29\/file-sdk-1_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/40\/6c\/d2\/79\/5344486a787d5f29\/file-sdk-1_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/40\/6c\/d2\/79\/5344486a787d5f29\/file-sdk-1_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/40\/6c\/d2\/79\/5344486a787d5f29\/file-sdk-1_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/40\/6c\/d2\/79\/5344486a787d5f29\/file-sdk-1_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51987041"
+    }
+}

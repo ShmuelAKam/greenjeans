@@ -1,0 +1,21 @@
+{
+    "id": "document-47257845",
+    "guid": "6000000225687075900",
+    "created_at": "1779840427",
+    "updated_at": "1779840429",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257845",
+    "title": "First",
+    "date": {
+        "day": 13,
+        "month": 1,
+        "year": 1983,
+        "formatted_date": "January 13, 1983"
+    },
+    "page_count": 4,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/17\/ee\/f5\/30\/5344486a78577c3c\/test-doc-1_original.pdf?hash=037c8045372a197cbc0d4605ba8225de6abf315c39afbbe5c1125c8b49923c57.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47257845"
+    }
+}

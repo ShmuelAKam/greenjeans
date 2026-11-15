@@ -1,0 +1,21 @@
+{
+    "id": "document-47399127",
+    "guid": "6000000225878034841",
+    "created_at": "1780660445",
+    "updated_at": "1780660447",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47399127",
+    "title": "First",
+    "date": {
+        "day": 11,
+        "month": 12,
+        "year": 2013,
+        "formatted_date": "December 11, 2013"
+    },
+    "page_count": 4,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/48\/f6\/f2\/fe\/5344486a83b94999\/test-doc-1_original.pdf?hash=cd9ec2fd2288e5f6ea4f0d1eab4042a6d27363f14949a9ca0b2b3d34ecf38712.1780729199",
+        "url": "https:\/\/www.geni.com\/api\/document-47399127"
+    }
+}

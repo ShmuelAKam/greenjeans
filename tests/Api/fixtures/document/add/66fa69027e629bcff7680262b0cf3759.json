@@ -1,0 +1,23 @@
+{
+    "id": "document-47260802",
+    "guid": "6000000225689667845",
+    "created_at": "1779861251",
+    "updated_at": "1779861251",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260802",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 25,
+        "month": 7,
+        "year": 1944,
+        "formatted_date": "July 25, 1944"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260802"
+    }
+}

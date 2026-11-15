@@ -1,0 +1,10 @@
+{
+    "mugshot_urls": {
+        "medium": "https:\/\/media.geni.com\/p10\/2446\/0735\/53444837f72861c3\/siv33fuk_medium.jpg?hash=19db71dddd5dccaffdd1c97bfe6b90351fce7e2f29f290150f92657c4c10f3c0.1780124399",
+        "small": "https:\/\/media.geni.com\/p10\/2446\/0735\/53444837f72861c3\/siv33fuk_small.jpg?hash=c24a8250d03be37797dd0dbd2ef438de735982c6b744d06fe18607301e90b73a.1780124399",
+        "thumb": "https:\/\/media.geni.com\/p10\/2446\/0735\/53444837f72861c3\/siv33fuk_t.jpg?hash=ae5f8ff63d5f3e77fecabc53be42e66a0cf7a001f7cf8d5860c05b8f896cf89f.1780124399",
+        "print": "https:\/\/media.geni.com\/p10\/2446\/0735\/53444837f72861c3\/siv33fuk_print.jpg?hash=274cd25c1d142a447d90ffc4d333a670cdb2b8acfb8487befbafadcd7e1c8917.1780124399",
+        "thumb2": "https:\/\/media.geni.com\/p10\/2446\/0735\/53444837f72861c3\/siv33fuk_t2.jpg?hash=9ba0017b327cae7d17a7757d3d9e0ac9943537b99354943e5c6816cc5f7f080e.1780124399",
+        "url": "https:\/\/www.geni.com\/api\/photo_crop-6000000008771363267"
+    }
+}

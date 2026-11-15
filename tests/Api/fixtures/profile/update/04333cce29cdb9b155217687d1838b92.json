@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672759",
+    "public": true,
+    "name": "Delilah Segel",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Delilah Segel",
+        "date": {
+            "day": 25,
+            "month": 1,
+            "year": 2009,
+            "formatted_date": "January 25, 2009"
+        },
+        "location": {
+            "street_address1": "Pine Street 40",
+            "city": "Gabon",
+            "county": "Komo-Mondah",
+            "state": "Estuaire",
+            "country": "Libreville",
+            "latitude": 0.4077972,
+            "longitude": 9.4402833,
+            "formatted_location": "Pine Street 40, Gabon, Komo-Mondah, Estuaire, Libreville"
+        }
+    }
+}

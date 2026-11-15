@@ -1,0 +1,26 @@
+{
+    "id": "document-47258038",
+    "guid": "6000000225687705939",
+    "created_at": "1779841858",
+    "updated_at": "1779841858",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258038",
+    "title": "US Constitution",
+    "description": "Non-equal rights",
+    "date": {
+        "day": 11,
+        "month": 7,
+        "year": 1972,
+        "formatted_date": "July 11, 1972"
+    },
+    "labels": [
+        "United States"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258038"
+    }
+}

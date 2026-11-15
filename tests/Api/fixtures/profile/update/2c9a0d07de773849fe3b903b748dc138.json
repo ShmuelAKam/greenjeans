@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678630",
+    "public": false,
+    "name": "Sophie Weiss",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Sophie Weiss",
+        "date": {
+            "day": 10,
+            "month": 2,
+            "year": 1936,
+            "formatted_date": "February 10, 1936"
+        },
+        "location": {
+            "street_address1": "Elm Street 97",
+            "city": "Germany",
+            "country": "Berlin",
+            "latitude": 51.165691,
+            "longitude": 10.451526,
+            "formatted_location": "Elm Street 97, Germany, Berlin"
+        }
+    }
+}

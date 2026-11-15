@@ -1,0 +1,45 @@
+{
+    "id": "union-128847673",
+    "url": "https:\/\/www.geni.com\/api\/union-128847673",
+    "guid": "6000000225689814968",
+    "marriage_date": {
+        "day": 15,
+        "month": 10,
+        "year": 1966,
+        "formatted_date": "October 15, 1966"
+    },
+    "marriage_location": {
+        "street_address1": "Fifth Avenue 34",
+        "city": "Chad",
+        "county": "N'Djam\u00e9na",
+        "state": "N'Djamena",
+        "country": "N'Djamena",
+        "latitude": 12.1191352,
+        "longitude": 15.0502875,
+        "formatted_location": "Fifth Avenue 34, Chad, N&#39;Djam\u00e9na, N&#39;Djamena, N&#39;Djamena"
+    },
+    "marriage": {
+        "name": "Marriage of Italy Segel and Amelia Lavyan",
+        "date": {
+            "day": 15,
+            "month": 10,
+            "year": 1966,
+            "formatted_date": "October 15, 1966"
+        },
+        "location": {
+            "street_address1": "Fifth Avenue 34",
+            "city": "Chad",
+            "county": "N'Djam\u00e9na",
+            "state": "N'Djamena",
+            "country": "N'Djamena",
+            "latitude": 12.1191352,
+            "longitude": 15.0502875,
+            "formatted_location": "Fifth Avenue 34, Chad, N&#39;Djam\u00e9na, N&#39;Djamena, N&#39;Djamena"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679534",
+        "https:\/\/www.geni.com\/api\/profile-34858679533"
+    ]
+}

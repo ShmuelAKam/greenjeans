@@ -1,0 +1,31 @@
+{
+    "id": "photo-51986335",
+    "guid": "6000000225687748822",
+    "created_at": "1779841634",
+    "updated_at": "1779841635",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986335",
+    "title": "One",
+    "description": "There can only be",
+    "date": {
+        "day": 27,
+        "month": 1,
+        "year": 2005,
+        "formatted_date": "January 27, 2005"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/87\/3a\/fc\/7a\/5344486a7861c0d6\/file-sdk-1_large.jpg?hash=7d6c406ed1181067b2817fa0c0f7c261dcb5dd7ddbc95f3637600b61f78eb43f.1779951599",
+        "medium": "https:\/\/media.geni.com\/p14\/87\/3a\/fc\/7a\/5344486a7861c0d6\/file-sdk-1_medium.jpg?hash=9beeb4544f9a550e486901c15a535094cc7f3d3597318769e37a28a131ee9cb4.1779951599",
+        "small": "https:\/\/media.geni.com\/p14\/87\/3a\/fc\/7a\/5344486a7861c0d6\/file-sdk-1_small.jpg?hash=9ef87fdfd658331a176d2f4201bd69e3e3fd1dff587926de132d5b6b16e11dee.1779951599",
+        "thumb": "https:\/\/media.geni.com\/p14\/87\/3a\/fc\/7a\/5344486a7861c0d6\/file-sdk-1_t.jpg?hash=c590c7f6062fa68a9c45be0325f03e288dfcbc653ec47dbc53c6b91b23c104e7.1779951599",
+        "print": "https:\/\/media.geni.com\/p14\/87\/3a\/fc\/7a\/5344486a7861c0d6\/file-sdk-1_print.jpg?hash=5e052a5be18dfcb2a8884c1b5009ce64e4d988ccc224307ddafb712e4732f286.1779951599",
+        "thumb2": "https:\/\/media.geni.com\/p14\/87\/3a\/fc\/7a\/5344486a7861c0d6\/file-sdk-1_t2.jpg?hash=94b1ff11a158f3f9d772dda7d5de9fb47f12a44254a9e9fdac127e2fc0b98eb0.1779951599",
+        "original": "https:\/\/media.geni.com\/p14\/87\/3a\/fc\/7a\/5344486a7861c0d6\/file-sdk-1_original.jpg?hash=c1fea85694efb6d6d186ede028ac02a1805d1e61393568bfc3903f2b1e4756e1.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986335"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190",
+        "https:\/\/www.geni.com\/api\/profile-34858672086"
+    ]
+}

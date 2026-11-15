@@ -1,0 +1,101 @@
+{
+    "results": [
+        {
+            "id": "profile-9098528"
+        },
+        {
+            "id": "profile-4094322"
+        },
+        {
+            "id": "profile-4128660"
+        },
+        {
+            "id": "profile-16791832"
+        },
+        {
+            "id": "profile-10799421"
+        },
+        {
+            "id": "profile-4128710"
+        },
+        {
+            "id": "profile-4128729"
+        },
+        {
+            "id": "profile-4128644"
+        },
+        {
+            "id": "profile-4128774"
+        },
+        {
+            "id": "profile-4128794"
+        },
+        {
+            "id": "profile-4128823"
+        },
+        {
+            "id": "profile-4128843"
+        },
+        {
+            "id": "profile-4128903"
+        },
+        {
+            "id": "profile-4128925"
+        },
+        {
+            "id": "profile-4128949"
+        },
+        {
+            "id": "profile-3917271"
+        },
+        {
+            "id": "profile-60941057"
+        },
+        {
+            "id": "profile-11658194"
+        },
+        {
+            "id": "profile-10778381"
+        },
+        {
+            "id": "profile-10778709"
+        },
+        {
+            "id": "profile-3917277"
+        },
+        {
+            "id": "profile-3917285"
+        },
+        {
+            "id": "profile-3917293"
+        },
+        {
+            "id": "profile-3917300"
+        },
+        {
+            "id": "profile-3917310"
+        },
+        {
+            "id": "profile-4129043"
+        },
+        {
+            "id": "profile-4094860"
+        },
+        {
+            "id": "profile-4094989"
+        },
+        {
+            "id": "profile-4095031"
+        },
+        {
+            "id": "profile-4095543"
+        },
+        {
+            "id": "profile-53597431"
+        }
+    ],
+    "total_count": 1732,
+    "page": 35,
+    "previous_page": "https:\/\/www.geni.com\/api\/project-38\/profiles?fields=id&only_list=1&page=34&per_page=50",
+    "next_page": "https:\/\/www.geni.com\/api\/project-38\/profiles?fields=id&only_list=1&page=36&per_page=50"
+}

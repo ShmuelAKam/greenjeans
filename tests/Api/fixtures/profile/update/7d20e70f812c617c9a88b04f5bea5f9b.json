@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672862",
+    "public": false,
+    "name": "Bonnie Omer",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Bonnie Omer",
+        "date": {
+            "day": 14,
+            "month": 10,
+            "year": 2022,
+            "formatted_date": "October 14, 2022"
+        },
+        "location": {
+            "street_address1": "Grange Road 21",
+            "city": "Gabon",
+            "county": "Komo-Mondah",
+            "state": "Estuaire",
+            "country": "Libreville",
+            "latitude": 0.4077972,
+            "longitude": 9.4402833,
+            "formatted_location": "Grange Road 21, Gabon, Komo-Mondah, Estuaire, Libreville"
+        }
+    }
+}

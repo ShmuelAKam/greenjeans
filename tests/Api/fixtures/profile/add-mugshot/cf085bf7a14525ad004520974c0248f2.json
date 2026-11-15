@@ -1,0 +1,31 @@
+{
+    "id": "photo-51986337",
+    "guid": "6000000225687734871",
+    "created_at": "1779841641",
+    "updated_at": "1779841641",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986337",
+    "title": "Three",
+    "description": "Cord of three is not quickly broken",
+    "date": {
+        "day": 4,
+        "month": 2,
+        "year": 2002,
+        "formatted_date": "February 4, 2002"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/ac\/e4\/81\/98\/5344486a78618a57\/file-sdk-3_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/ac\/e4\/81\/98\/5344486a78618a57\/file-sdk-3_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/ac\/e4\/81\/98\/5344486a78618a57\/file-sdk-3_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/ac\/e4\/81\/98\/5344486a78618a57\/file-sdk-3_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/ac\/e4\/81\/98\/5344486a78618a57\/file-sdk-3_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/ac\/e4\/81\/98\/5344486a78618a57\/file-sdk-3_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/ac\/e4\/81\/98\/5344486a78618a57\/file-sdk-3_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986337"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190",
+        "https:\/\/www.geni.com\/api\/profile-34858672089"
+    ]
+}

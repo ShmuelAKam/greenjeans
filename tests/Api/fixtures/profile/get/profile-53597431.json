@@ -1,0 +1,157 @@
+{
+  "id": "profile-53597431",
+  "url": "https://www.geni.com/api/profile-53597431",
+  "profile_url": "https://www.geni.com/people/Adam-of-Eden/6000000003538706117",
+  "public": true,
+  "guid": "6000000003538706117",
+  "first_name": "Adam",
+  "maiden_name": ".",
+  "last_name": ".",
+  "display_name": "Adam of Eden",
+  "name": "Adam of Eden",
+  "is_alive": false,
+  "locked": true,
+  "gender": "male",
+  "master_profile": true,
+  "current_residence": {
+    "place_name": "Cave on Mountain Above Garden of Eden",
+    "latitude": 37.6853373,
+    "longitude": -122.0928486,
+    "formatted_location": "Cave on Mountain Above Garden of Eden"
+  },
+  "occupation": "Gardener, First Man",
+  "created_by": "https://www.geni.com/api/profile-9288190",
+  "claimed": false,
+  "curator": "https://www.geni.com/api/profile-9288190",
+  "mugshot_urls": {
+    "medium": "https://media.geni.com/p13/d7/2e/d9/89/53444843ef340915/biy85kuk_medium.jpg?hash=6586db1ddd9d46197b34bedb709bcd3a9c7a176385da2fd079eac5e4dc9d7521.1786085999",
+    "small": "https://media.geni.com/p13/d7/2e/d9/89/53444843ef340915/biy85kuk_small.jpg?hash=4db4278ba066e7e4654b91f3943b64034c6c0c9c305d288aeffa9c66f10fde97.1786085999",
+    "thumb": "https://media.geni.com/p13/d7/2e/d9/89/53444843ef340915/biy85kuk_t.jpg?hash=df2470dceb2e046b1169dd1ef4b0449f46e81c0570cb3510c1e59dae425a2eb8.1786085999",
+    "print": "https://media.geni.com/p13/d7/2e/d9/89/53444843ef340915/biy85kuk_print.jpg?hash=83f5be393b80fb1ac2010bec44404c649c484ac6910983f97f5a789b6f6c11bf.1786085999",
+    "thumb2": "https://media.geni.com/p13/d7/2e/d9/89/53444843ef340915/biy85kuk_t2.jpg?hash=ba4353d89de910a62e67ac470282d66b009b0271372203f6b4e25529fe9309d1.1786085999",
+    "url": "https://www.geni.com/api/photo_crop-6000000060177516821"
+  },
+  "unions": [
+    "https://www.geni.com/api/union-49008995",
+    "https://www.geni.com/api/union-39702255",
+    "https://www.geni.com/api/union-36290190"
+  ],
+  "marriage_orders": {
+    "6000000011013752649": 0
+  },
+  "birth_order": 99,
+  "names": {
+    "en-US": {
+      "first_name": "Adam",
+      "last_name": ".",
+      "maiden_name": ".",
+      "display_name": "Adam of Eden",
+      "nicknames": "Nabi Adam"
+    },
+    "he": {
+      "first_name": "אדם",
+      "display_name": "אדם הראשון",
+      "nicknames": "אדם הראשון"
+    },
+    "ar": {
+      "first_name": "آدم"
+    },
+    "ru": {
+      "first_name": "Адам",
+      "suffix": "первый человек"
+    },
+    "id": {
+      "nicknames": "Nabi 1 Adam AS, Manusia Pertama, Akar dari seluruh silsilah keluarga bersama Hawa [1]"
+    },
+    "pt": {
+      "first_name": "Adão"
+    },
+    "es": {
+      "first_name": "Adan",
+      "nicknames": "Principe de los Ejercitos"
+    },
+    "et": {
+      "first_name": "Adam",
+      "display_name": "Adam - esimene inimene",
+      "nicknames": "Esimene Inimene"
+    },
+    "ms": {
+      "first_name": "Adam",
+      "title": "Nabi"
+    }
+  },
+  "living": false,
+  "location": {
+    "place_name": "Cave of Machpelah",
+    "city": "Hebron",
+    "country": "Israel",
+    "country_code": "IL",
+    "latitude": 34.572189,
+    "longitude": -86.226768,
+    "formatted_location": "Cave of Machpelah, Hebron, Israel"
+  },
+  "creator": "https://www.geni.com/api/user-1444024",
+  "account_type": "basic",
+  "birth": {
+    "name": "Birth of Adam of Eden",
+    "date": {
+      "year": -3760,
+      "formatted_date": "-3760"
+    }
+  },
+  "death": {
+    "name": "Death of Adam of Eden",
+    "date": {
+      "year": -2830,
+      "formatted_date": "-2830"
+    }
+  },
+  "nicknames": [
+    "Nabi Adam"
+  ],
+  "photo_urls": {
+    "medium": "https://media.geni.com/p13/d7/2e/d9/89/53444843ef340915/biy85kuk_medium.jpg?hash=6586db1ddd9d46197b34bedb709bcd3a9c7a176385da2fd079eac5e4dc9d7521.1786085999",
+    "small": "https://media.geni.com/p13/d7/2e/d9/89/53444843ef340915/biy85kuk_small.jpg?hash=4db4278ba066e7e4654b91f3943b64034c6c0c9c305d288aeffa9c66f10fde97.1786085999",
+    "thumb": "https://media.geni.com/p13/d7/2e/d9/89/53444843ef340915/biy85kuk_t.jpg?hash=df2470dceb2e046b1169dd1ef4b0449f46e81c0570cb3510c1e59dae425a2eb8.1786085999",
+    "print": "https://media.geni.com/p13/d7/2e/d9/89/53444843ef340915/biy85kuk_print.jpg?hash=83f5be393b80fb1ac2010bec44404c649c484ac6910983f97f5a789b6f6c11bf.1786085999",
+    "thumb2": "https://media.geni.com/p13/d7/2e/d9/89/53444843ef340915/biy85kuk_t2.jpg?hash=ba4353d89de910a62e67ac470282d66b009b0271372203f6b4e25529fe9309d1.1786085999",
+    "url": "https://www.geni.com/api/photo_crop-6000000060177516821"
+  },
+  "burial": {
+    "name": "Burial of Adam of Eden",
+    "location": {
+      "place_name": "Cave of Machpelah",
+      "city": "Hebron",
+      "country": "Israel",
+      "country_code": "IL",
+      "latitude": 34.572189,
+      "longitude": -86.226768,
+      "formatted_location": "Cave of Machpelah, Hebron, Israel"
+    }
+  },
+  "created_at": "1169084604",
+  "updated_at": "1788990617",
+  "documents_updated_at": "1544469383",
+  "photos_updated_at": "1764369854",
+  "deleted": false,
+  "project_ids": [
+    "project-4504495",
+    "project-30758",
+    "project-12495",
+    "project-2380",
+    "project-2305",
+    "project-12283",
+    "project-10927",
+    "project-10799",
+    "project-8209",
+    "project-8193",
+    "project-8153",
+    "project-1055",
+    "project-2785",
+    "project-38"
+  ],
+  "is_curator": false,
+  "managers": [
+    "https:\/\/www.geni.com\/api\/profile-9288190"
+  ]
+}

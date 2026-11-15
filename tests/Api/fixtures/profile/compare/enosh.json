@@ -1,0 +1,491 @@
+{
+  "results": [
+    {
+      "focus": {
+        "id": "profile-34838408195",
+        "guid": "6000000214522461839",
+        "url": "https://www.geni.com/api/profile-34838408195",
+        "first_name": "Enosh",
+        "last_name": ".",
+        "name": "Enosh Test Profile .",
+        "gender": "male",
+        "is_alive": false,
+        "public": true,
+        "claimed": false,
+        "birth": {
+          "name": "Birth of Enosh Test Profile .",
+          "date": {
+            "year": -3525,
+            "formatted_date": "-3525"
+          },
+          "location": {
+            "place_name": "Shulon, East Eden",
+            "formatted_location": "Shulon, East Eden"
+          }
+        },
+        "creator": "https://www.geni.com/api/user-1444024"
+      },
+      "nodes": {
+        "profile-34838408195": {
+          "id": "profile-34838408195",
+          "url": "https://www.geni.com/api/profile-34838408195",
+          "first_name": "Enosh",
+          "last_name": ".",
+          "gender": "male",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-123413945": {
+              "rel": "partner"
+            },
+            "union-121945318": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-34842665368": {
+          "id": "profile-34842665368",
+          "url": "https://www.geni.com/api/profile-34842665368",
+          "first_name": "Cainan",
+          "last_name": ".",
+          "gender": "male",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-123413945": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-34838408177": {
+          "id": "profile-34838408177",
+          "url": "https://www.geni.com/api/profile-34838408177",
+          "first_name": "Seth",
+          "last_name": ".",
+          "gender": "male",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-121945318": {
+              "rel": "partner"
+            },
+            "union-121945315": {
+              "rel": "child"
+            }
+          }
+        },
+        "union-123413945": {
+          "url": "https://www.geni.com/api/union-123413945",
+          "status": "spouse",
+          "edges": {
+            "profile-34838408195": {
+              "rel": "partner"
+            },
+            "profile-34842665368": {
+              "rel": "child"
+            }
+          }
+        },
+        "union-121945318": {
+          "url": "https://www.geni.com/api/union-121945318",
+          "status": "spouse",
+          "edges": {
+            "profile-34838408177": {
+              "rel": "partner"
+            },
+            "profile-34838408195": {
+              "rel": "child"
+            }
+          }
+        }
+      }
+    },
+    {
+      "focus": {
+        "id": "profile-4095031",
+        "guid": "6000000006375916501",
+        "url": "https://www.geni.com/api/profile-4095031",
+        "first_name": "Seth",
+        "last_name": ".",
+        "name": "Seth .",
+        "gender": "male",
+        "is_alive": false,
+        "public": true,
+        "locked": true,
+        "claimed": false,
+        "birth": {
+          "name": "Birth of Seth .",
+          "description": "Génesis 5\r\nReina-Valera 1960 (RVR1960)\r\nLos descendientes de Adán\r\n(1 Cr. 1.1-4)\r\n\r\n3 Y vivió Adán ciento treinta años, y engendró un hijo a su semejanza, conforme a su imagen, y llamó su nombre Set.",
+          "date": {
+            "year": -3630,
+            "formatted_date": "-3630"
+          },
+          "location": {
+            "place_name": "Olaha, Shinehah",
+            "formatted_location": "Olaha, Shinehah"
+          }
+        },
+        "creator": "https://www.geni.com/api/user-1444024"
+      },
+      "nodes": {
+        "profile-4095031": {
+          "id": "profile-4095031",
+          "url": "https://www.geni.com/api/profile-4095031",
+          "first_name": "Seth",
+          "last_name": ".",
+          "gender": "male",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-19124527": {
+              "rel": "partner"
+            },
+            "union-36290190": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-4129073": {
+          "id": "profile-4129073",
+          "url": "https://www.geni.com/api/profile-4129073",
+          "first_name": "Azura",
+          "last_name": ".",
+          "gender": "female",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-19124527": {
+              "rel": "partner"
+            },
+            "union-60079597": {
+              "rel": "partner"
+            },
+            "union-36290190": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-4094989": {
+          "id": "profile-4094989",
+          "url": "https://www.geni.com/api/profile-4094989",
+          "first_name": "Enosh",
+          "last_name": ".",
+          "gender": "male",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-18123201": {
+              "rel": "partner"
+            },
+            "union-19124527": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-34766258274": {
+          "id": "profile-34766258274",
+          "url": "https://www.geni.com/api/profile-34766258274",
+          "first_name": "Elidia",
+          "last_name": ".",
+          "gender": "male",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-19124527": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-34621590064": {
+          "id": "profile-34621590064",
+          "url": "https://www.geni.com/api/profile-34621590064",
+          "first_name": "Fonna",
+          "last_name": ".",
+          "gender": "male",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-19124527": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-34621590068": {
+          "id": "profile-34621590068",
+          "url": "https://www.geni.com/api/profile-34621590068",
+          "first_name": "Matha",
+          "last_name": ".",
+          "gender": "male",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-19124527": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-34621590072": {
+          "id": "profile-34621590072",
+          "url": "https://www.geni.com/api/profile-34621590072",
+          "first_name": "Malida",
+          "last_name": ".",
+          "gender": "female",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-19124527": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-90284156": {
+          "id": "profile-90284156",
+          "url": "https://www.geni.com/api/profile-90284156",
+          "first_name": "Thila",
+          "last_name": ".",
+          "gender": "female",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-19124527": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-90284126": {
+          "id": "profile-90284126",
+          "url": "https://www.geni.com/api/profile-90284126",
+          "first_name": "Edna",
+          "last_name": ".",
+          "gender": "female",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-19124527": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-16630391": {
+          "id": "profile-16630391",
+          "url": "https://www.geni.com/api/profile-16630391",
+          "first_name": "Other Sons",
+          "last_name": ".",
+          "gender": "male",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-19124527": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-4095015": {
+          "id": "profile-4095015",
+          "url": "https://www.geni.com/api/profile-4095015",
+          "first_name": "Noam",
+          "last_name": ".",
+          "gender": "female",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-18123201": {
+              "rel": "partner"
+            },
+            "union-19124527": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-70816616": {
+          "id": "profile-70816616",
+          "url": "https://www.geni.com/api/profile-70816616",
+          "first_name": "Niba",
+          "last_name": ".",
+          "gender": "female",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-24010728": {
+              "rel": "partner"
+            },
+            "union-19124527": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-34835938317": {
+          "id": "profile-34835938317",
+          "url": "https://www.geni.com/api/profile-34835938317",
+          "first_name": "Other Daughters",
+          "gender": "female",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-19124527": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-53597431": {
+          "id": "profile-53597431",
+          "url": "https://www.geni.com/api/profile-53597431",
+          "first_name": "Adam",
+          "last_name": ".",
+          "gender": "male",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-49008995": {
+              "rel": "partner"
+            },
+            "union-39702255": {
+              "rel": "partner"
+            },
+            "union-36290190": {
+              "rel": "partner"
+            }
+          }
+        },
+        "profile-4095543": {
+          "id": "profile-4095543",
+          "url": "https://www.geni.com/api/profile-4095543",
+          "first_name": "Eve",
+          "last_name": ".",
+          "gender": "female",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-36290190": {
+              "rel": "partner"
+            }
+          }
+        },
+        "profile-70899490": {
+          "id": "profile-70899490",
+          "url": "https://www.geni.com/api/profile-70899490",
+          "first_name": "Awan",
+          "last_name": ".",
+          "gender": "female",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-24021711": {
+              "rel": "partner"
+            },
+            "union-36290190": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-77561884": {
+          "id": "profile-77561884",
+          "url": "https://www.geni.com/api/profile-77561884",
+          "first_name": "Abel",
+          "last_name": ".",
+          "gender": "male",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-60079597": {
+              "rel": "partner"
+            },
+            "union-36290190": {
+              "rel": "child"
+            }
+          }
+        },
+        "profile-5457988": {
+          "id": "profile-5457988",
+          "url": "https://www.geni.com/api/profile-5457988",
+          "first_name": "Cain",
+          "last_name": ".",
+          "gender": "male",
+          "public": true,
+          "is_alive": false,
+          "edges": {
+            "union-24021711": {
+              "rel": "partner"
+            },
+            "union-36290190": {
+              "rel": "child"
+            }
+          }
+        },
+        "union-19124527": {
+          "url": "https://www.geni.com/api/union-19124527",
+          "status": "spouse",
+          "edges": {
+            "profile-4129073": {
+              "rel": "partner"
+            },
+            "profile-4095031": {
+              "rel": "partner"
+            },
+            "profile-4094989": {
+              "rel": "child"
+            },
+            "profile-34766258274": {
+              "rel": "child"
+            },
+            "profile-34621590064": {
+              "rel": "child"
+            },
+            "profile-34621590068": {
+              "rel": "child"
+            },
+            "profile-34621590072": {
+              "rel": "child"
+            },
+            "profile-90284156": {
+              "rel": "child"
+            },
+            "profile-90284126": {
+              "rel": "child"
+            },
+            "profile-16630391": {
+              "rel": "child"
+            },
+            "profile-4095015": {
+              "rel": "child"
+            },
+            "profile-70816616": {
+              "rel": "child"
+            },
+            "profile-34835938317": {
+              "rel": "child"
+            }
+          }
+        },
+        "union-36290190": {
+          "url": "https://www.geni.com/api/union-36290190",
+          "status": "spouse",
+          "edges": {
+            "profile-53597431": {
+              "rel": "partner"
+            },
+            "profile-4095543": {
+              "rel": "partner"
+            },
+            "profile-4095031": {
+              "rel": "child"
+            },
+            "profile-4129073": {
+              "rel": "child"
+            },
+            "profile-70899490": {
+              "rel": "child"
+            },
+            "profile-77561884": {
+              "rel": "child"
+            },
+            "profile-5457988": {
+              "rel": "child"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
+

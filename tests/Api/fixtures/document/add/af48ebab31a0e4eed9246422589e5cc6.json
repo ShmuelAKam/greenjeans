@@ -1,0 +1,23 @@
+{
+    "id": "document-47257761",
+    "guid": "6000000225687644821",
+    "created_at": "1779840340",
+    "updated_at": "1779840340",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257761",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 17,
+        "month": 4,
+        "year": 1963,
+        "formatted_date": "April 17, 1963"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257761"
+    }
+}

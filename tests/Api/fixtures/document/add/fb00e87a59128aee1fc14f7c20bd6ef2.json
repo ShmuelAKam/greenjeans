@@ -1,0 +1,26 @@
+{
+    "id": "document-47257881",
+    "guid": "6000000225687076893",
+    "created_at": "1779840446",
+    "updated_at": "1779840446",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257881",
+    "title": "Test getTitle - 27\/05\/2026",
+    "description": "Non-equal rights",
+    "date": {
+        "day": 12,
+        "month": 5,
+        "year": 1943,
+        "formatted_date": "May 12, 1943"
+    },
+    "labels": [
+        "United States"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257881"
+    }
+}

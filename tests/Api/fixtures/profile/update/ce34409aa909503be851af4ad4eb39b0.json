@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672877",
+    "public": false,
+    "name": "Jude Isaac",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Jude Isaac",
+        "date": {
+            "day": 18,
+            "month": 1,
+            "year": 1920,
+            "formatted_date": "January 18, 1920"
+        },
+        "location": {
+            "street_address1": "Victoria Road 32",
+            "city": "Tanzania",
+            "county": "Dodoma Urban",
+            "state": "Dodoma Region",
+            "country": "Dodoma",
+            "latitude": -6.1811245,
+            "longitude": 35.746877,
+            "formatted_location": "Victoria Road 32, Tanzania, Dodoma Urban, Dodoma Region, Dodoma"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "id": "profile-34858678984",
+    "public": true,
+    "first_name": "Jack",
+    "last_name": "Katz",
+    "name": "Jack Katz",
+    "is_alive": false,
+    "gender": "male"
+}

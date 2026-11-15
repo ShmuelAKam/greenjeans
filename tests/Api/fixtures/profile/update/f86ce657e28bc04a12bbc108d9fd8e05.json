@@ -1,0 +1,26 @@
+{
+    "id": "profile-34858678607",
+    "public": false,
+    "name": "Mabel Ashknazi",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Mabel Ashknazi",
+        "date": {
+            "day": 6,
+            "month": 8,
+            "year": 2010,
+            "formatted_date": "August 6, 2010"
+        },
+        "location": {
+            "street_address1": "Park Road 40",
+            "city": "Tunisia",
+            "county": "M\u00e9dina",
+            "state": "Tunis Governorate",
+            "country": "Tunis",
+            "country_code": "TN",
+            "latitude": 36.8064948,
+            "longitude": 10.1815316,
+            "formatted_location": "Park Road 40, Tunisia, M\u00e9dina, Tunis Governorate, Tunis (Tunisia)"
+        }
+    }
+}

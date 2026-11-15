@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672770",
+    "public": true,
+    "name": "Taiwan Segel",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Taiwan Segel",
+        "date": {
+            "day": 30,
+            "month": 9,
+            "year": 1944,
+            "formatted_date": "September 30, 1944"
+        },
+        "location": {
+            "street_address1": "High Street 81",
+            "city": "Senegal",
+            "county": "Guediawaye",
+            "state": "Dakar Region",
+            "country": "Dakar",
+            "latitude": 14.716677,
+            "longitude": -17.4676861,
+            "formatted_location": "High Street 81, Senegal, Guediawaye, Dakar Region, Dakar"
+        }
+    }
+}

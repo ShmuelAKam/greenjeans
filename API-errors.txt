@@ -1,0 +1,135 @@
+	
+    DOCUMENT
+    
+    1.  document - When setting labels, the server changes SOME of them to lower case,
+        e.g. England => england. The same problem exists for profile/add-dcoument
+
+    2.  You can list projects but not add them?
+    
+    3.  document vs. document/tags In the first, the tags field is an array of strings.
+        In document/tags it returns a paged list of Profile objects.
+        This exists for PHOTO and VIDEO as well.
+        
+    4.  document/delete ALWAYS returns 'deleted' even if the document is deleted twice,
+        or if it never existed at all.
+
+    5.  There is no API to set location.
+    
+    ----------------------------------------
+
+    PHOTO
+    
+    1.  photo - Error /inconsistency - album ID is a GUID. Cross IDs are typically IDs.
+                                       There is no API to get an album GUID.
+    
+    ----------------------------------------
+
+	PHOTO_ALBUM
+
+    1.  photo_album/add - add description parameter.
+    
+    2.	photo_album/update
+    	a. Typo in example URL: https://www.geni.com/api/photo_alubm/update?name=Test
+    														   ---^
+		b. No Album ID needed??
+		c. Why is description NOT included?
+		
+	3.  photo_album - cover-photo - how to set ? photo-id not returned.
+	
+	4.  photo-album -  The GUID is not returned, yet this is what the user sees on the site.
+	                   Among other things this means that without the GUID there is no way to
+	                   create a URL to the album that a USER can use.
+	    
+    ----------------------------------------
+    
+    PROFILE
+    
+	1. profile/add-child	What is the meaning of divorce & marriage events?
+	          /add-parent
+	          /add-sibling
+
+	2. /profile nicknames only returns single language.
+
+    3. profile/update Documentation does not mention that can use 'fields' parameter.
+
+    4. profile/update How are phone_numbers set?
+
+    5. Can profile field 'locked'     be SET? If not, remove from first table.
+    6. Can profile field 'email'      be set?
+    7. Can profile field 'merge_note' be set?
+    8. profile events - can name & description be changed?
+    
+    9. Not seeing 'master_profile' in results. Can use check for 'curator' field instead.
+    
+    10. It might be worth noting that the set of profile ADD calls return ONLY
+    	the 'id','guid' and 'name' fields and whatever else the user set, rather
+    	than the entire table of values.
+    	ALSO the "API Explorer" returns a much larger list.
+    
+    11. profile/addmugshot also tags the SENDER of the request. This does NOT happen
+    	with the API Explorer.
+    	
+    12. What is the difference between the 'createdby' and 'creator' fileds?
+    
+    13. profile/add-dcoument - when setting labels, the server changes SOME of
+        them to lower case, e.g. England => england.
+
+    14. How are user labels set on profiles?
+    
+    ----------------------------------------
+
+    PROJECT
+    
+    1.  You can add documents, but not list them?
+     
+    ----------------------------------------
+    
+	REVISION
+	
+	1.	Where do revision IDs come from...? 		 
+
+    ----------------------------------------
+    
+	SURNAME
+	
+	1.	Really needs a SEARCH call. Otherwise extremely limited use.
+	
+	2.  surname lists ?count still returns full list.
+	
+	3.  surname/followers list returns incomplete reply when 0 or 1 followers.
+	
+		0 - https://www.geni.com/api/surname-4237/followers?fields=id&count=true
+		1 - https://www.geni.com/api/surname-1003/followers?fields=id&count=true
+	
+    ----------------------------------------
+    
+	UNION
+	
+	1.	How is 'status' set or determined?
+	
+	2.	add-child and add-partner return the PROFILE. Documentation says
+		that they return the union.
+
+    3.  union/add-partner  documentation missing union-id in example.
+
+    ----------------------------------------
+    
+	USER
+	
+	1.	If there's an add, there should also be an invite!
+	
+	2.	user/metadata first sentence is garbled. HOW is this relevant to
+		multiple users.
+	
+    3.  user/followed-profiles documentation says "array of projects".
+    
+    4. user/managed-profiles is BROEKN. When no fields specific, it
+       returns only guid & name fields.
+    
+
+    ----------------------------------------
+    
+    VIDEO
+    
+    1.  video/delete - sometimes NO response is sent. The video IS deleted.
+

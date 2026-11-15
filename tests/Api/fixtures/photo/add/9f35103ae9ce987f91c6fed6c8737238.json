@@ -1,0 +1,27 @@
+{
+    "id": "photo-51986250",
+    "guid": "6000000225687687822",
+    "created_at": "1779840917",
+    "updated_at": "1779840917",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986250",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 17,
+        "month": 12,
+        "year": 2020,
+        "formatted_date": "December 17, 2020"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/34\/1f\/bf\/a7\/5344486a7860d28e\/file-sdk-6_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/34\/1f\/bf\/a7\/5344486a7860d28e\/file-sdk-6_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/34\/1f\/bf\/a7\/5344486a7860d28e\/file-sdk-6_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/34\/1f\/bf\/a7\/5344486a7860d28e\/file-sdk-6_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/34\/1f\/bf\/a7\/5344486a7860d28e\/file-sdk-6_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/34\/1f\/bf\/a7\/5344486a7860d28e\/file-sdk-6_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/34\/1f\/bf\/a7\/5344486a7860d28e\/file-sdk-6_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986250"
+    }
+}

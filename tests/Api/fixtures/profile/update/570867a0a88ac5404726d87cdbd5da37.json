@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678611",
+    "public": false,
+    "name": "Isaac Reuben",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Isaac Reuben",
+        "date": {
+            "day": 23,
+            "month": 10,
+            "year": 1982,
+            "formatted_date": "October 23, 1982"
+        },
+        "location": {
+            "street_address1": "New Road 89",
+            "city": "Russia",
+            "country": "Moscow",
+            "latitude": 57.2140002,
+            "longitude": 31.902393,
+            "formatted_location": "New Road 89, Russia, Moscow"
+        }
+    }
+}

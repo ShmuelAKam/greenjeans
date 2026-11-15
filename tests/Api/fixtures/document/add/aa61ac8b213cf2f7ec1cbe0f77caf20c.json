@@ -1,0 +1,21 @@
+{
+    "id": "document-47260362",
+    "guid": "6000000225689136003",
+    "created_at": "1779859689",
+    "updated_at": "1779859693",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260362",
+    "title": "Test getTitle - 27\/05\/2026",
+    "date": {
+        "day": 10,
+        "month": 9,
+        "year": 1989,
+        "formatted_date": "September 10, 1989"
+    },
+    "page_count": 10,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/2a\/a3\/09\/b2\/5344486a7876eb83\/test-doc-3_original.pdf?hash=be57a23c29041f8c8037b28b4ea94326177939b4e383c6c78f1f9af1de61f9cb.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260362"
+    }
+}

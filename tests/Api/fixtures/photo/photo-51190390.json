@@ -1,0 +1,28 @@
+{
+    "album_id": "6000000222544428842",
+    "attribution": "M.I.K",
+    "content_type": "image\/jpeg",
+    "created_at": "1764625637",
+    "guid": "6000000222544428844",
+    "id": "photo-51190390",
+    "title": "File-SDK-2.jpg",
+    "updated_at": "1764632644",
+    "url": "https:\/\/www.geni.com\/api\/photo-51190390",
+    "date": {
+        "year": 1972,
+        "month": "04",
+        "day": "01"
+    },
+    "location": {
+        "country": "Israel",
+        "city": "Rehovot"
+    },
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/cd\/d2\/2a\/75\/53444869bd067f2c\/file-sdk-2_large.jpg?hash=c7f7f20b25ff5315e7467414574c31dc7b4911d29a92d16d628364e5e937f32f.1782370799",
+        "medium": "https:\/\/media.geni.com\/p14\/cd\/d2\/2a\/75\/53444869bd067f2c\/file-sdk-2_medium.jpg?hash=37c5f4e86854261602bb508062897297f91711b732a4adc89d7cba77d52fa599.1782370799",
+        "print": "https:\/\/media.geni.com\/p14\/cd\/d2\/2a\/75\/53444869bd067f2c\/file-sdk-2_print.jpg?hash=546c6b674322730151d3f528f135bacbe9ca8adfc1b4d9fefe84ea80347adfcf.1782370799",
+        "small": "https:\/\/media.geni.com\/p14\/cd\/d2\/2a\/75\/53444869bd067f2c\/file-sdk-2_small.jpg?hash=1302ca5f6c67d7c25478c59ced0a9f49073ce5dbf22884cf0c479c35c77c43d7.1782370799",
+        "thumb": "https:\/\/media.geni.com\/p14\/cd\/d2\/2a\/75\/53444869bd067f2c\/file-sdk-2_t.jpg?hash=75ab4d8c21e70b28886f01759e78e5d5418a5ad06b7343db3c9d5bdc478aaac0.1782370799",
+        "thumb2": "https:\/\/media.geni.com\/p14\/cd\/d2\/2a\/75\/53444869bd067f2c\/file-sdk-2_t2.jpg?hash=84a250e9b0933b07ec653d702c44cf1079f0dd31ff4e70be5b8cfa909ea4b956.1782370799"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672780",
+    "public": false,
+    "name": "Ellie Klein",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Ellie Klein",
+        "date": {
+            "day": 11,
+            "month": 12,
+            "year": 1911,
+            "formatted_date": "December 11, 1911"
+        },
+        "location": {
+            "street_address1": "Queens Road 18",
+            "city": "Austria",
+            "county": "Vienna",
+            "state": "Vienna",
+            "country": "Vienna",
+            "latitude": 48.2080696,
+            "longitude": 16.3713095,
+            "formatted_location": "Queens Road 18, Austria, Vienna, Vienna, Vienna"
+        }
+    }
+}

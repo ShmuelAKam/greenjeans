@@ -1,0 +1,27 @@
+{
+    "id": "photo-52081263",
+    "guid": "6000000226208071831",
+    "created_at": "1782073679",
+    "updated_at": "1782073680",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-52081263",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 26,
+        "month": 6,
+        "year": 2011,
+        "formatted_date": "June 26, 2011"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/6b\/05\/1e\/1c\/5344486a97654097\/test_large.jpg?hash=82ec48fb15586fb48d81e92b011653feb3f66f95bdddb4f5fd1de82e945d792f.1782197999",
+        "medium": "https:\/\/media.geni.com\/p14\/6b\/05\/1e\/1c\/5344486a97654097\/test_medium.jpg?hash=0021b7101886107373d72dee898ac5d6b7e681d0af23fbf620623c72422d9f36.1782197999",
+        "small": "https:\/\/media.geni.com\/p14\/6b\/05\/1e\/1c\/5344486a97654097\/test_small.jpg?hash=46d3a18a6061db81419adfa5d6d5f02275e3075a5c271a51a7243d21716dab64.1782197999",
+        "thumb": "https:\/\/media.geni.com\/p14\/6b\/05\/1e\/1c\/5344486a97654097\/test_t.jpg?hash=89920195d11368db81dbb571b10f659363c5123a18c4d98d328ab428d3281d82.1782197999",
+        "print": "https:\/\/media.geni.com\/p14\/6b\/05\/1e\/1c\/5344486a97654097\/test_print.jpg?hash=433731d8e7abba682e3a2d9b57e010eb3bc8c41d0418bbde7e4cf4e1f095a367.1782197999",
+        "thumb2": "https:\/\/media.geni.com\/p14\/6b\/05\/1e\/1c\/5344486a97654097\/test_t2.jpg?hash=6ab16196e694950330a1cde77fac8b12ec7085baac0f3883121878310ffa91f7.1782197999",
+        "original": "https:\/\/media.geni.com\/p14\/6b\/05\/1e\/1c\/5344486a97654097\/test_original.jpg?hash=bbe4e3d6b6342faca8343875fcec3c5033a040379eb653a81e50f03afe95e852.1782197999",
+        "url": "https:\/\/www.geni.com\/api\/photo-52081263"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "results": [
+        {
+            "id": "profile-34861419573",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419573",
+            "public": false,
+            "name": "Delilah Bitton",
+            "first_name": "Delilah",
+            "last_name": "Bitton",
+            "gender": "female",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34861419574",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419574",
+            "public": false,
+            "name": "Willow David",
+            "first_name": "Willow",
+            "last_name": "David",
+            "gender": "female",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34861419575",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419575",
+            "public": false,
+            "name": "Archie David",
+            "first_name": "Archie",
+            "last_name": "David",
+            "gender": "male",
+            "is_alive": true
+        }
+    ],
+    "total_count": 3
+}

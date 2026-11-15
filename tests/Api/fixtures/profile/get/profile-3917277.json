@@ -1,0 +1,139 @@
+{
+  "id": "profile-3917277",
+  "url": "https://www.geni.com/api/profile-3917277",
+  "profile_url": "https://www.geni.com/people/Noah/6000000002145556219",
+  "public": true,
+  "guid": "6000000002145556219",
+  "first_name": "Noah",
+  "maiden_name": ".",
+  "last_name": ".",
+  "name": "Noah .",
+  "is_alive": false,
+  "gender": "male",
+  "occupation": "Farmer/ark builder, he Built the ark that saved mankind, asked by God to build an ark; planted the first vinyard, farmer, prophet./ profeetta, Preacher of Righteousness, Carpenter; Builder of the Ark, The prophet, Farmer, Builder of the Ark",
+  "created_by": "https://www.geni.com/api/profile-9288190",
+  "claimed": false,
+  "curator": "https://www.geni.com/api/profile-9288190",
+  "mugshot_urls": {
+    "large": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_large.jpg?hash=ea34822a1eabac08d12c46a712f1f28c59039eb47df746c2403e6e11a1a6e9be.1793951999",
+    "medium": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_medium.jpg?hash=afd4a08fb8f5202562c263ff87a07da8b37cb6e9f3a911d20e65c227ed712066.1793951999",
+    "small": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_small.jpg?hash=c6f4beba5bb65110d8e2da89ac6ad9c5807d793c19ccbabbb4e33dbf20941f38.1793951999",
+    "thumb": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_t.jpg?hash=b0a81984195988f9c16167569756c494448ad0d3c57fc920215767db2e7e6a98.1793951999",
+    "print": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_print.jpg?hash=08d3a69ed6d2e086080f0b24129d68328c6532250de6813822887153e91b85a5.1793951999",
+    "thumb2": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_t2.jpg?hash=2d67ebd1461595ff7d460a10cf176ce6fe1f147109d1849183318b4e924a4e8d.1793951999",
+    "original": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_original.jpg?hash=f9df276a690ad49a6339b75db92493d05719701328dbab69bf078f38cdf01d3c.1793951999",
+    "url": "https://www.geni.com/api/photo-38077356"
+  },
+  "unions": [
+    "https://www.geni.com/api/union-25058973",
+    "https://www.geni.com/api/union-18005111"
+  ],
+  "marriage_orders": {
+    "6000000003481884684": 2
+  },
+  "birth_order": 1,
+  "names": {
+    "en-US": {
+      "first_name": "Noah",
+      "last_name": ".",
+      "maiden_name": ".",
+      "nicknames": "Nabi 3 Nuh AS [10]"
+    },
+    "he": {
+      "first_name": "נח"
+    },
+    "ar": {
+      "first_name": "نوح"
+    },
+    "et": {
+      "first_name": "Noa"
+    },
+    "id": {
+      "nicknames": "Nabi 3 Nuh AS [10]"
+    },
+    "ru": {
+      "first_name": "Ной"
+    },
+    "es": {
+      "first_name": "Noé"
+    }
+  },
+  "living": false,
+  "location": {
+    "state": "Mt. Lubar in the Land of Ararat",
+    "formatted_location": "Mt. Lubar in the Land of Ararat"
+  },
+  "creator": "https://www.geni.com/api/user-1444024",
+  "account_type": "basic",
+  "birth": {
+    "name": "Birth of Noah .",
+    "date": {
+      "year": -2704,
+      "formatted_date": "-2704"
+    },
+    "location": {
+      "place_name": "Mesopotamia",
+      "country": "Iraq",
+      "country_code": "IQ",
+      "latitude": 34.5337527,
+      "longitude": 43.483738,
+      "formatted_location": "Mesopotamia, Iraq"
+    }
+  },
+  "death": {
+    "name": "Death of Noah . at Mount Ararat",
+    "date": {
+      "year": -1754,
+      "formatted_date": "-1754"
+    },
+    "location": {
+      "place_name": "Mount Ararat",
+      "country": "Turkey",
+      "country_code": "TR",
+      "latitude": 39.7024393,
+      "longitude": 44.2990761,
+      "formatted_location": "Mount Ararat, Turkey"
+    }
+  },
+  "nicknames": [
+    "Nabi 3 Nuh AS [10]"
+  ],
+  "photo_urls": {
+    "large": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_large.jpg?hash=ea34822a1eabac08d12c46a712f1f28c59039eb47df746c2403e6e11a1a6e9be.1793951999",
+    "medium": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_medium.jpg?hash=afd4a08fb8f5202562c263ff87a07da8b37cb6e9f3a911d20e65c227ed712066.1793951999",
+    "small": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_small.jpg?hash=c6f4beba5bb65110d8e2da89ac6ad9c5807d793c19ccbabbb4e33dbf20941f38.1793951999",
+    "thumb": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_t.jpg?hash=b0a81984195988f9c16167569756c494448ad0d3c57fc920215767db2e7e6a98.1793951999",
+    "print": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_print.jpg?hash=08d3a69ed6d2e086080f0b24129d68328c6532250de6813822887153e91b85a5.1793951999",
+    "thumb2": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_t2.jpg?hash=2d67ebd1461595ff7d460a10cf176ce6fe1f147109d1849183318b4e924a4e8d.1793951999",
+    "original": "https://media.geni.com/p13/51/9b/e1/5a/534448477c633f41/noah_builds_ark_original.jpg?hash=f9df276a690ad49a6339b75db92493d05719701328dbab69bf078f38cdf01d3c.1793951999",
+    "url": "https://www.geni.com/api/photo-38077356"
+  },
+  "burial": {
+    "name": "Burial of Noah .",
+    "location": {
+      "state": "Mt. Lubar in the Land of Ararat",
+      "formatted_location": "Mt. Lubar in the Land of Ararat"
+    }
+  },
+  "created_at": "1172481691",
+  "updated_at": "1751901028",
+  "deleted": false,
+  "project_ids": [
+    "project-4504495",
+    "project-2060968",
+    "project-30758",
+    "project-25820",
+    "project-17163",
+    "project-28017",
+    "project-18613",
+    "project-12495",
+    "project-12283",
+    "project-10799",
+    "project-10927",
+    "project-8209",
+    "project-8153",
+    "project-1055",
+    "project-38"
+  ],
+  "is_curator": false
+}

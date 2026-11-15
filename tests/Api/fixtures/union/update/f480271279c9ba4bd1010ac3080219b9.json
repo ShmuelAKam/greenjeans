@@ -1,0 +1,29 @@
+{
+    "id": "union-128847671",
+    "url": "https:\/\/www.geni.com\/api\/union-128847671",
+    "guid": "6000000225689722104",
+    "divorce": {
+        "name": "Divorce of Roman Friedman and Violet Isaac",
+        "date": {
+            "day": 8,
+            "month": 4,
+            "year": 1922,
+            "formatted_date": "April 8, 1922"
+        },
+        "location": {
+            "street_address1": "Maple Avenue 94",
+            "city": "Uganda",
+            "county": "Kampala",
+            "state": "Central Region",
+            "country": "Kampala",
+            "latitude": 0.3151692,
+            "longitude": 32.5816313,
+            "formatted_location": "Maple Avenue 94, Uganda, Kampala, Central Region, Kampala"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679527",
+        "https:\/\/www.geni.com\/api\/profile-34858679528"
+    ]
+}

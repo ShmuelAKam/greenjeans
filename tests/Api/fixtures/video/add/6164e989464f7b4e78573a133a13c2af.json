@@ -1,0 +1,24 @@
+{
+    "id": "video-154021",
+    "guid": "6000000225687928843",
+    "created_at": "1779845070",
+    "updated_at": "1779845071",
+    "url": "https:\/\/www.geni.com\/api\/video-154021",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 18,
+        "month": 9,
+        "year": 1962,
+        "formatted_date": "September 18, 1962"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/14\/39\/6a\/6b\/5344486a7864800b\/5344486a7864800b_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/14\/39\/6a\/6b\/5344486a7864800b\/5344486a7864800b_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/14\/39\/6a\/6b\/5344486a7864800b\/5344486a7864800b_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/14\/39\/6a\/6b\/5344486a7864800b\/5344486a7864800b_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/14\/39\/6a\/6b\/5344486a7864800b\/5344486a7864800b_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/14\/39\/6a\/6b\/5344486a7864800b\/5344486a7864800b.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154021"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": "document-47257915",
+    "guid": "6000000225687539963",
+    "created_at": "1779840473",
+    "updated_at": "1779840473",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257915",
+    "title": "US Constitution",
+    "description": "Non-equal rights",
+    "date": {
+        "day": 19,
+        "month": 6,
+        "year": 1984,
+        "formatted_date": "June 19, 1984"
+    },
+    "labels": [
+        "United States"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257915"
+    }
+}

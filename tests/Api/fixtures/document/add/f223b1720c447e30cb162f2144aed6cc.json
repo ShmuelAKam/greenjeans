@@ -1,0 +1,21 @@
+{
+    "id": "document-47257857",
+    "guid": "6000000225687035869",
+    "created_at": "1779840434",
+    "updated_at": "1779840439",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257857",
+    "title": "Third",
+    "date": {
+        "day": 20,
+        "month": 9,
+        "year": 1904,
+        "formatted_date": "September 20, 1904"
+    },
+    "page_count": 10,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/8b\/07\/9f\/68\/5344486a7856dfdd\/test-doc-3_original.pdf?hash=a40a6c358c8390e5df50e72d606ded38b9a7df3bb671b504405cc9c30c156895.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47257857"
+    }
+}

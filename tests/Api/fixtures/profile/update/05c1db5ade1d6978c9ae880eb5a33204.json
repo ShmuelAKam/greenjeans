@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672776",
+    "public": false,
+    "name": "Germany Ashknazi",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Germany Ashknazi",
+        "date": {
+            "day": 30,
+            "month": 4,
+            "year": 1949,
+            "formatted_date": "April 30, 1949"
+        },
+        "location": {
+            "street_address1": "High Street 52",
+            "city": "Tanzania",
+            "county": "Dodoma Urban",
+            "state": "Dodoma Region",
+            "country": "Dodoma",
+            "latitude": -6.1811245,
+            "longitude": 35.746877,
+            "formatted_location": "High Street 52, Tanzania, Dodoma Urban, Dodoma Region, Dodoma"
+        }
+    }
+}

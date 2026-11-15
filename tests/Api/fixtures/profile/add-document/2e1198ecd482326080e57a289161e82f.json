@@ -1,0 +1,30 @@
+{
+    "id": "document-47257981",
+    "guid": "6000000225687682926",
+    "created_at": "1779841629",
+    "updated_at": "1779841630",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257981",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 26,
+        "month": 7,
+        "year": 2023,
+        "formatted_date": "July 26, 2023"
+    },
+    "labels": [
+        "Bla Bla",
+        "USA"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257981"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-34858672083"
+    ]
+}

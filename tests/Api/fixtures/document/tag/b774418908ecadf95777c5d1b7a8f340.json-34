@@ -1,0 +1,15 @@
+{
+    "results": [
+        {
+            "id": "profile-34861419553",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419553",
+            "public": false,
+            "name": "Oakley Friedman",
+            "first_name": "Oakley",
+            "last_name": "Friedman",
+            "gender": "male",
+            "is_alive": true
+        }
+    ],
+    "total_count": 1
+}

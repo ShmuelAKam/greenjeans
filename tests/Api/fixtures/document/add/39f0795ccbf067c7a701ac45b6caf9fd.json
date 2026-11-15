@@ -1,0 +1,22 @@
+{
+    "id": "document-47258041",
+    "guid": "6000000225687705941",
+    "created_at": "1779841861",
+    "updated_at": "1779841861",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258041",
+    "title": "Title",
+    "date": {
+        "day": 14,
+        "month": 3,
+        "year": 2014,
+        "formatted_date": "March 14, 2014"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258041"
+    }
+}

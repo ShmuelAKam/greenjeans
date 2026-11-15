@@ -1,0 +1,24 @@
+{
+    "id": "video-154197",
+    "guid": "6000000225690228830",
+    "created_at": "1779864779",
+    "updated_at": "1779864789",
+    "url": "https:\/\/www.geni.com\/api\/video-154197",
+    "title": "Testitle",
+    "description": "Testing getUpdatedAt",
+    "date": {
+        "day": 1,
+        "month": 3,
+        "year": 1944,
+        "formatted_date": "March 1, 1944"
+    },
+    "sizes": {
+        "medium": "https:\/\/media.geni.com\/p14\/1c\/1d\/3d\/ee\/5344486a7887985e\/5344486a7887985e_medium.jpg?hash=66f1c2ffd178377d34735a762b9c77cdf264574f861ce1807cfd127af8eae2d2.1779951599",
+        "small": "https:\/\/media.geni.com\/p14\/1c\/1d\/3d\/ee\/5344486a7887985e\/5344486a7887985e_small.jpg?hash=3c24a975584491ffbf7bbbd7afad9fce6afea69a39d44b3e0a5fc693ac8ed74f.1779951599",
+        "thumb": "https:\/\/media.geni.com\/p14\/1c\/1d\/3d\/ee\/5344486a7887985e\/5344486a7887985e_t.jpg?hash=d3c59bcd03fe63a794cacb66d8981b32b173f500321d538c6ffd1b5e9c86fd49.1779951599",
+        "thumb2": "https:\/\/media.geni.com\/p14\/1c\/1d\/3d\/ee\/5344486a7887985e\/5344486a7887985e_t2.jpg?hash=c15cd5f13d59d54b6c1fdd4c17f90e94143fbf830a89166e81b6f6e83d1b6576.1779951599",
+        "original": "https:\/\/media.geni.com\/p14\/1c\/1d\/3d\/ee\/5344486a7887985e\/5344486a7887985e_original.jpg?hash=22e98ed06311e16d93f00b221a7406042c024b7a93e19b028a1bc996282a45ae.1779951599",
+        "video": "https:\/\/media.geni.com\/p14\/1c\/1d\/3d\/ee\/5344486a7887985e\/5344486a7887985e.mp4?hash=929b5d3ecacd15b7f715c466b95800a9d34f90180e1daaf904769ddfa54bd232.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/video-154197"
+    }
+}

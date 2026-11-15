@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858672774",
+    "public": true,
+    "name": "Finland Peretz",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Finland Peretz",
+        "date": {
+            "day": 13,
+            "month": 6,
+            "year": 1995,
+            "formatted_date": "June 13, 1995"
+        },
+        "location": {
+            "street_address1": "Windsor Road 89",
+            "city": "Kenya",
+            "state": "Nairobi County",
+            "country": "Nairobi",
+            "latitude": -1.2920659,
+            "longitude": 36.8219462,
+            "formatted_location": "Windsor Road 89, Kenya, Nairobi County, Nairobi"
+        }
+    }
+}

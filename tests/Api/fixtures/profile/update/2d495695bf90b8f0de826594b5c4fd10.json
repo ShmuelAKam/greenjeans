@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858678581",
+    "public": false,
+    "name": "Hunter Segel",
+    "is_alive": true,
+    "birth": {
+        "name": "Birth of Hunter Segel",
+        "date": {
+            "day": 19,
+            "month": 12,
+            "year": 1955,
+            "formatted_date": "December 19, 1955"
+        },
+        "location": {
+            "street_address1": "Kingsway 46",
+            "city": "Namibia",
+            "state": "Khomas Region",
+            "country": "Windhoek",
+            "latitude": -22.5649344,
+            "longitude": 17.0842147,
+            "formatted_location": "Kingsway 46, Namibia, Khomas Region, Windhoek"
+        }
+    }
+}

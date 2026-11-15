@@ -1,0 +1,27 @@
+{
+    "id": "document-47260312",
+    "guid": "6000000225689317896",
+    "created_at": "1779859657",
+    "updated_at": "1779859657",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260312",
+    "title": "Poisoning Pigeons in the Park",
+    "description": "RIP Tom Lehrer",
+    "date": {
+        "day": 4,
+        "month": 11,
+        "year": 1952,
+        "formatted_date": "November 4, 1952"
+    },
+    "labels": [
+        "Satire",
+        "Cyanide"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260312"
+    }
+}

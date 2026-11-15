@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678586",
+    "public": false,
+    "name": "Lucas Ohayon",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of Lucas Ohayon",
+        "date": {
+            "day": 22,
+            "month": 12,
+            "year": 1972,
+            "formatted_date": "December 22, 1972"
+        },
+        "location": {
+            "street_address1": "The Avenue 74",
+            "city": "Mali",
+            "county": "Bamako",
+            "state": "Bamako Capital District",
+            "country": "Bamako",
+            "latitude": 12.6391699,
+            "longitude": -8.0025475,
+            "formatted_location": "The Avenue 74, Mali, Bamako, Bamako Capital District, Bamako"
+        }
+    }
+}

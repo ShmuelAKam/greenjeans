@@ -1,0 +1,38 @@
+{
+    "id": "document-44888697",
+    "guid": "6000000222479984825",
+    "created_at": "1764279581",
+    "updated_at": "1764279787",
+    "content_type": "text\/html",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-44888697",
+    "source_url": "http:\/\/kam-motion.com\/Test\/files\/test-Doc-1.pdf",
+    "title": "SDK Uploaded test-Doc-1.pdf",
+    "date": {
+        "day": 1,
+        "month": 1,
+        "year": 1901,
+        "formatted_date": "January 1, 1901"
+    },
+    "location": {
+        "city": "Tel-Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "country_code": "IL",
+        "latitude": 32.0852999,
+        "longitude": 34.7817676,
+        "formatted_location": "Tel-Aviv, Tel Aviv District, Israel"
+    },
+    "labels": [
+        "Other"
+    ],
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/7a\/b0\/04\/c7\/53444869b92f28b9\/test-doc-1_large.png?hash=333f9183cbe771b75f4c5cec57edb903edbc79052f40e8f3afa2848f5619e985.1780729199",
+        "thumb": "https:\/\/media.geni.com\/p14\/7a\/b0\/04\/c7\/53444869b92f28b9\/test-doc-1_t.png?hash=b015b5410972c7cf4806d41c843bf7c6d377717c15be429e29358354938b6fcb.1780729199",
+        "original": "https:\/\/media.geni.com\/p14\/7a\/b0\/04\/c7\/53444869b92f28b9\/test-doc-1_original.png?hash=4e80ed7a0921930654a8833a7574e070a1208aabbf3c161a0234b29ef50e6df3.1780729199",
+        "url": "https:\/\/www.geni.com\/api\/document-44888697"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190"
+    ]
+}

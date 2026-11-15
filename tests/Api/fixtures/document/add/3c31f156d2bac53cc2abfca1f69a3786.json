@@ -1,0 +1,27 @@
+{
+    "id": "document-47258245",
+    "guid": "6000000225687821918",
+    "created_at": "1779843586",
+    "updated_at": "1779843586",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258245",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 26,
+        "month": 8,
+        "year": 1961,
+        "formatted_date": "August 26, 1961"
+    },
+    "labels": [
+        "Bla Bla",
+        "USA"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258245"
+    }
+}

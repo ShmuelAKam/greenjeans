@@ -1,0 +1,28 @@
+{
+    "id": "union-128845944",
+    "url": "https:\/\/www.geni.com\/api\/union-128845944",
+    "guid": "6000000225687848867",
+    "divorce": {
+        "name": "Divorce of Oliver Ohayon and Finland Omer",
+        "date": {
+            "day": 28,
+            "month": 2,
+            "year": 1944,
+            "formatted_date": "February 28, 1944"
+        },
+        "location": {
+            "street_address1": "Green Lane 94",
+            "city": "Sweden",
+            "state": "Stockholm County",
+            "country": "Stockholm",
+            "latitude": 59.3327036,
+            "longitude": 18.0656255,
+            "formatted_location": "Green Lane 94, Sweden, Stockholm County, Stockholm"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673628",
+        "https:\/\/www.geni.com\/api\/profile-34858673629"
+    ]
+}

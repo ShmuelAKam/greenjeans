@@ -1,0 +1,28 @@
+{
+    "id": "union-128847610",
+    "url": "https:\/\/www.geni.com\/api\/union-128847610",
+    "guid": "6000000225689897877",
+    "divorce": {
+        "name": "Divorce of Rowan Adri and Brazil Avraham",
+        "date": {
+            "day": 25,
+            "month": 12,
+            "year": 2012,
+            "formatted_date": "December 25, 2012"
+        },
+        "location": {
+            "street_address1": "Oak Street 40",
+            "city": "Sweden",
+            "state": "Stockholm County",
+            "country": "Stockholm",
+            "latitude": 59.3327036,
+            "longitude": 18.0656255,
+            "formatted_location": "Oak Street 40, Sweden, Stockholm County, Stockholm"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679323",
+        "https:\/\/www.geni.com\/api\/profile-34858679322"
+    ]
+}

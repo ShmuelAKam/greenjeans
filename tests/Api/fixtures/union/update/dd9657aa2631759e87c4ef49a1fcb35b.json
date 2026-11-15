@@ -1,0 +1,45 @@
+{
+    "id": "union-128847662",
+    "url": "https:\/\/www.geni.com\/api\/union-128847662",
+    "guid": "6000000225689794981",
+    "marriage_date": {
+        "day": 6,
+        "month": 8,
+        "year": 1934,
+        "formatted_date": "August 6, 1934"
+    },
+    "marriage_location": {
+        "street_address1": "Washington Street 59",
+        "city": "Angola",
+        "county": "Luanda",
+        "state": "Luanda Province",
+        "country": "Luanda",
+        "latitude": -8.8146556,
+        "longitude": 13.2301756,
+        "formatted_location": "Washington Street 59, Angola, Luanda, Luanda Province, Luanda"
+    },
+    "marriage": {
+        "name": "Marriage of Teddy and Arabella Segel",
+        "date": {
+            "day": 6,
+            "month": 8,
+            "year": 1934,
+            "formatted_date": "August 6, 1934"
+        },
+        "location": {
+            "street_address1": "Washington Street 59",
+            "city": "Angola",
+            "county": "Luanda",
+            "state": "Luanda Province",
+            "country": "Luanda",
+            "latitude": -8.8146556,
+            "longitude": 13.2301756,
+            "formatted_location": "Washington Street 59, Angola, Luanda, Luanda Province, Luanda"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679509",
+        "https:\/\/www.geni.com\/api\/profile-34858679508"
+    ]
+}

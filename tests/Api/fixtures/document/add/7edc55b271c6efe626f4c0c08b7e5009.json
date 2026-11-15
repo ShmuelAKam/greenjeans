@@ -1,0 +1,26 @@
+{
+    "id": "document-47257769",
+    "guid": "6000000225687634825",
+    "created_at": "1779840355",
+    "updated_at": "1779840355",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257769",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 1,
+        "month": 8,
+        "year": 1963,
+        "formatted_date": "August 1, 1963"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257769"
+    }
+}

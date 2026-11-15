@@ -1,0 +1,26 @@
+{
+    "id": "profile-34858672881",
+    "public": false,
+    "name": "Mabel Lavyan",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Mabel Lavyan",
+        "date": {
+            "day": 20,
+            "month": 9,
+            "year": 1956,
+            "formatted_date": "September 20, 1956"
+        },
+        "location": {
+            "street_address1": "Grange Road 72",
+            "city": "Tunisia",
+            "county": "M\u00e9dina",
+            "state": "Tunis Governorate",
+            "country": "Tunis",
+            "country_code": "TN",
+            "latitude": 36.8064948,
+            "longitude": 10.1815316,
+            "formatted_location": "Grange Road 72, Tunisia, M\u00e9dina, Tunis Governorate, Tunis (Tunisia)"
+        }
+    }
+}

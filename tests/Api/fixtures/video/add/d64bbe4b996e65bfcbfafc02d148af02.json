@@ -1,0 +1,24 @@
+{
+    "id": "video-154041",
+    "guid": "6000000225687936886",
+    "created_at": "1779845137",
+    "updated_at": "1779845139",
+    "url": "https:\/\/www.geni.com\/api\/video-154041",
+    "title": "Test getTitle - 27\/05\/2026",
+    "description": "Description",
+    "date": {
+        "day": 30,
+        "month": 11,
+        "year": 1915,
+        "formatted_date": "November 30, 1915"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/50\/16\/35\/6e\/5344486a78649f76\/5344486a78649f76_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/50\/16\/35\/6e\/5344486a78649f76\/5344486a78649f76_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/50\/16\/35\/6e\/5344486a78649f76\/5344486a78649f76_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/50\/16\/35\/6e\/5344486a78649f76\/5344486a78649f76_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/50\/16\/35\/6e\/5344486a78649f76\/5344486a78649f76_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/50\/16\/35\/6e\/5344486a78649f76\/5344486a78649f76.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154041"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672787",
+    "public": false,
+    "name": "Uruguay Yaakov",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Uruguay Yaakov",
+        "date": {
+            "day": 19,
+            "month": 3,
+            "year": 1924,
+            "formatted_date": "March 19, 1924"
+        },
+        "location": {
+            "street_address1": "Manor Road 12",
+            "city": "Zambia",
+            "county": "Lusaka",
+            "state": "Lusaka Province",
+            "country": "Lusaka",
+            "latitude": -15.3719756,
+            "longitude": 28.3418659,
+            "formatted_location": "Manor Road 12, Zambia, Lusaka, Lusaka Province, Lusaka"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858672778",
+    "public": true,
+    "name": "Maisie Weiss",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Maisie Weiss",
+        "date": {
+            "day": 27,
+            "month": 9,
+            "year": 1940,
+            "formatted_date": "September 27, 1940"
+        },
+        "location": {
+            "street_address1": "Second Street 15",
+            "city": "South Africa",
+            "country": "Pretoria",
+            "latitude": -33.2492993,
+            "longitude": 27.4233344,
+            "formatted_location": "Second Street 15, South Africa, Pretoria"
+        }
+    }
+}

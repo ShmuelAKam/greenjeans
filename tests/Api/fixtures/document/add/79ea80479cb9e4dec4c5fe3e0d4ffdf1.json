@@ -1,0 +1,26 @@
+{
+    "id": "document-47260187",
+    "guid": "6000000225689318858",
+    "created_at": "1779859487",
+    "updated_at": "1779859487",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260187",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 11,
+        "month": 9,
+        "year": 1955,
+        "formatted_date": "September 11, 1955"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260187"
+    }
+}

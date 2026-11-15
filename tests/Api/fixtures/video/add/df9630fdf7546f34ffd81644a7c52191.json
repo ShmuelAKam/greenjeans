@@ -1,0 +1,23 @@
+{
+    "id": "video-154016",
+    "guid": "6000000225687834020",
+    "created_at": "1779845041",
+    "updated_at": "1779845042",
+    "url": "https:\/\/www.geni.com\/api\/video-154016",
+    "title": "Title",
+    "date": {
+        "day": 26,
+        "month": 8,
+        "year": 1975,
+        "formatted_date": "August 26, 1975"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/6f\/c5\/8a\/3d\/5344486a78630da4\/5344486a78630da4_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/6f\/c5\/8a\/3d\/5344486a78630da4\/5344486a78630da4_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/6f\/c5\/8a\/3d\/5344486a78630da4\/5344486a78630da4_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/6f\/c5\/8a\/3d\/5344486a78630da4\/5344486a78630da4_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/6f\/c5\/8a\/3d\/5344486a78630da4\/5344486a78630da4_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/6f\/c5\/8a\/3d\/5344486a78630da4\/5344486a78630da4.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154016"
+    }
+}

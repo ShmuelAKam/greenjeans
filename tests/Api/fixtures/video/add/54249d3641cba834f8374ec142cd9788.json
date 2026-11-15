@@ -1,0 +1,24 @@
+{
+    "id": "video-154147",
+    "guid": "6000000225690159844",
+    "created_at": "1779864502",
+    "updated_at": "1779864504",
+    "url": "https:\/\/www.geni.com\/api\/video-154147",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 31,
+        "month": 5,
+        "year": 1959,
+        "formatted_date": "May 31, 1959"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/63\/10\/51\/4d\/5344486a78868ae4\/5344486a78868ae4_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/63\/10\/51\/4d\/5344486a78868ae4\/5344486a78868ae4_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/63\/10\/51\/4d\/5344486a78868ae4\/5344486a78868ae4_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/63\/10\/51\/4d\/5344486a78868ae4\/5344486a78868ae4_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/63\/10\/51\/4d\/5344486a78868ae4\/5344486a78868ae4_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/63\/10\/51\/4d\/5344486a78868ae4\/5344486a78868ae4.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154147"
+    }
+}

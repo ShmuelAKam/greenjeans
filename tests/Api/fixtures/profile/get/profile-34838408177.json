@@ -1,0 +1,63 @@
+{
+  "id": "profile-34838408177",
+  "url": "https://www.geni.com/api/profile-34838408177",
+  "profile_url": "https://www.geni.com/people/Seth/6000000214522520831",
+  "public": true,
+  "guid": "6000000214522520831",
+  "first_name": "Seth",
+  "middle_name": "Test Profile",
+  "maiden_name": ".",
+  "last_name": ".",
+  "name": "Seth Test Profile .",
+  "is_alive": false,
+  "gender": "male",
+  "current_residence": {
+    "place_name": "Patrician's Palace",
+    "street_address1": "City Square",
+    "city": "Ankh-Morpork",
+    "country": "Discworld",
+    "latitude": 31.532569,
+    "longitude": 35.099826,
+    "formatted_location": "Patrician&#39;s Palace, City Square, Ankh-Morpork, Discworld"
+  },
+  "created_by": "https://www.geni.com/api/profile-9288190",
+  "merge_note": "Test copy of Seth:\r\nhttps://www.geni.com/people/Seth/6000000006375916501",
+  "claimed": false,
+  "curator": "https://www.geni.com/api/profile-9288190",
+  "unions": [
+    "https://www.geni.com/api/union-121945315",
+    "https://www.geni.com/api/union-121945318"
+  ],
+  "birth_order": 13,
+  "living": false,
+  "creator": "https://www.geni.com/api/user-1444024",
+  "birth": {
+    "name": "Birth of Seth Test Profile .",
+    "date": {
+      "year": -3630,
+      "formatted_date": "-3630"
+    },
+    "location": {
+      "place_name": "Olaha, Shinehah",
+      "formatted_location": "Olaha, Shinehah"
+    }
+  },
+  "death": {
+    "name": "Death of Seth Test Profile . at East of Eden",
+    "date": {
+      "year": -2718,
+      "formatted_date": "-2718"
+    },
+    "location": {
+      "place_name": "East of Eden",
+      "formatted_location": "East of Eden"
+    }
+  },
+  "created_at": "1737982827",
+  "updated_at": "1767134652",
+  "deleted": false,
+  "project_ids": [
+    "project-4506705"
+  ]
+}
+

@@ -1,0 +1,15 @@
+{
+    "id": "document-47260139",
+    "guid": "6000000225689335842",
+    "created_at": "1779859442",
+    "updated_at": "1779859446",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260139",
+    "title": "Third",
+    "page_count": 10,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/21\/35\/f1\/81\/5344486a7879f822\/test-doc-3_original.pdf?hash=57ccc3a5fa69fb07666f2f02ebf27cfd19554ed6b0ebdc4d4a9d53d46c2e9c63.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260139"
+    }
+}

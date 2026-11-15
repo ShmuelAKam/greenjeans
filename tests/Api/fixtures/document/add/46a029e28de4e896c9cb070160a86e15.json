@@ -1,0 +1,15 @@
+{
+    "id": "document-47260128",
+    "guid": "6000000225689452822",
+    "created_at": "1779859435",
+    "updated_at": "1779859437",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260128",
+    "title": "First",
+    "page_count": 4,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/03\/0a\/23\/17\/5344486a787bc116\/test-doc-1_original.pdf?hash=0c94f48109d92e8ba6cfd05e7d9f4ebabcb2ee659674d12f74249dc4ed617f7d.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260128"
+    }
+}

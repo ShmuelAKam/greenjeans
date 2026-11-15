@@ -1,0 +1,27 @@
+{
+    "id": "document-47261352",
+    "guid": "6000000225689738959",
+    "created_at": "1779862977",
+    "updated_at": "1779862977",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47261352",
+    "title": "Magna Carta",
+    "description": "\"Great Charter\"",
+    "date": {
+        "day": 18,
+        "month": 3,
+        "year": 1990,
+        "formatted_date": "March 18, 1990"
+    },
+    "labels": [
+        "england",
+        "King"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47261352"
+    }
+}

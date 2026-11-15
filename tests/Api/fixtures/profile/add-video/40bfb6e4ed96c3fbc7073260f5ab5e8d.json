@@ -1,0 +1,27 @@
+{
+    "id": "video-154364",
+    "guid": "6000000225731888924",
+    "created_at": "1780014303",
+    "updated_at": "1780014304",
+    "url": "https:\/\/www.geni.com\/api\/video-154364",
+    "title": "Title",
+    "date": {
+        "day": 3,
+        "month": 4,
+        "year": 1917,
+        "formatted_date": "April 3, 1917"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/7f\/08\/03\/f9\/5344486a7b03471c\/5344486a7b03471c_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/7f\/08\/03\/f9\/5344486a7b03471c\/5344486a7b03471c_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/7f\/08\/03\/f9\/5344486a7b03471c\/5344486a7b03471c_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/7f\/08\/03\/f9\/5344486a7b03471c\/5344486a7b03471c_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/7f\/08\/03\/f9\/5344486a7b03471c\/5344486a7b03471c_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/7f\/08\/03\/f9\/5344486a7b03471c\/5344486a7b03471c.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154364"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190",
+        "https:\/\/www.geni.com\/api\/profile-34858738800"
+    ]
+}

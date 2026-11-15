@@ -1,0 +1,27 @@
+{
+    "id": "photo-51986156",
+    "guid": "6000000225687634831",
+    "created_at": "1779840529",
+    "updated_at": "1779840529",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986156",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 21,
+        "month": 4,
+        "year": 1971,
+        "formatted_date": "April 21, 1971"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/9f\/51\/b6\/e3\/5344486a7860038f\/file-sdk-1_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/9f\/51\/b6\/e3\/5344486a7860038f\/file-sdk-1_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/9f\/51\/b6\/e3\/5344486a7860038f\/file-sdk-1_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/9f\/51\/b6\/e3\/5344486a7860038f\/file-sdk-1_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/9f\/51\/b6\/e3\/5344486a7860038f\/file-sdk-1_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/9f\/51\/b6\/e3\/5344486a7860038f\/file-sdk-1_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/9f\/51\/b6\/e3\/5344486a7860038f\/file-sdk-1_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986156"
+    }
+}

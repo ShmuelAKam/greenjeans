@@ -1,0 +1,27 @@
+{
+    "id": "document-47257830",
+    "guid": "6000000225687007879",
+    "created_at": "1779840410",
+    "updated_at": "1779840410",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257830",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 20,
+        "month": 12,
+        "year": 1995,
+        "formatted_date": "December 20, 1995"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257830"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "id": "document-47260245",
+    "guid": "6000000225689332860",
+    "created_at": "1779859613",
+    "updated_at": "1779859615",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260245",
+    "title": "First",
+    "date": {
+        "day": 30,
+        "month": 7,
+        "year": 1953,
+        "formatted_date": "July 30, 1953"
+    },
+    "page_count": 4,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/4c\/c4\/b2\/ee\/5344486a7879ec7c\/test-doc-1_original.pdf?hash=705214994d81332c03bdd6b6be614dfb2b669055143a441315d1e99b20414d39.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260245"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858672764",
+    "public": true,
+    "name": "Max Ohayon",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Max Ohayon",
+        "date": {
+            "day": 18,
+            "month": 9,
+            "year": 1919,
+            "formatted_date": "September 18, 1919"
+        },
+        "location": {
+            "street_address1": "Washington Street 97",
+            "city": "Ukraine",
+            "country": "Kyiv",
+            "latitude": 48.379433,
+            "longitude": 31.1655799,
+            "formatted_location": "Washington Street 97, Ukraine, Kyiv"
+        }
+    }
+}

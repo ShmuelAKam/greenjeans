@@ -1,0 +1,116 @@
+{
+  "id": "profile-4094860",
+  "url": "https://www.geni.com/api/profile-4094860",
+  "profile_url": "https://www.geni.com/people/Cainan/6000000000190220038",
+  "public": true,
+  "guid": "6000000000190220038",
+  "first_name": "Cainan",
+  "maiden_name": ".",
+  "last_name": ".",
+  "name": "Cainan .",
+  "is_alive": false,
+  "locked": true,
+  "master_profile": true,
+  "gender": "male",
+  "created_by": "https://www.geni.com/api/profile-9288190",
+  "claimed": false,
+  "curator": "https://www.geni.com/api/profile-9288190",
+  "mugshot_urls": {
+    "large": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_large.jpg?hash=15ef0c1de39c1c63d854ba37b0dc6012194eae7812bc93992f1d6de21a2bf5fd.1789109999",
+    "medium": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_medium.jpg?hash=28f98b4d408034449b19f507e9922de9fceab35c967153462ff19c9f2b4e658f.1789109999",
+    "small": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_small.jpg?hash=31caf2716c621034d698e29ab511e908474fd0cd21455533c87228f7914da924.1789109999",
+    "thumb": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_t.jpg?hash=4ed6221cfcdd4fadcf1e3ca9e4155deecfa21790481a1b8e0e73165e3502117d.1789109999",
+    "print": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_print.jpg?hash=6e5158514605337c964b13903e3fc8d7930920659aad9859df666b757edc31be.1789109999",
+    "thumb2": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_t2.jpg?hash=628fd70a0c17f5efc0ca59dc53660402e081c0558bca89e59353873f2e3a830d.1789109999",
+    "original": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_original.jpg?hash=281f5ac09d4f2864e14c95482bcb28149c6a6a5058d1d49bbca4c2a6e59a7d26.1789109999",
+    "url": "https://www.geni.com/api/photo-8765946"
+  },
+  "unions": [
+    "https://www.geni.com/api/union-18123201",
+    "https://www.geni.com/api/union-18123191"
+  ],
+  "marriage_orders": {
+    "6000000003513277498": 1
+  },
+  "birth_order": 1,
+  "names": {
+    "en-US": {
+      "first_name": "Cainan",
+      "last_name": ".",
+      "maiden_name": ".",
+      "nicknames": "Qinan"
+    },
+    "he": {
+      "first_name": "קינן"
+    },
+    "ar": {
+      "first_name": "قينان"
+    },
+    "et": {
+      "first_name": "Keenan"
+    },
+    "id": {
+      "nicknames": "Qinan [4]"
+    },
+    "de": {
+      "last_name": "Des Sicambred des Francs"
+    },
+    "ru": {
+      "nicknames": "Каинан"
+    },
+    "es": {
+      "first_name": "Cainan"
+    }
+  },
+  "living": false,
+  "creator": "https://www.geni.com/api/user-1444024",
+  "birth": {
+    "name": "Birth of Cainan .",
+    "description": "Génesis 5\r\nReina-Valera 1960 (RVR1960)\r\nLos descendientes de Adán\r\n(1 Cr. 1.1-4)\r\n\r\n9 Vivió Enós noventa años, y engendró a Cainán.",
+    "date": {
+      "year": -3435,
+      "formatted_date": "-3435"
+    },
+    "location": {
+      "place_name": "East Of Eden",
+      "formatted_location": "East Of Eden"
+    }
+  },
+  "death": {
+    "name": "Death of Cainan . at East Of Eden",
+    "description": "Génesis 5:12-17\r\nReina-Valera 1960 (RVR1960)\r\n\r\n13 Y vivió Cainán, después que engendró a Mahalaleel, ochocientos cuarenta años, y engendró hijos e hijas.\r\n\r\n14 Y fueron todos los días de Cainán novecientos diez años; y murió.",
+    "date": {
+      "year": -2525,
+      "formatted_date": "-2525"
+    },
+    "location": {
+      "place_name": "East Of Eden",
+      "formatted_location": "East Of Eden"
+    }
+  },
+  "nicknames": [
+    "Qinan"
+  ],
+  "photo_urls": {
+    "large": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_large.jpg?hash=15ef0c1de39c1c63d854ba37b0dc6012194eae7812bc93992f1d6de21a2bf5fd.1789109999",
+    "medium": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_medium.jpg?hash=28f98b4d408034449b19f507e9922de9fceab35c967153462ff19c9f2b4e658f.1789109999",
+    "small": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_small.jpg?hash=31caf2716c621034d698e29ab511e908474fd0cd21455533c87228f7914da924.1789109999",
+    "thumb": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_t.jpg?hash=4ed6221cfcdd4fadcf1e3ca9e4155deecfa21790481a1b8e0e73165e3502117d.1789109999",
+    "print": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_print.jpg?hash=6e5158514605337c964b13903e3fc8d7930920659aad9859df666b757edc31be.1789109999",
+    "thumb2": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_t2.jpg?hash=628fd70a0c17f5efc0ca59dc53660402e081c0558bca89e59353873f2e3a830d.1789109999",
+    "original": "https://media.geni.com/p5/2446/0735/534448367518aead/2-ancient-canaanite-bb_original.jpg?hash=281f5ac09d4f2864e14c95482bcb28149c6a6a5058d1d49bbca4c2a6e59a7d26.1789109999",
+    "url": "https://www.geni.com/api/photo-8765946"
+  },
+  "created_at": "1172481436",
+  "updated_at": "1766428850",
+  "deleted": false,
+  "project_ids": [
+    "project-4504495",
+    "project-12495",
+    "project-12283",
+    "project-10927",
+    "project-1055",
+    "project-38"
+  ]
+}
+

@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678631",
+    "public": true,
+    "name": "Evie Avraham",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Evie Avraham",
+        "date": {
+            "day": 16,
+            "month": 7,
+            "year": 1931,
+            "formatted_date": "July 16, 1931"
+        },
+        "location": {
+            "street_address1": "Second Street 36",
+            "city": "Uganda",
+            "county": "Kampala",
+            "state": "Central Region",
+            "country": "Kampala",
+            "latitude": 0.3209966,
+            "longitude": 32.6039317,
+            "formatted_location": "Second Street 36, Uganda, Kampala, Central Region, Kampala"
+        }
+    }
+}

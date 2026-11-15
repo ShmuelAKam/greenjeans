@@ -1,0 +1,23 @@
+{
+    "id": "video-153950",
+    "guid": "6000000225687742871",
+    "created_at": "1779842308",
+    "updated_at": "1779842309",
+    "url": "https:\/\/www.geni.com\/api\/video-153950",
+    "title": "Title",
+    "date": {
+        "day": 9,
+        "month": 7,
+        "year": 1920,
+        "formatted_date": "July 9, 1920"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/4a\/33\/4c\/97\/5344486a7861a997\/5344486a7861a997_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/4a\/33\/4c\/97\/5344486a7861a997\/5344486a7861a997_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/4a\/33\/4c\/97\/5344486a7861a997\/5344486a7861a997_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/4a\/33\/4c\/97\/5344486a7861a997\/5344486a7861a997_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/4a\/33\/4c\/97\/5344486a7861a997\/5344486a7861a997_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/4a\/33\/4c\/97\/5344486a7861a997\/5344486a7861a997.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153950"
+    }
+}

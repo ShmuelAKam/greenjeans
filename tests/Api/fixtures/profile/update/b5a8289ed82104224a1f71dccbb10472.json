@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672782",
+    "public": true,
+    "name": "Teddy Cohen",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Teddy Cohen",
+        "date": {
+            "day": 12,
+            "month": 5,
+            "year": 2011,
+            "formatted_date": "May 12, 2011"
+        },
+        "location": {
+            "street_address1": "Washington Street 60",
+            "city": "Senegal",
+            "county": "Guediawaye",
+            "state": "Dakar Region",
+            "country": "Dakar",
+            "latitude": 14.716677,
+            "longitude": -17.4676861,
+            "formatted_location": "Washington Street 60, Senegal, Guediawaye, Dakar Region, Dakar"
+        }
+    }
+}

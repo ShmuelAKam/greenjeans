@@ -1,0 +1,27 @@
+{
+    "id": "document-47261350",
+    "guid": "6000000225689881853",
+    "created_at": "1779862975",
+    "updated_at": "1779862975",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47261350",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 14,
+        "month": 3,
+        "year": 1957,
+        "formatted_date": "March 14, 1957"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47261350"
+    }
+}

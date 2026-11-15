@@ -1,0 +1,26 @@
+{
+    "id": "document-47257718",
+    "guid": "6000000225687598828",
+    "created_at": "1779840242",
+    "updated_at": "1779840242",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257718",
+    "title": "US Constitution",
+    "description": "Non-equal rights",
+    "date": {
+        "day": 5,
+        "month": 10,
+        "year": 2009,
+        "formatted_date": "October 5, 2009"
+    },
+    "labels": [
+        "United States"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257718"
+    }
+}

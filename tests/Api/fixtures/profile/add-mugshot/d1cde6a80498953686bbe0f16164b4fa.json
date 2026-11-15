@@ -1,0 +1,31 @@
+{
+    "id": "photo-51994774",
+    "guid": "6000000225731244970",
+    "created_at": "1780014189",
+    "updated_at": "1780014190",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51994774",
+    "title": "One",
+    "description": "There can only be",
+    "date": {
+        "day": 3,
+        "month": 8,
+        "year": 1977,
+        "formatted_date": "August 3, 1977"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/29\/a6\/9d\/86\/5344486a7af973aa\/file-sdk-1_large.jpg?hash=278b773d836d2f81a83f8fb3709ae92c94bc949c3f300316276c3a1dc39aeacc.1780124399",
+        "medium": "https:\/\/media.geni.com\/p14\/29\/a6\/9d\/86\/5344486a7af973aa\/file-sdk-1_medium.jpg?hash=418791c780f3416440925ea8eb850406432c718434d4f07d800bc033978eaf3a.1780124399",
+        "small": "https:\/\/media.geni.com\/p14\/29\/a6\/9d\/86\/5344486a7af973aa\/file-sdk-1_small.jpg?hash=18a258ed82b5239c586abd668936396aca8473229ceb609a034742cb311bf094.1780124399",
+        "thumb": "https:\/\/media.geni.com\/p14\/29\/a6\/9d\/86\/5344486a7af973aa\/file-sdk-1_t.jpg?hash=7e6e117ac201471a17fffa5de91180005e1d362a9827d168f9093d08110dbcd4.1780124399",
+        "print": "https:\/\/media.geni.com\/p14\/29\/a6\/9d\/86\/5344486a7af973aa\/file-sdk-1_print.jpg?hash=b30eb9d3776d5b98178429c2cf7542d9c8c45a9b06d029474081d6ea5f69b80d.1780124399",
+        "thumb2": "https:\/\/media.geni.com\/p14\/29\/a6\/9d\/86\/5344486a7af973aa\/file-sdk-1_t2.jpg?hash=f7d427e9b865992267ebe05e7fca9cc1684e1def2aafa459f022c6ac0d021e11.1780124399",
+        "original": "https:\/\/media.geni.com\/p14\/29\/a6\/9d\/86\/5344486a7af973aa\/file-sdk-1_original.jpg?hash=9b49d9ebd7557d1feaad6420b0570a44baca71376bd23780025f074334a64245.1780124399",
+        "url": "https:\/\/www.geni.com\/api\/photo-51994774"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190",
+        "https:\/\/www.geni.com\/api\/profile-34858738774"
+    ]
+}

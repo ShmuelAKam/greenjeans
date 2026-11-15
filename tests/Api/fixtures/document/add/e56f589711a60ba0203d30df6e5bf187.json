@@ -1,0 +1,25 @@
+{
+    "id": "document-47258031",
+    "guid": "6000000225687705932",
+    "created_at": "1779841851",
+    "updated_at": "1779841851",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258031",
+    "title": "Title",
+    "date": {
+        "day": 7,
+        "month": 6,
+        "year": 1969,
+        "formatted_date": "June 7, 1969"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258031"
+    }
+}

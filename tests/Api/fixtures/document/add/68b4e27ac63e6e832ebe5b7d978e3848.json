@@ -1,0 +1,27 @@
+{
+    "id": "document-47257998",
+    "guid": "6000000225687705920",
+    "created_at": "1779841818",
+    "updated_at": "1779841818",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257998",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 30,
+        "month": 9,
+        "year": 1999,
+        "formatted_date": "September 30, 1999"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257998"
+    }
+}

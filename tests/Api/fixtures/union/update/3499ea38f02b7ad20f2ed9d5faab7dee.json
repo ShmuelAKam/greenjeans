@@ -1,0 +1,29 @@
+{
+    "id": "union-128847667",
+    "url": "https:\/\/www.geni.com\/api\/union-128847667",
+    "guid": "6000000225689888928",
+    "divorce": {
+        "name": "Divorce of Panama Weiss and Ellie Segel",
+        "date": {
+            "day": 26,
+            "month": 12,
+            "year": 1914,
+            "formatted_date": "December 26, 1914"
+        },
+        "location": {
+            "street_address1": "Manor Road 24",
+            "city": "Ghana",
+            "county": "Accra Metropolitan",
+            "state": "Greater Accra Region",
+            "country": "Accra",
+            "latitude": 5.6223272,
+            "longitude": -0.2511965,
+            "formatted_location": "Manor Road 24, Ghana, Accra Metropolitan, Greater Accra Region, Accra"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679520",
+        "https:\/\/www.geni.com\/api\/profile-34858679521"
+    ]
+}

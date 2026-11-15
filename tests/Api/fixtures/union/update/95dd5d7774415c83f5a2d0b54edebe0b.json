@@ -1,0 +1,45 @@
+{
+    "id": "union-128845889",
+    "url": "https:\/\/www.geni.com\/api\/union-128845889",
+    "guid": "6000000225687910825",
+    "marriage_date": {
+        "day": 26,
+        "month": 1,
+        "year": 1987,
+        "formatted_date": "January 26, 1987"
+    },
+    "marriage_location": {
+        "street_address1": "View Street 50",
+        "city": "Tanzania",
+        "county": "Dodoma Urban",
+        "state": "Dodoma Region",
+        "country": "Dodoma",
+        "latitude": -6.1811245,
+        "longitude": 35.746877,
+        "formatted_location": "View Street 50, Tanzania, Dodoma Urban, Dodoma Region, Dodoma"
+    },
+    "marriage": {
+        "name": "Marriage of Taiwan Adri and Emily Azulay",
+        "date": {
+            "day": 26,
+            "month": 1,
+            "year": 1987,
+            "formatted_date": "January 26, 1987"
+        },
+        "location": {
+            "street_address1": "View Street 50",
+            "city": "Tanzania",
+            "county": "Dodoma Urban",
+            "state": "Dodoma Region",
+            "country": "Dodoma",
+            "latitude": -6.1811245,
+            "longitude": 35.746877,
+            "formatted_location": "View Street 50, Tanzania, Dodoma Urban, Dodoma Region, Dodoma"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673436",
+        "https:\/\/www.geni.com\/api\/profile-34858673437"
+    ]
+}

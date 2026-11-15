@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672869",
+    "public": false,
+    "name": "Slovenia Cohen",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Slovenia Cohen",
+        "date": {
+            "day": 12,
+            "month": 7,
+            "year": 1951,
+            "formatted_date": "July 12, 1951"
+        },
+        "location": {
+            "street_address1": "The Crescent 90",
+            "city": "Switzerland",
+            "county": "Bern-Mittelland District",
+            "state": "Canton of Bern",
+            "country": "Bern",
+            "latitude": 46.9479739,
+            "longitude": 7.4474468,
+            "formatted_location": "The Crescent 90, Switzerland, Bern-Mittelland District, Canton of Bern, Bern"
+        }
+    }
+}

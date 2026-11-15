@@ -1,0 +1,24 @@
+{
+    "id": "video-154171",
+    "guid": "6000000225690244823",
+    "created_at": "1779864643",
+    "updated_at": "1779864644",
+    "url": "https:\/\/www.geni.com\/api\/video-154171",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 16,
+        "month": 10,
+        "year": 1941,
+        "formatted_date": "October 16, 1941"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/ac\/3b\/9b\/f2\/5344486a7887d6d7\/5344486a7887d6d7_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/ac\/3b\/9b\/f2\/5344486a7887d6d7\/5344486a7887d6d7_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/ac\/3b\/9b\/f2\/5344486a7887d6d7\/5344486a7887d6d7_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/ac\/3b\/9b\/f2\/5344486a7887d6d7\/5344486a7887d6d7_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/ac\/3b\/9b\/f2\/5344486a7887d6d7\/5344486a7887d6d7_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/ac\/3b\/9b\/f2\/5344486a7887d6d7\/5344486a7887d6d7.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154171"
+    }
+}

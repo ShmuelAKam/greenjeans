@@ -1,0 +1,29 @@
+{
+    "id": "union-128847666",
+    "url": "https:\/\/www.geni.com\/api\/union-128847666",
+    "guid": "6000000225689899969",
+    "divorce": {
+        "name": "Divorce of Mexico Levy and Violet Vaknin",
+        "date": {
+            "day": 12,
+            "month": 2,
+            "year": 2005,
+            "formatted_date": "February 12, 2005"
+        },
+        "location": {
+            "street_address1": "Windsor Road 67",
+            "city": "France",
+            "county": "Paris",
+            "state": "\u00cele-de-France",
+            "country": "Paris",
+            "latitude": 48.8575475,
+            "longitude": 2.3513765,
+            "formatted_location": "Windsor Road 67, France, Paris, \u00cele-de-France, Paris"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679517",
+        "https:\/\/www.geni.com\/api\/profile-34858679518"
+    ]
+}

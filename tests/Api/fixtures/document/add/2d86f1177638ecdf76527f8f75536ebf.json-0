@@ -1,0 +1,26 @@
+{
+    "id": "document-48513257",
+    "guid": "6000000227276461822",
+    "created_at": "1786914317",
+    "updated_at": "1786914318",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-48513257",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 17,
+        "month": 1,
+        "year": 1938,
+        "formatted_date": "January 17, 1938"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-48513257"
+    }
+}

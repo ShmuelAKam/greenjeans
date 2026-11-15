@@ -1,0 +1,27 @@
+{
+    "id": "document-47260309",
+    "guid": "6000000225689313871",
+    "created_at": "1779859654",
+    "updated_at": "1779859654",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260309",
+    "title": "Magna Carta",
+    "description": "\"Great Charter\"",
+    "date": {
+        "day": 10,
+        "month": 11,
+        "year": 1974,
+        "formatted_date": "November 10, 1974"
+    },
+    "labels": [
+        "King",
+        "england"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260309"
+    }
+}

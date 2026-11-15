@@ -1,0 +1,24 @@
+{
+    "id": "video-153931",
+    "guid": "6000000225687743906",
+    "created_at": "1779842245",
+    "updated_at": "1779842246",
+    "url": "https:\/\/www.geni.com\/api\/video-153931",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 29,
+        "month": 7,
+        "year": 1930,
+        "formatted_date": "July 29, 1930"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/10\/10\/6d\/02\/5344486a7861ada2\/5344486a7861ada2_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/10\/10\/6d\/02\/5344486a7861ada2\/5344486a7861ada2_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/10\/10\/6d\/02\/5344486a7861ada2\/5344486a7861ada2_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/10\/10\/6d\/02\/5344486a7861ada2\/5344486a7861ada2_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/10\/10\/6d\/02\/5344486a7861ada2\/5344486a7861ada2_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/10\/10\/6d\/02\/5344486a7861ada2\/5344486a7861ada2.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153931"
+    }
+}

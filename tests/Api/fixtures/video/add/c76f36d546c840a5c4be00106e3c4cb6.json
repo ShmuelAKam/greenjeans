@@ -1,0 +1,24 @@
+{
+    "id": "video-153969",
+    "guid": "6000000225687936839",
+    "created_at": "1779844792",
+    "updated_at": "1779844794",
+    "url": "https:\/\/www.geni.com\/api\/video-153969",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 22,
+        "month": 11,
+        "year": 1933,
+        "formatted_date": "November 22, 1933"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/cf\/ae\/06\/54\/5344486a78649f47\/5344486a78649f47_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/cf\/ae\/06\/54\/5344486a78649f47\/5344486a78649f47_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/cf\/ae\/06\/54\/5344486a78649f47\/5344486a78649f47_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/cf\/ae\/06\/54\/5344486a78649f47\/5344486a78649f47_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/cf\/ae\/06\/54\/5344486a78649f47\/5344486a78649f47_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/cf\/ae\/06\/54\/5344486a78649f47\/5344486a78649f47.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153969"
+    }
+}

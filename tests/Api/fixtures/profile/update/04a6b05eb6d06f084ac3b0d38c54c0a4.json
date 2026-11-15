@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858672837",
+    "public": false,
+    "name": "Finland Malkah",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Finland Malkah",
+        "date": {
+            "day": 29,
+            "month": 6,
+            "year": 2012,
+            "formatted_date": "June 29, 2012"
+        },
+        "location": {
+            "street_address1": "Elm Street 80",
+            "city": "Egypt",
+            "state": "Cairo Governorate",
+            "country": "Cairo",
+            "latitude": 30.0444196,
+            "longitude": 31.2357116,
+            "formatted_location": "Elm Street 80, Egypt, Cairo Governorate, Cairo"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678677",
+    "public": false,
+    "name": "Hallie Omer",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of Hallie Omer",
+        "date": {
+            "day": 21,
+            "month": 9,
+            "year": 1982,
+            "formatted_date": "September 21, 1982"
+        },
+        "location": {
+            "street_address1": "Main Street 15",
+            "city": "Tanzania",
+            "county": "Dodoma Urban",
+            "state": "Dodoma Region",
+            "country": "Dodoma",
+            "latitude": -6.1811245,
+            "longitude": 35.746877,
+            "formatted_location": "Main Street 15, Tanzania, Dodoma Urban, Dodoma Region, Dodoma"
+        }
+    }
+}

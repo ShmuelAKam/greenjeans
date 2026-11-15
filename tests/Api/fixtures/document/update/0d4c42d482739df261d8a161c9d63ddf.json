@@ -1,0 +1,30 @@
+{
+    "id": "document-47260214",
+    "guid": "6000000225689332850",
+    "created_at": "1779859565",
+    "updated_at": "1779859566",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260214",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 9,
+        "month": 1,
+        "year": 2021,
+        "formatted_date": "January 9, 2021"
+    },
+    "labels": [
+        "Labels",
+        "crystal clear",
+        "deeply insightful",
+        "badly formatted",
+        "super helpful"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260214"
+    }
+}

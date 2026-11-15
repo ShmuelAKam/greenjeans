@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858678670",
+    "public": false,
+    "name": "Ethan Peretz",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of Ethan Peretz",
+        "date": {
+            "day": 25,
+            "month": 2,
+            "year": 1955,
+            "formatted_date": "February 25, 1955"
+        },
+        "location": {
+            "street_address1": "New Road 32",
+            "city": "Sweden",
+            "state": "Stockholm County",
+            "country": "Stockholm",
+            "latitude": 59.3327036,
+            "longitude": 18.0656255,
+            "formatted_location": "New Road 32, Sweden, Stockholm County, Stockholm"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+# composer & vendor
+/vendor/
+composer.phar
+
+# Cache files
+.php-cs-fixer.cache
+.phpunit.result.cache
+
+# IDE & OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Eclipse specific
+.project
+.buildpath
+.settings/
+
+# Credentials and such
+db.local.php
+geni.local.php
+SessionAuth.json
+
+# Other stuff
+
+*.log
+./*.txt
+

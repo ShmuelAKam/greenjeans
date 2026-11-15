@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678635",
+    "public": false,
+    "name": "Tommy Ohayon",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Tommy Ohayon",
+        "date": {
+            "day": 18,
+            "month": 3,
+            "year": 1922,
+            "formatted_date": "March 18, 1922"
+        },
+        "location": {
+            "street_address1": "Kings Road 93",
+            "city": "Denmark",
+            "country": "Copenhagen",
+            "latitude": 55.6760968,
+            "longitude": 12.5683371,
+            "formatted_location": "Kings Road 93, Denmark, Copenhagen"
+        }
+    }
+}

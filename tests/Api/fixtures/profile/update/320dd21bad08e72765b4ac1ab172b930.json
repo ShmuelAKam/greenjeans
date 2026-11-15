@@ -1,0 +1,26 @@
+{
+    "id": "profile-34858672882",
+    "public": false,
+    "name": "Harry Levy",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Harry Levy",
+        "date": {
+            "day": 1,
+            "month": 3,
+            "year": 1906,
+            "formatted_date": "March 1, 1906"
+        },
+        "location": {
+            "street_address1": "Manor Road 3",
+            "city": "Poland",
+            "county": "Warsaw",
+            "state": "Masovian Voivodeship",
+            "country": "Warsaw",
+            "postal_code": "03",
+            "latitude": 52.2296756,
+            "longitude": 21.0122287,
+            "formatted_location": "Manor Road 3, Poland, Warsaw, Masovian Voivodeship, 03, Warsaw"
+        }
+    }
+}

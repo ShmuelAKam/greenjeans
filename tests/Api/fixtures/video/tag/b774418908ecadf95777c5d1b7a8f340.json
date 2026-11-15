@@ -1,0 +1,55 @@
+{
+    "results": [
+        {
+            "id": "profile-34858740215",
+            "url": "https:\/\/www.geni.com\/api\/profile-34858740215",
+            "public": false,
+            "name": "Adam Schwartz",
+            "first_name": "Adam",
+            "last_name": "Schwartz",
+            "gender": "male",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34858740216",
+            "url": "https:\/\/www.geni.com\/api\/profile-34858740216",
+            "public": false,
+            "name": "Poppy Adri",
+            "first_name": "Poppy",
+            "last_name": "Adri",
+            "gender": "female",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34858740217",
+            "url": "https:\/\/www.geni.com\/api\/profile-34858740217",
+            "public": false,
+            "name": "Poppy Peretz",
+            "first_name": "Poppy",
+            "last_name": "Peretz",
+            "gender": "female",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34858740218",
+            "url": "https:\/\/www.geni.com\/api\/profile-34858740218",
+            "public": false,
+            "name": "Hudson Yaakov",
+            "first_name": "Hudson",
+            "last_name": "Yaakov",
+            "gender": "male",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34858740219",
+            "url": "https:\/\/www.geni.com\/api\/profile-34858740219",
+            "public": false,
+            "name": "Ronnie Levy",
+            "first_name": "Ronnie",
+            "last_name": "Levy",
+            "gender": "male",
+            "is_alive": true
+        }
+    ],
+    "total_count": 5
+}

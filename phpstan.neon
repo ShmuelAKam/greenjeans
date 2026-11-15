@@ -1,0 +1,20 @@
+parameters:
+    level: 6
+    paths:
+        - src
+        - tests
+
+    excludePaths:
+        - src/Temp.php
+
+    bootstrapFiles:
+        - vendor/autoload.php
+
+    scanFiles:
+        - tests/Api/Debug_OUT.php
+        - tests/Api/GlobalSetup.php 
+        - tests/Persistence/GlobalSetup.php 
+
+includes:
+    - vendor/phpstan/phpstan-phpunit/extension.neon
+

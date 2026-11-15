@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678606",
+    "public": false,
+    "name": "Lily Azulay",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Lily Azulay",
+        "date": {
+            "day": 13,
+            "month": 9,
+            "year": 1971,
+            "formatted_date": "September 13, 1971"
+        },
+        "location": {
+            "street_address1": "Queens Road 53",
+            "city": "Uganda",
+            "county": "Kampala",
+            "state": "Central Region",
+            "country": "Kampala",
+            "latitude": 0.3151692,
+            "longitude": 32.5816313,
+            "formatted_location": "Queens Road 53, Uganda, Kampala, Central Region, Kampala"
+        }
+    }
+}

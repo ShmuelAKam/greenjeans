@@ -1,0 +1,23 @@
+{
+    "id": "document-47258026",
+    "guid": "6000000225687743860",
+    "created_at": "1779841847",
+    "updated_at": "1779841848",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258026",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 13,
+        "month": 11,
+        "year": 1989,
+        "formatted_date": "November 13, 1989"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258026"
+    }
+}

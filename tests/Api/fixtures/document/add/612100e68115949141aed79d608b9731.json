@@ -1,0 +1,27 @@
+{
+    "id": "document-47257731",
+    "guid": "6000000225687021847",
+    "created_at": "1779840259",
+    "updated_at": "1779840259",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257731",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 28,
+        "month": 5,
+        "year": 1908,
+        "formatted_date": "May 28, 1908"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257731"
+    }
+}

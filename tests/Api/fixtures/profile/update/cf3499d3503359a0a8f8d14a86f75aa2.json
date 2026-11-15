@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672864",
+    "public": false,
+    "name": "Oscar Cohen",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Oscar Cohen",
+        "date": {
+            "day": 6,
+            "month": 8,
+            "year": 1903,
+            "formatted_date": "August 6, 1903"
+        },
+        "location": {
+            "street_address1": "Church Road 89",
+            "city": "Sudan",
+            "county": "Khartoum",
+            "state": "Khartoum",
+            "country": "Khartoum",
+            "latitude": 15.597431,
+            "longitude": 32.535587,
+            "formatted_location": "Church Road 89, Sudan, Khartoum, Khartoum, Khartoum"
+        }
+    }
+}

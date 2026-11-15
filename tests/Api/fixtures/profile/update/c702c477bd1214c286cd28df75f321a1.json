@@ -1,0 +1,15 @@
+{
+    "id": "profile-34858739442",
+    "public": false,
+    "name": "Who Dunnit",
+    "is_alive": false,
+    "current_residence": {
+        "place_name": "Bet Haddasa",
+        "city": "Hebron",
+        "country": "Israel",
+        "country_code": "IL",
+        "latitude": 31.532569,
+        "longitude": 35.099826,
+        "formatted_location": "Bet Haddasa, Hebron, Israel"
+    }
+}

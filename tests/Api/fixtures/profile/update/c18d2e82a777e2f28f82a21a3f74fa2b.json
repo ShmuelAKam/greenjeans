@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672735",
+    "public": false,
+    "name": "Ivy Adri",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of Ivy Adri",
+        "date": {
+            "day": 6,
+            "month": 5,
+            "year": 1972,
+            "formatted_date": "May 6, 1972"
+        },
+        "location": {
+            "street_address1": "Park Avenue 87",
+            "city": "Tanzania",
+            "county": "Dodoma Urban",
+            "state": "Dodoma Region",
+            "country": "Dodoma",
+            "latitude": -6.1811245,
+            "longitude": 35.746877,
+            "formatted_location": "Park Avenue 87, Tanzania, Dodoma Urban, Dodoma Region, Dodoma"
+        }
+    }
+}

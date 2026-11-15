@@ -1,0 +1,27 @@
+{
+    "id": "union-128845891",
+    "url": "https:\/\/www.geni.com\/api\/union-128845891",
+    "guid": "6000000225687861888",
+    "divorce": {
+        "name": "Divorce of Estonia Vaknin and Harper Katz",
+        "date": {
+            "day": 15,
+            "month": 7,
+            "year": 2019,
+            "formatted_date": "July 15, 2019"
+        },
+        "location": {
+            "street_address1": "Kings Road 53",
+            "city": "Portugal",
+            "country": "Lisbon",
+            "latitude": 39.399872,
+            "longitude": -8.224454,
+            "formatted_location": "Kings Road 53, Portugal, Lisbon"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673439",
+        "https:\/\/www.geni.com\/api\/profile-34858673440"
+    ]
+}

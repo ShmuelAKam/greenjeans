@@ -1,0 +1,40 @@
+{
+    "id": "document-44888736",
+    "guid": "6000000222479901879",
+    "created_at": "1764279958",
+    "updated_at": "1764280019",
+    "content_type": "text\/html",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-44888736",
+    "source_url": "http:\/\/kam-motion.com\/Test\/files\/test-Doc-3.pdf",
+    "title": "SDK Uploaded test-Doc-3.pdf",
+    "date": {
+        "day": 20,
+        "month": 6,
+        "year": 1971,
+        "formatted_date": "June 20, 1971"
+    },
+    "location": {
+        "city": "Rehovot",
+        "county": "Rehovot",
+        "state": "Center District",
+        "country": "Israel",
+        "country_code": "IL",
+        "latitude": 31.8943652,
+        "longitude": 34.8115292,
+        "formatted_location": "Rehovot, Rehovot, Center District, Israel"
+    },
+    "labels": [
+        "Other"
+    ],
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/72\/01\/34\/c1\/53444869b92de4b7\/test-doc-3_large.png?hash=ced5982b1712bd22736057ccce7ff057473ebca7922513312d1a11ef1c086a69.1780729199",
+        "thumb": "https:\/\/media.geni.com\/p14\/72\/01\/34\/c1\/53444869b92de4b7\/test-doc-3_t.png?hash=7452367c886ffaba4860f404c247cd130f3491af119101baa4aaf849446dea85.1780729199",
+        "original": "https:\/\/media.geni.com\/p14\/72\/01\/34\/c1\/53444869b92de4b7\/test-doc-3_original.png?hash=0b98ed076930fe223f11562c24b63b8a8dfa26b6c47e851a9f35f91d4ab4f65a.1780729199",
+        "url": "https:\/\/www.geni.com\/api\/document-44888736"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190",
+        "https:\/\/www.geni.com\/api\/profile-34858919738"
+    ]
+}

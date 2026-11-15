@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672785",
+    "public": false,
+    "name": "Lottie Friedman",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Lottie Friedman",
+        "date": {
+            "day": 23,
+            "month": 12,
+            "year": 2001,
+            "formatted_date": "December 23, 2001"
+        },
+        "location": {
+            "street_address1": "Elm Street 65",
+            "city": "Angola",
+            "county": "Luanda",
+            "state": "Luanda Province",
+            "country": "Luanda",
+            "latitude": -8.8146556,
+            "longitude": 13.2301756,
+            "formatted_location": "Elm Street 65, Angola, Luanda, Luanda Province, Luanda"
+        }
+    }
+}

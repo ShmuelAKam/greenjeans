@@ -1,0 +1,27 @@
+{
+    "id": "document-47260346",
+    "guid": "6000000225689318906",
+    "created_at": "1779859680",
+    "updated_at": "1779859680",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260346",
+    "title": "Test getTitle - 27\/05\/2026",
+    "description": "From King George",
+    "date": {
+        "day": 20,
+        "month": 4,
+        "year": 1956,
+        "formatted_date": "April 20, 1956"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260346"
+    }
+}

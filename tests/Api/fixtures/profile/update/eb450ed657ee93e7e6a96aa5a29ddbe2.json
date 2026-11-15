@@ -1,0 +1,26 @@
+{
+    "id": "profile-34858672790",
+    "public": false,
+    "name": "Alfie Malkah",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Alfie Malkah",
+        "date": {
+            "day": 17,
+            "month": 12,
+            "year": 1943,
+            "formatted_date": "December 17, 1943"
+        },
+        "location": {
+            "street_address1": "Victoria Road 90",
+            "city": "Poland",
+            "county": "Warsaw",
+            "state": "Masovian Voivodeship",
+            "country": "Warsaw",
+            "postal_code": "03",
+            "latitude": 52.2296756,
+            "longitude": 21.0122287,
+            "formatted_location": "Victoria Road 90, Poland, Warsaw, Masovian Voivodeship, 03, Warsaw"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "profile-34858678697",
+    "public": true,
+    "name": "Who Dunnit",
+    "is_alive": false,
+    "current_residence": {
+        "street_address1": "Ahad Haam 21",
+        "city": "Rehovot",
+        "county": "Rehovot",
+        "state": "Center District",
+        "country": "Israel",
+        "country_code": "IL",
+        "latitude": 31.8982112,
+        "longitude": 34.8116073,
+        "formatted_location": "Ahad Haam 21, Rehovot, Rehovot, Center District, Israel"
+    }
+}

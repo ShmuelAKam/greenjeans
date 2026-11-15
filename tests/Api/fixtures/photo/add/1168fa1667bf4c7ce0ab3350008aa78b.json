@@ -1,0 +1,27 @@
+{
+    "id": "photo-51986925",
+    "guid": "6000000225689452849",
+    "created_at": "1779859984",
+    "updated_at": "1779859984",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986925",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 15,
+        "month": 7,
+        "year": 1998,
+        "formatted_date": "July 15, 1998"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/e4\/d7\/5d\/e6\/5344486a787bc131\/file-sdk-4_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/e4\/d7\/5d\/e6\/5344486a787bc131\/file-sdk-4_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/e4\/d7\/5d\/e6\/5344486a787bc131\/file-sdk-4_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/e4\/d7\/5d\/e6\/5344486a787bc131\/file-sdk-4_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/e4\/d7\/5d\/e6\/5344486a787bc131\/file-sdk-4_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/e4\/d7\/5d\/e6\/5344486a787bc131\/file-sdk-4_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/e4\/d7\/5d\/e6\/5344486a787bc131\/file-sdk-4_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986925"
+    }
+}

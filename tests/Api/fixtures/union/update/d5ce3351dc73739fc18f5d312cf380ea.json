@@ -1,0 +1,61 @@
+{
+    "id": "union-128847606",
+    "url": "https:\/\/www.geni.com\/api\/union-128847606",
+    "guid": "6000000225689889889",
+    "marriage_date": {
+        "day": 1,
+        "month": 7,
+        "year": 1989,
+        "formatted_date": "July 1, 1989"
+    },
+    "marriage_location": {
+        "street_address1": "Hill Street 99",
+        "city": "Belgium",
+        "state": "Brussels",
+        "country": "Brussels",
+        "latitude": 50.8477029,
+        "longitude": 4.3572001,
+        "formatted_location": "Hill Street 99, Belgium, Brussels, Brussels"
+    },
+    "divorce": {
+        "name": "Divorce of James Levy and Sophia Avraham",
+        "date": {
+            "day": 17,
+            "month": 2,
+            "year": 1961,
+            "formatted_date": "February 17, 1961"
+        },
+        "location": {
+            "street_address1": "Green Lane 23",
+            "city": "Algeria",
+            "state": "Algiers Province",
+            "country": "Algiers",
+            "latitude": 36.753768,
+            "longitude": 3.0587561,
+            "formatted_location": "Green Lane 23, Algeria, Algiers Province, Algiers"
+        }
+    },
+    "marriage": {
+        "name": "Marriage of James Levy and Sophia Avraham",
+        "date": {
+            "day": 1,
+            "month": 7,
+            "year": 1989,
+            "formatted_date": "July 1, 1989"
+        },
+        "location": {
+            "street_address1": "Hill Street 99",
+            "city": "Belgium",
+            "state": "Brussels",
+            "country": "Brussels",
+            "latitude": 50.8477029,
+            "longitude": 4.3572001,
+            "formatted_location": "Hill Street 99, Belgium, Brussels, Brussels"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679316",
+        "https:\/\/www.geni.com\/api\/profile-34858679315"
+    ]
+}

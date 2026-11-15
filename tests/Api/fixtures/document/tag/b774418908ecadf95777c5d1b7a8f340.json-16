@@ -1,0 +1,15 @@
+{
+    "results": [
+        {
+            "id": "profile-34861419255",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419255",
+            "public": true,
+            "name": "Sophia Levy",
+            "first_name": "Sophia",
+            "last_name": "Levy",
+            "gender": "female",
+            "is_alive": false
+        }
+    ],
+    "total_count": 1
+}

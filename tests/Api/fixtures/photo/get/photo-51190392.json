@@ -1,0 +1,28 @@
+{
+    "album_id": "6000000222544428842",
+    "attribution": "Uncle Sam",
+    "content_type": "image\/jpeg",
+    "created_at": "1764625637",
+    "guid": "6000000222544428846",
+    "id": "photo-51190392",
+    "title": "File-SDK-4.png",
+    "updated_at": "1764634043",
+    "url": "https:\/\/www.geni.com\/api\/photo-51190392",
+    "date": {
+        "year": 2001,
+        "month": "01",
+        "day": "01"
+    },
+    "location": {
+        "country": "United States",
+        "city": "Atlantic City"
+    },
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/89\/61\/5b\/7a\/53444869bd067f2e\/file-sdk-4_large.jpg?hash=74ecd17f49b2be7a572f0e158b9e1be841fcf9776994ec79c5a31653aa99e6ba.1782370799",
+        "medium": "https:\/\/media.geni.com\/p14\/89\/61\/5b\/7a\/53444869bd067f2e\/file-sdk-4_medium.jpg?hash=ecb940c18a77db7a90107728879295e3df145155e7eb751e2c53d6db76e4fe63.1782370799",
+        "print": "https:\/\/media.geni.com\/p14\/89\/61\/5b\/7a\/53444869bd067f2e\/file-sdk-4_print.jpg?hash=fd4f17332f7db295395c081b26eb7459fd79b0edbba23df2d801d847446d3601.1782370799",
+        "small": "https:\/\/media.geni.com\/p14\/89\/61\/5b\/7a\/53444869bd067f2e\/file-sdk-4_small.jpg?hash=92b6d16b327eebbb3978cc630f731285a887f8551df18e14ba23875be5bf95a5.1782370799",
+        "thumb": "https:\/\/media.geni.com\/p14\/89\/61\/5b\/7a\/53444869bd067f2e\/file-sdk-4_t.jpg?hash=965125b2faf015d31f879bdd8b39c195f702834a0b2dc9dc8102efb4e2eb0fc3.1782370799",
+        "thumb2": "https:\/\/media.geni.com\/p14\/89\/61\/5b\/7a\/53444869bd067f2e\/file-sdk-4_t2.jpg?hash=68719baac7d477f9c2e8d70fb3db0155d5fd3a5cc8680b20061adccc19c7b35e.1782370799"
+    }
+}

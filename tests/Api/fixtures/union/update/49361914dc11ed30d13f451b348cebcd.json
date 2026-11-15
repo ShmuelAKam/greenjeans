@@ -1,0 +1,30 @@
+{
+    "id": "union-128847670",
+    "url": "https:\/\/www.geni.com\/api\/union-128847670",
+    "guid": "6000000225689722094",
+    "divorce": {
+        "name": "Divorce of Louie Shapiro and Daisy Weiss",
+        "date": {
+            "day": 17,
+            "month": 2,
+            "year": 1926,
+            "formatted_date": "February 17, 1926"
+        },
+        "location": {
+            "street_address1": "The Avenue 56",
+            "city": "United Kingdom",
+            "county": "Greater London",
+            "state": "England",
+            "country": "London",
+            "postal_code": "NW6 7NP",
+            "latitude": 51.5402742,
+            "longitude": -0.2119263,
+            "formatted_location": "The Avenue 56, United Kingdom, Greater London, England, NW6 7NP, London"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679525",
+        "https:\/\/www.geni.com\/api\/profile-34858679526"
+    ]
+}

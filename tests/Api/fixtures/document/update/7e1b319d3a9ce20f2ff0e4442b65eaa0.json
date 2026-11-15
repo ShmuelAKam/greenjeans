@@ -1,0 +1,30 @@
+{
+    "id": "document-47494099",
+    "guid": "6000000226042457987",
+    "created_at": "1781270265",
+    "updated_at": "1781270265",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47494099",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 2,
+        "month": 1,
+        "year": 2016,
+        "formatted_date": "January 2, 2016"
+    },
+    "labels": [
+        "rather vague",
+        "perfectly concise",
+        "deeply insightful",
+        "Bla Bla",
+        "USA"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47494099"
+    }
+}

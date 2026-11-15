@@ -1,0 +1,117 @@
+{
+  "id": "profile-4095031",
+  "url": "https://www.geni.com/api/profile-4095031",
+  "profile_url": "https://www.geni.com/people/Seth/6000000006375916501",
+  "public": true,
+  "guid": "6000000006375916501",
+  "first_name": "Seth",
+  "maiden_name": ".",
+  "last_name": ".",
+  "name": "Seth .",
+  "is_alive": false,
+  "locked": true,
+  "master_profile": true,
+  "gender": "male",
+  "created_by": "https://www.geni.com/api/profile-9288190",
+  "claimed": false,
+  "curator": "https://www.geni.com/api/profile-9288190",
+  "mugshot_urls": {
+    "large": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_large.jpg?hash=de0b9bd0af6c0bf15e8cc2b5fe529adb3c276cf23a42ea962e19acbdc6d17667.1786085999",
+    "medium": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_medium.jpg?hash=232c0a863922cb62d3ac9d4e888d752f57e4276bf3ee7e5edcf487a45e40f376.1786085999",
+    "small": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_small.jpg?hash=9222d4da1231ac17d961b3c2de8159af994a3a01751a2294fb456223cc1edfb2.1786085999",
+    "thumb": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_t.jpg?hash=c9db05e9725cf64ac183fd92251e1a775f4f202171e1b5f4c83c96fc1d0162a1.1786085999",
+    "print": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_print.jpg?hash=da68d4bdf48a8a6f66dbceaca1c5989f78d00cb112e87f3c47031b7dfe4885e7.1786085999",
+    "thumb2": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_t2.jpg?hash=ed6ab25be8869adb6a9d66fd4c948178498f69f6d6177041d43e94e79afc3fc6.1786085999",
+    "original": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_original.jpg?hash=0a1fb1a4fc8b52b8643e756e5d915ce6b08af94c842d86d340702783c9de2bb4.1786085999",
+    "url": "https://www.geni.com/api/photo-30860468"
+  },
+  "unions": [
+    "https://www.geni.com/api/union-36290190",
+    "https://www.geni.com/api/union-19124527"
+  ],
+  "marriage_orders": {
+    "6000000003828491354": 0
+  },
+  "birth_order": 1,
+  "names": {
+    "en-US": {
+      "first_name": "Seth",
+      "last_name": ".",
+      "maiden_name": ".",
+      "nicknames": "Sis"
+    },
+    "he": {
+      "first_name": "שת"
+    },
+    "ar": {
+      "first_name": "شيث"
+    },
+    "et": {
+      "first_name": "Sett"
+    },
+    "es": {
+      "first_name": "Set",
+      "nicknames": "Uno de los Poderosos en el Mundo de los Espiritus"
+    }
+  },
+  "living": false,
+  "creator": "https://www.geni.com/api/user-1444024",
+  "account_type": "basic",
+  "birth": {
+    "name": "Birth of Seth .",
+    "description": "Génesis 5\r\nReina-Valera 1960 (RVR1960)\r\nLos descendientes de Adán\r\n(1 Cr. 1.1-4)\r\n\r\n3 Y vivió Adán ciento treinta años, y engendró un hijo a su semejanza, conforme a su imagen, y llamó su nombre Set.",
+    "date": {
+      "year": -3630,
+      "formatted_date": "-3630"
+    },
+    "location": {
+      "place_name": "Olaha, Shinehah",
+      "formatted_location": "Olaha, Shinehah"
+    }
+  },
+  "death": {
+    "name": "Death of Seth . at East of Eden",
+    "description": "Génesis 5\r\nReina-Valera 1960 (RVR1960)\r\nLos descendientes de Adán\r\n(1 Cr. 1.1-4)\r\n\r\n7 Y vivió Set, después que engendró a Enós, ochocientos siete años, y engendró hijos e hijas.\r\n\r\n8 Y fueron todos los días de Set novecientos doce años; y murió.",
+    "date": {
+      "year": -2718,
+      "formatted_date": "-2718"
+    },
+    "location": {
+      "place_name": "East of Eden",
+      "formatted_location": "East of Eden"
+    }
+  },
+  "nicknames": [
+    "Sis"
+  ],
+  "photo_urls": {
+    "large": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_large.jpg?hash=de0b9bd0af6c0bf15e8cc2b5fe529adb3c276cf23a42ea962e19acbdc6d17667.1786085999",
+    "medium": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_medium.jpg?hash=232c0a863922cb62d3ac9d4e888d752f57e4276bf3ee7e5edcf487a45e40f376.1786085999",
+    "small": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_small.jpg?hash=9222d4da1231ac17d961b3c2de8159af994a3a01751a2294fb456223cc1edfb2.1786085999",
+    "thumb": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_t.jpg?hash=c9db05e9725cf64ac183fd92251e1a775f4f202171e1b5f4c83c96fc1d0162a1.1786085999",
+    "print": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_print.jpg?hash=da68d4bdf48a8a6f66dbceaca1c5989f78d00cb112e87f3c47031b7dfe4885e7.1786085999",
+    "thumb2": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_t2.jpg?hash=ed6ab25be8869adb6a9d66fd4c948178498f69f6d6177041d43e94e79afc3fc6.1786085999",
+    "original": "https://media.geni.com/p13/de/fa/d7/b6/5344483b71a93526/xiz95jeh_original.jpg?hash=0a1fb1a4fc8b52b8643e756e5d915ce6b08af94c842d86d340702783c9de2bb4.1786085999",
+    "url": "https://www.geni.com/api/photo-30860468"
+  },
+  "created_at": "1169084804",
+  "updated_at": "1766017605",
+  "documents_updated_at": "1544469383",
+  "photos_updated_at": "1764894645",
+  "deleted": false,
+  "project_ids": [
+    "project-4504495",
+    "project-12495",
+    "project-2380",
+    "project-2305",
+    "project-12283",
+    "project-10927",
+    "project-8193",
+    "project-1055",
+    "project-38"
+  ],
+  "is_curator": false,
+  "managers": [
+    "https:\/\/www.geni.com\/api\/profile-9288190"
+  ]
+}

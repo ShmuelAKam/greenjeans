@@ -1,0 +1,25 @@
+{
+    "id": "photo-51987133",
+    "guid": "6000000225689662930",
+    "created_at": "1779861397",
+    "updated_at": "1779861398",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51987133",
+    "title": "Creation of Adam",
+    "description": "6th Day of Creation",
+    "date": {
+        "year": 1508,
+        "formatted_date": "1508"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/e1\/76\/9f\/d9\/5344486a787ef5d2\/file-sdk-michelangelo-creation_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/e1\/76\/9f\/d9\/5344486a787ef5d2\/file-sdk-michelangelo-creation_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/e1\/76\/9f\/d9\/5344486a787ef5d2\/file-sdk-michelangelo-creation_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/e1\/76\/9f\/d9\/5344486a787ef5d2\/file-sdk-michelangelo-creation_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/e1\/76\/9f\/d9\/5344486a787ef5d2\/file-sdk-michelangelo-creation_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/e1\/76\/9f\/d9\/5344486a787ef5d2\/file-sdk-michelangelo-creation_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/e1\/76\/9f\/d9\/5344486a787ef5d2\/file-sdk-michelangelo-creation_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51987133"
+    }
+}

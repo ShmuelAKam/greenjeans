@@ -1,0 +1,26 @@
+{
+    "id": "profile-34858678647",
+    "public": false,
+    "name": "Teddy Avraham",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Teddy Avraham",
+        "date": {
+            "day": 26,
+            "month": 11,
+            "year": 1981,
+            "formatted_date": "November 26, 1981"
+        },
+        "location": {
+            "street_address1": "Washington Street 95",
+            "city": "Poland",
+            "county": "Warsaw",
+            "state": "Masovian Voivodeship",
+            "country": "Warsaw",
+            "postal_code": "03",
+            "latitude": 52.2296756,
+            "longitude": 21.0122287,
+            "formatted_location": "Washington Street 95, Poland, Warsaw, Masovian Voivodeship, 03, Warsaw"
+        }
+    }
+}

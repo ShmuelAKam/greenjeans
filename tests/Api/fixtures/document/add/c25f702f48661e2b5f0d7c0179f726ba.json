@@ -1,0 +1,21 @@
+{
+    "id": "document-47260373",
+    "guid": "6000000225689136014",
+    "created_at": "1779859694",
+    "updated_at": "1779859696",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260373",
+    "title": "Test getTitle - 27\/05\/2026",
+    "date": {
+        "day": 8,
+        "month": 2,
+        "year": 1945,
+        "formatted_date": "February 8, 1945"
+    },
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/f8\/89\/fc\/e4\/5344486a7876eb8e\/test_doc_4_original.pdf?hash=aec5294d3946b01378d93df3bb3e623651a124d59b8b037a23ac5ebc5f54a83b.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260373"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": "video-154006",
+    "guid": "6000000225687928840",
+    "created_at": "1779844993",
+    "updated_at": "1779844995",
+    "url": "https:\/\/www.geni.com\/api\/video-154006",
+    "title": "Title",
+    "date": {
+        "day": 10,
+        "month": 12,
+        "year": 1964,
+        "formatted_date": "December 10, 1964"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/88\/cf\/d5\/99\/5344486a78648008\/5344486a78648008_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/88\/cf\/d5\/99\/5344486a78648008\/5344486a78648008_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/88\/cf\/d5\/99\/5344486a78648008\/5344486a78648008_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/88\/cf\/d5\/99\/5344486a78648008\/5344486a78648008_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/88\/cf\/d5\/99\/5344486a78648008\/5344486a78648008_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/88\/cf\/d5\/99\/5344486a78648008\/5344486a78648008.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154006"
+    }
+}

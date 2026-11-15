@@ -1,0 +1,28 @@
+{
+    "id": "union-128845941",
+    "url": "https:\/\/www.geni.com\/api\/union-128845941",
+    "guid": "6000000225687905838",
+    "divorce": {
+        "name": "Divorce of Jaxon Ashknazi and Noah Adri",
+        "date": {
+            "day": 12,
+            "month": 4,
+            "year": 1971,
+            "formatted_date": "April 12, 1971"
+        },
+        "location": {
+            "street_address1": "Windsor Road 25",
+            "city": "Ethiopia",
+            "state": "Addis Ababa",
+            "country": "Addis Ababa",
+            "latitude": 9.0191936,
+            "longitude": 38.7524635,
+            "formatted_location": "Windsor Road 25, Ethiopia, Addis Ababa, Addis Ababa"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673623",
+        "https:\/\/www.geni.com\/api\/profile-34858673622"
+    ]
+}

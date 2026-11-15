@@ -1,0 +1,31 @@
+{
+    "id": "photo-51987060",
+    "guid": "6000000225689538951",
+    "created_at": "1779861012",
+    "updated_at": "1779861013",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51987060",
+    "title": "Three",
+    "description": "Cord of three is not quickly broken",
+    "date": {
+        "day": 9,
+        "month": 3,
+        "year": 1923,
+        "formatted_date": "March 9, 1923"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/af\/5a\/cd\/40\/5344486a787d1187\/file-sdk-3_large.jpg?hash=2e40e3a360c98983f3f39277117a226588c995a301cd6005f8634d05b14729a0.1779951599",
+        "medium": "https:\/\/media.geni.com\/p14\/af\/5a\/cd\/40\/5344486a787d1187\/file-sdk-3_medium.jpg?hash=0984050fdb7ad5aca620c6de0deca5f47b879c393fd7c2f6490a6580a782b5ad.1779951599",
+        "small": "https:\/\/media.geni.com\/p14\/af\/5a\/cd\/40\/5344486a787d1187\/file-sdk-3_small.jpg?hash=cb1851a7b9b315f5cdca31297f09a5c9be9c4a076a0f5b2e35a6d5008858f033.1779951599",
+        "thumb": "https:\/\/media.geni.com\/p14\/af\/5a\/cd\/40\/5344486a787d1187\/file-sdk-3_t.jpg?hash=9547d84b3dbf5e7034c62bfc3cb19c3a5cee7dd61e126b03920feb757f9ba8a2.1779951599",
+        "print": "https:\/\/media.geni.com\/p14\/af\/5a\/cd\/40\/5344486a787d1187\/file-sdk-3_print.jpg?hash=9da0b979a445b8f37e747469826eb5d75cd0a231e66b24ca637af619cdc091ba.1779951599",
+        "thumb2": "https:\/\/media.geni.com\/p14\/af\/5a\/cd\/40\/5344486a787d1187\/file-sdk-3_t2.jpg?hash=05f04b650540960983fe5bdf8f8e64715d3e01148014af18dfdc559c12945500.1779951599",
+        "original": "https:\/\/media.geni.com\/p14\/af\/5a\/cd\/40\/5344486a787d1187\/file-sdk-3_original.jpg?hash=238e2926fc1338477586d220dbdf50f14bb290ac50b09cef09858edf0aa35c2b.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/photo-51987060"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190",
+        "https:\/\/www.geni.com\/api\/profile-34858677794"
+    ]
+}

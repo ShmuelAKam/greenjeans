@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858672734",
+    "public": true,
+    "name": "Teddy Segel",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of Teddy Segel",
+        "date": {
+            "day": 2,
+            "month": 2,
+            "year": 1935,
+            "formatted_date": "February 2, 1935"
+        },
+        "location": {
+            "street_address1": "Cedar Street 55",
+            "city": "South Africa",
+            "country": "Pretoria",
+            "latitude": -33.2492993,
+            "longitude": 27.4233344,
+            "formatted_location": "Cedar Street 55, South Africa, Pretoria"
+        }
+    }
+}

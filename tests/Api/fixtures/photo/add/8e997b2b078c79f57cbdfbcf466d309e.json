@@ -1,0 +1,27 @@
+{
+    "id": "photo-51986968",
+    "guid": "6000000225689333914",
+    "created_at": "1779860213",
+    "updated_at": "1779860214",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986968",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 25,
+        "month": 12,
+        "year": 1933,
+        "formatted_date": "December 25, 1933"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/9c\/f7\/cd\/73\/5344486a7879f09a\/file-sdk-4_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/9c\/f7\/cd\/73\/5344486a7879f09a\/file-sdk-4_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/9c\/f7\/cd\/73\/5344486a7879f09a\/file-sdk-4_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/9c\/f7\/cd\/73\/5344486a7879f09a\/file-sdk-4_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/9c\/f7\/cd\/73\/5344486a7879f09a\/file-sdk-4_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/9c\/f7\/cd\/73\/5344486a7879f09a\/file-sdk-4_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/9c\/f7\/cd\/73\/5344486a7879f09a\/file-sdk-4_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986968"
+    }
+}

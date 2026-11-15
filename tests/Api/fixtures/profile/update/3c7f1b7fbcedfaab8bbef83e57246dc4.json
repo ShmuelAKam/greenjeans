@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678648",
+    "public": true,
+    "name": "Florence Avraham",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Florence Avraham",
+        "date": {
+            "day": 22,
+            "month": 5,
+            "year": 1964,
+            "formatted_date": "May 22, 1964"
+        },
+        "location": {
+            "street_address1": "Station Road 33",
+            "city": "Finland",
+            "country": "Helsinki",
+            "latitude": 61.92411,
+            "longitude": 25.7481511,
+            "formatted_location": "Station Road 33, Finland, Helsinki"
+        }
+    }
+}

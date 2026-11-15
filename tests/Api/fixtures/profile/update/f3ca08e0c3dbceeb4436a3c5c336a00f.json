@@ -1,0 +1,26 @@
+{
+    "id": "profile-34858672844",
+    "public": false,
+    "name": "Rosie Bitton",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Rosie Bitton",
+        "date": {
+            "day": 23,
+            "month": 4,
+            "year": 1942,
+            "formatted_date": "April 23, 1942"
+        },
+        "location": {
+            "street_address1": "Washington Street 18",
+            "city": "Nigeria",
+            "county": "Abuja Municipal Area Council",
+            "state": "Federal Capital Territory",
+            "country": "Abuja",
+            "postal_code": "900108",
+            "latitude": 9.1224713,
+            "longitude": 7.3716056,
+            "formatted_location": "Washington Street 18, Nigeria, Abuja Municipal Area Council, Federal Capital Territory, 900108, Abuja"
+        }
+    }
+}

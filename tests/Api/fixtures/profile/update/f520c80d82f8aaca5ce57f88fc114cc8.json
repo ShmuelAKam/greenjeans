@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678589",
+    "public": true,
+    "name": "Saudi Arabia Bitton",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of Saudi Arabia Bitton",
+        "date": {
+            "day": 28,
+            "month": 9,
+            "year": 1969,
+            "formatted_date": "September 28, 1969"
+        },
+        "location": {
+            "street_address1": "Fifth Avenue 47",
+            "city": "Tanzania",
+            "county": "Dodoma Urban",
+            "state": "Dodoma Region",
+            "country": "Dodoma",
+            "latitude": -6.1811245,
+            "longitude": 35.746877,
+            "formatted_location": "Fifth Avenue 47, Tanzania, Dodoma Urban, Dodoma Region, Dodoma"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "id": "document-47260133",
+    "guid": "6000000225689371826",
+    "created_at": "1779859438",
+    "updated_at": "1779859441",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260133",
+    "title": "Second",
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/01\/9c\/6d\/23\/5344486a787a84b2\/test-doc-2_original.pdf?hash=b0991237b1262fd60b2468d265860ed0edf7ebfd5d7c97d07392a59ace6b38dd.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260133"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": "video-153978",
+    "guid": "6000000225687961821",
+    "created_at": "1779844844",
+    "updated_at": "1779844846",
+    "url": "https:\/\/www.geni.com\/api\/video-153978",
+    "title": "Title",
+    "date": {
+        "day": 1,
+        "month": 11,
+        "year": 1944,
+        "formatted_date": "November 1, 1944"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/af\/e6\/63\/ee\/5344486a786500dd\/5344486a786500dd_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/af\/e6\/63\/ee\/5344486a786500dd\/5344486a786500dd_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/af\/e6\/63\/ee\/5344486a786500dd\/5344486a786500dd_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/af\/e6\/63\/ee\/5344486a786500dd\/5344486a786500dd_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/af\/e6\/63\/ee\/5344486a786500dd\/5344486a786500dd_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/af\/e6\/63\/ee\/5344486a786500dd\/5344486a786500dd.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153978"
+    }
+}

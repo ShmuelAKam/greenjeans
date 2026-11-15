@@ -1,0 +1,26 @@
+{
+    "id": "document-47258246",
+    "guid": "6000000225687874829",
+    "created_at": "1779843588",
+    "updated_at": "1779843588",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258246",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 17,
+        "month": 9,
+        "year": 1932,
+        "formatted_date": "September 17, 1932"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258246"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672737",
+    "public": false,
+    "name": "Daisy Dahan",
+    "is_alive": true,
+    "birth": {
+        "name": "Birth of Daisy Dahan",
+        "date": {
+            "day": 28,
+            "month": 11,
+            "year": 1946,
+            "formatted_date": "November 28, 1946"
+        },
+        "location": {
+            "street_address1": "View Street 12",
+            "city": "Uganda",
+            "county": "Kampala",
+            "state": "Central Region",
+            "country": "Kampala",
+            "latitude": 0.3151692,
+            "longitude": 32.5816313,
+            "formatted_location": "View Street 12, Uganda, Kampala, Central Region, Kampala"
+        }
+    }
+}

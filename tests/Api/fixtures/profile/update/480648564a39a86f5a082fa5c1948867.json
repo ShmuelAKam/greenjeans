@@ -1,0 +1,39 @@
+{
+    "id": "profile-34858739097",
+    "public": true,
+    "first_name": "Seth",
+    "middle_name": "Test Profile",
+    "maiden_name": ".",
+    "last_name": ".",
+    "name": "Seth Test Profile .",
+    "is_alive": false,
+    "current_residence": {
+        "place_name": "Patrician's Palace",
+        "street_address1": "City Square",
+        "city": "Ankh-Morpork",
+        "country": "Discworld",
+        "formatted_location": "Patrician&#39;s Palace, City Square, Ankh-Morpork, Discworld"
+    },
+    "birth": {
+        "name": "Birth of Seth Test Profile .",
+        "date": {
+            "year": -3630,
+            "formatted_date": "-3630"
+        },
+        "location": {
+            "place_name": "Olaha, Shinehah",
+            "formatted_location": "Olaha, Shinehah"
+        }
+    },
+    "death": {
+        "name": "Death of Seth Test Profile . at East of Eden",
+        "date": {
+            "year": -2718,
+            "formatted_date": "-2718"
+        },
+        "location": {
+            "place_name": "East of Eden",
+            "formatted_location": "East of Eden"
+        }
+    }
+}

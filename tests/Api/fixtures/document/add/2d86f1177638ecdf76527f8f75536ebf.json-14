@@ -1,0 +1,26 @@
+{
+    "id": "document-48513259",
+    "guid": "6000000227276323844",
+    "created_at": "1786914322",
+    "updated_at": "1786914323",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-48513259",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 9,
+        "month": 7,
+        "year": 1994,
+        "formatted_date": "July 9, 1994"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-48513259"
+    }
+}

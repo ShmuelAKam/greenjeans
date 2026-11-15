@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672884",
+    "public": true,
+    "name": "Grace Mizrahi",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of Grace Mizrahi",
+        "date": {
+            "day": 11,
+            "month": 8,
+            "year": 1903,
+            "formatted_date": "August 11, 1903"
+        },
+        "location": {
+            "street_address1": "Park Road 38",
+            "city": "Botswana",
+            "county": "Gaborone",
+            "state": "South-East District",
+            "country": "Gaborone",
+            "latitude": -24.6580003,
+            "longitude": 25.9077037,
+            "formatted_location": "Park Road 38, Botswana, Gaborone, South-East District, Gaborone"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678562",
+    "public": false,
+    "name": "Oscar Gaby",
+    "is_alive": true,
+    "birth": {
+        "name": "Birth of Oscar Gaby",
+        "date": {
+            "day": 2,
+            "month": 10,
+            "year": 1974,
+            "formatted_date": "October 2, 1974"
+        },
+        "location": {
+            "street_address1": "Kings Road 77",
+            "city": "Spain",
+            "county": "Madrid",
+            "state": "Community of Madrid",
+            "country": "Madrid",
+            "latitude": 40.4167279,
+            "longitude": -3.7032905,
+            "formatted_location": "Kings Road 77, Spain, Madrid, Community of Madrid, Madrid"
+        }
+    }
+}

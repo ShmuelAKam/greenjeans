@@ -1,0 +1,29 @@
+{
+  "inlaw_distance": 0,
+  "relations": [
+    {
+      "name": "Adam of Eden",
+      "url": "https://www.geni.com/api/profile-53597431"
+    },
+    {
+      "name": "Seth .",
+      "relation": "son",
+      "url": "https://www.geni.com/api/profile-4095031"
+    },
+    {
+      "name": "Enosh .",
+      "relation": "son",
+      "url": "https://www.geni.com/api/profile-4094989"
+    },
+    {
+      "name": "Cainan .",
+      "relation": "son",
+      "url": "https://www.geni.com/api/profile-4094860"
+    }
+  ],
+  "relationship": "great grandson",
+  "status": "done",
+  "step_count": 3,
+  "url": "https://www.geni.com/path/Adam-of-Eden+is+related+to+Cainan?from=6000000003538706117&path_type=blood&to=6000000000190220038"
+}
+

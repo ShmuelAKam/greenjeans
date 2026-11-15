@@ -1,0 +1,29 @@
+{
+    "id": "document-47260218",
+    "guid": "6000000225689313858",
+    "created_at": "1779859569",
+    "updated_at": "1779859570",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260218",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 26,
+        "month": 5,
+        "year": 1943,
+        "formatted_date": "May 26, 1943"
+    },
+    "labels": [
+        "too long",
+        "outdated info",
+        "well structured",
+        "highly professional"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260218"
+    }
+}

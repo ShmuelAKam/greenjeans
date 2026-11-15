@@ -1,0 +1,18 @@
+{
+    "id": "profile-34858738749",
+    "public": true,
+    "first_name": "Serpent",
+    "middle_name": "Sneaky",
+    "last_name": "Bastard",
+    "name": "Serpent Sneaky Bastard",
+    "is_alive": false,
+    "gender": "male",
+    "about_me": "Test profile. Please ignore.\r\n",
+    "birth": {
+        "name": "Birth of Serpent Sneaky Bastard",
+        "date": {
+            "year": -3760,
+            "formatted_date": "-3760"
+        }
+    }
+}

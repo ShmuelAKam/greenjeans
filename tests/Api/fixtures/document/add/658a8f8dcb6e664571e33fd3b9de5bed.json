@@ -1,0 +1,27 @@
+{
+    "id": "document-47257842",
+    "guid": "6000000225687621875",
+    "created_at": "1779840423",
+    "updated_at": "1779840423",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257842",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 25,
+        "month": 4,
+        "year": 1996,
+        "formatted_date": "April 25, 1996"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257842"
+    }
+}

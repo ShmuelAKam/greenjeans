@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672763",
+    "public": false,
+    "name": "Germany Lavyan",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Germany Lavyan",
+        "date": {
+            "day": 13,
+            "month": 7,
+            "year": 2010,
+            "formatted_date": "July 13, 2010"
+        },
+        "location": {
+            "street_address1": "Grange Road 38",
+            "city": "Switzerland",
+            "county": "Bern-Mittelland District",
+            "state": "Canton of Bern",
+            "country": "Bern",
+            "latitude": 46.9479739,
+            "longitude": 7.4474468,
+            "formatted_location": "Grange Road 38, Switzerland, Bern-Mittelland District, Canton of Bern, Bern"
+        }
+    }
+}

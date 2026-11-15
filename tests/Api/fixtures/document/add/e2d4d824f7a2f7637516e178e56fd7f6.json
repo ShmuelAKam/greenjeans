@@ -1,0 +1,22 @@
+{
+    "id": "document-47258005",
+    "guid": "6000000225687701910",
+    "created_at": "1779841827",
+    "updated_at": "1779841827",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258005",
+    "title": "Title",
+    "date": {
+        "day": 20,
+        "month": 3,
+        "year": 1906,
+        "formatted_date": "March 20, 1906"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258005"
+    }
+}

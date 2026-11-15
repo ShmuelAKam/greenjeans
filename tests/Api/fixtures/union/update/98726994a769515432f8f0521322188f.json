@@ -1,0 +1,45 @@
+{
+    "id": "union-128845936",
+    "url": "https:\/\/www.geni.com\/api\/union-128845936",
+    "guid": "6000000225687848860",
+    "marriage_date": {
+        "day": 8,
+        "month": 11,
+        "year": 1937,
+        "formatted_date": "November 8, 1937"
+    },
+    "marriage_location": {
+        "street_address1": "Park Road 64",
+        "city": "Morocco",
+        "county": "Rabat",
+        "state": "Rabat-Sal\u00e9-K\u00e9nitra",
+        "country": "Rabat",
+        "latitude": 34.0083637,
+        "longitude": -6.8538748,
+        "formatted_location": "Park Road 64, Morocco, Rabat, Rabat-Sal\u00e9-K\u00e9nitra, Rabat"
+    },
+    "marriage": {
+        "name": "Marriage of Oscar Azulay and Nicaragua Yaakov",
+        "date": {
+            "day": 8,
+            "month": 11,
+            "year": 1937,
+            "formatted_date": "November 8, 1937"
+        },
+        "location": {
+            "street_address1": "Park Road 64",
+            "city": "Morocco",
+            "county": "Rabat",
+            "state": "Rabat-Sal\u00e9-K\u00e9nitra",
+            "country": "Rabat",
+            "latitude": 34.0083637,
+            "longitude": -6.8538748,
+            "formatted_location": "Park Road 64, Morocco, Rabat, Rabat-Sal\u00e9-K\u00e9nitra, Rabat"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673612",
+        "https:\/\/www.geni.com\/api\/profile-34858673613"
+    ]
+}

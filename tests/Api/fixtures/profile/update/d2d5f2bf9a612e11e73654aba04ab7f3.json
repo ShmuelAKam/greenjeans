@@ -1,0 +1,26 @@
+{
+    "id": "profile-34858678575",
+    "public": false,
+    "name": "Lithuania Shapiro",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of Lithuania Shapiro",
+        "date": {
+            "day": 9,
+            "month": 3,
+            "year": 1954,
+            "formatted_date": "March 9, 1954"
+        },
+        "location": {
+            "street_address1": "Lake Street 8",
+            "city": "Tunisia",
+            "county": "M\u00e9dina",
+            "state": "Tunis Governorate",
+            "country": "Tunis",
+            "country_code": "TN",
+            "latitude": 36.8064948,
+            "longitude": 10.1815316,
+            "formatted_location": "Lake Street 8, Tunisia, M\u00e9dina, Tunis Governorate, Tunis (Tunisia)"
+        }
+    }
+}

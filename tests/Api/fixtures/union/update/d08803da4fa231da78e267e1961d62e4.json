@@ -1,0 +1,45 @@
+{
+    "id": "union-128845938",
+    "url": "https:\/\/www.geni.com\/api\/union-128845938",
+    "guid": "6000000225687863891",
+    "marriage_date": {
+        "day": 10,
+        "month": 1,
+        "year": 1938,
+        "formatted_date": "January 10, 1938"
+    },
+    "marriage_location": {
+        "street_address1": "Hill Street 34",
+        "city": "Italy",
+        "county": "Metropolitan City of Rome Capital",
+        "state": "Lazio",
+        "country": "Rome",
+        "latitude": 41.8967068,
+        "longitude": 12.4822025,
+        "formatted_location": "Hill Street 34, Italy, Metropolitan City of Rome Capital, Lazio, Rome"
+    },
+    "marriage": {
+        "name": "Marriage of Serbia Dahan and Kazakhstan Ohayon",
+        "date": {
+            "day": 10,
+            "month": 1,
+            "year": 1938,
+            "formatted_date": "January 10, 1938"
+        },
+        "location": {
+            "street_address1": "Hill Street 34",
+            "city": "Italy",
+            "county": "Metropolitan City of Rome Capital",
+            "state": "Lazio",
+            "country": "Rome",
+            "latitude": 41.8967068,
+            "longitude": 12.4822025,
+            "formatted_location": "Hill Street 34, Italy, Metropolitan City of Rome Capital, Lazio, Rome"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673616",
+        "https:\/\/www.geni.com\/api\/profile-34858673617"
+    ]
+}

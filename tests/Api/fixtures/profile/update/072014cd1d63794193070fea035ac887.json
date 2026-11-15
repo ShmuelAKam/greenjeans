@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858678608",
+    "public": false,
+    "name": "Harrison Weiss",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Harrison Weiss",
+        "date": {
+            "day": 29,
+            "month": 4,
+            "year": 1985,
+            "formatted_date": "April 29, 1985"
+        },
+        "location": {
+            "street_address1": "Manor Road 92",
+            "city": "Algeria",
+            "state": "Algiers Province",
+            "country": "Algiers",
+            "latitude": 36.753768,
+            "longitude": 3.0587561,
+            "formatted_location": "Manor Road 92, Algeria, Algiers Province, Algiers"
+        }
+    }
+}

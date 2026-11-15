@@ -1,0 +1,29 @@
+{
+  "inlaw_distance": 1,
+  "relations": [
+    {
+      "name": "Noah .",
+      "url": "https://www.geni.com/api/profile-3917277"
+    },
+    {
+      "name": "Naamah .",
+      "relation": "wife",
+      "url": "https://www.geni.com/api/profile-4094581"
+    },
+    {
+      "name": "Enoch / Idris",
+      "relation": "father",
+      "url": "https://www.geni.com/api/profile-3917300"
+    },
+    {
+      "name": "Jared .",
+      "relation": "father",
+      "url": "https://www.geni.com/api/profile-3917310"
+    }
+  ],
+  "relationship": "wife's grandfather",
+  "status": "done",
+  "step_count": 3,
+  "url": "https://www.geni.com/path/Noah+is+related+to+Jared?from=6000000002145556219&path_type=inlaw&to=6000000001048812668"
+}
+

@@ -1,0 +1,24 @@
+{
+    "id": "video-154130",
+    "guid": "6000000225690130828",
+    "created_at": "1779864403",
+    "updated_at": "1779864404",
+    "url": "https:\/\/www.geni.com\/api\/video-154130",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 8,
+        "month": 3,
+        "year": 1906,
+        "formatted_date": "March 8, 1906"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/81\/39\/6a\/6c\/5344486a7886198c\/5344486a7886198c_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/81\/39\/6a\/6c\/5344486a7886198c\/5344486a7886198c_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/81\/39\/6a\/6c\/5344486a7886198c\/5344486a7886198c_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/81\/39\/6a\/6c\/5344486a7886198c\/5344486a7886198c_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/81\/39\/6a\/6c\/5344486a7886198c\/5344486a7886198c_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/81\/39\/6a\/6c\/5344486a7886198c\/5344486a7886198c.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154130"
+    }
+}

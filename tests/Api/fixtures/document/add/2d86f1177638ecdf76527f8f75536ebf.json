@@ -1,0 +1,26 @@
+{
+    "id": "document-47493933",
+    "guid": "6000000226042542871",
+    "created_at": "1781269791",
+    "updated_at": "1781269791",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47493933",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 26,
+        "month": 2,
+        "year": 1985,
+        "formatted_date": "February 26, 1985"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47493933"
+    }
+}

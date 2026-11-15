@@ -1,0 +1,26 @@
+{
+    "album_id": "6000000222544428842",
+    "attribution": "Michelangelo",
+    "content_type": "image\/jpeg",
+    "created_at": "1764625639",
+    "guid": "6000000222544428850",
+    "id": "photo-51190396",
+    "title": "File-SDK-Michelangelo-Creation.jpg",
+    "updated_at": "1765407946",
+    "url": "https:\/\/www.geni.com\/api\/photo-51190396",
+    "date": {
+        "year": 1510
+    },
+    "location": {
+        "country": "Italy",
+        "city": "Rome"
+    },
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/4b\/2d\/6b\/e6\/53444869bd067f32\/file_sdk-michelangelo-creation_large.jpg?hash=62c18045a7827dc89e8cf86d5e69ab11a44b88b86f37e7ea6fe5ff38772080a5.1782370799",
+        "medium": "https:\/\/media.geni.com\/p14\/4b\/2d\/6b\/e6\/53444869bd067f32\/file_sdk-michelangelo-creation_medium.jpg?hash=bdbdd27c051bd185bd28d9615c4223a9d2372d52aac3384142db5847887cd6e1.1782370799",
+        "print": "https:\/\/media.geni.com\/p14\/4b\/2d\/6b\/e6\/53444869bd067f32\/file_sdk-michelangelo-creation_print.jpg?hash=debf8bc977cbc42cbe9f378df578d5284bc8018f5dfc94e9ae6492938010cf38.1782370799",
+        "small": "https:\/\/media.geni.com\/p14\/4b\/2d\/6b\/e6\/53444869bd067f32\/file_sdk-michelangelo-creation_small.jpg?hash=f32e76e9564dc7931992e026acebf746dce8767dc30569465df065d848c4dc1a.1782370799",
+        "thumb": "https:\/\/media.geni.com\/p14\/4b\/2d\/6b\/e6\/53444869bd067f32\/file_sdk-michelangelo-creation_t.jpg?hash=c04ed0faf5872ce94c748ed109c3c1bbc41dcafbcbb4c200daca6f55b691ccbf.1782370799",
+        "thumb2": "https:\/\/media.geni.com\/p14\/4b\/2d\/6b\/e6\/53444869bd067f32\/file_sdk-michelangelo-creation_t2.jpg?hash=123cfe8be7957f37678bcc9e1eef7e13d96510de4fe2aa44bf309116988852ff.1782370799"
+    }
+}

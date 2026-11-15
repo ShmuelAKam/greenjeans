@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678595",
+    "public": false,
+    "name": "Ezra Lavyan",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Ezra Lavyan",
+        "date": {
+            "day": 19,
+            "month": 12,
+            "year": 1960,
+            "formatted_date": "December 19, 1960"
+        },
+        "location": {
+            "street_address1": "Manor Road 1",
+            "city": "Zimbabwe",
+            "county": "Harare",
+            "state": "Harare Province",
+            "country": "Harare",
+            "latitude": -17.8262928,
+            "longitude": 31.0503723,
+            "formatted_location": "Manor Road 1, Zimbabwe, Harare, Harare Province, Harare"
+        }
+    }
+}

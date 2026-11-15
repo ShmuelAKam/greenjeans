@@ -1,0 +1,25 @@
+{
+    "id": "document-47260214",
+    "guid": "6000000225689332850",
+    "created_at": "1779859565",
+    "updated_at": "1779859566",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260214",
+    "title": "Title",
+    "date": {
+        "day": 17,
+        "month": 11,
+        "year": 1944,
+        "formatted_date": "November 17, 1944"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260214"
+    }
+}

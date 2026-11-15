@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678683",
+    "public": false,
+    "name": "Germany Ashknazi",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Germany Ashknazi",
+        "date": {
+            "day": 15,
+            "month": 10,
+            "year": 2014,
+            "formatted_date": "October 15, 2014"
+        },
+        "location": {
+            "street_address1": "Manor Road 53",
+            "city": "Portugal",
+            "country": "Lisbon",
+            "latitude": 39.399872,
+            "longitude": -8.224454,
+            "formatted_location": "Manor Road 53, Portugal, Lisbon"
+        }
+    }
+}

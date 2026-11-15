@@ -1,0 +1,25 @@
+{
+    "id": "document-47258242",
+    "guid": "6000000225687757115",
+    "created_at": "1779843584",
+    "updated_at": "1779843584",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258242",
+    "title": "Title",
+    "date": {
+        "day": 27,
+        "month": 5,
+        "year": 2012,
+        "formatted_date": "May 27, 2012"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258242"
+    }
+}

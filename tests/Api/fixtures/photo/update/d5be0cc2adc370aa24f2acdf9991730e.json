@@ -1,0 +1,27 @@
+{
+    "id": "photo-51986311",
+    "guid": "6000000225687702830",
+    "created_at": "1779841239",
+    "updated_at": "1779841249",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986311",
+    "title": "Testitle",
+    "description": "Testing getUpdatedAt",
+    "date": {
+        "day": 16,
+        "month": 9,
+        "year": 1938,
+        "formatted_date": "September 16, 1938"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/dc\/3e\/d2\/ac\/5344486a78610d2e\/file-sdk-raphael-athens_large.jpg?hash=60dd800fa7bb9bcbcd99dd396e0e5fbf441d8233057caa5827eb3cfc6b11f9a8.1779951599",
+        "medium": "https:\/\/media.geni.com\/p14\/dc\/3e\/d2\/ac\/5344486a78610d2e\/file-sdk-raphael-athens_medium.jpg?hash=3abffc451db86d9251fa334f0a1c87aae5d3991384b95a3b6938e1053d6ff385.1779951599",
+        "small": "https:\/\/media.geni.com\/p14\/dc\/3e\/d2\/ac\/5344486a78610d2e\/file-sdk-raphael-athens_small.jpg?hash=87b91dd3cc7f723fda0b7db078bf044ea96d695b1aa0b28313dd3ec30f3fff6a.1779951599",
+        "thumb": "https:\/\/media.geni.com\/p14\/dc\/3e\/d2\/ac\/5344486a78610d2e\/file-sdk-raphael-athens_t.jpg?hash=770677f4d2447d441cc812dab93433aa259a77683ba5a70cfdceae9d0e789604.1779951599",
+        "print": "https:\/\/media.geni.com\/p14\/dc\/3e\/d2\/ac\/5344486a78610d2e\/file-sdk-raphael-athens_print.jpg?hash=c7cab729cdca735b3d94c57138ee3a90a193befbcb4bcd6bf5d7e07518e2e739.1779951599",
+        "thumb2": "https:\/\/media.geni.com\/p14\/dc\/3e\/d2\/ac\/5344486a78610d2e\/file-sdk-raphael-athens_t2.jpg?hash=cd3a1877df93922808c42ccc2e000735b65a4d34c91e37d4e0efeaf61cc69291.1779951599",
+        "original": "https:\/\/media.geni.com\/p14\/dc\/3e\/d2\/ac\/5344486a78610d2e\/file-sdk-raphael-athens_original.jpg?hash=818702b97c8eefdf84cc96cd7c2cf2d1f2718d2a03644e722158c7f3ef6aff1e.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986311"
+    }
+}

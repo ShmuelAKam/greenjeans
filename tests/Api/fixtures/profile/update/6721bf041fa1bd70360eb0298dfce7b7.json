@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858672783",
+    "public": false,
+    "name": "Poland Moshe",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Poland Moshe",
+        "date": {
+            "day": 29,
+            "month": 8,
+            "year": 2016,
+            "formatted_date": "August 29, 2016"
+        },
+        "location": {
+            "street_address1": "Lake Street 45",
+            "city": "Ukraine",
+            "country": "Kyiv",
+            "latitude": 48.379433,
+            "longitude": 31.1655799,
+            "formatted_location": "Lake Street 45, Ukraine, Kyiv"
+        }
+    }
+}

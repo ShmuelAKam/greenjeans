@@ -1,0 +1,35 @@
+{
+    "results": [
+        {
+            "id": "profile-34861419553",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419553",
+            "public": false,
+            "name": "Oakley Friedman",
+            "first_name": "Oakley",
+            "last_name": "Friedman",
+            "gender": "male",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34861419559",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419559",
+            "public": false,
+            "name": "Amelia Segel",
+            "first_name": "Amelia",
+            "last_name": "Segel",
+            "gender": "female",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34861419572",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419572",
+            "public": false,
+            "name": "Riley Yosef",
+            "first_name": "Riley",
+            "last_name": "Yosef",
+            "gender": "male",
+            "is_alive": true
+        }
+    ],
+    "total_count": 3
+}

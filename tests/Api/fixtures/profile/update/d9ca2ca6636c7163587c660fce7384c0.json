@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672751",
+    "public": false,
+    "name": "Hunter Ashknazi",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of Hunter Ashknazi",
+        "date": {
+            "day": 12,
+            "month": 7,
+            "year": 1942,
+            "formatted_date": "July 12, 1942"
+        },
+        "location": {
+            "street_address1": "London Road 39",
+            "city": "Chad",
+            "county": "N'Djam\u00e9na",
+            "state": "N'Djamena",
+            "country": "N'Djamena",
+            "latitude": 12.1191352,
+            "longitude": 15.0502875,
+            "formatted_location": "London Road 39, Chad, N&#39;Djam\u00e9na, N&#39;Djamena, N&#39;Djamena"
+        }
+    }
+}

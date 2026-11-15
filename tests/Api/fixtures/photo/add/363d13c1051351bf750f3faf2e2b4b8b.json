@@ -1,0 +1,27 @@
+{
+    "id": "photo-51986907",
+    "guid": "6000000225689313896",
+    "created_at": "1779859876",
+    "updated_at": "1779859877",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986907",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 22,
+        "month": 2,
+        "year": 1929,
+        "formatted_date": "February 22, 1929"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/83\/95\/05\/88\/5344486a7879a268\/test_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/83\/95\/05\/88\/5344486a7879a268\/test_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/83\/95\/05\/88\/5344486a7879a268\/test_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/83\/95\/05\/88\/5344486a7879a268\/test_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/83\/95\/05\/88\/5344486a7879a268\/test_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/83\/95\/05\/88\/5344486a7879a268\/test_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/83\/95\/05\/88\/5344486a7879a268\/test_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986907"
+    }
+}

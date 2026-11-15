@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678602",
+    "public": false,
+    "name": "Kuwait Omer",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Kuwait Omer",
+        "date": {
+            "day": 26,
+            "month": 7,
+            "year": 2004,
+            "formatted_date": "July 26, 2004"
+        },
+        "location": {
+            "street_address1": "Elm Street 39",
+            "city": "Austria",
+            "country": "Vienna",
+            "latitude": 47.516231,
+            "longitude": 14.550072,
+            "formatted_location": "Elm Street 39, Austria, Vienna"
+        }
+    }
+}

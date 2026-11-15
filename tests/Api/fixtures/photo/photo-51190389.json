@@ -1,0 +1,31 @@
+{
+    "album_id": "6000000222544428842",
+    "attribution": "S.A.K",
+    "content_type": "image\/jpeg",
+    "created_at": "1764625636",
+    "guid": "6000000222544428843",
+    "id": "photo-51190389",
+    "title": "File-SDK-1.jpg",
+    "updated_at": "1782028918",
+    "url": "https:\/\/www.geni.com\/api\/photo-51190389",
+    "date": {
+        "year": 1971,
+        "month": "06",
+        "day": "20"
+    },
+    "location": {
+        "country": "Israel",
+        "city": "Kiryat Ono"
+    },
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/23\/f8\/83\/95\/53444869bd067f2b\/file-sdk-1_large.jpg?hash=d50adf86ca5e9e25d12a9fed0fe26a6268ed8d72af3bc5f7e0f392671167264b.1782370799",
+        "medium": "https:\/\/media.geni.com\/p14\/23\/f8\/83\/95\/53444869bd067f2b\/file-sdk-1_medium.jpg?hash=f1f1aa9b03f2b314e713d524ce19846968f8527daf67593081fa0aee84301da5.1782370799",
+        "print": "https:\/\/media.geni.com\/p14\/23\/f8\/83\/95\/53444869bd067f2b\/file-sdk-1_print.jpg?hash=b8211b0465942c738e112e8cf5f9c081d07fecb1d869d4bafb080edb5867399a.1782370799",
+        "small": "https:\/\/media.geni.com\/p14\/23\/f8\/83\/95\/53444869bd067f2b\/file-sdk-1_small.jpg?hash=cdd1335da0a45eb0fb46ec32ba5441729f8d6a9e4a12a9fb7612442ea425f59c.1782370799",
+        "thumb": "https:\/\/media.geni.com\/p14\/23\/f8\/83\/95\/53444869bd067f2b\/file-sdk-1_t.jpg?hash=23c119f038fa92d3b72fa4fa12b6340c05fe41297c6b8df70273802d268fef2c.1782370799",
+        "thumb2": "https:\/\/media.geni.com\/p14\/23\/f8\/83\/95\/53444869bd067f2b\/file-sdk-1_t2.jpg?hash=4e0d71da287076674d168509e21e2c43c43439487a77875d0dcb9f05e162b2bf.1782370799"
+    },
+    "tags": {
+        "1": true
+    }
+}

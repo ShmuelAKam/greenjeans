@@ -1,0 +1,29 @@
+{
+    "id": "union-128845945",
+    "url": "https:\/\/www.geni.com\/api\/union-128845945",
+    "guid": "6000000225687892875",
+    "divorce": {
+        "name": "Divorce of Vietnam Yosef and Scarlett Reuben",
+        "date": {
+            "day": 24,
+            "month": 7,
+            "year": 2006,
+            "formatted_date": "July 24, 2006"
+        },
+        "location": {
+            "street_address1": "Kings Road 51",
+            "city": "Spain",
+            "county": "Madrid",
+            "state": "Community of Madrid",
+            "country": "Madrid",
+            "latitude": 40.4167279,
+            "longitude": -3.7032905,
+            "formatted_location": "Kings Road 51, Spain, Madrid, Community of Madrid, Madrid"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673630",
+        "https:\/\/www.geni.com\/api\/profile-34858673631"
+    ]
+}

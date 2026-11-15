@@ -1,0 +1,45 @@
+{
+    "id": "union-128845939",
+    "url": "https:\/\/www.geni.com\/api\/union-128845939",
+    "guid": "6000000225687805074",
+    "marriage_date": {
+        "day": 21,
+        "month": 3,
+        "year": 1974,
+        "formatted_date": "March 21, 1974"
+    },
+    "marriage_location": {
+        "street_address1": "Station Road 10",
+        "city": "Chad",
+        "county": "N'Djam\u00e9na",
+        "state": "N'Djamena",
+        "country": "N'Djamena",
+        "latitude": 12.1191352,
+        "longitude": 15.0502875,
+        "formatted_location": "Station Road 10, Chad, N&#39;Djam\u00e9na, N&#39;Djamena, N&#39;Djamena"
+    },
+    "marriage": {
+        "name": "Marriage of Alfie Gaby and Singapore Avraham",
+        "date": {
+            "day": 21,
+            "month": 3,
+            "year": 1974,
+            "formatted_date": "March 21, 1974"
+        },
+        "location": {
+            "street_address1": "Station Road 10",
+            "city": "Chad",
+            "county": "N'Djam\u00e9na",
+            "state": "N'Djamena",
+            "country": "N'Djamena",
+            "latitude": 12.1191352,
+            "longitude": 15.0502875,
+            "formatted_location": "Station Road 10, Chad, N&#39;Djam\u00e9na, N&#39;Djamena, N&#39;Djamena"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673619",
+        "https:\/\/www.geni.com\/api\/profile-34858673618"
+    ]
+}

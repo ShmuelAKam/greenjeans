@@ -1,0 +1,21 @@
+{
+    "id": "document-47260269",
+    "guid": "6000000225689313859",
+    "created_at": "1779859624",
+    "updated_at": "1779859626",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260269",
+    "title": "Forth ",
+    "date": {
+        "day": 25,
+        "month": 7,
+        "year": 1992,
+        "formatted_date": "July 25, 1992"
+    },
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/f6\/16\/33\/bb\/5344486a7879a243\/test_doc_4_original.pdf?hash=ddf3b88824c7a2c82e8cab78545e7722096154be742a02a63f93887eed0bdb33.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260269"
+    }
+}

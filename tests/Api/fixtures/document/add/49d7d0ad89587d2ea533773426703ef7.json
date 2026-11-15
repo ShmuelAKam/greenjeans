@@ -1,0 +1,25 @@
+{
+    "id": "document-47258007",
+    "guid": "6000000225687705926",
+    "created_at": "1779841829",
+    "updated_at": "1779841829",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258007",
+    "title": "Title",
+    "date": {
+        "day": 15,
+        "month": 12,
+        "year": 2008,
+        "formatted_date": "December 15, 2008"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258007"
+    }
+}

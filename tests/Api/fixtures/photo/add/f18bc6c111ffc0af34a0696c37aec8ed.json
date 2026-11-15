@@ -1,0 +1,26 @@
+{
+    "id": "photo-51986195",
+    "guid": "6000000225687598899",
+    "created_at": "1779840720",
+    "updated_at": "1779840721",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986195",
+    "title": "Title",
+    "date": {
+        "day": 19,
+        "month": 1,
+        "year": 1973,
+        "formatted_date": "January 19, 1973"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/10\/6a\/b4\/45\/5344486a785f7733\/file-sdk-2_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/10\/6a\/b4\/45\/5344486a785f7733\/file-sdk-2_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/10\/6a\/b4\/45\/5344486a785f7733\/file-sdk-2_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/10\/6a\/b4\/45\/5344486a785f7733\/file-sdk-2_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/10\/6a\/b4\/45\/5344486a785f7733\/file-sdk-2_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/10\/6a\/b4\/45\/5344486a785f7733\/file-sdk-2_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/10\/6a\/b4\/45\/5344486a785f7733\/file-sdk-2_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986195"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "video-154059",
+    "guid": "6000000225689319174",
+    "created_at": "1779861428",
+    "updated_at": "1779861429",
+    "url": "https:\/\/www.geni.com\/api\/video-154059",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 7,
+        "month": 3,
+        "year": 1955,
+        "formatted_date": "March 7, 1955"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/b0\/c2\/94\/41\/5344486a7879b706\/5344486a7879b706_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/b0\/c2\/94\/41\/5344486a7879b706\/5344486a7879b706_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/b0\/c2\/94\/41\/5344486a7879b706\/5344486a7879b706_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/b0\/c2\/94\/41\/5344486a7879b706\/5344486a7879b706_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/b0\/c2\/94\/41\/5344486a7879b706\/5344486a7879b706_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/b0\/c2\/94\/41\/5344486a7879b706\/5344486a7879b706.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154059"
+    }
+}

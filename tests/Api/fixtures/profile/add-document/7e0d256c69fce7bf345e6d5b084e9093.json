@@ -1,0 +1,29 @@
+{
+    "id": "document-47260632",
+    "guid": "6000000225689331027",
+    "created_at": "1779860988",
+    "updated_at": "1779860988",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260632",
+    "title": "US Constitution",
+    "description": "Non-equal rights",
+    "date": {
+        "day": 23,
+        "month": 10,
+        "year": 1927,
+        "formatted_date": "October 23, 1927"
+    },
+    "labels": [
+        "United States"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260632"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-34858677781"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "video-154081",
+    "guid": "6000000225689606962",
+    "created_at": "1779861505",
+    "updated_at": "1779861506",
+    "url": "https:\/\/www.geni.com\/api\/video-154081",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 7,
+        "month": 8,
+        "year": 1974,
+        "formatted_date": "August 7, 1974"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/2d\/6b\/2f\/5d\/5344486a787e1b32\/5344486a787e1b32_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/2d\/6b\/2f\/5d\/5344486a787e1b32\/5344486a787e1b32_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/2d\/6b\/2f\/5d\/5344486a787e1b32\/5344486a787e1b32_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/2d\/6b\/2f\/5d\/5344486a787e1b32\/5344486a787e1b32_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/2d\/6b\/2f\/5d\/5344486a787e1b32\/5344486a787e1b32_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/2d\/6b\/2f\/5d\/5344486a787e1b32\/5344486a787e1b32.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154081"
+    }
+}

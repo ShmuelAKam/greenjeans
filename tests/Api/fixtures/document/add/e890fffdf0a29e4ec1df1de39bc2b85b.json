@@ -1,0 +1,21 @@
+{
+    "id": "document-47260252",
+    "guid": "6000000225689318877",
+    "created_at": "1779859616",
+    "updated_at": "1779859618",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260252",
+    "title": "Second",
+    "date": {
+        "day": 5,
+        "month": 9,
+        "year": 1981,
+        "formatted_date": "September 5, 1981"
+    },
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/95\/d6\/4f\/31\/5344486a7879b5dd\/test-doc-2_original.pdf?hash=bfdb1197327b0f2ea9e10a6db00b649ac0c51935dea85af5a694b04bdd6bc5a9.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260252"
+    }
+}

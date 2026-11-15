@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672867",
+    "public": false,
+    "name": "Finley Moshe",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Finley Moshe",
+        "date": {
+            "day": 29,
+            "month": 10,
+            "year": 2006,
+            "formatted_date": "October 29, 2006"
+        },
+        "location": {
+            "street_address1": "Kingsway 18",
+            "city": "Morocco",
+            "county": "Rabat",
+            "state": "Rabat-Sal\u00e9-K\u00e9nitra",
+            "country": "Rabat",
+            "latitude": 34.0083637,
+            "longitude": -6.8538748,
+            "formatted_location": "Kingsway 18, Morocco, Rabat, Rabat-Sal\u00e9-K\u00e9nitra, Rabat"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "id": "video-154363",
+    "guid": "6000000225731406042",
+    "created_at": "1780014300",
+    "updated_at": "1780014301",
+    "url": "https:\/\/www.geni.com\/api\/video-154363",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 25,
+        "month": 2,
+        "year": 1924,
+        "formatted_date": "February 25, 1924"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/eb\/5f\/fa\/11\/5344486a7afbe8da\/5344486a7afbe8da_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/eb\/5f\/fa\/11\/5344486a7afbe8da\/5344486a7afbe8da_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/eb\/5f\/fa\/11\/5344486a7afbe8da\/5344486a7afbe8da_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/eb\/5f\/fa\/11\/5344486a7afbe8da\/5344486a7afbe8da_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/eb\/5f\/fa\/11\/5344486a7afbe8da\/5344486a7afbe8da_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/eb\/5f\/fa\/11\/5344486a7afbe8da\/5344486a7afbe8da.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154363"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190",
+        "https:\/\/www.geni.com\/api\/profile-34858738799"
+    ]
+}

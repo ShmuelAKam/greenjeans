@@ -1,0 +1,45 @@
+{
+    "id": "union-128868437",
+    "url": "https:\/\/www.geni.com\/api\/union-128868437",
+    "guid": "6000000225732056853",
+    "marriage_date": {
+        "day": 26,
+        "month": 5,
+        "year": 1905,
+        "formatted_date": "May 26, 1905"
+    },
+    "marriage_location": {
+        "street_address1": "Queens Road 5",
+        "city": "Netherlands",
+        "county": "Government of Amsterdam",
+        "state": "North Holland",
+        "country": "Amsterdam",
+        "latitude": 52.3675734,
+        "longitude": 4.9041389,
+        "formatted_location": "Queens Road 5, Netherlands, Government of Amsterdam, North Holland, Amsterdam"
+    },
+    "marriage": {
+        "name": "Marriage of Saudi Arabia Moshe and Scarlett Levy",
+        "date": {
+            "day": 26,
+            "month": 5,
+            "year": 1905,
+            "formatted_date": "May 26, 1905"
+        },
+        "location": {
+            "street_address1": "Queens Road 5",
+            "city": "Netherlands",
+            "county": "Government of Amsterdam",
+            "state": "North Holland",
+            "country": "Amsterdam",
+            "latitude": 52.3675734,
+            "longitude": 4.9041389,
+            "formatted_location": "Queens Road 5, Netherlands, Government of Amsterdam, North Holland, Amsterdam"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858740083",
+        "https:\/\/www.geni.com\/api\/profile-34858740084"
+    ]
+}

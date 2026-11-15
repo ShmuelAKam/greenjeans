@@ -1,0 +1,31 @@
+{
+    "id": "document-47260209",
+    "guid": "6000000225689335875",
+    "created_at": "1779859561",
+    "updated_at": "1779859562",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260209",
+    "title": "Title",
+    "description": "From King George",
+    "date": {
+        "day": 9,
+        "month": 8,
+        "year": 2001,
+        "formatted_date": "August 9, 2001"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla",
+        "badly formatted",
+        "crystal clear",
+        "super helpful",
+        "deeply insightful"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260209"
+    }
+}

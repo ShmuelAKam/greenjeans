@@ -1,0 +1,24 @@
+{
+    "id": "video-154181",
+    "guid": "6000000225689739126",
+    "created_at": "1779864680",
+    "updated_at": "1779864681",
+    "url": "https:\/\/www.geni.com\/api\/video-154181",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 13,
+        "month": 9,
+        "year": 1902,
+        "formatted_date": "September 13, 1902"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/4c\/f0\/7b\/c3\/5344486a78801f76\/5344486a78801f76_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/4c\/f0\/7b\/c3\/5344486a78801f76\/5344486a78801f76_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/4c\/f0\/7b\/c3\/5344486a78801f76\/5344486a78801f76_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/4c\/f0\/7b\/c3\/5344486a78801f76\/5344486a78801f76_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/4c\/f0\/7b\/c3\/5344486a78801f76\/5344486a78801f76_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/4c\/f0\/7b\/c3\/5344486a78801f76\/5344486a78801f76.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154181"
+    }
+}

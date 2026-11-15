@@ -1,0 +1,23 @@
+{
+    "id": "document-47257738",
+    "guid": "6000000225687629834",
+    "created_at": "1779840278",
+    "updated_at": "1779840278",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257738",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 24,
+        "month": 2,
+        "year": 1939,
+        "formatted_date": "February 24, 1939"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257738"
+    }
+}

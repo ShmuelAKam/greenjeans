@@ -1,0 +1,26 @@
+{
+    "id": "document-47260188",
+    "guid": "6000000225689284889",
+    "created_at": "1779859491",
+    "updated_at": "1779859491",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260188",
+    "title": "US Constitution",
+    "description": "Non-equal rights",
+    "date": {
+        "day": 3,
+        "month": 4,
+        "year": 1973,
+        "formatted_date": "April 3, 1973"
+    },
+    "labels": [
+        "United States"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260188"
+    }
+}

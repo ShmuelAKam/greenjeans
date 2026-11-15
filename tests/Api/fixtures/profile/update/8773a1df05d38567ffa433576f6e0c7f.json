@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672771",
+    "public": false,
+    "name": "Slovakia Isaac",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Slovakia Isaac",
+        "date": {
+            "day": 7,
+            "month": 11,
+            "year": 1923,
+            "formatted_date": "November 7, 1923"
+        },
+        "location": {
+            "street_address1": "Hill Street 25",
+            "city": "Zambia",
+            "county": "Lusaka",
+            "state": "Lusaka Province",
+            "country": "Lusaka",
+            "latitude": -15.4154677,
+            "longitude": 28.2773267,
+            "formatted_location": "Hill Street 25, Zambia, Lusaka, Lusaka Province, Lusaka"
+        }
+    }
+}

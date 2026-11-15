@@ -1,0 +1,23 @@
+{
+    "id": "video-154197",
+    "guid": "6000000225690228830",
+    "created_at": "1779864779",
+    "updated_at": "1779864781",
+    "url": "https:\/\/www.geni.com\/api\/video-154197",
+    "title": "Title",
+    "date": {
+        "day": 7,
+        "month": 5,
+        "year": 1961,
+        "formatted_date": "May 7, 1961"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/1c\/1d\/3d\/ee\/5344486a7887985e\/5344486a7887985e_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/1c\/1d\/3d\/ee\/5344486a7887985e\/5344486a7887985e_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/1c\/1d\/3d\/ee\/5344486a7887985e\/5344486a7887985e_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/1c\/1d\/3d\/ee\/5344486a7887985e\/5344486a7887985e_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/1c\/1d\/3d\/ee\/5344486a7887985e\/5344486a7887985e_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/1c\/1d\/3d\/ee\/5344486a7887985e\/5344486a7887985e.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154197"
+    }
+}

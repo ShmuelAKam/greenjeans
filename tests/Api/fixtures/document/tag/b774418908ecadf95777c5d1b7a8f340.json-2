@@ -1,0 +1,15 @@
+{
+    "results": [
+        {
+            "id": "profile-34861419532",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419532",
+            "public": false,
+            "name": "Grayson Katz",
+            "first_name": "Grayson",
+            "last_name": "Katz",
+            "gender": "male",
+            "is_alive": true
+        }
+    ],
+    "total_count": 1
+}

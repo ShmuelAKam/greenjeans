@@ -1,0 +1,23 @@
+{
+    "id": "document-47260748",
+    "guid": "6000000225689319122",
+    "created_at": "1779861204",
+    "updated_at": "1779861204",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260748",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 30,
+        "month": 11,
+        "year": 1943,
+        "formatted_date": "November 30, 1943"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260748"
+    }
+}

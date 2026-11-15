@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672765",
+    "public": false,
+    "name": "Luna Adri",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Luna Adri",
+        "date": {
+            "day": 27,
+            "month": 8,
+            "year": 1981,
+            "formatted_date": "August 27, 1981"
+        },
+        "location": {
+            "street_address1": "Pine Street 83",
+            "city": "Tanzania",
+            "county": "Dodoma Urban",
+            "state": "Dodoma Region",
+            "country": "Dodoma",
+            "latitude": -6.1811245,
+            "longitude": 35.746877,
+            "formatted_location": "Pine Street 83, Tanzania, Dodoma Urban, Dodoma Region, Dodoma"
+        }
+    }
+}

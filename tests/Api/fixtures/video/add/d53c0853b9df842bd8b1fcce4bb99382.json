@@ -1,0 +1,24 @@
+{
+    "id": "video-154158",
+    "guid": "6000000225690241821",
+    "created_at": "1779864573",
+    "updated_at": "1779864575",
+    "url": "https:\/\/www.geni.com\/api\/video-154158",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 3,
+        "month": 12,
+        "year": 1962,
+        "formatted_date": "December 3, 1962"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/7c\/ed\/05\/b9\/5344486a7887cb1d\/5344486a7887cb1d_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/7c\/ed\/05\/b9\/5344486a7887cb1d\/5344486a7887cb1d_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/7c\/ed\/05\/b9\/5344486a7887cb1d\/5344486a7887cb1d_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/7c\/ed\/05\/b9\/5344486a7887cb1d\/5344486a7887cb1d_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/7c\/ed\/05\/b9\/5344486a7887cb1d\/5344486a7887cb1d_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/7c\/ed\/05\/b9\/5344486a7887cb1d\/5344486a7887cb1d.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154158"
+    }
+}

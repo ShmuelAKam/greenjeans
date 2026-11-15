@@ -1,0 +1,21 @@
+{
+    "id": "document-47260319",
+    "guid": "6000000225689371837",
+    "created_at": "1779859663",
+    "updated_at": "1779859666",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260319",
+    "title": "Second",
+    "date": {
+        "day": 24,
+        "month": 1,
+        "year": 2010,
+        "formatted_date": "January 24, 2010"
+    },
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/9d\/01\/89\/50\/5344486a787a84bd\/test-doc-2_original.pdf?hash=5b7901781430a3e7a474dbf587042c2128e37021deafe6473eacba085dda662c.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260319"
+    }
+}

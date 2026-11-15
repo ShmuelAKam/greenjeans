@@ -1,0 +1,24 @@
+{
+    "id": "video-154195",
+    "guid": "6000000225690203867",
+    "created_at": "1779864754",
+    "updated_at": "1779864756",
+    "url": "https:\/\/www.geni.com\/api\/video-154195",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 31,
+        "month": 8,
+        "year": 1963,
+        "formatted_date": "August 31, 1963"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/92\/61\/44\/c4\/5344486a788736db\/5344486a788736db_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/92\/61\/44\/c4\/5344486a788736db\/5344486a788736db_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/92\/61\/44\/c4\/5344486a788736db\/5344486a788736db_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/92\/61\/44\/c4\/5344486a788736db\/5344486a788736db_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/92\/61\/44\/c4\/5344486a788736db\/5344486a788736db_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/92\/61\/44\/c4\/5344486a788736db\/5344486a788736db.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154195"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": "document-47260207",
+    "guid": "6000000225689317882",
+    "created_at": "1779859560",
+    "updated_at": "1779859560",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260207",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 11,
+        "month": 4,
+        "year": 1990,
+        "formatted_date": "April 11, 1990"
+    },
+    "labels": [
+        "totally accurate"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260207"
+    }
+}

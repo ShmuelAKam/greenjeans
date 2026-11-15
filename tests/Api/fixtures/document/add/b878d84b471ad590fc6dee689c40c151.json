@@ -1,0 +1,27 @@
+{
+    "id": "document-47260197",
+    "guid": "6000000225689332845",
+    "created_at": "1779859523",
+    "updated_at": "1779859523",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260197",
+    "title": "Magna Carta",
+    "description": "\"Great Charter\"",
+    "date": {
+        "day": 3,
+        "month": 7,
+        "year": 1924,
+        "formatted_date": "July 3, 1924"
+    },
+    "labels": [
+        "King",
+        "england"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260197"
+    }
+}

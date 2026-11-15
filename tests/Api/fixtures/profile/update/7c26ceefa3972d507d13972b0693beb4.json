@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678629",
+    "public": false,
+    "name": "Brazil Lavyan",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Brazil Lavyan",
+        "date": {
+            "day": 22,
+            "month": 11,
+            "year": 1962,
+            "formatted_date": "November 22, 1962"
+        },
+        "location": {
+            "street_address1": "Oak Street 34",
+            "city": "Denmark",
+            "country": "Copenhagen",
+            "latitude": 55.6760968,
+            "longitude": 12.5683371,
+            "formatted_location": "Oak Street 34, Denmark, Copenhagen"
+        }
+    }
+}

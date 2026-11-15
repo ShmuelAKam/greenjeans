@@ -1,0 +1,28 @@
+{
+    "id": "union-128845948",
+    "url": "https:\/\/www.geni.com\/api\/union-128845948",
+    "guid": "6000000225687865883",
+    "divorce": {
+        "name": "Divorce of Phoebe Mizrahi and Evelyn Dahan",
+        "date": {
+            "day": 4,
+            "month": 8,
+            "year": 1971,
+            "formatted_date": "August 4, 1971"
+        },
+        "location": {
+            "street_address1": "Park Avenue 62",
+            "city": "Namibia",
+            "state": "Khomas Region",
+            "country": "Windhoek",
+            "latitude": -22.5649344,
+            "longitude": 17.0842147,
+            "formatted_location": "Park Avenue 62, Namibia, Khomas Region, Windhoek"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673638",
+        "https:\/\/www.geni.com\/api\/profile-34858673639"
+    ]
+}

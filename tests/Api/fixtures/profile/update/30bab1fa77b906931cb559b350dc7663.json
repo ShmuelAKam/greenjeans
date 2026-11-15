@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678587",
+    "public": false,
+    "name": "Luxembourg Omer",
+    "is_alive": true,
+    "birth": {
+        "name": "Birth of Luxembourg Omer",
+        "date": {
+            "day": 1,
+            "month": 5,
+            "year": 1905,
+            "formatted_date": "May 1, 1905"
+        },
+        "location": {
+            "street_address1": "Second Street 66",
+            "city": "Mali",
+            "county": "Bamako",
+            "state": "Bamako Capital District",
+            "country": "Bamako",
+            "latitude": 12.6391699,
+            "longitude": -8.0025475,
+            "formatted_location": "Second Street 66, Mali, Bamako, Bamako Capital District, Bamako"
+        }
+    }
+}

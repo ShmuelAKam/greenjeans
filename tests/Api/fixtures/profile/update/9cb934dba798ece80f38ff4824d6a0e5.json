@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858672755",
+    "public": true,
+    "name": "El Salvador Mizrahi",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of El Salvador Mizrahi",
+        "date": {
+            "day": 8,
+            "month": 6,
+            "year": 1949,
+            "formatted_date": "June 8, 1949"
+        },
+        "location": {
+            "street_address1": "Station Road 34",
+            "city": "Namibia",
+            "state": "Khomas Region",
+            "country": "Windhoek",
+            "latitude": -22.5649344,
+            "longitude": 17.0842147,
+            "formatted_location": "Station Road 34, Namibia, Khomas Region, Windhoek"
+        }
+    }
+}

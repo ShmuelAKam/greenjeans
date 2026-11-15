@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858672885",
+    "public": false,
+    "name": "Reggie Azulay",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of Reggie Azulay",
+        "date": {
+            "day": 6,
+            "month": 7,
+            "year": 1998,
+            "formatted_date": "July 6, 1998"
+        },
+        "location": {
+            "street_address1": "Manor Road 66",
+            "city": "Kenya",
+            "state": "Nairobi County",
+            "country": "Nairobi",
+            "latitude": -1.2920659,
+            "longitude": 36.8219462,
+            "formatted_location": "Manor Road 66, Kenya, Nairobi County, Nairobi"
+        }
+    }
+}

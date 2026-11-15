@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858672753",
+    "public": false,
+    "name": "Denmark Adri",
+    "is_alive": true,
+    "birth": {
+        "name": "Birth of Denmark Adri",
+        "date": {
+            "day": 7,
+            "month": 4,
+            "year": 1962,
+            "formatted_date": "April 7, 1962"
+        },
+        "location": {
+            "street_address1": "The Crescent 99",
+            "city": "Sweden",
+            "state": "Stockholm County",
+            "country": "Stockholm",
+            "latitude": 59.3327036,
+            "longitude": 18.0656255,
+            "formatted_location": "The Crescent 99, Sweden, Stockholm County, Stockholm"
+        }
+    }
+}

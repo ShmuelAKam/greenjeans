@@ -1,0 +1,22 @@
+{
+    "id": "document-47260244",
+    "guid": "6000000225689318876",
+    "created_at": "1779859612",
+    "updated_at": "1779859612",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260244",
+    "title": "Title",
+    "date": {
+        "day": 7,
+        "month": 5,
+        "year": 2021,
+        "formatted_date": "May 7, 2021"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260244"
+    }
+}

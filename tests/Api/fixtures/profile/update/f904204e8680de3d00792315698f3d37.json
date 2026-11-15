@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678651",
+    "public": false,
+    "name": "Tommy Omer",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Tommy Omer",
+        "date": {
+            "day": 27,
+            "month": 10,
+            "year": 1945,
+            "formatted_date": "October 27, 1945"
+        },
+        "location": {
+            "street_address1": "The Crescent 92",
+            "city": "Russia",
+            "country": "Moscow",
+            "latitude": 57.2140002,
+            "longitude": 31.902393,
+            "formatted_location": "The Crescent 92, Russia, Moscow"
+        }
+    }
+}

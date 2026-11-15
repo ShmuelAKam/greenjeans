@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858672886",
+    "public": false,
+    "name": "Switzerland Vaknin",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Switzerland Vaknin",
+        "date": {
+            "day": 10,
+            "month": 8,
+            "year": 1984,
+            "formatted_date": "August 10, 1984"
+        },
+        "location": {
+            "street_address1": "Kings Road 54",
+            "city": "Belgium",
+            "state": "Brussels",
+            "country": "Brussels",
+            "latitude": 50.8477029,
+            "longitude": 4.3572001,
+            "formatted_location": "Kings Road 54, Belgium, Brussels, Brussels"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678597",
+    "public": true,
+    "name": "Scarlett Vaknin",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Scarlett Vaknin",
+        "date": {
+            "day": 29,
+            "month": 9,
+            "year": 1957,
+            "formatted_date": "September 29, 1957"
+        },
+        "location": {
+            "street_address1": "Maple Avenue 7",
+            "city": "Russia",
+            "country": "Moscow",
+            "latitude": 57.2140002,
+            "longitude": 31.902393,
+            "formatted_location": "Maple Avenue 7, Russia, Moscow"
+        }
+    }
+}

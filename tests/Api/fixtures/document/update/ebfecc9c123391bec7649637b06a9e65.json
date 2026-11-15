@@ -1,0 +1,29 @@
+{
+    "id": "document-47260202",
+    "guid": "6000000225689371835",
+    "created_at": "1779859555",
+    "updated_at": "1779859556",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260202",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 3,
+        "month": 2,
+        "year": 2021,
+        "formatted_date": "February 3, 2021"
+    },
+    "labels": [
+        "well structured",
+        "exceptionally detailed",
+        "visually appealing",
+        "very good"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260202"
+    }
+}

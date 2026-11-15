@@ -1,0 +1,26 @@
+{
+    "id": "document-47257773",
+    "guid": "6000000225687637822",
+    "created_at": "1779840371",
+    "updated_at": "1779840371",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257773",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 27,
+        "month": 5,
+        "year": 1911,
+        "formatted_date": "May 27, 1911"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257773"
+    }
+}

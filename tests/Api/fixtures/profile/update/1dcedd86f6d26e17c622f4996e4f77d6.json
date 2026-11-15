@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678632",
+    "public": false,
+    "name": "Luxembourg Lavyan",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Luxembourg Lavyan",
+        "date": {
+            "day": 22,
+            "month": 4,
+            "year": 1968,
+            "formatted_date": "April 22, 1968"
+        },
+        "location": {
+            "street_address1": "Hill Street 18",
+            "city": "Chad",
+            "county": "N'Djam\u00e9na",
+            "state": "N'Djamena",
+            "country": "N'Djamena",
+            "latitude": 12.1191352,
+            "longitude": 15.0502875,
+            "formatted_location": "Hill Street 18, Chad, N&#39;Djam\u00e9na, N&#39;Djamena, N&#39;Djamena"
+        }
+    }
+}

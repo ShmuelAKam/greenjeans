@@ -1,0 +1,23 @@
+{
+    "id": "video-154137",
+    "guid": "6000000225690129838",
+    "created_at": "1779864439",
+    "updated_at": "1779864441",
+    "url": "https:\/\/www.geni.com\/api\/video-154137",
+    "title": "Title",
+    "date": {
+        "day": 4,
+        "month": 2,
+        "year": 1943,
+        "formatted_date": "February 4, 1943"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/38\/96\/57\/c6\/5344486a788615ae\/5344486a788615ae_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/38\/96\/57\/c6\/5344486a788615ae\/5344486a788615ae_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/38\/96\/57\/c6\/5344486a788615ae\/5344486a788615ae_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/38\/96\/57\/c6\/5344486a788615ae\/5344486a788615ae_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/38\/96\/57\/c6\/5344486a788615ae\/5344486a788615ae_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/38\/96\/57\/c6\/5344486a788615ae\/5344486a788615ae.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154137"
+    }
+}

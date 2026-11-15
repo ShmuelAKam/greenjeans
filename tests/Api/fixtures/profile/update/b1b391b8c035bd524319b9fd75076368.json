@@ -1,0 +1,26 @@
+{
+    "id": "profile-34858672879",
+    "public": true,
+    "name": "Teddy Moshe",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of Teddy Moshe",
+        "date": {
+            "day": 27,
+            "month": 5,
+            "year": 1902,
+            "formatted_date": "May 27, 1902"
+        },
+        "location": {
+            "street_address1": "View Street 35",
+            "city": "Poland",
+            "county": "Warsaw",
+            "state": "Masovian Voivodeship",
+            "country": "Warsaw",
+            "postal_code": "03",
+            "latitude": 52.2296756,
+            "longitude": 21.0122287,
+            "formatted_location": "View Street 35, Poland, Warsaw, Masovian Voivodeship, 03, Warsaw"
+        }
+    }
+}

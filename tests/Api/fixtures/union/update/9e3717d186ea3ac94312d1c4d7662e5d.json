@@ -1,0 +1,28 @@
+{
+    "id": "union-128847674",
+    "url": "https:\/\/www.geni.com\/api\/union-128847674",
+    "guid": "6000000225689893989",
+    "divorce": {
+        "name": "Divorce of UAE David and Harper Avraham",
+        "date": {
+            "day": 9,
+            "month": 12,
+            "year": 1921,
+            "formatted_date": "December 9, 1921"
+        },
+        "location": {
+            "street_address1": "Maple Avenue 86",
+            "city": "Kenya",
+            "state": "Nairobi County",
+            "country": "Nairobi",
+            "latitude": -1.2920659,
+            "longitude": 36.8219462,
+            "formatted_location": "Maple Avenue 86, Kenya, Nairobi County, Nairobi"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679535",
+        "https:\/\/www.geni.com\/api\/profile-34858679536"
+    ]
+}

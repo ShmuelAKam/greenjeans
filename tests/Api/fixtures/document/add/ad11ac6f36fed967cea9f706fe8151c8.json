@@ -1,0 +1,27 @@
+{
+    "id": "document-47260767",
+    "guid": "6000000225689660838",
+    "created_at": "1779861221",
+    "updated_at": "1779861221",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260767",
+    "title": "Magna Carta",
+    "description": "\"Great Charter\"",
+    "date": {
+        "day": 6,
+        "month": 9,
+        "year": 1951,
+        "formatted_date": "September 6, 1951"
+    },
+    "labels": [
+        "england",
+        "King"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260767"
+    }
+}

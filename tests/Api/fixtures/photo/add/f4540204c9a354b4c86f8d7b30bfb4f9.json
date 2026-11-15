@@ -1,0 +1,27 @@
+{
+    "id": "photo-51987088",
+    "guid": "6000000225689677846",
+    "created_at": "1779861272",
+    "updated_at": "1779861272",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51987088",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 6,
+        "month": 9,
+        "year": 1961,
+        "formatted_date": "September 6, 1961"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/4b\/99\/5c\/45\/5344486a787f3016\/test_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/4b\/99\/5c\/45\/5344486a787f3016\/test_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/4b\/99\/5c\/45\/5344486a787f3016\/test_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/4b\/99\/5c\/45\/5344486a787f3016\/test_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/4b\/99\/5c\/45\/5344486a787f3016\/test_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/4b\/99\/5c\/45\/5344486a787f3016\/test_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/4b\/99\/5c\/45\/5344486a787f3016\/test_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51987088"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "video-154508",
+    "guid": "6000000225732098846",
+    "created_at": "1780017208",
+    "updated_at": "1780017219",
+    "url": "https:\/\/www.geni.com\/api\/video-154508",
+    "title": "Testitle",
+    "description": "Testing getUpdatedAt",
+    "date": {
+        "day": 9,
+        "month": 1,
+        "year": 1992,
+        "formatted_date": "January 9, 1992"
+    },
+    "sizes": {
+        "medium": "https:\/\/media.geni.com\/p14\/c6\/f8\/f4\/ee\/5344486a7b067b1e\/5344486a7b067b1e_medium.jpg?hash=33c867cebccc427646201eb60c7ebf8b94e8f38aeb0ee47893af54eb220b437b.1780124399",
+        "small": "https:\/\/media.geni.com\/p14\/c6\/f8\/f4\/ee\/5344486a7b067b1e\/5344486a7b067b1e_small.jpg?hash=8e513d3a35dddcd9b71e7f87c030de49620139bb7d30cefce5f48831e4ad6498.1780124399",
+        "thumb": "https:\/\/media.geni.com\/p14\/c6\/f8\/f4\/ee\/5344486a7b067b1e\/5344486a7b067b1e_t.jpg?hash=9af9edd7d6c444bfe53823863e042cfe4bc8dab6e3bcffa24a4492eac609ae5c.1780124399",
+        "thumb2": "https:\/\/media.geni.com\/p14\/c6\/f8\/f4\/ee\/5344486a7b067b1e\/5344486a7b067b1e_t2.jpg?hash=c45c6ef4f979dc327b4c54787e0638b18e2cbd8ea2f6fd877fdc566c88b8c829.1780124399",
+        "original": "https:\/\/media.geni.com\/p14\/c6\/f8\/f4\/ee\/5344486a7b067b1e\/5344486a7b067b1e_original.jpg?hash=1b1de9f5a834ba1b95783d4d24318e5d2e79f3abf8688107e69079a8acd9a0e9.1780124399",
+        "video": "https:\/\/media.geni.com\/p14\/c6\/f8\/f4\/ee\/5344486a7b067b1e\/5344486a7b067b1e.mp4?hash=54daaac5c0d3e348773314fbedf1433e7319af929c519cdbb22caf675ff60c6d.1780124399",
+        "url": "https:\/\/www.geni.com\/api\/video-154508"
+    }
+}

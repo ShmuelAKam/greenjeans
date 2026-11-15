@@ -1,0 +1,27 @@
+{
+    "id": "document-47260210",
+    "guid": "6000000225689354864",
+    "created_at": "1779859563",
+    "updated_at": "1779859563",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260210",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 8,
+        "month": 3,
+        "year": 1935,
+        "formatted_date": "March 8, 1935"
+    },
+    "labels": [
+        "Labels",
+        "extremely boring"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260210"
+    }
+}

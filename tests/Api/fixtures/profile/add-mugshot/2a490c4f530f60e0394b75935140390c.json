@@ -1,0 +1,31 @@
+{
+    "id": "photo-51987058",
+    "guid": "6000000225689669832",
+    "created_at": "1779861006",
+    "updated_at": "1779861007",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51987058",
+    "title": "Too",
+    "description": "I love you two",
+    "date": {
+        "day": 14,
+        "month": 2,
+        "year": 1944,
+        "formatted_date": "February 14, 1944"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/ee\/72\/9a\/98\/5344486a787f10c8\/file-sdk-2_large.jpg?hash=178e8e4f7c1494b4c4a2145901ab089206926b0fe6c4368267a8e8c3e44e8c54.1779951599",
+        "medium": "https:\/\/media.geni.com\/p14\/ee\/72\/9a\/98\/5344486a787f10c8\/file-sdk-2_medium.jpg?hash=7aee4b610ea72e4c3f4dbfa3a97fb83607123d0405acaeba6deaac93b7f807aa.1779951599",
+        "small": "https:\/\/media.geni.com\/p14\/ee\/72\/9a\/98\/5344486a787f10c8\/file-sdk-2_small.jpg?hash=d48ca40dd96eb29d843ebf598341a6f5030f65d1291ceaed1e07074f3868a406.1779951599",
+        "thumb": "https:\/\/media.geni.com\/p14\/ee\/72\/9a\/98\/5344486a787f10c8\/file-sdk-2_t.jpg?hash=45c4e096291b98ffa789375f17d9e09ac0ef2d54a9d12827399565fb7cb3860e.1779951599",
+        "print": "https:\/\/media.geni.com\/p14\/ee\/72\/9a\/98\/5344486a787f10c8\/file-sdk-2_print.jpg?hash=9e117d79379289148eb7d2c698e9335e289018384530bab3185c48e4e305dc87.1779951599",
+        "thumb2": "https:\/\/media.geni.com\/p14\/ee\/72\/9a\/98\/5344486a787f10c8\/file-sdk-2_t2.jpg?hash=83b379917ca549d16c24f5142402cc71af2157a4e192033daa0cc77f826a2f34.1779951599",
+        "original": "https:\/\/media.geni.com\/p14\/ee\/72\/9a\/98\/5344486a787f10c8\/file-sdk-2_original.jpg?hash=2bbc95a113748bf1bc43f44b50c983540f525bc3040f5de36d8c57b36dc67a1f.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/photo-51987058"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190",
+        "https:\/\/www.geni.com\/api\/profile-34858677791"
+    ]
+}

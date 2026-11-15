@@ -1,0 +1,43 @@
+{
+    "id": "union-128845935",
+    "url": "https:\/\/www.geni.com\/api\/union-128845935",
+    "guid": "6000000225687757214",
+    "marriage_date": {
+        "day": 3,
+        "month": 9,
+        "year": 1981,
+        "formatted_date": "September 3, 1981"
+    },
+    "marriage_location": {
+        "street_address1": "View Street 56",
+        "city": "Algeria",
+        "state": "Algiers Province",
+        "country": "Algiers",
+        "latitude": 36.753768,
+        "longitude": 3.0587561,
+        "formatted_location": "View Street 56, Algeria, Algiers Province, Algiers"
+    },
+    "marriage": {
+        "name": "Marriage of Mason Peretz and Italy Mizrahi",
+        "date": {
+            "day": 3,
+            "month": 9,
+            "year": 1981,
+            "formatted_date": "September 3, 1981"
+        },
+        "location": {
+            "street_address1": "View Street 56",
+            "city": "Algeria",
+            "state": "Algiers Province",
+            "country": "Algiers",
+            "latitude": 36.753768,
+            "longitude": 3.0587561,
+            "formatted_location": "View Street 56, Algeria, Algiers Province, Algiers"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673610",
+        "https:\/\/www.geni.com\/api\/profile-34858673611"
+    ]
+}

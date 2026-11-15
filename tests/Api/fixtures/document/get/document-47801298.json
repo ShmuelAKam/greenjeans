@@ -1,0 +1,37 @@
+{
+  "id": "document-47801298",
+  "guid": "6000000226472095823",
+  "created_at": "1783276573",
+  "updated_at": "1783276657",
+  "content_type": "text/html",
+  "public": true,
+  "url": "https://www.geni.com/api/document-47801298",
+  "source_url": "http://kam-motion.com/Test/files/test-Doc-4.pdf",
+  "title": "SDK Uploaded test Doc 4.pdf",
+  "date": {
+    "day": 27,
+    "month": 11,
+    "year": 2025,
+    "formatted_date": "November 27, 2025"
+  },
+  "location": {
+    "city": "Tal-Menashe",
+    "country": "Israel",
+    "country_code": "IL",
+    "latitude": 32.483124,
+    "longitude": 35.160699,
+    "formatted_location": "Tal Menashe, Israel"
+  },
+  "labels": [
+    "Other"
+  ],
+  "sizes": {
+    "large": "https://media.geni.com/p14/1c/24/ee/d4/5344486aa721f04f/test-doc-4_large.png?hash=08c1f3eed5d5f1afd0585aa0320c0858c8edcb3877c6f9de1437cda20096ffad.1783321199",
+    "thumb": "https://media.geni.com/p14/1c/24/ee/d4/5344486aa721f04f/test-doc-4_t.png?hash=2c4109ce19da621a0f8a69f3668e6384985ec55e1cfcc96ee12e5ef91329b8b7.1783321199",
+    "original": "https://media.geni.com/p14/1c/24/ee/d4/5344486aa721f04f/test-doc-4_original.png?hash=db4d826d095ed5dd7a76e55464f1cd64f77c9bd198fef059d7e771c7891d70fc.1783321199",
+    "url": "https://www.geni.com/api/document-47801298"
+  },
+  "tags": [
+    "https://www.geni.com/api/profile-9288190"
+  ]
+}

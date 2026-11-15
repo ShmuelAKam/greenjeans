@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678569",
+    "public": false,
+    "name": "Freya Moshe",
+    "is_alive": true,
+    "birth": {
+        "name": "Birth of Freya Moshe",
+        "date": {
+            "day": 27,
+            "month": 9,
+            "year": 1913,
+            "formatted_date": "September 27, 1913"
+        },
+        "location": {
+            "street_address1": "Lake Street 90",
+            "city": "Senegal",
+            "county": "Guediawaye",
+            "state": "Dakar Region",
+            "country": "Dakar",
+            "latitude": 14.716677,
+            "longitude": -17.4676861,
+            "formatted_location": "Lake Street 90, Senegal, Guediawaye, Dakar Region, Dakar"
+        }
+    }
+}

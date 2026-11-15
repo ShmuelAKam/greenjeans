@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672878",
+    "public": false,
+    "name": "Lithuania Friedman",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Lithuania Friedman",
+        "date": {
+            "day": 15,
+            "month": 4,
+            "year": 2017,
+            "formatted_date": "April 15, 2017"
+        },
+        "location": {
+            "street_address1": "Park Avenue 12",
+            "city": "Gabon",
+            "county": "Komo-Mondah",
+            "state": "Estuaire",
+            "country": "Libreville",
+            "latitude": 0.4077972,
+            "longitude": 9.4402833,
+            "formatted_location": "Park Avenue 12, Gabon, Komo-Mondah, Estuaire, Libreville"
+        }
+    }
+}

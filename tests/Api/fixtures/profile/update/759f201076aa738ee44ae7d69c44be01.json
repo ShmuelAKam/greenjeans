@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672873",
+    "public": false,
+    "name": "Elijah Ohayon",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Elijah Ohayon",
+        "date": {
+            "day": 12,
+            "month": 1,
+            "year": 1972,
+            "formatted_date": "January 12, 1972"
+        },
+        "location": {
+            "street_address1": "Station Road 62",
+            "city": "Sudan",
+            "county": "Khartoum",
+            "state": "Khartoum",
+            "country": "Khartoum",
+            "latitude": 15.597431,
+            "longitude": 32.535587,
+            "formatted_location": "Station Road 62, Sudan, Khartoum, Khartoum, Khartoum"
+        }
+    }
+}

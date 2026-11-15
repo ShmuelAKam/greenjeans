@@ -1,0 +1,54 @@
+{
+    "results": [
+        {
+            "id": "profile-34859491958",
+            "url": "https:\/\/www.geni.com\/api\/profile-34859491958",
+            "public": false,
+            "name": "George Friedman",
+            "first_name": "George",
+            "last_name": "Friedman",
+            "gender": "male",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34859491959",
+            "url": "https:\/\/www.geni.com\/api\/profile-34859491959",
+            "public": false,
+            "name": "Isaac Segel",
+            "first_name": "Isaac",
+            "last_name": "Segel",
+            "gender": "male",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34859491960",
+            "url": "https:\/\/www.geni.com\/api\/profile-34859491960",
+            "public": false,
+            "name": "Ronnie Cohen",
+            "first_name": "Ronnie",
+            "last_name": "Cohen",
+            "gender": "male",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34859491961",
+            "url": "https:\/\/www.geni.com\/api\/profile-34859491961",
+            "public": false,
+            "name": "Ronnie Azulay",
+            "first_name": "Ronnie",
+            "last_name": "Azulay",
+            "gender": "male",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34859491962",
+            "url": "https:\/\/www.geni.com\/api\/profile-34859491962",
+            "public": false,
+            "name": "Netherlands Segel",
+            "first_name": "Netherlands",
+            "last_name": "Segel",
+            "is_alive": true
+        }
+    ],
+    "total_count": 5
+}

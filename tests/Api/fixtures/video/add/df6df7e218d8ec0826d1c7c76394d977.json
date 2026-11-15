@@ -1,0 +1,23 @@
+{
+    "id": "video-153935",
+    "guid": "6000000225687743909",
+    "created_at": "1779842259",
+    "updated_at": "1779842260",
+    "url": "https:\/\/www.geni.com\/api\/video-153935",
+    "title": "Title",
+    "date": {
+        "day": 28,
+        "month": 10,
+        "year": 1955,
+        "formatted_date": "October 28, 1955"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/c5\/55\/c2\/69\/5344486a7861ada5\/5344486a7861ada5_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/c5\/55\/c2\/69\/5344486a7861ada5\/5344486a7861ada5_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/c5\/55\/c2\/69\/5344486a7861ada5\/5344486a7861ada5_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/c5\/55\/c2\/69\/5344486a7861ada5\/5344486a7861ada5_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/c5\/55\/c2\/69\/5344486a7861ada5\/5344486a7861ada5_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/c5\/55\/c2\/69\/5344486a7861ada5\/5344486a7861ada5.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153935"
+    }
+}

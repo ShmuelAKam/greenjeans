@@ -1,0 +1,27 @@
+{
+    "album_id": "6000000222544428842",
+    "content_type": "image\/jpeg",
+    "created_at": "1764625638",
+    "guid": "6000000222544428848",
+    "id": "photo-51190394",
+    "title": "File-SDK-6.png",
+    "updated_at": "1765697757",
+    "url": "https:\/\/www.geni.com\/api\/photo-51190394",
+    "date": {
+        "year": 1966,
+        "month": "06",
+        "day": "06"
+    },
+    "location": {
+        "country": "France",
+        "city": "Paris"
+    },
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/bb\/27\/35\/a5\/53444869bd067f30\/file-sdk-6_large.jpg?hash=ccfe109d6293fe8f89f8ad2461697fe4aa8ba16e030f49f0bf195fb786c07840.1782370799",
+        "medium": "https:\/\/media.geni.com\/p14\/bb\/27\/35\/a5\/53444869bd067f30\/file-sdk-6_medium.jpg?hash=0bea8ac0c58cdd141c01ffdd201dc4cde25ba9e246f26f5f05591b74c3d25842.1782370799",
+        "print": "https:\/\/media.geni.com\/p14\/bb\/27\/35\/a5\/53444869bd067f30\/file-sdk-6_print.jpg?hash=0bd6da642725555d516345b796de373786332b9179df389c74a654e2aad5cddc.1782370799",
+        "small": "https:\/\/media.geni.com\/p14\/bb\/27\/35\/a5\/53444869bd067f30\/file-sdk-6_small.jpg?hash=e56b0e60f53663e31400b2fd14be508f7d768d2a3655a0afacaee75a89f3444b.1782370799",
+        "thumb": "https:\/\/media.geni.com\/p14\/bb\/27\/35\/a5\/53444869bd067f30\/file-sdk-6_t.jpg?hash=8cc3674672bea5ae88eff4a51a94e50d92ba02231a22ce3b5932831a40308dfe.1782370799",
+        "thumb2": "https:\/\/media.geni.com\/p14\/bb\/27\/35\/a5\/53444869bd067f30\/file-sdk-6_t2.jpg?hash=5081c191f539dcc8d4d39f1ff04f4d3e79904afb628a6565588d1990db5ad1ac.1782370799"
+    }
+}

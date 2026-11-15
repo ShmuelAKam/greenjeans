@@ -1,0 +1,45 @@
+{
+    "id": "union-128847608",
+    "url": "https:\/\/www.geni.com\/api\/union-128847608",
+    "guid": "6000000225689887948",
+    "marriage_date": {
+        "day": 6,
+        "month": 10,
+        "year": 1957,
+        "formatted_date": "October 6, 1957"
+    },
+    "marriage_location": {
+        "street_address1": "Station Road 20",
+        "city": "Morocco",
+        "county": "Rabat",
+        "state": "Rabat-Sal\u00e9-K\u00e9nitra",
+        "country": "Rabat",
+        "latitude": 34.0083637,
+        "longitude": -6.8538748,
+        "formatted_location": "Station Road 20, Morocco, Rabat, Rabat-Sal\u00e9-K\u00e9nitra, Rabat"
+    },
+    "marriage": {
+        "name": "Marriage of Adam Levy and Lily Isaac",
+        "date": {
+            "day": 6,
+            "month": 10,
+            "year": 1957,
+            "formatted_date": "October 6, 1957"
+        },
+        "location": {
+            "street_address1": "Station Road 20",
+            "city": "Morocco",
+            "county": "Rabat",
+            "state": "Rabat-Sal\u00e9-K\u00e9nitra",
+            "country": "Rabat",
+            "latitude": 34.0083637,
+            "longitude": -6.8538748,
+            "formatted_location": "Station Road 20, Morocco, Rabat, Rabat-Sal\u00e9-K\u00e9nitra, Rabat"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679319",
+        "https:\/\/www.geni.com\/api\/profile-34858679320"
+    ]
+}

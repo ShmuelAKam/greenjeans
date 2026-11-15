@@ -1,0 +1,15 @@
+{
+    "results": [
+        {
+            "id": "profile-34861419573",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419573",
+            "public": false,
+            "name": "Delilah Bitton",
+            "first_name": "Delilah",
+            "last_name": "Bitton",
+            "gender": "female",
+            "is_alive": true
+        }
+    ],
+    "total_count": 1
+}

@@ -1,0 +1,45 @@
+{
+    "id": "union-128847664",
+    "url": "https:\/\/www.geni.com\/api\/union-128847664",
+    "guid": "6000000225689625111",
+    "marriage_date": {
+        "day": 8,
+        "month": 2,
+        "year": 1968,
+        "formatted_date": "February 8, 1968"
+    },
+    "marriage_location": {
+        "street_address1": "Park Avenue 87",
+        "city": "Netherlands",
+        "county": "Government of Amsterdam",
+        "state": "North Holland",
+        "country": "Amsterdam",
+        "latitude": 52.3675734,
+        "longitude": 4.9041389,
+        "formatted_location": "Park Avenue 87, Netherlands, Government of Amsterdam, North Holland, Amsterdam"
+    },
+    "marriage": {
+        "name": "Marriage of Jack Mizrahi and Ireland Dahan",
+        "date": {
+            "day": 8,
+            "month": 2,
+            "year": 1968,
+            "formatted_date": "February 8, 1968"
+        },
+        "location": {
+            "street_address1": "Park Avenue 87",
+            "city": "Netherlands",
+            "county": "Government of Amsterdam",
+            "state": "North Holland",
+            "country": "Amsterdam",
+            "latitude": 52.3675734,
+            "longitude": 4.9041389,
+            "formatted_location": "Park Avenue 87, Netherlands, Government of Amsterdam, North Holland, Amsterdam"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679514",
+        "https:\/\/www.geni.com\/api\/profile-34858679513"
+    ]
+}

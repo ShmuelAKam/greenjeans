@@ -1,0 +1,158 @@
+{
+    "results": [
+        {
+            "id": "profile-109787875"
+        },
+        {
+            "id": "profile-109790452"
+        },
+        {
+            "id": "profile-109790480"
+        },
+        {
+            "id": "profile-109790542"
+        },
+        {
+            "id": "profile-109790568"
+        },
+        {
+            "id": "profile-109790602"
+        },
+        {
+            "id": "profile-109860776"
+        },
+        {
+            "id": "profile-109997555"
+        },
+        {
+            "id": "profile-120527366"
+        },
+        {
+            "id": "profile-110740870"
+        },
+        {
+            "id": "profile-111005786"
+        },
+        {
+            "id": "profile-111005965"
+        },
+        {
+            "id": "profile-111005984"
+        },
+        {
+            "id": "profile-111006069"
+        },
+        {
+            "id": "profile-111006083"
+        },
+        {
+            "id": "profile-111008824"
+        },
+        {
+            "id": "profile-111008914"
+        },
+        {
+            "id": "profile-111009924"
+        },
+        {
+            "id": "profile-111102680"
+        },
+        {
+            "id": "profile-111102719"
+        },
+        {
+            "id": "profile-111102728"
+        },
+        {
+            "id": "profile-111145639"
+        },
+        {
+            "id": "profile-111145714"
+        },
+        {
+            "id": "profile-111146286"
+        },
+        {
+            "id": "profile-111147191"
+        },
+        {
+            "id": "profile-111152479"
+        },
+        {
+            "id": "profile-111161208"
+        },
+        {
+            "id": "profile-111178980"
+        },
+        {
+            "id": "profile-111235536"
+        },
+        {
+            "id": "profile-111235546"
+        },
+        {
+            "id": "profile-111599738"
+        },
+        {
+            "id": "profile-111769302"
+        },
+        {
+            "id": "profile-111778498"
+        },
+        {
+            "id": "profile-111778518"
+        },
+        {
+            "id": "profile-111778536"
+        },
+        {
+            "id": "profile-111780923"
+        },
+        {
+            "id": "profile-111965319"
+        },
+        {
+            "id": "profile-111965355"
+        },
+        {
+            "id": "profile-111978574"
+        },
+        {
+            "id": "profile-111978583"
+        },
+        {
+            "id": "profile-111993881"
+        },
+        {
+            "id": "profile-112041880"
+        },
+        {
+            "id": "profile-112042031"
+        },
+        {
+            "id": "profile-112042055"
+        },
+        {
+            "id": "profile-112042258"
+        },
+        {
+            "id": "profile-112098125"
+        },
+        {
+            "id": "profile-112101416"
+        },
+        {
+            "id": "profile-113348705"
+        },
+        {
+            "id": "profile-113348738"
+        },
+        {
+            "id": "profile-113404237"
+        }
+    ],
+    "total_count": 9172,
+    "page": 45,
+    "previous_page": "https:\/\/www.geni.com\/api\/user\/managed-profiles?fields=id&page=44&per_page=50",
+    "next_page": "https:\/\/www.geni.com\/api\/user\/managed-profiles?fields=id&page=46&per_page=50"
+}

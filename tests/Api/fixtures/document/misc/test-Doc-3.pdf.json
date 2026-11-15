@@ -1,0 +1,21 @@
+{
+    "id": "document-47399140",
+    "guid": "6000000225878011830",
+    "created_at": "1780660453",
+    "updated_at": "1780660457",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47399140",
+    "title": "Third",
+    "date": {
+        "day": 12,
+        "month": 4,
+        "year": 2018,
+        "formatted_date": "April 12, 2018"
+    },
+    "page_count": 10,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/78\/98\/5c\/cc\/5344486a83b8efb6\/test-doc-3_original.pdf?hash=2e6a63f50af19fc60cfdc8891fb67646ca4d282b0a44a9db29b633bb6c6d4990.1780729199",
+        "url": "https:\/\/www.geni.com\/api\/document-47399140"
+    }
+}

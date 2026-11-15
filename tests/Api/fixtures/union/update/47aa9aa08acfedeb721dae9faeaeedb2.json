@@ -1,0 +1,45 @@
+{
+    "id": "union-128845947",
+    "url": "https:\/\/www.geni.com\/api\/union-128845947",
+    "guid": "6000000225687866830",
+    "marriage_date": {
+        "day": 16,
+        "month": 11,
+        "year": 1938,
+        "formatted_date": "November 16, 1938"
+    },
+    "marriage_location": {
+        "street_address1": "Kings Road 35",
+        "city": "Chad",
+        "county": "N'Djam\u00e9na",
+        "state": "N'Djamena",
+        "country": "N'Djamena",
+        "latitude": 12.1191352,
+        "longitude": 15.0502875,
+        "formatted_location": "Kings Road 35, Chad, N&#39;Djam\u00e9na, N&#39;Djamena, N&#39;Djamena"
+    },
+    "marriage": {
+        "name": "Marriage of Estonia Friedman and Sienna Ohayon",
+        "date": {
+            "day": 16,
+            "month": 11,
+            "year": 1938,
+            "formatted_date": "November 16, 1938"
+        },
+        "location": {
+            "street_address1": "Kings Road 35",
+            "city": "Chad",
+            "county": "N'Djam\u00e9na",
+            "state": "N'Djamena",
+            "country": "N'Djamena",
+            "latitude": 12.1191352,
+            "longitude": 15.0502875,
+            "formatted_location": "Kings Road 35, Chad, N&#39;Djam\u00e9na, N&#39;Djamena, N&#39;Djamena"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673635",
+        "https:\/\/www.geni.com\/api\/profile-34858673636"
+    ]
+}

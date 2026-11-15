@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.5/phpunit.xsd"
+         bootstrap="tests/Api/GlobalSetup.php"
+         backupGlobals="false"
+         cacheResult="true"
+         cacheDirectory=".phpunit.cache"
+         colors="true"
+         displayDetailsOnTestsThatTriggerDeprecations="true"
+         displayDetailsOnPhpunitDeprecations="true"
+         displayDetailsOnTestsThatTriggerWarnings="true">
+
+    <source ignoreSuppressionOfDeprecations="true">
+        <include>
+            <directory suffix=".php">src/Api</directory>
+        </include>
+        <exclude>
+            <directory>vendor</directory>
+        </exclude>
+    </source>
+
+    <php>
+        <ini name="error_reporting" value="-1"/>
+        <ini name="display_errors" value="1"/>
+        <ini name="date.timezone" value="UTC"/>
+    </php>
+
+    <testsuites>
+        <testsuite name="primary">
+<!--
+-->
+            <file>tests/Api/API_DateTest.php</file>
+            <file>tests/Api/API_DocumentTest.php</file>
+            <file>tests/Api/API_PhotoTest.php</file>
+            <file>tests/Api/API_ProfileTest.php</file>
+            <file>tests/Api/API_ProfileTestUpdate.php</file>
+            <file>tests/Api/API_ProjectTest.php</file>
+            <file>tests/Api/API_StatsTest.php</file>
+            <file>tests/Api/API_SurnameTest.php</file>
+            <file>tests/Api/API_UnionTest.php</file>
+            <file>tests/Api/API_UserTest.php</file>
+            <file>tests/Api/API_VideoTest.php</file>
+<!--
+-->
+        </testsuite>
+        <testsuite name="secondary">
+            <file>tests/Api/API_RevisionTest.php</file>
+            <file>tests/Api/API_PhotoAlbumTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>

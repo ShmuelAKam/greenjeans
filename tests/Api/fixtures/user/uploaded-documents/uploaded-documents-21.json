@@ -1,0 +1,158 @@
+{
+    "results": [
+        {
+            "id": "document-47397974"
+        },
+        {
+            "id": "document-47397960"
+        },
+        {
+            "id": "document-47397961"
+        },
+        {
+            "id": "document-47397963"
+        },
+        {
+            "id": "document-47397938"
+        },
+        {
+            "id": "document-47398012"
+        },
+        {
+            "id": "document-47398044"
+        },
+        {
+            "id": "document-47398028"
+        },
+        {
+            "id": "document-47398010"
+        },
+        {
+            "id": "document-47398022"
+        },
+        {
+            "id": "document-47398179"
+        },
+        {
+            "id": "document-47398081"
+        },
+        {
+            "id": "document-47398079"
+        },
+        {
+            "id": "document-47398112"
+        },
+        {
+            "id": "document-47398094"
+        },
+        {
+            "id": "document-47398187"
+        },
+        {
+            "id": "document-47398180"
+        },
+        {
+            "id": "document-47398020"
+        },
+        {
+            "id": "document-46147192"
+        },
+        {
+            "id": "document-46147215"
+        },
+        {
+            "id": "document-46147197"
+        },
+        {
+            "id": "document-46147208"
+        },
+        {
+            "id": "document-46147213"
+        },
+        {
+            "id": "document-46147209"
+        },
+        {
+            "id": "document-46147214"
+        },
+        {
+            "id": "document-47398848"
+        },
+        {
+            "id": "document-47398867"
+        },
+        {
+            "id": "document-47398868"
+        },
+        {
+            "id": "document-47398881"
+        },
+        {
+            "id": "document-44888697"
+        },
+        {
+            "id": "document-44888731"
+        },
+        {
+            "id": "document-44888776"
+        },
+        {
+            "id": "document-47398870"
+        },
+        {
+            "id": "document-47398891"
+        },
+        {
+            "id": "document-47398846"
+        },
+        {
+            "id": "document-47398860"
+        },
+        {
+            "id": "document-47398856"
+        },
+        {
+            "id": "document-47398861"
+        },
+        {
+            "id": "document-47398866"
+        },
+        {
+            "id": "document-47398875"
+        },
+        {
+            "id": "document-47398879"
+        },
+        {
+            "id": "document-47398880"
+        },
+        {
+            "id": "document-47398885"
+        },
+        {
+            "id": "document-47398892"
+        },
+        {
+            "id": "document-47398894"
+        },
+        {
+            "id": "document-44888736"
+        },
+        {
+            "id": "document-47398853"
+        },
+        {
+            "id": "document-47398884"
+        },
+        {
+            "id": "document-47398890"
+        },
+        {
+            "id": "document-47398854"
+        }
+    ],
+    "total_count": 2951,
+    "page": 22,
+    "previous_page": "https:\/\/www.geni.com\/api\/user\/uploaded-documents?fields=id&page=21&per_page=50",
+    "next_page": "https:\/\/www.geni.com\/api\/user\/uploaded-documents?fields=id&page=23&per_page=50"
+}

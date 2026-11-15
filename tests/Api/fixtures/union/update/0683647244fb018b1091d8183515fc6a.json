@@ -1,0 +1,58 @@
+{
+    "id": "union-128845888",
+    "url": "https:\/\/www.geni.com\/api\/union-128845888",
+    "guid": "6000000225687864839",
+    "marriage_date": {
+        "day": 28,
+        "month": 12,
+        "year": 1976,
+        "formatted_date": "December 28, 1976"
+    },
+    "marriage_location": {
+        "street_address1": "Lake Street 20",
+        "city": "Denmark",
+        "country": "Copenhagen",
+        "latitude": 55.6760968,
+        "longitude": 12.5683371,
+        "formatted_location": "Lake Street 20, Denmark, Copenhagen"
+    },
+    "divorce": {
+        "name": "Divorce of USA Bitton and Arabella Vaknin",
+        "date": {
+            "day": 1,
+            "month": 4,
+            "year": 2000,
+            "formatted_date": "April 1, 2000"
+        },
+        "location": {
+            "street_address1": "Windsor Road 88",
+            "city": "Portugal",
+            "country": "Lisbon",
+            "latitude": 39.399872,
+            "longitude": -8.224454,
+            "formatted_location": "Windsor Road 88, Portugal, Lisbon"
+        }
+    },
+    "marriage": {
+        "name": "Marriage of USA Bitton and Arabella Vaknin",
+        "date": {
+            "day": 28,
+            "month": 12,
+            "year": 1976,
+            "formatted_date": "December 28, 1976"
+        },
+        "location": {
+            "street_address1": "Lake Street 20",
+            "city": "Denmark",
+            "country": "Copenhagen",
+            "latitude": 55.6760968,
+            "longitude": 12.5683371,
+            "formatted_location": "Lake Street 20, Denmark, Copenhagen"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673434",
+        "https:\/\/www.geni.com\/api\/profile-34858673435"
+    ]
+}

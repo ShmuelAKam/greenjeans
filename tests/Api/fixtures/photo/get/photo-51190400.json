@@ -1,0 +1,26 @@
+{
+    "album_id": "6000000222544428842",
+    "attribution": "Raphael",
+    "content_type": "image\/jpeg",
+    "created_at": "1764625655",
+    "guid": "6000000222544428852",
+    "id": "photo-51190400",
+    "title": "File-SDK-Raphael-Athens.jpg",
+    "updated_at": "1764628330",
+    "url": "https:\/\/www.geni.com\/api\/photo-51190400",
+    "date": {
+        "year": -320
+    },
+    "location": {
+        "country": "Greece",
+        "city": "Athens"
+    },
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/59\/39\/ce\/55\/53444869bd067f34\/file-sdk-raphael-athens_large.jpg?hash=c0eea7e121af1dc6a11d88eb6f38ab6f92742eacef9a08ad9684c34c2e3db33f.1782370799",
+        "medium": "https:\/\/media.geni.com\/p14\/59\/39\/ce\/55\/53444869bd067f34\/file-sdk-raphael-athens_medium.jpg?hash=83b959d426508f366298b54471dd9e87d58f18ed3da6c4a093322f9c42e83f3f.1782370799",
+        "print": "https:\/\/media.geni.com\/p14\/59\/39\/ce\/55\/53444869bd067f34\/file-sdk-raphael-athens_print.jpg?hash=30a72b59d70a76ae56d22d05b12ba0e23ed50159b3cbf5c10250350e5ab8386c.1782370799",
+        "small": "https:\/\/media.geni.com\/p14\/59\/39\/ce\/55\/53444869bd067f34\/file-sdk-raphael-athens_small.jpg?hash=4fad4c4a489d0f15f3747842c7785a36c7f50835e81620bad0f51625b5564111.1782370799",
+        "thumb": "https:\/\/media.geni.com\/p14\/59\/39\/ce\/55\/53444869bd067f34\/file-sdk-raphael-athens_t.jpg?hash=91418f933d42bd84b18fa07382a374957b44bf180866366df4be0d35bd1aa91b.1782370799",
+        "thumb2": "https:\/\/media.geni.com\/p14\/59\/39\/ce\/55\/53444869bd067f34\/file-sdk-raphael-athens_t2.jpg?hash=9fba457c4471b61e75d1bdc5edea004e1c0b7d621e6c9a95009b233d9889c203.1782370799"
+    }
+}

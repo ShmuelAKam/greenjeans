@@ -1,0 +1,26 @@
+{
+    "id": "document-47260345",
+    "guid": "6000000225689318904",
+    "created_at": "1779859678",
+    "updated_at": "1779859678",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260345",
+    "title": "Test getTitle - 27\/05\/2026",
+    "description": "Non-equal rights",
+    "date": {
+        "day": 1,
+        "month": 1,
+        "year": 2010,
+        "formatted_date": "January 1, 2010"
+    },
+    "labels": [
+        "United States"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260345"
+    }
+}

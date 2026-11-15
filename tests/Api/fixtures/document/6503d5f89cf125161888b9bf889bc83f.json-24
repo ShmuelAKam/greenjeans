@@ -1,0 +1,30 @@
+{
+    "id": "document-48513260",
+    "guid": "6000000227276456829",
+    "created_at": "1786914325",
+    "updated_at": "1786914325",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-48513260",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 25,
+        "month": 12,
+        "year": 1913,
+        "formatted_date": "December 25, 1913"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-48513260"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-34861419256"
+    ]
+}

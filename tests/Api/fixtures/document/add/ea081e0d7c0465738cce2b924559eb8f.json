@@ -1,0 +1,26 @@
+{
+    "id": "document-47260233",
+    "guid": "6000000225689335878",
+    "created_at": "1779859604",
+    "updated_at": "1779859604",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260233",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 10,
+        "month": 3,
+        "year": 1974,
+        "formatted_date": "March 10, 1974"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260233"
+    }
+}

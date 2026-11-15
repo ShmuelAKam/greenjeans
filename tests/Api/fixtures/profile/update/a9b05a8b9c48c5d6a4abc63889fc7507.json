@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672777",
+    "public": false,
+    "name": "Emily David",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Emily David",
+        "date": {
+            "day": 24,
+            "month": 8,
+            "year": 1979,
+            "formatted_date": "August 24, 1979"
+        },
+        "location": {
+            "street_address1": "Kings Road 35",
+            "city": "Spain",
+            "county": "Madrid",
+            "state": "Community of Madrid",
+            "country": "Madrid",
+            "latitude": 40.4167279,
+            "longitude": -3.7032905,
+            "formatted_location": "Kings Road 35, Spain, Madrid, Community of Madrid, Madrid"
+        }
+    }
+}

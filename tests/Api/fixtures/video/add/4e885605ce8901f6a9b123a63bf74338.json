@@ -1,0 +1,23 @@
+{
+    "id": "video-154045",
+    "guid": "6000000225687938864",
+    "created_at": "1779845165",
+    "updated_at": "1779845167",
+    "url": "https:\/\/www.geni.com\/api\/video-154045",
+    "title": "Title",
+    "date": {
+        "day": 10,
+        "month": 3,
+        "year": 1911,
+        "formatted_date": "March 10, 1911"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/59\/bf\/67\/7e\/5344486a7864a730\/5344486a7864a730_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/59\/bf\/67\/7e\/5344486a7864a730\/5344486a7864a730_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/59\/bf\/67\/7e\/5344486a7864a730\/5344486a7864a730_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/59\/bf\/67\/7e\/5344486a7864a730\/5344486a7864a730_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/59\/bf\/67\/7e\/5344486a7864a730\/5344486a7864a730_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/59\/bf\/67\/7e\/5344486a7864a730\/5344486a7864a730.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154045"
+    }
+}

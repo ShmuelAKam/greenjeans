@@ -1,0 +1,27 @@
+{
+    "id": "photo-51987105",
+    "guid": "6000000225689662918",
+    "created_at": "1779861305",
+    "updated_at": "1779861305",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51987105",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 3,
+        "month": 2,
+        "year": 2017,
+        "formatted_date": "February 3, 2017"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/ab\/01\/0a\/a9\/5344486a787ef5c6\/file-sdk-1_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/ab\/01\/0a\/a9\/5344486a787ef5c6\/file-sdk-1_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/ab\/01\/0a\/a9\/5344486a787ef5c6\/file-sdk-1_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/ab\/01\/0a\/a9\/5344486a787ef5c6\/file-sdk-1_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/ab\/01\/0a\/a9\/5344486a787ef5c6\/file-sdk-1_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/ab\/01\/0a\/a9\/5344486a787ef5c6\/file-sdk-1_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/ab\/01\/0a\/a9\/5344486a787ef5c6\/file-sdk-1_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51987105"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": "document-47260798",
+    "guid": "6000000225689631889",
+    "created_at": "1779861247",
+    "updated_at": "1779861247",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260798",
+    "title": "Title",
+    "date": {
+        "day": 26,
+        "month": 4,
+        "year": 1933,
+        "formatted_date": "April 26, 1933"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260798"
+    }
+}

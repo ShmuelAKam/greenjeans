@@ -1,0 +1,21 @@
+{
+    "id": "document-47399133",
+    "guid": "6000000225877932843",
+    "created_at": "1780660448",
+    "updated_at": "1780660451",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47399133",
+    "title": "Second",
+    "date": {
+        "day": 24,
+        "month": 2,
+        "year": 1945,
+        "formatted_date": "February 24, 1945"
+    },
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/b4\/30\/2a\/45\/5344486a83b7bb2b\/test-doc-2_original.pdf?hash=65107987de71cfe9e0f2845f9e45bcb0de3c424d9a808fff89592b0807d39cef.1780729199",
+        "url": "https:\/\/www.geni.com\/api\/document-47399133"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": "document-47260294",
+    "guid": "6000000225689318887",
+    "created_at": "1779859641",
+    "updated_at": "1779859641",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260294",
+    "title": "Magna Carta",
+    "description": "\"Great Charter\"",
+    "date": {
+        "day": 14,
+        "month": 1,
+        "year": 1953,
+        "formatted_date": "January 14, 1953"
+    },
+    "labels": [
+        "england",
+        "King"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260294"
+    }
+}

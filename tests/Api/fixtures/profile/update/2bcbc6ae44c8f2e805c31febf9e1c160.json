@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678568",
+    "public": false,
+    "name": "USA Adri",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of USA Adri",
+        "date": {
+            "day": 16,
+            "month": 1,
+            "year": 1951,
+            "formatted_date": "January 16, 1951"
+        },
+        "location": {
+            "street_address1": "Washington Street 66",
+            "city": "Sudan",
+            "county": "Khartoum",
+            "state": "Khartoum",
+            "country": "Khartoum",
+            "latitude": 15.597431,
+            "longitude": 32.535587,
+            "formatted_location": "Washington Street 66, Sudan, Khartoum, Khartoum, Khartoum"
+        }
+    }
+}

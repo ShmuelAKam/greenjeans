@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678614",
+    "public": true,
+    "name": "Henry Ashknazi",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Henry Ashknazi",
+        "date": {
+            "day": 12,
+            "month": 11,
+            "year": 1961,
+            "formatted_date": "November 12, 1961"
+        },
+        "location": {
+            "street_address1": "Church Lane 30",
+            "city": "Morocco",
+            "county": "Rabat",
+            "state": "Rabat-Sal\u00e9-K\u00e9nitra",
+            "country": "Rabat",
+            "latitude": 34.0083637,
+            "longitude": -6.8538748,
+            "formatted_location": "Church Lane 30, Morocco, Rabat, Rabat-Sal\u00e9-K\u00e9nitra, Rabat"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": "document-47257756",
+    "guid": "6000000225687598845",
+    "created_at": "1779840333",
+    "updated_at": "1779840334",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257756",
+    "title": "Title",
+    "description": "Robert Frost",
+    "date": {
+        "day": 26,
+        "month": 1,
+        "year": 1957,
+        "formatted_date": "January 26, 1957"
+    },
+    "labels": [
+        "Peotry",
+        "rather vague",
+        "Irony",
+        "Woods",
+        "perfectly concise",
+        "deeply insightful"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257756"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": "document-47258040",
+    "guid": "6000000225687682974",
+    "created_at": "1779841861",
+    "updated_at": "1779841861",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258040",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 10,
+        "month": 12,
+        "year": 1978,
+        "formatted_date": "December 10, 1978"
+    },
+    "labels": [
+        "Bla Bla",
+        "USA"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258040"
+    }
+}

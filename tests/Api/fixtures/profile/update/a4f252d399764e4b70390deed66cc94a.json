@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672887",
+    "public": false,
+    "name": "Slovenia Segel",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Slovenia Segel",
+        "date": {
+            "day": 9,
+            "month": 10,
+            "year": 2015,
+            "formatted_date": "October 9, 2015"
+        },
+        "location": {
+            "street_address1": "The Avenue 50",
+            "city": "Belgium",
+            "state": "Bruxelles",
+            "country": "Brussels",
+            "postal_code": "1000",
+            "latitude": 50.8203774,
+            "longitude": 4.3696017,
+            "formatted_location": "The Avenue 50, Belgium, Bruxelles, 1000, Brussels"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "id": "union-128847663",
+    "url": "https:\/\/www.geni.com\/api\/union-128847663",
+    "guid": "6000000225689888919",
+    "marriage_date": {
+        "day": 7,
+        "month": 1,
+        "year": 1985,
+        "formatted_date": "January 7, 1985"
+    },
+    "marriage_location": {
+        "street_address1": "Green Lane 13",
+        "city": "Ireland",
+        "state": "County Dublin",
+        "country": "Dublin",
+        "postal_code": "D07 X0C0",
+        "latitude": 53.3720952,
+        "longitude": -6.3291498,
+        "formatted_location": "Green Lane 13, Ireland, County Dublin, D07 X0C0, Dublin"
+    },
+    "marriage": {
+        "name": "Marriage of Hudson Ohayon and Vietnam Friedman",
+        "date": {
+            "day": 7,
+            "month": 1,
+            "year": 1985,
+            "formatted_date": "January 7, 1985"
+        },
+        "location": {
+            "street_address1": "Green Lane 13",
+            "city": "Ireland",
+            "state": "County Dublin",
+            "country": "Dublin",
+            "postal_code": "D07 X0C0",
+            "latitude": 53.3720952,
+            "longitude": -6.3291498,
+            "formatted_location": "Green Lane 13, Ireland, County Dublin, D07 X0C0, Dublin"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679512",
+        "https:\/\/www.geni.com\/api\/profile-34858679511"
+    ]
+}

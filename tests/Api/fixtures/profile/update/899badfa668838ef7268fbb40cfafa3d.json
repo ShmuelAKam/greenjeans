@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678652",
+    "public": false,
+    "name": "Ellie Klein",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Ellie Klein",
+        "date": {
+            "day": 10,
+            "month": 9,
+            "year": 1950,
+            "formatted_date": "September 10, 1950"
+        },
+        "location": {
+            "street_address1": "Fifth Avenue 60",
+            "city": "Sudan",
+            "county": "Khartoum",
+            "state": "Khartoum",
+            "country": "Khartoum",
+            "latitude": 15.5837758,
+            "longitude": 32.5453692,
+            "formatted_location": "Fifth Avenue 60, Sudan, Khartoum, Khartoum, Khartoum"
+        }
+    }
+}

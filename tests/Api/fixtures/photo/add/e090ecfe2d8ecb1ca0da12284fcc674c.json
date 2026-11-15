@@ -1,0 +1,26 @@
+{
+    "id": "photo-51986921",
+    "guid": "6000000225689318941",
+    "created_at": "1779859943",
+    "updated_at": "1779859943",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986921",
+    "title": "Title",
+    "date": {
+        "day": 8,
+        "month": 7,
+        "year": 1959,
+        "formatted_date": "July 8, 1959"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/5e\/40\/67\/7c\/5344486a7879b61d\/file-sdk-2_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/5e\/40\/67\/7c\/5344486a7879b61d\/file-sdk-2_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/5e\/40\/67\/7c\/5344486a7879b61d\/file-sdk-2_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/5e\/40\/67\/7c\/5344486a7879b61d\/file-sdk-2_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/5e\/40\/67\/7c\/5344486a7879b61d\/file-sdk-2_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/5e\/40\/67\/7c\/5344486a7879b61d\/file-sdk-2_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/5e\/40\/67\/7c\/5344486a7879b61d\/file-sdk-2_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986921"
+    }
+}

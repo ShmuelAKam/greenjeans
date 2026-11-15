@@ -1,0 +1,27 @@
+{
+    "album_id": "6000000222544428842",
+    "attribution": "\"Bostoner\"",
+    "content_type": "image\/jpeg",
+    "created_at": "1764625638",
+    "guid": "6000000222544428847",
+    "id": "photo-51190393",
+    "title": "File-SDK-5.png",
+    "updated_at": "1764634776",
+    "url": "https:\/\/www.geni.com\/api\/photo-51190393",
+    "date": {
+        "year": 1976,
+        "month": "08"
+    },
+    "location": {
+        "country": "United States",
+        "city": "Boston"
+    },
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/74\/8c\/9c\/de\/53444869bd067f2f\/file-sdk-5_large.jpg?hash=da8065af11c9b21018637bb6f832a7c029899ef017a581d1133ff32ac12633a6.1782370799",
+        "medium": "https:\/\/media.geni.com\/p14\/74\/8c\/9c\/de\/53444869bd067f2f\/file-sdk-5_medium.jpg?hash=38c3f14eb39b1ddded2dca0621890cc3e2155eb555c5ce7b6953f25551ddc8fa.1782370799",
+        "print": "https:\/\/media.geni.com\/p14\/74\/8c\/9c\/de\/53444869bd067f2f\/file-sdk-5_print.jpg?hash=093f49c807228cd4517deed626c1c28eec79bd9371fcff8fc2ffb2e095411073.1782370799",
+        "small": "https:\/\/media.geni.com\/p14\/74\/8c\/9c\/de\/53444869bd067f2f\/file-sdk-5_small.jpg?hash=6340264f9a37c194fbac176dd16d44da46c282f5e660cd0b3725b2e11cca8cea.1782370799",
+        "thumb": "https:\/\/media.geni.com\/p14\/74\/8c\/9c\/de\/53444869bd067f2f\/file-sdk-5_t.jpg?hash=3838417bfe69b02730fc4ee35724ef9f35f0e468f0749e3291a17f961c5eef68.1782370799",
+        "thumb2": "https:\/\/media.geni.com\/p14\/74\/8c\/9c\/de\/53444869bd067f2f\/file-sdk-5_t2.jpg?hash=fbc575c4f3e060661af5663ab97fc2fabcbab57ba7135ddf73c80cdab41e076a.1782370799"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "id": "document-47258248",
+    "guid": "6000000225687821921",
+    "created_at": "1779843589",
+    "updated_at": "1779843589",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258248",
+    "title": "Title",
+    "date": {
+        "day": 22,
+        "month": 12,
+        "year": 1968,
+        "formatted_date": "December 22, 1968"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258248"
+    }
+}

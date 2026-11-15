@@ -1,0 +1,27 @@
+{
+    "id": "document-47260172",
+    "guid": "6000000225689387827",
+    "created_at": "1779859465",
+    "updated_at": "1779859465",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260172",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 4,
+        "month": 5,
+        "year": 1986,
+        "formatted_date": "May 4, 1986"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260172"
+    }
+}

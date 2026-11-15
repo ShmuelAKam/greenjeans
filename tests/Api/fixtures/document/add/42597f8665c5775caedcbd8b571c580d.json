@@ -1,0 +1,27 @@
+{
+    "id": "document-47260775",
+    "guid": "6000000225689631883",
+    "created_at": "1779861227",
+    "updated_at": "1779861227",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260775",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 6,
+        "month": 6,
+        "year": 2022,
+        "formatted_date": "June 6, 2022"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260775"
+    }
+}

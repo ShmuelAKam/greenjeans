@@ -1,0 +1,24 @@
+{
+    "id": "video-154144",
+    "guid": "6000000225689875840",
+    "created_at": "1779864483",
+    "updated_at": "1779864484",
+    "url": "https:\/\/www.geni.com\/api\/video-154144",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 1,
+        "month": 9,
+        "year": 1990,
+        "formatted_date": "September 1, 1990"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/85\/db\/30\/58\/5344486a78823580\/5344486a78823580_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/85\/db\/30\/58\/5344486a78823580\/5344486a78823580_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/85\/db\/30\/58\/5344486a78823580\/5344486a78823580_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/85\/db\/30\/58\/5344486a78823580\/5344486a78823580_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/85\/db\/30\/58\/5344486a78823580\/5344486a78823580_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/85\/db\/30\/58\/5344486a78823580\/5344486a78823580.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154144"
+    }
+}

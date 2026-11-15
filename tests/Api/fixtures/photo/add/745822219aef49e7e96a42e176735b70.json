@@ -1,0 +1,27 @@
+{
+    "id": "photo-51986289",
+    "guid": "6000000225687686826",
+    "created_at": "1779841063",
+    "updated_at": "1779841063",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986289",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 15,
+        "month": 7,
+        "year": 1948,
+        "formatted_date": "July 15, 1948"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/16\/aa\/4b\/f5\/5344486a7860ceaa\/file-sdk-9_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/16\/aa\/4b\/f5\/5344486a7860ceaa\/file-sdk-9_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/16\/aa\/4b\/f5\/5344486a7860ceaa\/file-sdk-9_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/16\/aa\/4b\/f5\/5344486a7860ceaa\/file-sdk-9_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/16\/aa\/4b\/f5\/5344486a7860ceaa\/file-sdk-9_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/16\/aa\/4b\/f5\/5344486a7860ceaa\/file-sdk-9_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/16\/aa\/4b\/f5\/5344486a7860ceaa\/file-sdk-9_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986289"
+    }
+}

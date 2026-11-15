@@ -1,0 +1,27 @@
+{
+    "id": "photo-51987036",
+    "guid": "6000000225689452905",
+    "created_at": "1779860571",
+    "updated_at": "1779860578",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51987036",
+    "title": "Testitle",
+    "description": "Testing getUpdatedAt",
+    "date": {
+        "day": 6,
+        "month": 10,
+        "year": 1983,
+        "formatted_date": "October 6, 1983"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/40\/48\/29\/41\/5344486a787bc169\/file-sdk-donatello-david_large.jpg?hash=a6b887e459bc94e369e8388d2be86cd1731c32767a6c504bd284fa929e740983.1779951599",
+        "medium": "https:\/\/media.geni.com\/p14\/40\/48\/29\/41\/5344486a787bc169\/file-sdk-donatello-david_medium.jpg?hash=73b9e48ca3dcb2bc8de342549845b5767a871bd245b8d2b6a11919e6243bbede.1779951599",
+        "small": "https:\/\/media.geni.com\/p14\/40\/48\/29\/41\/5344486a787bc169\/file-sdk-donatello-david_small.jpg?hash=941dc75231f2dda3b962f898969084b318d3b43ec3d9ac3443bc9f68a1081727.1779951599",
+        "thumb": "https:\/\/media.geni.com\/p14\/40\/48\/29\/41\/5344486a787bc169\/file-sdk-donatello-david_t.jpg?hash=9df5d4dd284088f85cd1e3f56873d00ad1ef87ca5604fd7ac59c6825203b38cd.1779951599",
+        "print": "https:\/\/media.geni.com\/p14\/40\/48\/29\/41\/5344486a787bc169\/file-sdk-donatello-david_print.jpg?hash=6a2796bd56bc2785590f4dbe44fbc8d7f3a899bd45856ddb51b13a074bf11833.1779951599",
+        "thumb2": "https:\/\/media.geni.com\/p14\/40\/48\/29\/41\/5344486a787bc169\/file-sdk-donatello-david_t2.jpg?hash=0193da199f7504ccbf11820cf82732fd29f1c39ce4491717808041b7211e08fc.1779951599",
+        "original": "https:\/\/media.geni.com\/p14\/40\/48\/29\/41\/5344486a787bc169\/file-sdk-donatello-david_original.jpg?hash=bbae8c48e46d033899b6a6760e9d7ab4e76e55422366edf7e89145adc22bf235.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/photo-51987036"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "id": "document-47260235",
+    "guid": "6000000225689252936",
+    "created_at": "1779859605",
+    "updated_at": "1779859605",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260235",
+    "title": "Title",
+    "date": {
+        "day": 19,
+        "month": 1,
+        "year": 1961,
+        "formatted_date": "January 19, 1961"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260235"
+    }
+}

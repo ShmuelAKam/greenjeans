@@ -1,0 +1,21 @@
+{
+    "id": "document-47257808",
+    "guid": "6000000225687035852",
+    "created_at": "1779840391",
+    "updated_at": "1779840394",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257808",
+    "title": "Forth ",
+    "date": {
+        "day": 9,
+        "month": 8,
+        "year": 1960,
+        "formatted_date": "August 9, 1960"
+    },
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/b0\/86\/23\/51\/5344486a7856dfcc\/test_doc_4_original.pdf?hash=57bbcaf24fb89feb608a8f9a449ce41372cc0d8cd04207bd0a23c8d5b1d92a5b.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47257808"
+    }
+}

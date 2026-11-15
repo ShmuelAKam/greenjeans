@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672872",
+    "public": false,
+    "name": "Luxembourg Dahan",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Luxembourg Dahan",
+        "date": {
+            "day": 18,
+            "month": 6,
+            "year": 1905,
+            "formatted_date": "June 18, 1905"
+        },
+        "location": {
+            "street_address1": "The Crescent 34",
+            "city": "Mali",
+            "county": "Bamako",
+            "state": "Bamako Capital District",
+            "country": "Bamako",
+            "latitude": 12.6391699,
+            "longitude": -8.0025475,
+            "formatted_location": "The Crescent 34, Mali, Bamako, Bamako Capital District, Bamako"
+        }
+    }
+}

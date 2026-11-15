@@ -1,0 +1,27 @@
+{
+    "id": "document-47260199",
+    "guid": "6000000225689425837",
+    "created_at": "1779859534",
+    "updated_at": "1779859534",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260199",
+    "title": "Magna Carta",
+    "description": "\"Great Charter\"",
+    "date": {
+        "day": 3,
+        "month": 3,
+        "year": 2020,
+        "formatted_date": "March 3, 2020"
+    },
+    "labels": [
+        "england",
+        "King"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260199"
+    }
+}

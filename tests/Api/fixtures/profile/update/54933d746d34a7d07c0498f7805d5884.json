@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678579",
+    "public": true,
+    "name": "Roman Dahan",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of Roman Dahan",
+        "date": {
+            "day": 24,
+            "month": 7,
+            "year": 1909,
+            "formatted_date": "July 24, 1909"
+        },
+        "location": {
+            "street_address1": "Hill Street 31",
+            "city": "Uganda",
+            "county": "Kampala",
+            "state": "Central Region",
+            "country": "Kampala",
+            "latitude": 0.3385262,
+            "longitude": 32.5687497,
+            "formatted_location": "Hill Street 31, Uganda, Kampala, Central Region, Kampala"
+        }
+    }
+}

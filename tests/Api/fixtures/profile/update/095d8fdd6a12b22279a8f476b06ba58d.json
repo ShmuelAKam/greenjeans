@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672775",
+    "public": false,
+    "name": "Ivy Ohayon",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Ivy Ohayon",
+        "date": {
+            "day": 27,
+            "month": 10,
+            "year": 1952,
+            "formatted_date": "October 27, 1952"
+        },
+        "location": {
+            "street_address1": "Second Street 11",
+            "city": "Ghana",
+            "county": "Ayawaso West Municipal",
+            "state": "Greater Accra Region",
+            "country": "Accra",
+            "latitude": 5.6466995,
+            "longitude": -0.1671689,
+            "formatted_location": "Second Street 11, Ghana, Ayawaso West Municipal, Greater Accra Region, Accra"
+        }
+    }
+}

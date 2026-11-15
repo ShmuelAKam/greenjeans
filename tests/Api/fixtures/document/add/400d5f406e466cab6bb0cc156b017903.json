@@ -1,0 +1,21 @@
+{
+    "id": "document-47257789",
+    "guid": "6000000225687637824",
+    "created_at": "1779840383",
+    "updated_at": "1779840385",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257789",
+    "title": "Second",
+    "date": {
+        "day": 19,
+        "month": 2,
+        "year": 1980,
+        "formatted_date": "February 19, 1980"
+    },
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/c2\/fc\/3b\/e5\/5344486a78600f40\/test-doc-2_original.pdf?hash=d3645c5d64f29498139feffbcf8097f40d6304e452ac3ddb5970ff6612c9ce4e.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47257789"
+    }
+}

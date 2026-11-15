@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858739895",
+    "url": "https:\/\/www.geni.com\/api\/profile-34858739895",
+    "profile_url": "https:\/\/www.geni.com\/people\/Jack-Gaby\/6000000225732014925",
+    "public": false,
+    "guid": "6000000225732014925",
+    "first_name": "Jack",
+    "last_name": "Gaby",
+    "name": "Jack Gaby",
+    "is_alive": false,
+    "gender": "male",
+    "created_by": "https:\/\/www.geni.com\/api\/profile-9288190",
+    "claimed": false,
+    "unions": [
+        "https:\/\/www.geni.com\/api\/union-128868384"
+    ],
+    "birth_order": 99,
+    "living": false,
+    "creator": "https:\/\/www.geni.com\/api\/user-1444024",
+    "created_at": "1780016110",
+    "updated_at": "1780016110",
+    "deleted": false
+}

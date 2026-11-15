@@ -1,0 +1,26 @@
+{
+    "id": "photo-51986902",
+    "guid": "6000000225689331842",
+    "created_at": "1779859795",
+    "updated_at": "1779859795",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986902",
+    "title": "Title",
+    "date": {
+        "day": 9,
+        "month": 7,
+        "year": 1902,
+        "formatted_date": "July 9, 1902"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/95\/fe\/47\/fe\/5344486a7879e882\/file-sdk-2_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/95\/fe\/47\/fe\/5344486a7879e882\/file-sdk-2_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/95\/fe\/47\/fe\/5344486a7879e882\/file-sdk-2_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/95\/fe\/47\/fe\/5344486a7879e882\/file-sdk-2_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/95\/fe\/47\/fe\/5344486a7879e882\/file-sdk-2_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/95\/fe\/47\/fe\/5344486a7879e882\/file-sdk-2_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/95\/fe\/47\/fe\/5344486a7879e882\/file-sdk-2_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986902"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": "document-47290428",
+    "guid": "6000000225731979003",
+    "created_at": "1780015866",
+    "updated_at": "1780015866",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47290428",
+    "title": "Title",
+    "date": {
+        "day": 27,
+        "month": 1,
+        "year": 1941,
+        "formatted_date": "January 27, 1941"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47290428"
+    }
+}

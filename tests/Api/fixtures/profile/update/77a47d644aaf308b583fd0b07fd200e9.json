@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858672865",
+    "public": true,
+    "name": "Olivia Moshe",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Olivia Moshe",
+        "date": {
+            "day": 21,
+            "month": 1,
+            "year": 1980,
+            "formatted_date": "January 21, 1980"
+        },
+        "location": {
+            "street_address1": "Green Lane 87",
+            "city": "Germany",
+            "country": "Berlin",
+            "latitude": 51.165691,
+            "longitude": 10.451526,
+            "formatted_location": "Green Lane 87, Germany, Berlin"
+        }
+    }
+}

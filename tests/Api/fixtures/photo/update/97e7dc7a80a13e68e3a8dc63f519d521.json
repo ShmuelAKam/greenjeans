@@ -1,0 +1,27 @@
+{
+    "id": "photo-52081262",
+    "guid": "6000000226207777911",
+    "created_at": "1782073663",
+    "updated_at": "1782073678",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-52081262",
+    "title": "Title",
+    "description": "Silly half smile",
+    "date": {
+        "day": 10,
+        "month": 9,
+        "year": 1997,
+        "formatted_date": "September 10, 1997"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/5f\/de\/73\/db\/5344486a9760c477\/file-sdk-mona-lisa_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/5f\/de\/73\/db\/5344486a9760c477\/file-sdk-mona-lisa_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/5f\/de\/73\/db\/5344486a9760c477\/file-sdk-mona-lisa_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/5f\/de\/73\/db\/5344486a9760c477\/file-sdk-mona-lisa_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/5f\/de\/73\/db\/5344486a9760c477\/file-sdk-mona-lisa_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/5f\/de\/73\/db\/5344486a9760c477\/file-sdk-mona-lisa_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/5f\/de\/73\/db\/5344486a9760c477\/file-sdk-mona-lisa_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-52081262"
+    }
+}

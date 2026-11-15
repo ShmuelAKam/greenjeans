@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678643",
+    "public": true,
+    "name": "Iceland Levy",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Iceland Levy",
+        "date": {
+            "day": 17,
+            "month": 2,
+            "year": 1949,
+            "formatted_date": "February 17, 1949"
+        },
+        "location": {
+            "street_address1": "Queens Road 49",
+            "city": "Austria",
+            "county": "Vienna",
+            "state": "Vienna",
+            "country": "Vienna",
+            "latitude": 48.2080696,
+            "longitude": 16.3713095,
+            "formatted_location": "Queens Road 49, Austria, Vienna, Vienna, Vienna"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678680",
+    "public": false,
+    "name": "Sophie Weiss",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Sophie Weiss",
+        "date": {
+            "day": 25,
+            "month": 10,
+            "year": 1907,
+            "formatted_date": "October 25, 1907"
+        },
+        "location": {
+            "street_address1": "Kingsway 25",
+            "city": "Uganda",
+            "county": "Kampala",
+            "state": "Central Region",
+            "country": "Kampala",
+            "latitude": 0.3151692,
+            "longitude": 32.5816313,
+            "formatted_location": "Kingsway 25, Uganda, Kampala, Central Region, Kampala"
+        }
+    }
+}

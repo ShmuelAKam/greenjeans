@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678612",
+    "public": false,
+    "name": "Jude Yaakov",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Jude Yaakov",
+        "date": {
+            "day": 5,
+            "month": 3,
+            "year": 2003,
+            "formatted_date": "March 5, 2003"
+        },
+        "location": {
+            "street_address1": "Second Street 68",
+            "city": "Botswana",
+            "county": "South East",
+            "state": "South-East District",
+            "country": "Gaborone",
+            "latitude": -24.5650433,
+            "longitude": 25.9795396,
+            "formatted_location": "Second Street 68, Botswana, South East, South-East District, Gaborone"
+        }
+    }
+}

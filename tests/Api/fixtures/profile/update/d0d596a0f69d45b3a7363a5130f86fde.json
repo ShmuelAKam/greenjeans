@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678675",
+    "public": true,
+    "name": "Adam Omer",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of Adam Omer",
+        "date": {
+            "day": 7,
+            "month": 9,
+            "year": 1974,
+            "formatted_date": "September 7, 1974"
+        },
+        "location": {
+            "street_address1": "Manor Road 86",
+            "city": "France",
+            "county": "Paris",
+            "state": "\u00cele-de-France",
+            "country": "Paris",
+            "latitude": 48.8575475,
+            "longitude": 2.3513765,
+            "formatted_location": "Manor Road 86, France, Paris, \u00cele-de-France, Paris"
+        }
+    }
+}

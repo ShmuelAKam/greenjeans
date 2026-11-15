@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858739396",
+    "public": false,
+    "name": "Theodore Moshe",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Theodore Moshe",
+        "date": {
+            "day": 15,
+            "month": 3,
+            "year": 1951,
+            "formatted_date": "March 15, 1951"
+        },
+        "location": {
+            "street_address1": "High Street 16",
+            "city": "Denmark",
+            "country": "Copenhagen",
+            "latitude": 55.6760968,
+            "longitude": 12.5683371,
+            "formatted_location": "High Street 16, Denmark, Copenhagen"
+        }
+    }
+}

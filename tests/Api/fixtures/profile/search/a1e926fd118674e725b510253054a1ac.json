@@ -1,0 +1,466 @@
+{
+    "results": [
+        {
+            "id": "profile-12326437",
+            "url": "https:\/\/www.geni.com\/api\/profile-12326437",
+            "profile_url": "https:\/\/www.geni.com\/people\/Amalek\/6000000000829634054",
+            "public": true,
+            "guid": "6000000000829634054",
+            "first_name": "Amalek",
+            "maiden_name": ".",
+            "last_name": ".",
+            "name": "Amalek .",
+            "is_alive": false,
+            "gender": "male",
+            "occupation": "Chef des Edomites",
+            "created_by": "https:\/\/www.geni.com\/api\/profile-9288190",
+            "claimed": false,
+            "curator": "https:\/\/www.geni.com\/api\/profile-9288190",
+            "mugshot_urls": {
+                "large": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_large.jpg?hash=703894dc0600e845c097b00e063bd2b91ba5774148b5e2101c42689d1de1bdf3.1780124399",
+                "medium": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_medium.jpg?hash=8756b0078cc7e94535e62235b13e523a408c84362159fe18b6081712c81030f1.1780124399",
+                "small": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_small.jpg?hash=a81cef8ac10dbf4499e5253f0c1f2d9ac27c76e7b33a31af02979050868eaad5.1780124399",
+                "thumb": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_t.jpg?hash=bd13429a5057b23692aa927ba61367af656034ea6264a9864e8ce06a0b35cdce.1780124399",
+                "print": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_print.jpg?hash=f7e6633008784e6dc510852898985d76215ab0a816bc0ff3709bebe441649f0a.1780124399",
+                "thumb2": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_t2.jpg?hash=b679fba861a28047500e663824ea4faf6a62da0418c24f27aabbbe9fe251b405.1780124399",
+                "original": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_original.jpg?hash=4c91f71c23125d5b64411cbe8baec65380695848b9168fcc5ad5dcda0115eeb3.1780124399",
+                "url": "https:\/\/www.geni.com\/api\/photo-4975006"
+            },
+            "unions": [
+                "https:\/\/www.geni.com\/api\/union-8779658",
+                "https:\/\/www.geni.com\/api\/union-116352978"
+            ],
+            "birth_order": 6,
+            "names": {
+                "en-US": {
+                    "first_name": "Amalek",
+                    "last_name": ".",
+                    "maiden_name": "."
+                },
+                "he": {
+                    "first_name": "\u05e2\u05de\u05dc\u05e7"
+                }
+            },
+            "living": false,
+            "creator": "https:\/\/www.geni.com\/api\/user-1444024",
+            "photo_urls": {
+                "large": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_large.jpg?hash=703894dc0600e845c097b00e063bd2b91ba5774148b5e2101c42689d1de1bdf3.1780124399",
+                "medium": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_medium.jpg?hash=8756b0078cc7e94535e62235b13e523a408c84362159fe18b6081712c81030f1.1780124399",
+                "small": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_small.jpg?hash=a81cef8ac10dbf4499e5253f0c1f2d9ac27c76e7b33a31af02979050868eaad5.1780124399",
+                "thumb": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_t.jpg?hash=bd13429a5057b23692aa927ba61367af656034ea6264a9864e8ce06a0b35cdce.1780124399",
+                "print": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_print.jpg?hash=f7e6633008784e6dc510852898985d76215ab0a816bc0ff3709bebe441649f0a.1780124399",
+                "thumb2": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_t2.jpg?hash=b679fba861a28047500e663824ea4faf6a62da0418c24f27aabbbe9fe251b405.1780124399",
+                "original": "https:\/\/media.geni.com\/p4\/5890\/1999\/534448361c44650a\/zeq27kup_original.jpg?hash=4c91f71c23125d5b64411cbe8baec65380695848b9168fcc5ad5dcda0115eeb3.1780124399",
+                "url": "https:\/\/www.geni.com\/api\/photo-4975006"
+            },
+            "created_at": "1172495350",
+            "updated_at": "1752056235",
+            "deleted": false,
+            "project_ids": [
+                "project-4504495",
+                "project-38"
+            ]
+        },
+        {
+            "id": "profile-34821964609",
+            "url": "https:\/\/www.geni.com\/api\/profile-34821964609",
+            "profile_url": "https:\/\/www.geni.com\/people\/Duke-Amalek\/6000000202287288824",
+            "public": true,
+            "guid": "6000000202287288824",
+            "title": "Duke",
+            "first_name": "Amalek",
+            "maiden_name": ".",
+            "last_name": ".",
+            "name": "Duke Amalek .",
+            "is_alive": false,
+            "gender": "male",
+            "created_by": "https:\/\/www.geni.com\/api\/profile-9288190",
+            "claimed": false,
+            "curator": "https:\/\/www.geni.com\/api\/profile-9288190",
+            "unions": [
+                "https:\/\/www.geni.com\/api\/union-116331602"
+            ],
+            "birth_order": 6,
+            "names": {
+                "en-US": {
+                    "first_name": "Amalek",
+                    "last_name": ".",
+                    "maiden_name": ".",
+                    "title": "Duke"
+                },
+                "he": {
+                    "first_name": "\u05e2\u05de\u05dc\u05e7",
+                    "title": "\u05d0\u05dc\u05d5\u05e3"
+                }
+            },
+            "living": false,
+            "creator": "https:\/\/www.geni.com\/api\/user-1444024",
+            "created_at": "1705941366",
+            "updated_at": "1705942624",
+            "deleted": false,
+            "project_ids": [
+                "project-38"
+            ]
+        },
+        {
+            "id": "profile-34717168922",
+            "url": "https:\/\/www.geni.com\/api\/profile-34717168922",
+            "profile_url": "https:\/\/www.geni.com\/people\/Amalek-Malka-Katzenstein\/6000000076718317396",
+            "public": true,
+            "guid": "6000000076718317396",
+            "first_name": "Amalek (Malka)",
+            "middle_name": "Amalek",
+            "maiden_name": "Neu",
+            "last_name": "Katzenstein",
+            "name": "Amalek (Malka) Amalek Katzenstein (Neu)",
+            "is_alive": false,
+            "gender": "female",
+            "created_by": "https:\/\/www.geni.com\/api\/profile-10254040",
+            "big_tree": true,
+            "claimed": false,
+            "unions": [
+                "https:\/\/www.geni.com\/api\/union-80229203"
+            ],
+            "marriage_orders": {
+                "6000000076718317400": 0
+            },
+            "birth_order": 99,
+            "living": false,
+            "creator": "https:\/\/www.geni.com\/api\/user-1133213",
+            "death": {
+                "name": "Death of Amalek (Malka) Amalek Katzenstein (Neu)",
+                "date": {
+                    "year": 1920,
+                    "formatted_date": "1920"
+                }
+            },
+            "created_at": "1262554573",
+            "updated_at": "1520427602",
+            "deleted": false
+        },
+        {
+            "id": "profile-34763247179",
+            "url": "https:\/\/www.geni.com\/api\/profile-34763247179",
+            "profile_url": "https:\/\/www.geni.com\/people\/Amalek-or-Amaleck-Lapham\/6000000150687160888",
+            "public": true,
+            "guid": "6000000150687160888",
+            "first_name": "Amalek or Amaleck",
+            "maiden_name": "Lapham",
+            "last_name": "Lapham",
+            "name": "Amalek or Amaleck Lapham",
+            "is_alive": false,
+            "gender": "male",
+            "created_by": "https:\/\/www.geni.com\/api\/profile-34655740009",
+            "big_tree": true,
+            "claimed": false,
+            "unions": [
+                "https:\/\/www.geni.com\/api\/union-113242911",
+                "https:\/\/www.geni.com\/api\/union-95662261"
+            ],
+            "marriage_orders": {
+                "6000000150687160894": 0
+            },
+            "birth_order": 2,
+            "living": false,
+            "creator": "https:\/\/www.geni.com\/api\/user-12539253",
+            "birth": {
+                "name": "Birth of Amalek or Amaleck Lapham",
+                "date": {
+                    "year": 1790,
+                    "circa": true,
+                    "formatted_date": "circa 1790"
+                },
+                "location": {
+                    "state": "NY or RI",
+                    "country": "United States",
+                    "country_code": "US",
+                    "latitude": 41.9220496,
+                    "longitude": -71.5495101,
+                    "formatted_location": "NY or RI, United States"
+                }
+            },
+            "death": {
+                "name": "Death of Amalek or Amaleck Lapham",
+                "date": {
+                    "year": 1840,
+                    "end_year": 1850,
+                    "range": "between",
+                    "formatted_date": "between 1840 and 1850"
+                },
+                "location": {
+                    "city": "Leicester",
+                    "county": "Livingston County",
+                    "state": "NY",
+                    "country": "United States",
+                    "country_code": "US",
+                    "latitude": 42.7720066,
+                    "longitude": -77.8966709,
+                    "formatted_location": "Leicester, Livingston County, NY, United States"
+                }
+            },
+            "created_at": "1599671347",
+            "updated_at": "1691270924",
+            "deleted": false
+        },
+        {
+            "id": "profile-34680170320",
+            "url": "https:\/\/www.geni.com\/api\/profile-34680170320",
+            "profile_url": "https:\/\/www.geni.com\/people\/Amalek-Scrab\/6000000037701195277",
+            "public": false,
+            "guid": "6000000037701195277",
+            "first_name": "Amalek",
+            "last_name": "Scrab",
+            "name": "Amalek Scrab",
+            "is_alive": true,
+            "gender": "male",
+            "created_by": "https:\/\/www.geni.com\/api\/profile-34680170320",
+            "claimed": true,
+            "living": true,
+            "creator": "https:\/\/www.geni.com\/api\/user-14174717",
+            "account_type": "basic",
+            "created_at": "1446957237",
+            "updated_at": "1446957237",
+            "deleted": false,
+            "is_curator": false
+        },
+        {
+            "id": "profile-34752338077",
+            "url": "https:\/\/www.geni.com\/api\/profile-34752338077",
+            "profile_url": "https:\/\/www.geni.com\/people\/Amalek-Williams\/6000000125192203274",
+            "public": true,
+            "guid": "6000000125192203274",
+            "first_name": "Amalek",
+            "middle_name": "C",
+            "maiden_name": "Williams",
+            "last_name": "Williams",
+            "name": "Amalek C Williams",
+            "is_alive": false,
+            "gender": "male",
+            "created_by": "https:\/\/www.geni.com\/api\/profile-34655089816",
+            "big_tree": true,
+            "claimed": false,
+            "unions": [
+                "https:\/\/www.geni.com\/api\/union-92040709",
+                "https:\/\/www.geni.com\/api\/union-92041118"
+            ],
+            "marriage_orders": {
+                "6000000125194547857": 0
+            },
+            "birth_order": 1,
+            "living": false,
+            "creator": "https:\/\/www.geni.com\/api\/user-12500371",
+            "birth": {
+                "name": "Birth of Amalek C Williams",
+                "date": {
+                    "year": 1808,
+                    "formatted_date": "1808"
+                }
+            },
+            "death": {
+                "name": "Death of Amalek C Williams",
+                "date": {
+                    "year": 1867,
+                    "formatted_date": "1867"
+                }
+            },
+            "created_at": "1583355531",
+            "updated_at": "1712816213",
+            "deleted": false
+        },
+        {
+            "id": "profile-34747853014",
+            "url": "https:\/\/www.geni.com\/api\/profile-34747853014",
+            "profile_url": "https:\/\/www.geni.com\/people\/Claudius-Van-Graan-5\/6000000116313125268",
+            "public": true,
+            "guid": "6000000116313125268",
+            "first_name": "Claudius",
+            "middle_name": "Amalek",
+            "last_name": "Van Graan",
+            "suffix": "5",
+            "name": "Claudius Amalek Van Graan, 5",
+            "is_alive": false,
+            "gender": "male",
+            "current_residence": {
+                "city": "Bloemfontein",
+                "state": "Oranje Vrystaat",
+                "formatted_location": "Bloemfontein, Oranje Vrystaat"
+            },
+            "occupation": "Skilder",
+            "created_by": "https:\/\/www.geni.com\/api\/profile-75858154",
+            "big_tree": true,
+            "claimed": false,
+            "cause_of_death": "cancer?",
+            "unions": [
+                "https:\/\/www.geni.com\/api\/union-56430155",
+                "https:\/\/www.geni.com\/api\/union-90570525"
+            ],
+            "marriage_orders": {
+                "6000000116313125272": 0
+            },
+            "birth_order": 1,
+            "living": false,
+            "creator": "https:\/\/www.geni.com\/api\/user-6034870",
+            "birth": {
+                "name": "Birth of Claudius Amalek Van Graan, 5",
+                "date": {
+                    "day": 18,
+                    "month": 12,
+                    "year": 1889,
+                    "formatted_date": "December 18, 1889"
+                },
+                "location": {
+                    "city": "Brandfort",
+                    "state": "Oranje Vrystaat",
+                    "formatted_location": "Brandfort, Oranje Vrystaat"
+                }
+            },
+            "death": {
+                "name": "Death of Claudius Amalek Van Graan, 5 at Bainsvlei",
+                "date": {
+                    "day": 12,
+                    "month": 3,
+                    "year": 1934,
+                    "formatted_date": "March 12, 1934"
+                },
+                "location": {
+                    "place_name": "Bainsvlei",
+                    "city": "Bloemfontein",
+                    "state": "Oranje Vrystaat",
+                    "formatted_location": "Bainsvlei, Bloemfontein, Oranje Vrystaat"
+                }
+            },
+            "created_at": "1262282854",
+            "updated_at": "1642533741",
+            "deleted": false
+        },
+        {
+            "id": "profile-85063661",
+            "url": "https:\/\/www.geni.com\/api\/profile-85063661",
+            "profile_url": "https:\/\/www.geni.com\/people\/Elijah-Baidoo\/6000000008395437795",
+            "public": false,
+            "guid": "6000000008395437795",
+            "first_name": "Elijah",
+            "middle_name": "Amalek",
+            "last_name": "Baidoo",
+            "name": "Elijah Amalek Baidoo",
+            "is_alive": true,
+            "gender": "male",
+            "current_residence": {
+                "city": "Stockton",
+                "state": "CA",
+                "country": "United States",
+                "country_code": "US",
+                "latitude": 37.9577016,
+                "longitude": -121.2907796,
+                "formatted_location": "Stockton, CA, United States"
+            },
+            "created_by": "https:\/\/www.geni.com\/api\/profile-84215696",
+            "big_tree": true,
+            "claimed": false,
+            "unions": [
+                "https:\/\/www.geni.com\/api\/union-28912790"
+            ],
+            "birth_order": 1,
+            "living": true,
+            "location": {
+                "city": "Stockton",
+                "state": "CA",
+                "country": "United States",
+                "country_code": "US",
+                "latitude": 37.9577016,
+                "longitude": -121.2907796,
+                "formatted_location": "Stockton, CA, United States"
+            },
+            "creator": "https:\/\/www.geni.com\/api\/user-6540148",
+            "birth": {
+                "name": "Birth of Elijah Amalek Baidoo",
+                "date": {
+                    "day": 2,
+                    "month": 4,
+                    "year": 1996,
+                    "formatted_date": "April 2, 1996"
+                },
+                "location": {
+                    "city": "Stockton",
+                    "state": "CA",
+                    "country": "United States",
+                    "country_code": "US",
+                    "latitude": 37.9577016,
+                    "longitude": -121.2907796,
+                    "formatted_location": "Stockton, CA, United States"
+                }
+            },
+            "created_at": "1270689375",
+            "updated_at": "1418778906",
+            "deleted": false
+        },
+        {
+            "id": "profile-34696708948",
+            "url": "https:\/\/www.geni.com\/api\/profile-34696708948",
+            "profile_url": "https:\/\/www.geni.com\/people\/Niels-Refsgaard\/6000000050139381987",
+            "public": true,
+            "guid": "6000000050139381987",
+            "first_name": "Niels",
+            "middle_name": "Amalek",
+            "last_name": "Refsgaard",
+            "name": "Niels Amalek Refsgaard",
+            "is_alive": false,
+            "gender": "male",
+            "created_by": "https:\/\/www.geni.com\/api\/profile-83473160",
+            "big_tree": true,
+            "claimed": false,
+            "unions": [
+                "https:\/\/www.geni.com\/api\/union-71062572",
+                "https:\/\/www.geni.com\/api\/union-71062557"
+            ],
+            "marriage_orders": {
+                "6000000050139381993": 0
+            },
+            "birth_order": 1,
+            "living": false,
+            "creator": "https:\/\/www.geni.com\/api\/user-6502294",
+            "birth": {
+                "name": "Birth of Niels Amalek Refsgaard",
+                "date": {
+                    "day": 12,
+                    "month": 2,
+                    "year": 1911,
+                    "formatted_date": "February 12, 1911"
+                },
+                "location": {
+                    "city": "Videb\u00e6k",
+                    "county": "B\u00f8lling",
+                    "state": "Ringk\u00f8bing",
+                    "country": "DK",
+                    "country_code": "DK",
+                    "latitude": 35.485668,
+                    "longitude": -91.579681,
+                    "formatted_location": "Videb\u00e6k, B\u00f8lling, Ringk\u00f8bing, Denmark"
+                }
+            },
+            "death": {
+                "name": "Death of Niels Amalek Refsgaard",
+                "date": {
+                    "day": 12,
+                    "month": 3,
+                    "year": 1991,
+                    "formatted_date": "March 12, 1991"
+                },
+                "location": {
+                    "city": "N\u00f8rre Omme",
+                    "county": "Hind",
+                    "state": "Ringk\u00f8bing",
+                    "country": "DK",
+                    "country_code": "DK",
+                    "latitude": 35.485668,
+                    "longitude": -91.579681,
+                    "formatted_location": "N\u00f8rre Omme, Hind, Ringk\u00f8bing, Denmark"
+                }
+            },
+            "created_at": "1479754062",
+            "updated_at": "1656448874",
+            "deleted": false
+        }
+    ],
+    "total_count": 9
+}

@@ -1,0 +1,29 @@
+{
+    "id": "document-47257750",
+    "guid": "6000000225687598842",
+    "created_at": "1779840324",
+    "updated_at": "1779840324",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257750",
+    "title": "Title",
+    "description": "From King George",
+    "date": {
+        "day": 3,
+        "month": 1,
+        "year": 2003,
+        "formatted_date": "January 3, 2003"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla",
+        "crystal clear",
+        "badly formatted"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257750"
+    }
+}

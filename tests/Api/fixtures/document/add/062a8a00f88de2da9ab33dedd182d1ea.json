@@ -1,0 +1,21 @@
+{
+    "id": "document-47257871",
+    "guid": "6000000225687637838",
+    "created_at": "1779840440",
+    "updated_at": "1779840442",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257871",
+    "title": "Forth ",
+    "date": {
+        "day": 11,
+        "month": 5,
+        "year": 1909,
+        "formatted_date": "May 11, 1909"
+    },
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/f6\/03\/1f\/ad\/5344486a78600f4e\/test_doc_4_original.pdf?hash=2c4ff5460055603f8830925b7b3d3d6bcee06f1ab6184bba4b0a11eb335d077d.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47257871"
+    }
+}

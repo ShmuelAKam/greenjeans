@@ -1,0 +1,24 @@
+{
+    "id": "video-154163",
+    "guid": "6000000225689870879",
+    "created_at": "1779864599",
+    "updated_at": "1779864601",
+    "url": "https:\/\/www.geni.com\/api\/video-154163",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 25,
+        "month": 3,
+        "year": 1950,
+        "formatted_date": "March 25, 1950"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/11\/65\/a4\/58\/5344486a7882221f\/5344486a7882221f_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/11\/65\/a4\/58\/5344486a7882221f\/5344486a7882221f_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/11\/65\/a4\/58\/5344486a7882221f\/5344486a7882221f_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/11\/65\/a4\/58\/5344486a7882221f\/5344486a7882221f_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/11\/65\/a4\/58\/5344486a7882221f\/5344486a7882221f_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/11\/65\/a4\/58\/5344486a7882221f\/5344486a7882221f.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154163"
+    }
+}

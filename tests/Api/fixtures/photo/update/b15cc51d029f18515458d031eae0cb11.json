@@ -1,0 +1,27 @@
+{
+    "id": "photo-51986976",
+    "guid": "6000000225689334916",
+    "created_at": "1779860279",
+    "updated_at": "1779860280",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986976",
+    "title": "Marble David",
+    "description": "Description",
+    "date": {
+        "day": 8,
+        "month": 3,
+        "year": 1983,
+        "formatted_date": "March 8, 1983"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/10\/4b\/eb\/a6\/5344486a7879f484\/file-sdk-donatello-david_large.jpg?hash=16d055a825a7a144d1415c63b28989a7fdb9710b781c9483ccec781eb9e0cd48.1779951599",
+        "medium": "https:\/\/media.geni.com\/p14\/10\/4b\/eb\/a6\/5344486a7879f484\/file-sdk-donatello-david_medium.jpg?hash=8d1a665ba6e81c448034b51cd8a924f3c0f37b6cbb500736f9258ba2550c6413.1779951599",
+        "small": "https:\/\/media.geni.com\/p14\/10\/4b\/eb\/a6\/5344486a7879f484\/file-sdk-donatello-david_small.jpg?hash=4952fa802807bb3dcf7f5b6f1e0aee54b8819117365eb496b05e24dee1c8a359.1779951599",
+        "thumb": "https:\/\/media.geni.com\/p14\/10\/4b\/eb\/a6\/5344486a7879f484\/file-sdk-donatello-david_t.jpg?hash=b560b8acdf815fb9e25916a4c22f1c6597e3109c63c365337a3bd92c94272dc7.1779951599",
+        "print": "https:\/\/media.geni.com\/p14\/10\/4b\/eb\/a6\/5344486a7879f484\/file-sdk-donatello-david_print.jpg?hash=beee212a5fd8ebcabffb09f514dc6038804a89a36db0bbb2047b51b6ea640a73.1779951599",
+        "thumb2": "https:\/\/media.geni.com\/p14\/10\/4b\/eb\/a6\/5344486a7879f484\/file-sdk-donatello-david_t2.jpg?hash=ca985ac88f4f27f670c846fdf03cb5068f08822cdb1c3286bedc3a6e722e3f9f.1779951599",
+        "original": "https:\/\/media.geni.com\/p14\/10\/4b\/eb\/a6\/5344486a7879f484\/file-sdk-donatello-david_original.jpg?hash=6542db06fd50f7e5fcc505169a693e9052dc73dd905cb8a3ec5b392066aa9f5f.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986976"
+    }
+}

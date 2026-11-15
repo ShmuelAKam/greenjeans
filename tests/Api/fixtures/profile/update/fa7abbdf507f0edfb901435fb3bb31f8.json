@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858672741",
+    "public": false,
+    "name": "Rowan Yosef",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of Rowan Yosef",
+        "date": {
+            "day": 7,
+            "month": 1,
+            "year": 1955,
+            "formatted_date": "January 7, 1955"
+        },
+        "location": {
+            "street_address1": "Hill Street 91",
+            "city": "Finland",
+            "country": "Helsinki",
+            "latitude": 61.92411,
+            "longitude": 25.7481511,
+            "formatted_location": "Hill Street 91, Finland, Helsinki"
+        }
+    }
+}

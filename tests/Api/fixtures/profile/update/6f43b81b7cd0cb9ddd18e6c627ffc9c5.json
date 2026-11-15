@@ -1,0 +1,26 @@
+{
+    "id": "profile-34858678656",
+    "public": false,
+    "name": "New Zealand Schwartz",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of New Zealand Schwartz",
+        "date": {
+            "day": 25,
+            "month": 2,
+            "year": 1983,
+            "formatted_date": "February 25, 1983"
+        },
+        "location": {
+            "street_address1": "High Street 57",
+            "city": "United Kingdom",
+            "county": "Greater London",
+            "state": "England",
+            "country": "London",
+            "postal_code": "W3 9NX",
+            "latitude": 51.5078044,
+            "longitude": -0.2729896,
+            "formatted_location": "High Street 57, United Kingdom, Greater London, England, W3 9NX, London"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678588",
+    "public": false,
+    "name": "Iceland Levy",
+    "is_alive": true,
+    "birth": {
+        "name": "Birth of Iceland Levy",
+        "date": {
+            "day": 7,
+            "month": 9,
+            "year": 1916,
+            "formatted_date": "September 7, 1916"
+        },
+        "location": {
+            "street_address1": "Church Road 36",
+            "city": "Portugal",
+            "country": "Lisbon",
+            "latitude": 39.399872,
+            "longitude": -8.224454,
+            "formatted_location": "Church Road 36, Portugal, Lisbon"
+        }
+    }
+}

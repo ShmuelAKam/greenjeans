@@ -1,0 +1,26 @@
+{
+    "id": "profile-34858678621",
+    "public": false,
+    "name": "Arlo Friedman",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Arlo Friedman",
+        "date": {
+            "day": 19,
+            "month": 11,
+            "year": 1939,
+            "formatted_date": "November 19, 1939"
+        },
+        "location": {
+            "street_address1": "The Avenue 89",
+            "city": "Poland",
+            "county": "Warsaw",
+            "state": "Masovian Voivodeship",
+            "country": "Warsaw",
+            "postal_code": "03",
+            "latitude": 52.2296756,
+            "longitude": 21.0122287,
+            "formatted_location": "The Avenue 89, Poland, Warsaw, Masovian Voivodeship, 03, Warsaw"
+        }
+    }
+}

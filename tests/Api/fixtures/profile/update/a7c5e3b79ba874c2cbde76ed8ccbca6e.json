@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672772",
+    "public": false,
+    "name": "France Gaby",
+    "is_alive": false,
+    "death": {
+        "name": "Death of France Gaby",
+        "date": {
+            "day": 23,
+            "month": 7,
+            "year": 1908,
+            "formatted_date": "July 23, 1908"
+        },
+        "location": {
+            "street_address1": "Lake Street 10",
+            "city": "Spain",
+            "county": "Madrid",
+            "state": "Community of Madrid",
+            "country": "Madrid",
+            "latitude": 40.4167279,
+            "longitude": -3.7032905,
+            "formatted_location": "Lake Street 10, Spain, Madrid, Community of Madrid, Madrid"
+        }
+    }
+}

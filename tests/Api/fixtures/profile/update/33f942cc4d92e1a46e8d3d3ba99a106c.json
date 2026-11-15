@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858678613",
+    "public": false,
+    "name": "Grace Shapiro",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Grace Shapiro",
+        "date": {
+            "day": 10,
+            "month": 7,
+            "year": 1988,
+            "formatted_date": "July 10, 1988"
+        },
+        "location": {
+            "street_address1": "Lake Street 46",
+            "city": "Namibia",
+            "state": "Khomas Region",
+            "country": "Windhoek",
+            "latitude": -22.5649344,
+            "longitude": 17.0842147,
+            "formatted_location": "Lake Street 46, Namibia, Khomas Region, Windhoek"
+        }
+    }
+}

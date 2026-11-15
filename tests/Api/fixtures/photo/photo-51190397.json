@@ -1,0 +1,26 @@
+{
+    "album_id": "6000000222544428842",
+    "attribution": "Leonardo",
+    "content_type": "image\/jpeg",
+    "created_at": "1764625640",
+    "guid": "6000000222544428851",
+    "id": "photo-51190397",
+    "title": "File-SDK-Mona-Lisa.jpg",
+    "updated_at": "1765407934",
+    "url": "https:\/\/www.geni.com\/api\/photo-51190397",
+    "date": {
+        "year": 1503
+    },
+    "location": {
+        "country": "Italy",
+        "city": "Florence"
+    },
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/f1\/9b\/ac\/db\/53444869bd067f33\/file-sdk-mona_lisa_large.jpg?hash=18a0804f2fde35e310e6f77c3cf34d0df9a6e8cc36d7a29de29e73b2b6d6d1c4.1782370799",
+        "medium": "https:\/\/media.geni.com\/p14\/f1\/9b\/ac\/db\/53444869bd067f33\/file-sdk-mona_lisa_medium.jpg?hash=4c34ae31e1f3b51f216ee5ff7bbdc489e1ed0d3ba6b3f84f94d4feadc49ed142.1782370799",
+        "print": "https:\/\/media.geni.com\/p14\/f1\/9b\/ac\/db\/53444869bd067f33\/file-sdk-mona_lisa_print.jpg?hash=23efcf52e6ed4341ecfa68f071d4e44a22c7c0fe4a06c1c9cad5ab954ee78240.1782370799",
+        "small": "https:\/\/media.geni.com\/p14\/f1\/9b\/ac\/db\/53444869bd067f33\/file-sdk-mona_lisa_small.jpg?hash=69c55c9897de0a628a454e07840a93391092da1968d9f1a2643a02328c094590.1782370799",
+        "thumb": "https:\/\/media.geni.com\/p14\/f1\/9b\/ac\/db\/53444869bd067f33\/file-sdk-mona_lisa_t.jpg?hash=395361fb16450923b4ff7a810a45157647afc1e813f31861fecd4094093513e8.1782370799",
+        "thumb2": "https:\/\/media.geni.com\/p14\/f1\/9b\/ac\/db\/53444869bd067f33\/file-sdk-mona_lisa_t2.jpg?hash=192abaea39301bed6cc51a33a2964149c4ba4a3e28fe7ecc0c85bc70a4887280.1782370799"
+    }
+}

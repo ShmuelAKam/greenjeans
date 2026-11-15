@@ -1,0 +1,27 @@
+{
+    "id": "photo-51986421",
+    "guid": "6000000225687756838",
+    "created_at": "1779842159",
+    "updated_at": "1779842160",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986421",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 21,
+        "month": 4,
+        "year": 1982,
+        "formatted_date": "April 21, 1982"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/07\/84\/af\/05\/5344486a7861e026\/file-sdk-4_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/07\/84\/af\/05\/5344486a7861e026\/file-sdk-4_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/07\/84\/af\/05\/5344486a7861e026\/file-sdk-4_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/07\/84\/af\/05\/5344486a7861e026\/file-sdk-4_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/07\/84\/af\/05\/5344486a7861e026\/file-sdk-4_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/07\/84\/af\/05\/5344486a7861e026\/file-sdk-4_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/07\/84\/af\/05\/5344486a7861e026\/file-sdk-4_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986421"
+    }
+}

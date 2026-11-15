@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858672832",
+    "public": false,
+    "name": "Lottie Gaby",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Lottie Gaby",
+        "date": {
+            "day": 19,
+            "month": 3,
+            "year": 1973,
+            "formatted_date": "March 19, 1973"
+        },
+        "location": {
+            "street_address1": "View Street 88",
+            "city": "Namibia",
+            "state": "Khomas Region",
+            "country": "Windhoek",
+            "latitude": -22.5649344,
+            "longitude": 17.0842147,
+            "formatted_location": "View Street 88, Namibia, Khomas Region, Windhoek"
+        }
+    }
+}

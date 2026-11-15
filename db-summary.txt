@@ -1,0 +1,25 @@
+Final Architecture Overview
+
+Entities: Pure "Plain Old PHP Objects" (POPOs) like API_Profile, API_Union, and API_Document that manage business logic and Geni API communication.
+
+Mappers: Specialized classes like ProfileMapper and ProjectMapper that use PDO to bridge the gap between your entities and a normalized SQL Database.
+
+Normalization: Complex objects (Dates, Locations) and collections (Followers, Collaborators) are stored in dedicated relational tables with Foreign Keys, ensuring data integrity.
+
+Persistence Strategy: Aggregate Roots manage their own children via PDO Transactions, ensuring that if a sub-object (like a marriage event) fails to save, the parent Union is rolled back.
+
+Test Suite: A complete PHPUnit environment using SQLite in-memory to verify that your mappers correctly handle CRUD operations and complex object graph reconstruction.
+
+How to Use the Mappers in Production
+Initialize PDO: Create your MySQL/MariaDB connection.
+Instantiate Factory: Use the MapperFactory to manage your mapper instances.
+Perform CRUD:
+php
+$pdo = new PDO($dsn, $user, $pass);
+$factory = new MapperFactory($pdo);
+
+// Example: Fetch from Geni API and Cache locally
+$profile = API_Profile::get('6000000012345');
+$profileMapper = $factory->getMapper(API_Profile::class);
+$profileMapper->add($profile);
+

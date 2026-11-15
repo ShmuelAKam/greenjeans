@@ -1,0 +1,27 @@
+{
+    "id": "document-47260803",
+    "guid": "6000000225689660841",
+    "created_at": "1779861252",
+    "updated_at": "1779861252",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260803",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 3,
+        "month": 6,
+        "year": 1912,
+        "formatted_date": "June 3, 1912"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260803"
+    }
+}

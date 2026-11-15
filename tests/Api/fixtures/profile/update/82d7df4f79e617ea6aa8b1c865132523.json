@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858672868",
+    "public": false,
+    "name": "Albie Schwartz",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Albie Schwartz",
+        "date": {
+            "day": 15,
+            "month": 10,
+            "year": 2018,
+            "formatted_date": "October 15, 2018"
+        },
+        "location": {
+            "street_address1": "Cedar Street 27",
+            "city": "Germany",
+            "country": "Berlin",
+            "latitude": 51.165691,
+            "longitude": 10.451526,
+            "formatted_location": "Cedar Street 27, Germany, Berlin"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "results": [
+        {
+            "id": "profile-34861419538",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419538",
+            "public": false,
+            "name": "Arthur David",
+            "first_name": "Arthur",
+            "last_name": "David",
+            "gender": "male",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34861419539",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419539",
+            "public": false,
+            "name": "Aurora Avraham",
+            "first_name": "Aurora",
+            "last_name": "Avraham",
+            "gender": "female",
+            "is_alive": true
+        }
+    ],
+    "total_count": 2
+}

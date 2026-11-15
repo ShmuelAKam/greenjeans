@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858678654",
+    "public": true,
+    "name": "Maisie Dahan",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of Maisie Dahan",
+        "date": {
+            "day": 1,
+            "month": 2,
+            "year": 1930,
+            "formatted_date": "February 1, 1930"
+        },
+        "location": {
+            "street_address1": "Park Road 78",
+            "city": "Sweden",
+            "state": "Stockholm County",
+            "country": "Stockholm",
+            "latitude": 59.3327036,
+            "longitude": 18.0656255,
+            "formatted_location": "Park Road 78, Sweden, Stockholm County, Stockholm"
+        }
+    }
+}

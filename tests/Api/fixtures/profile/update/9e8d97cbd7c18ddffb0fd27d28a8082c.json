@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672880",
+    "public": false,
+    "name": "Louie Peretz",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of Louie Peretz",
+        "date": {
+            "day": 17,
+            "month": 8,
+            "year": 1971,
+            "formatted_date": "August 17, 1971"
+        },
+        "location": {
+            "street_address1": "View Street 72",
+            "city": "Zambia",
+            "county": "Lusaka",
+            "state": "Lusaka Province",
+            "country": "Lusaka",
+            "latitude": -15.4154677,
+            "longitude": 28.2773267,
+            "formatted_location": "View Street 72, Zambia, Lusaka, Lusaka Province, Lusaka"
+        }
+    }
+}

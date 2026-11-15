@@ -1,0 +1,27 @@
+{
+    "id": "video-153901",
+    "guid": "6000000225687708909",
+    "created_at": "1779841691",
+    "updated_at": "1779841692",
+    "url": "https:\/\/www.geni.com\/api\/video-153901",
+    "title": "Title",
+    "date": {
+        "day": 25,
+        "month": 10,
+        "year": 1982,
+        "formatted_date": "October 25, 1982"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/51\/ad\/2c\/7e\/5344486a786124ed\/5344486a786124ed_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/51\/ad\/2c\/7e\/5344486a786124ed\/5344486a786124ed_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/51\/ad\/2c\/7e\/5344486a786124ed\/5344486a786124ed_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/51\/ad\/2c\/7e\/5344486a786124ed\/5344486a786124ed_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/51\/ad\/2c\/7e\/5344486a786124ed\/5344486a786124ed_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/51\/ad\/2c\/7e\/5344486a786124ed\/5344486a786124ed.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153901"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190",
+        "https:\/\/www.geni.com\/api\/profile-34858672106"
+    ]
+}

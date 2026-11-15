@@ -1,0 +1,706 @@
+{
+    "results": [
+        {
+            "id": "document-47290364",
+            "guid": "6000000225731943825",
+            "created_at": "1780014420",
+            "updated_at": "1780014421",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290364",
+            "title": "Title",
+            "description": "Description",
+            "date": {
+                "day": 1,
+                "month": 1,
+                "year": 1956,
+                "formatted_date": "January 1, 1956"
+            },
+            "labels": [
+                "Labels"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290364"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290363",
+            "guid": "6000000225731885885",
+            "created_at": "1780014419",
+            "updated_at": "1780014419",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290363",
+            "title": "Magna Carta",
+            "description": "\"Great Charter\"",
+            "date": {
+                "day": 9,
+                "month": 12,
+                "year": 2005,
+                "formatted_date": "December 9, 2005"
+            },
+            "labels": [
+                "england",
+                "King"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290363"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290362",
+            "guid": "6000000225731253114",
+            "created_at": "1780014419",
+            "updated_at": "1780014419",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290362",
+            "title": "Title",
+            "date": {
+                "day": 23,
+                "month": 3,
+                "year": 1999,
+                "formatted_date": "March 23, 1999"
+            },
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290362"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290361",
+            "guid": "6000000225731885883",
+            "created_at": "1780014418",
+            "updated_at": "1780014418",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290361",
+            "title": "US Constitution",
+            "description": "Non-equal rights",
+            "date": {
+                "day": 21,
+                "month": 5,
+                "year": 2020,
+                "formatted_date": "May 21, 2020"
+            },
+            "labels": [
+                "United States"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290361"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290360",
+            "guid": "6000000225731913854",
+            "created_at": "1780014417",
+            "updated_at": "1780014417",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290360",
+            "title": "Title",
+            "date": {
+                "day": 16,
+                "month": 3,
+                "year": 1934,
+                "formatted_date": "March 16, 1934"
+            },
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290360"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290359",
+            "guid": "6000000225731913850",
+            "created_at": "1780014417",
+            "updated_at": "1780014417",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290359",
+            "title": "The Road Not Taken",
+            "description": "Robert Frost",
+            "date": {
+                "day": 3,
+                "month": 2,
+                "year": 1924,
+                "formatted_date": "February 3, 1924"
+            },
+            "labels": [
+                "Irony",
+                "Woods",
+                "Peotry"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290359"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290358",
+            "guid": "6000000225731914852",
+            "created_at": "1780014415",
+            "updated_at": "1780014416",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290358",
+            "title": "Title",
+            "date": {
+                "day": 27,
+                "month": 10,
+                "year": 1960,
+                "formatted_date": "October 27, 1960"
+            },
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290358"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290357",
+            "guid": "6000000225731886892",
+            "created_at": "1780014414",
+            "updated_at": "1780014414",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290357",
+            "title": "The Road Not Taken",
+            "description": "Robert Frost",
+            "date": {
+                "day": 17,
+                "month": 10,
+                "year": 1902,
+                "formatted_date": "October 17, 1902"
+            },
+            "labels": [
+                "Woods",
+                "Irony",
+                "Peotry"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290357"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290356",
+            "guid": "6000000225731265146",
+            "created_at": "1780014414",
+            "updated_at": "1780014414",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290356",
+            "title": "Title",
+            "date": {
+                "day": 2,
+                "month": 4,
+                "year": 1944,
+                "formatted_date": "April 2, 1944"
+            },
+            "labels": [
+                "Labels"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290356"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290355",
+            "guid": "6000000225731279923",
+            "created_at": "1780014413",
+            "updated_at": "1780014413",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290355",
+            "title": "US Constitution",
+            "description": "Non-equal rights",
+            "date": {
+                "day": 15,
+                "month": 5,
+                "year": 1987,
+                "formatted_date": "May 15, 1987"
+            },
+            "labels": [
+                "United States"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290355"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290354",
+            "guid": "6000000225731871923",
+            "created_at": "1780014412",
+            "updated_at": "1780014412",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290354",
+            "title": "Title",
+            "description": "Description",
+            "date": {
+                "day": 14,
+                "month": 3,
+                "year": 1929,
+                "formatted_date": "March 14, 1929"
+            },
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290354"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290353",
+            "guid": "6000000225731927839",
+            "created_at": "1780014412",
+            "updated_at": "1780014412",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290353",
+            "title": "The Road Not Taken",
+            "description": "Robert Frost",
+            "date": {
+                "day": 23,
+                "month": 7,
+                "year": 1962,
+                "formatted_date": "July 23, 1962"
+            },
+            "labels": [
+                "Peotry",
+                "Irony",
+                "Woods"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290353"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290352",
+            "guid": "6000000225731831043",
+            "created_at": "1780014411",
+            "updated_at": "1780014411",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290352",
+            "title": "Title",
+            "date": {
+                "day": 10,
+                "month": 5,
+                "year": 1926,
+                "formatted_date": "May 10, 1926"
+            },
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290352"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290351",
+            "guid": "6000000225731831040",
+            "created_at": "1780014410",
+            "updated_at": "1780014410",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290351",
+            "title": "Poisoning Pigeons in the Park",
+            "description": "RIP Tom Lehrer",
+            "date": {
+                "day": 22,
+                "month": 1,
+                "year": 1907,
+                "formatted_date": "January 22, 1907"
+            },
+            "labels": [
+                "Satire",
+                "Cyanide"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290351"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290350",
+            "guid": "6000000225731913849",
+            "created_at": "1780014410",
+            "updated_at": "1780014410",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290350",
+            "title": "Title",
+            "date": {
+                "day": 24,
+                "month": 5,
+                "year": 1938,
+                "formatted_date": "May 24, 1938"
+            },
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290350"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290349",
+            "guid": "6000000225731279920",
+            "created_at": "1780014409",
+            "updated_at": "1780014409",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290349",
+            "title": "Declaration of Independence",
+            "description": "From King George",
+            "date": {
+                "day": 8,
+                "month": 5,
+                "year": 1987,
+                "formatted_date": "May 8, 1987"
+            },
+            "labels": [
+                "Bla Bla",
+                "USA"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290349"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290348",
+            "guid": "6000000225731942834",
+            "created_at": "1780014407",
+            "updated_at": "1780014408",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290348",
+            "title": "Title",
+            "date": {
+                "day": 18,
+                "month": 6,
+                "year": 2019,
+                "formatted_date": "June 18, 2019"
+            },
+            "labels": [
+                "Labels"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290348"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290347",
+            "guid": "6000000225731871919",
+            "created_at": "1780014407",
+            "updated_at": "1780014407",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290347",
+            "title": "The Road Not Taken",
+            "description": "Robert Frost",
+            "date": {
+                "day": 24,
+                "month": 10,
+                "year": 1993,
+                "formatted_date": "October 24, 1993"
+            },
+            "labels": [
+                "Irony",
+                "Woods",
+                "Peotry"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290347"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290346",
+            "guid": "6000000225731265145",
+            "created_at": "1780014406",
+            "updated_at": "1780014407",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290346",
+            "title": "Title",
+            "description": "Description",
+            "date": {
+                "day": 14,
+                "month": 11,
+                "year": 1986,
+                "formatted_date": "November 14, 1986"
+            },
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290346"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290345",
+            "guid": "6000000225731265143",
+            "created_at": "1780014406",
+            "updated_at": "1780014406",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290345",
+            "title": "US Constitution",
+            "description": "Non-equal rights",
+            "date": {
+                "day": 24,
+                "month": 8,
+                "year": 1976,
+                "formatted_date": "August 24, 1976"
+            },
+            "labels": [
+                "United States"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290345"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290344",
+            "guid": "6000000225731885881",
+            "created_at": "1780014405",
+            "updated_at": "1780014405",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290344",
+            "title": "Title",
+            "description": "Description",
+            "date": {
+                "day": 4,
+                "month": 5,
+                "year": 1905,
+                "formatted_date": "May 4, 1905"
+            },
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290344"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290343",
+            "guid": "6000000225731885879",
+            "created_at": "1780014404",
+            "updated_at": "1780014404",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290343",
+            "title": "US Constitution",
+            "description": "Non-equal rights",
+            "date": {
+                "day": 10,
+                "month": 8,
+                "year": 1994,
+                "formatted_date": "August 10, 1994"
+            },
+            "labels": [
+                "United States"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290343"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290342",
+            "guid": "6000000225731279918",
+            "created_at": "1780014403",
+            "updated_at": "1780014403",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290342",
+            "title": "Title",
+            "description": "Description",
+            "date": {
+                "day": 4,
+                "month": 7,
+                "year": 1919,
+                "formatted_date": "July 4, 1919"
+            },
+            "labels": [
+                "Labels"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290342"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290340",
+            "guid": "6000000225731871917",
+            "created_at": "1780014403",
+            "updated_at": "1780014403",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290340",
+            "title": "US Constitution",
+            "description": "Non-equal rights",
+            "date": {
+                "day": 6,
+                "month": 4,
+                "year": 1903,
+                "formatted_date": "April 6, 1903"
+            },
+            "labels": [
+                "United States"
+            ],
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290340"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        },
+        {
+            "id": "document-47290339",
+            "guid": "6000000225731948825",
+            "created_at": "1780014402",
+            "updated_at": "1780014402",
+            "content_type": "text\/plain",
+            "public": true,
+            "url": "https:\/\/www.geni.com\/api\/document-47290339",
+            "title": "Title",
+            "date": {
+                "day": 3,
+                "month": 4,
+                "year": 1951,
+                "formatted_date": "April 3, 1951"
+            },
+            "sizes": {
+                "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+                "url": "https:\/\/www.geni.com\/api\/document-47290339"
+            },
+            "tags": [
+                "https:\/\/www.geni.com\/api\/profile-34858738866"
+            ]
+        }
+    ],
+    "total_count": 25
+}

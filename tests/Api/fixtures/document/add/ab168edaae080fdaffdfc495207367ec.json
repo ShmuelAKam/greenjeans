@@ -1,0 +1,22 @@
+{
+    "id": "document-47260283",
+    "guid": "6000000225689334854",
+    "created_at": "1779859634",
+    "updated_at": "1779859634",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260283",
+    "title": "Title",
+    "date": {
+        "day": 19,
+        "month": 2,
+        "year": 1915,
+        "formatted_date": "February 19, 1915"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260283"
+    }
+}

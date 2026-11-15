@@ -1,0 +1,31 @@
+{
+    "id": "photo-51986340",
+    "guid": "6000000225687734884",
+    "created_at": "1779841652",
+    "updated_at": "1779841652",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986340",
+    "title": "Six",
+    "description": "Six Six Six. Beast",
+    "date": {
+        "day": 17,
+        "month": 6,
+        "year": 1970,
+        "formatted_date": "June 17, 1970"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/2a\/48\/ed\/2e\/5344486a78618a64\/file-sdk-6_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/2a\/48\/ed\/2e\/5344486a78618a64\/file-sdk-6_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/2a\/48\/ed\/2e\/5344486a78618a64\/file-sdk-6_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/2a\/48\/ed\/2e\/5344486a78618a64\/file-sdk-6_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/2a\/48\/ed\/2e\/5344486a78618a64\/file-sdk-6_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/2a\/48\/ed\/2e\/5344486a78618a64\/file-sdk-6_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/2a\/48\/ed\/2e\/5344486a78618a64\/file-sdk-6_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986340"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190",
+        "https:\/\/www.geni.com\/api\/profile-34858672093"
+    ]
+}

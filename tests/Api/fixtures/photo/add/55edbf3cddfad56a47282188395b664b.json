@@ -1,0 +1,26 @@
+{
+    "id": "photo-51987118",
+    "guid": "6000000225689558940",
+    "created_at": "1779861329",
+    "updated_at": "1779861329",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51987118",
+    "title": "Title",
+    "date": {
+        "day": 20,
+        "month": 8,
+        "year": 1968,
+        "formatted_date": "August 20, 1968"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/46\/a7\/25\/e8\/5344486a787d5f9c\/file-sdk-2_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/46\/a7\/25\/e8\/5344486a787d5f9c\/file-sdk-2_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/46\/a7\/25\/e8\/5344486a787d5f9c\/file-sdk-2_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/46\/a7\/25\/e8\/5344486a787d5f9c\/file-sdk-2_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/46\/a7\/25\/e8\/5344486a787d5f9c\/file-sdk-2_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/46\/a7\/25\/e8\/5344486a787d5f9c\/file-sdk-2_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/46\/a7\/25\/e8\/5344486a787d5f9c\/file-sdk-2_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51987118"
+    }
+}

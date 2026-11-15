@@ -1,0 +1,24 @@
+{
+    "id": "video-154099",
+    "guid": "6000000225689606966",
+    "created_at": "1779861568",
+    "updated_at": "1779861570",
+    "url": "https:\/\/www.geni.com\/api\/video-154099",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 28,
+        "month": 1,
+        "year": 2015,
+        "formatted_date": "January 28, 2015"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/78\/94\/18\/d1\/5344486a787e1b36\/5344486a787e1b36_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/78\/94\/18\/d1\/5344486a787e1b36\/5344486a787e1b36_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/78\/94\/18\/d1\/5344486a787e1b36\/5344486a787e1b36_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/78\/94\/18\/d1\/5344486a787e1b36\/5344486a787e1b36_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/78\/94\/18\/d1\/5344486a787e1b36\/5344486a787e1b36_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/78\/94\/18\/d1\/5344486a787e1b36\/5344486a787e1b36.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154099"
+    }
+}

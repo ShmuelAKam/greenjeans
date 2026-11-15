@@ -1,0 +1,28 @@
+{
+    "id": "video-154049",
+    "guid": "6000000225689686841",
+    "created_at": "1779861072",
+    "updated_at": "1779861073",
+    "url": "https:\/\/www.geni.com\/api\/video-154049",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 24,
+        "month": 4,
+        "year": 1908,
+        "formatted_date": "April 24, 1908"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/1f\/d1\/50\/62\/5344486a787f5339\/5344486a787f5339_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/1f\/d1\/50\/62\/5344486a787f5339\/5344486a787f5339_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/1f\/d1\/50\/62\/5344486a787f5339\/5344486a787f5339_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/1f\/d1\/50\/62\/5344486a787f5339\/5344486a787f5339_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/1f\/d1\/50\/62\/5344486a787f5339\/5344486a787f5339_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/1f\/d1\/50\/62\/5344486a787f5339\/5344486a787f5339.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154049"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190",
+        "https:\/\/www.geni.com\/api\/profile-34858677816"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": "profile-34858678703",
+    "public": false,
+    "name": "Who Dunnit",
+    "is_alive": false,
+    "current_residence": {
+        "street_address1": "Nahar Hayarkon 38",
+        "city": "Bet Shemesh",
+        "country": "Israel",
+        "country_code": "IL",
+        "latitude": 31.747041,
+        "longitude": 34.988099,
+        "formatted_location": "Nahar Hayarkon 38, Bet Shemesh, Israel"
+    }
+}

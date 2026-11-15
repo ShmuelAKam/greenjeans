@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858678686",
+    "public": false,
+    "name": "Rosie Katz",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of Rosie Katz",
+        "date": {
+            "day": 21,
+            "month": 10,
+            "year": 1925,
+            "formatted_date": "October 21, 1925"
+        },
+        "location": {
+            "street_address1": "Green Lane 46",
+            "city": "Namibia",
+            "state": "Khomas Region",
+            "country": "Windhoek",
+            "latitude": -22.5649344,
+            "longitude": 17.0842147,
+            "formatted_location": "Green Lane 46, Namibia, Khomas Region, Windhoek"
+        }
+    }
+}

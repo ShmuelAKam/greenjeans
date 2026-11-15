@@ -1,0 +1,22 @@
+{
+    "id": "document-47258011",
+    "guid": "6000000225687722851",
+    "created_at": "1779841832",
+    "updated_at": "1779841833",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258011",
+    "title": "Title",
+    "date": {
+        "day": 3,
+        "month": 11,
+        "year": 1930,
+        "formatted_date": "November 3, 1930"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258011"
+    }
+}

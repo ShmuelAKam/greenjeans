@@ -1,0 +1,28 @@
+{
+    "id": "document-48513295",
+    "guid": "6000000227276388854",
+    "created_at": "1786914717",
+    "updated_at": "1786914717",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-48513295",
+    "title": "Title",
+    "date": {
+        "day": 26,
+        "month": 8,
+        "year": 1941,
+        "formatted_date": "August 26, 1941"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-48513295"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-34861419539"
+    ]
+}

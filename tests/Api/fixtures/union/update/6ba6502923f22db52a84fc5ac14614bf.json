@@ -1,0 +1,27 @@
+{
+    "id": "union-128845940",
+    "url": "https:\/\/www.geni.com\/api\/union-128845940",
+    "guid": "6000000225687853969",
+    "divorce": {
+        "name": "Divorce of Oscar Dahan and Guatemala Yosef",
+        "date": {
+            "day": 7,
+            "month": 11,
+            "year": 1927,
+            "formatted_date": "November 7, 1927"
+        },
+        "location": {
+            "street_address1": "Manor Road 1",
+            "city": "Portugal",
+            "country": "Lisbon",
+            "latitude": 39.399872,
+            "longitude": -8.224454,
+            "formatted_location": "Manor Road 1, Portugal, Lisbon"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673620",
+        "https:\/\/www.geni.com\/api\/profile-34858673621"
+    ]
+}

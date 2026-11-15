@@ -1,0 +1,21 @@
+{
+    "id": "document-47260336",
+    "guid": "6000000225689135988",
+    "created_at": "1779859672",
+    "updated_at": "1779859675",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260336",
+    "title": "Forth ",
+    "date": {
+        "day": 23,
+        "month": 11,
+        "year": 1924,
+        "formatted_date": "November 23, 1924"
+    },
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/3c\/8f\/5e\/1d\/5344486a7876eb74\/test_doc_4_original.pdf?hash=e8cab50c1846f6da9570981d7d5ab112af5f5f74eaba33c8b26dbe4d014f5a81.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260336"
+    }
+}

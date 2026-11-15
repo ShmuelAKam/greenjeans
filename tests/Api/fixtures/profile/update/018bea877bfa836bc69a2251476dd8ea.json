@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678633",
+    "public": false,
+    "name": "Florence Avraham",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Florence Avraham",
+        "date": {
+            "day": 17,
+            "month": 7,
+            "year": 1906,
+            "formatted_date": "July 17, 1906"
+        },
+        "location": {
+            "street_address1": "New Road 48",
+            "city": "Austria",
+            "county": "Vienna",
+            "state": "Vienna",
+            "country": "Vienna",
+            "latitude": 48.2080696,
+            "longitude": 16.3713095,
+            "formatted_location": "New Road 48, Austria, Vienna, Vienna, Vienna"
+        }
+    }
+}

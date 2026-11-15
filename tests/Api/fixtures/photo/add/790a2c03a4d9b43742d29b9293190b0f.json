@@ -1,0 +1,27 @@
+{
+    "id": "photo-51987097",
+    "guid": "6000000225689626871",
+    "created_at": "1779861287",
+    "updated_at": "1779861288",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51987097",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 26,
+        "month": 2,
+        "year": 1930,
+        "formatted_date": "February 26, 1930"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/2a\/c7\/d5\/23\/5344486a787e68f7\/file-sdk-3_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/2a\/c7\/d5\/23\/5344486a787e68f7\/file-sdk-3_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/2a\/c7\/d5\/23\/5344486a787e68f7\/file-sdk-3_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/2a\/c7\/d5\/23\/5344486a787e68f7\/file-sdk-3_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/2a\/c7\/d5\/23\/5344486a787e68f7\/file-sdk-3_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/2a\/c7\/d5\/23\/5344486a787e68f7\/file-sdk-3_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/2a\/c7\/d5\/23\/5344486a787e68f7\/file-sdk-3_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51987097"
+    }
+}

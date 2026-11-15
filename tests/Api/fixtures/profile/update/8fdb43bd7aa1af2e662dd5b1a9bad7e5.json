@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678658",
+    "public": false,
+    "name": "Slovenia Schwartz",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Slovenia Schwartz",
+        "date": {
+            "day": 16,
+            "month": 2,
+            "year": 1917,
+            "formatted_date": "February 16, 1917"
+        },
+        "location": {
+            "street_address1": "Main Street 13",
+            "city": "Senegal",
+            "county": "Guediawaye",
+            "state": "Dakar Region",
+            "country": "Dakar",
+            "latitude": 14.716677,
+            "longitude": -17.4676861,
+            "formatted_location": "Main Street 13, Senegal, Guediawaye, Dakar Region, Dakar"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "id": "document-47257850",
+    "guid": "6000000225687075905",
+    "created_at": "1779840430",
+    "updated_at": "1779840433",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257850",
+    "title": "Second",
+    "date": {
+        "day": 17,
+        "month": 8,
+        "year": 2006,
+        "formatted_date": "August 17, 2006"
+    },
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/8f\/a9\/f6\/7e\/5344486a78577c41\/test-doc-2_original.pdf?hash=e42b0f4f6eadde1df0d825dc3f6d13fed8943a305e1efdd836bf14d303e8fb12.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47257850"
+    }
+}

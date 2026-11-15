@@ -1,0 +1,27 @@
+{
+    "id": "document-47258008",
+    "guid": "6000000225687701912",
+    "created_at": "1779841830",
+    "updated_at": "1779841830",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258008",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 20,
+        "month": 8,
+        "year": 2011,
+        "formatted_date": "August 20, 2011"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258008"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": "document-47260209",
+    "guid": "6000000225689335875",
+    "created_at": "1779859561",
+    "updated_at": "1779859561",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260209",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 23,
+        "month": 12,
+        "year": 1950,
+        "formatted_date": "December 23, 1950"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260209"
+    }
+}

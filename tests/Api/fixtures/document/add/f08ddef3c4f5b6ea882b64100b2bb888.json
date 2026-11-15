@@ -1,0 +1,27 @@
+{
+    "id": "document-47260379",
+    "guid": "6000000225689354871",
+    "created_at": "1779859697",
+    "updated_at": "1779859697",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260379",
+    "title": "Magna Carta",
+    "description": "\"Great Charter\"",
+    "date": {
+        "day": 2,
+        "month": 8,
+        "year": 1921,
+        "formatted_date": "August 2, 1921"
+    },
+    "labels": [
+        "england",
+        "King"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260379"
+    }
+}

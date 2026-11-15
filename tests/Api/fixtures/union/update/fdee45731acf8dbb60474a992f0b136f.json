@@ -1,0 +1,29 @@
+{
+    "id": "union-128868438",
+    "url": "https:\/\/www.geni.com\/api\/union-128868438",
+    "guid": "6000000225732009915",
+    "divorce": {
+        "name": "Divorce of Tommy Lavyan and Germany Vaknin",
+        "date": {
+            "day": 22,
+            "month": 12,
+            "year": 1920,
+            "formatted_date": "December 22, 1920"
+        },
+        "location": {
+            "street_address1": "Park Road 45",
+            "city": "Netherlands",
+            "county": "Government of Amsterdam",
+            "state": "North Holland",
+            "country": "Amsterdam",
+            "latitude": 52.3675734,
+            "longitude": 4.9041389,
+            "formatted_location": "Park Road 45, Netherlands, Government of Amsterdam, North Holland, Amsterdam"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858740085",
+        "https:\/\/www.geni.com\/api\/profile-34858740086"
+    ]
+}

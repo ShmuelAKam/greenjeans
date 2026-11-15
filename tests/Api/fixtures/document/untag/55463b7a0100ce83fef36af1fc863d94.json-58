@@ -1,0 +1,25 @@
+{
+    "results": [
+        {
+            "id": "profile-34861419573",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419573",
+            "public": false,
+            "name": "Delilah Bitton",
+            "first_name": "Delilah",
+            "last_name": "Bitton",
+            "gender": "female",
+            "is_alive": true
+        },
+        {
+            "id": "profile-34861419576",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861419576",
+            "public": false,
+            "name": "Jaxon Dahan",
+            "first_name": "Jaxon",
+            "last_name": "Dahan",
+            "gender": "male",
+            "is_alive": true
+        }
+    ],
+    "total_count": 2
+}

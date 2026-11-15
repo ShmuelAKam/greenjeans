@@ -1,0 +1,27 @@
+{
+    "id": "photo-51986174",
+    "guid": "6000000225687654821",
+    "created_at": "1779840571",
+    "updated_at": "1779840572",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986174",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 19,
+        "month": 6,
+        "year": 1977,
+        "formatted_date": "June 19, 1977"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/0b\/64\/59\/8d\/5344486a786051a5\/test_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/0b\/64\/59\/8d\/5344486a786051a5\/test_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/0b\/64\/59\/8d\/5344486a786051a5\/test_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/0b\/64\/59\/8d\/5344486a786051a5\/test_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/0b\/64\/59\/8d\/5344486a786051a5\/test_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/0b\/64\/59\/8d\/5344486a786051a5\/test_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/0b\/64\/59\/8d\/5344486a786051a5\/test_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986174"
+    }
+}

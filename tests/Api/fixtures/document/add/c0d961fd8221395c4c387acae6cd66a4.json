@@ -1,0 +1,25 @@
+{
+    "id": "document-47261337",
+    "guid": "6000000225689889865",
+    "created_at": "1779862963",
+    "updated_at": "1779862963",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47261337",
+    "title": "Title",
+    "date": {
+        "day": 15,
+        "month": 9,
+        "year": 1948,
+        "formatted_date": "September 15, 1948"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47261337"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858678672",
+    "public": false,
+    "name": "Switzerland Klein",
+    "is_alive": true,
+    "baptism": {
+        "name": "Baptism of Switzerland Klein",
+        "date": {
+            "day": 7,
+            "month": 4,
+            "year": 1984,
+            "formatted_date": "April 7, 1984"
+        },
+        "location": {
+            "street_address1": "Windsor Road 80",
+            "city": "Ethiopia",
+            "state": "Addis Ababa",
+            "country": "Addis Ababa",
+            "latitude": 9.0191936,
+            "longitude": 38.7524635,
+            "formatted_location": "Windsor Road 80, Ethiopia, Addis Ababa, Addis Ababa"
+        }
+    }
+}

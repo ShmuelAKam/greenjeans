@@ -1,0 +1,114 @@
+{
+    "id": "profile-9288190",
+    "url": "https:\/\/www.geni.com\/api\/profile-9288190",
+    "profile_url": "https:\/\/www.geni.com\/people\/Shmuel-Aharon-Kam-Kahn-%D7%A9%D7%9E%D7%95%D7%90%D7%9C-%D7%90%D7%94%D7%A8%D7%9F-%D7%A7%D7%9D-%D7%A7%D7%90%D7%9F\/5098603059080070794",
+    "public": false,
+    "guid": "5098603059080070794",
+    "first_name": "Shmuel-Aharon",
+    "maiden_name": "Kahn",
+    "last_name": "Kam",
+    "display_name": "Shmuel-Aharon Kam (Kahn \/ \u05e9\u05de\u05d5\u05d0\u05dc-\u05d0\u05d4\u05e8\u05df \u05e7\u05dd (\u05e7\u05d0\u05df",
+    "name": "Shmuel-Aharon Kam (Kahn \/ \u05e9\u05de\u05d5\u05d0\u05dc-\u05d0\u05d4\u05e8\u05df \u05e7\u05dd (\u05e7\u05d0\u05df",
+    "is_alive": true,
+    "gender": "male",
+    "current_residence": {
+        "city": "Tal Menashe",
+        "country": "Israel",
+        "country_code": "IL",
+        "latitude": 31.389299,
+        "longitude": 35.36124,
+        "formatted_location": "Tal Menashe, Israel"
+    },
+    "occupation": "Software Engineer",
+    "created_by": "https:\/\/www.geni.com\/api\/profile-9288190",
+    "big_tree": true,
+    "claimed": true,
+    "language": "en-US",
+    "mugshot_urls": {
+        "large": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_large.jpg?hash=47eee042f61b605704cd352674903ede6ba5da7aeb97c1d64dec15b226fb81f8.1780124399",
+        "medium": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_medium.jpg?hash=0f057af1368b4faaabc608e8775e84f292796dced62c8a774b413484e26a16ce.1780124399",
+        "small": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_small.jpg?hash=b60f97cb1800705ba5b98db1f2002f8cccf8713ac50bf4a5ac84b2822ee7bc51.1780124399",
+        "thumb": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_t.jpg?hash=cdc44491fd737442a77e5ba24b13ba41d41e786997e1c3c51c42d501895d9204.1780124399",
+        "print": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_print.jpg?hash=eed0788fe37a6ac87870981a18bc907be30307bc824919834ad4de400ba703fa.1780124399",
+        "thumb2": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_t2.jpg?hash=b35073bb903e0f9e8419c812eb00226dbdf287869d6fb98c223fcd9cc52ad629.1780124399",
+        "original": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_original.jpg?hash=7a9f92e41e842aab550863fbd04c6cb6bd40ba44733401bbd614bdbe9f29d0a0.1780124399",
+        "url": "https:\/\/www.geni.com\/api\/photo-37606528"
+    },
+    "unions": [
+        "https:\/\/www.geni.com\/api\/union-9135214",
+        "https:\/\/www.geni.com\/api\/union-4627702"
+    ],
+    "relationship": "yourself",
+    "phone_numbers": [
+        {
+            "type": "Mobile",
+            "area_code": "52",
+            "number": "5317-243"
+        },
+        {
+            "type": "Home",
+            "area_code": "4",
+            "number": "635-0484"
+        }
+    ],
+    "marriage_orders": {
+        "5098603145210070701": 0
+    },
+    "birth_order": 1,
+    "names": {
+        "en-US": {
+            "first_name": "Shmuel-Aharon",
+            "last_name": "Kam",
+            "maiden_name": "Kahn",
+            "display_name": "Shmuel-Aharon Kam (Kahn \/ \u05e9\u05de\u05d5\u05d0\u05dc-\u05d0\u05d4\u05e8\u05df \u05e7\u05dd (\u05e7\u05d0\u05df"
+        },
+        "he": {
+            "first_name": "\u05e9\u05de\u05d5\u05d0\u05dc-\u05d0\u05d4\u05e8\u05df",
+            "last_name": "\u05e7\u05dd",
+            "maiden_name": "\u05e7\u05d0\u05df",
+            "display_name": "(\u05e9\u05de\u05d5\u05d0\u05dc \u05d0\u05d4\u05e8\u05df \u05e7\u05dd (\u05e7\u05d0\u05df"
+        }
+    },
+    "living": true,
+    "location": {
+        "city": "Tal Menashe",
+        "country": "Israel",
+        "country_code": "IL",
+        "latitude": 31.389299,
+        "longitude": 35.36124,
+        "formatted_location": "Tal Menashe, Israel"
+    },
+    "creator": "https:\/\/www.geni.com\/api\/user-1444024",
+    "account_type": "pro",
+    "birth": {
+        "name": "Birth of Shmuel-Aharon Kam (Kahn \/ \u05e9\u05de\u05d5\u05d0\u05dc-\u05d0\u05d4\u05e8\u05df \u05e7\u05dd (\u05e7\u05d0\u05df",
+        "date": {
+            "day": 20,
+            "month": 6,
+            "year": 1971,
+            "formatted_date": "June 20, 1971"
+        },
+        "location": {
+            "city": "Tel-Aviv",
+            "country": "IL",
+            "country_code": "IL",
+            "latitude": 32.045101,
+            "longitude": 34.769711,
+            "formatted_location": "Tel-Aviv, Israel"
+        }
+    },
+    "photo_urls": {
+        "large": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_large.jpg?hash=47eee042f61b605704cd352674903ede6ba5da7aeb97c1d64dec15b226fb81f8.1780124399",
+        "medium": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_medium.jpg?hash=0f057af1368b4faaabc608e8775e84f292796dced62c8a774b413484e26a16ce.1780124399",
+        "small": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_small.jpg?hash=b60f97cb1800705ba5b98db1f2002f8cccf8713ac50bf4a5ac84b2822ee7bc51.1780124399",
+        "thumb": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_t.jpg?hash=cdc44491fd737442a77e5ba24b13ba41d41e786997e1c3c51c42d501895d9204.1780124399",
+        "print": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_print.jpg?hash=eed0788fe37a6ac87870981a18bc907be30307bc824919834ad4de400ba703fa.1780124399",
+        "thumb2": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_t2.jpg?hash=b35073bb903e0f9e8419c812eb00226dbdf287869d6fb98c223fcd9cc52ad629.1780124399",
+        "original": "https:\/\/media.geni.com\/p13\/22\/c9\/59\/b1\/5344484623782bc0\/img-20171029-wa0005-1_original.jpg?hash=7a9f92e41e842aab550863fbd04c6cb6bd40ba44733401bbd614bdbe9f29d0a0.1780124399",
+        "url": "https:\/\/www.geni.com\/api\/photo-37606528"
+    },
+    "created_at": "1174012484",
+    "updated_at": "1732701215",
+    "deleted": false,
+    "is_curator": true
+}

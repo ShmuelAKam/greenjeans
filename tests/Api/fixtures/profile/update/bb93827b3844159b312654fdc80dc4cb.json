@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858672779",
+    "public": false,
+    "name": "Maeve Weiss",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Maeve Weiss",
+        "date": {
+            "day": 7,
+            "month": 7,
+            "year": 1963,
+            "formatted_date": "July 7, 1963"
+        },
+        "location": {
+            "street_address1": "Oak Street 96",
+            "city": "Austria",
+            "country": "Vienna",
+            "latitude": 47.516231,
+            "longitude": 14.550072,
+            "formatted_location": "Oak Street 96, Austria, Vienna"
+        }
+    }
+}

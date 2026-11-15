@@ -1,0 +1,65 @@
+{
+    "id": "union-128868436",
+    "url": "https:\/\/www.geni.com\/api\/union-128868436",
+    "guid": "6000000225732004987",
+    "marriage_date": {
+        "day": 6,
+        "month": 5,
+        "year": 2015,
+        "formatted_date": "May 6, 2015"
+    },
+    "marriage_location": {
+        "street_address1": "New Road 15",
+        "city": "Nigeria",
+        "county": "Abuja Municipal Area Council",
+        "state": "Federal Capital Territory",
+        "country": "Abuja",
+        "postal_code": "900103",
+        "latitude": 9.0468933,
+        "longitude": 7.4749038,
+        "formatted_location": "New Road 15, Nigeria, Abuja Municipal Area Council, Federal Capital Territory, 900103, Abuja"
+    },
+    "divorce": {
+        "name": "Divorce of Max Lavyan and Kosovo Adri",
+        "date": {
+            "day": 4,
+            "month": 9,
+            "year": 1982,
+            "formatted_date": "September 4, 1982"
+        },
+        "location": {
+            "street_address1": "Oak Street 73",
+            "city": "Belgium",
+            "state": "Brussels",
+            "country": "Brussels",
+            "latitude": 50.8477029,
+            "longitude": 4.3572001,
+            "formatted_location": "Oak Street 73, Belgium, Brussels, Brussels"
+        }
+    },
+    "marriage": {
+        "name": "Marriage of Max Lavyan and Kosovo Adri",
+        "date": {
+            "day": 6,
+            "month": 5,
+            "year": 2015,
+            "formatted_date": "May 6, 2015"
+        },
+        "location": {
+            "street_address1": "New Road 15",
+            "city": "Nigeria",
+            "county": "Abuja Municipal Area Council",
+            "state": "Federal Capital Territory",
+            "country": "Abuja",
+            "postal_code": "900103",
+            "latitude": 9.0468933,
+            "longitude": 7.4749038,
+            "formatted_location": "New Road 15, Nigeria, Abuja Municipal Area Council, Federal Capital Territory, 900103, Abuja"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858740082",
+        "https:\/\/www.geni.com\/api\/profile-34858740081"
+    ]
+}

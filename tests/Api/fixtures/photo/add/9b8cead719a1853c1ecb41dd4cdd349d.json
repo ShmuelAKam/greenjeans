@@ -1,0 +1,27 @@
+{
+    "id": "photo-51986167",
+    "guid": "6000000225687634833",
+    "created_at": "1779840541",
+    "updated_at": "1779840542",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986167",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 21,
+        "month": 3,
+        "year": 1931,
+        "formatted_date": "March 21, 1931"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/cc\/d4\/22\/2b\/5344486a78600391\/test_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/cc\/d4\/22\/2b\/5344486a78600391\/test_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/cc\/d4\/22\/2b\/5344486a78600391\/test_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/cc\/d4\/22\/2b\/5344486a78600391\/test_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/cc\/d4\/22\/2b\/5344486a78600391\/test_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/cc\/d4\/22\/2b\/5344486a78600391\/test_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/cc\/d4\/22\/2b\/5344486a78600391\/test_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986167"
+    }
+}

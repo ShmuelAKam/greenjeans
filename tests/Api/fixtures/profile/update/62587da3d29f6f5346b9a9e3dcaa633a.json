@@ -1,0 +1,26 @@
+{
+    "id": "profile-34858678616",
+    "public": false,
+    "name": "Ivy Shapiro",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Ivy Shapiro",
+        "date": {
+            "day": 11,
+            "month": 2,
+            "year": 2018,
+            "formatted_date": "February 11, 2018"
+        },
+        "location": {
+            "street_address1": "Park Road 22",
+            "city": "Poland",
+            "county": "Warsaw",
+            "state": "Masovian Voivodeship",
+            "country": "Warsaw",
+            "postal_code": "03",
+            "latitude": 52.2296756,
+            "longitude": 21.0122287,
+            "formatted_location": "Park Road 22, Poland, Warsaw, Masovian Voivodeship, 03, Warsaw"
+        }
+    }
+}

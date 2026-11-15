@@ -1,0 +1,27 @@
+{
+    "id": "document-47260347",
+    "guid": "6000000225689474831",
+    "created_at": "1779859681",
+    "updated_at": "1779859681",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260347",
+    "title": "Test getTitle - 27\/05\/2026",
+    "description": "RIP Tom Lehrer",
+    "date": {
+        "day": 30,
+        "month": 5,
+        "year": 1932,
+        "formatted_date": "May 30, 1932"
+    },
+    "labels": [
+        "Satire",
+        "Cyanide"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260347"
+    }
+}

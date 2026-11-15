@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678583",
+    "public": true,
+    "name": "Spain Dahan",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of Spain Dahan",
+        "date": {
+            "day": 17,
+            "month": 2,
+            "year": 1913,
+            "formatted_date": "February 17, 1913"
+        },
+        "location": {
+            "street_address1": "Cedar Street 37",
+            "city": "France",
+            "county": "Paris",
+            "state": "\u00cele-de-France",
+            "country": "Paris",
+            "latitude": 48.8575475,
+            "longitude": 2.3513765,
+            "formatted_location": "Cedar Street 37, France, Paris, \u00cele-de-France, Paris"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858678637",
+    "public": true,
+    "name": "Slovakia Levy",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Slovakia Levy",
+        "date": {
+            "day": 20,
+            "month": 3,
+            "year": 1971,
+            "formatted_date": "March 20, 1971"
+        },
+        "location": {
+            "street_address1": "Kings Road 9",
+            "city": "Sweden",
+            "state": "Stockholm County",
+            "country": "Stockholm",
+            "latitude": 59.3327036,
+            "longitude": 18.0656255,
+            "formatted_location": "Kings Road 9, Sweden, Stockholm County, Stockholm"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": "video-153997",
+    "guid": "6000000225687878889",
+    "created_at": "1779844935",
+    "updated_at": "1779844936",
+    "url": "https:\/\/www.geni.com\/api\/video-153997",
+    "title": "Title",
+    "date": {
+        "day": 24,
+        "month": 5,
+        "year": 1920,
+        "formatted_date": "May 24, 1920"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/63\/c9\/7f\/aa\/5344486a7863bce9\/5344486a7863bce9_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/63\/c9\/7f\/aa\/5344486a7863bce9\/5344486a7863bce9_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/63\/c9\/7f\/aa\/5344486a7863bce9\/5344486a7863bce9_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/63\/c9\/7f\/aa\/5344486a7863bce9\/5344486a7863bce9_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/63\/c9\/7f\/aa\/5344486a7863bce9\/5344486a7863bce9_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/63\/c9\/7f\/aa\/5344486a7863bce9\/5344486a7863bce9.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153997"
+    }
+}

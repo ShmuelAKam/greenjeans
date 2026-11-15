@@ -1,0 +1,21 @@
+{
+    "id": "document-47257896",
+    "guid": "6000000225687076895",
+    "created_at": "1779840457",
+    "updated_at": "1779840461",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257896",
+    "title": "Test getTitle - 27\/05\/2026",
+    "date": {
+        "day": 30,
+        "month": 3,
+        "year": 1959,
+        "formatted_date": "March 30, 1959"
+    },
+    "page_count": 10,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/df\/21\/ef\/24\/5344486a7857801f\/test-doc-3_original.pdf?hash=39edba56bd45b38cc6dafed14831e77e1589489b6c36a487d729657cdc3877e2.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47257896"
+    }
+}

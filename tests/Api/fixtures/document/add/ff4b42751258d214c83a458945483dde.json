@@ -1,0 +1,25 @@
+{
+    "id": "document-47260804",
+    "guid": "6000000225689667846",
+    "created_at": "1779861252",
+    "updated_at": "1779861252",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260804",
+    "title": "Title",
+    "date": {
+        "day": 29,
+        "month": 6,
+        "year": 1998,
+        "formatted_date": "June 29, 1998"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260804"
+    }
+}

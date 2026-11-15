@@ -1,0 +1,23 @@
+{
+    "id": "video-154117",
+    "guid": "6000000225690159831",
+    "created_at": "1779864327",
+    "updated_at": "1779864328",
+    "url": "https:\/\/www.geni.com\/api\/video-154117",
+    "title": "Title",
+    "date": {
+        "day": 5,
+        "month": 7,
+        "year": 1923,
+        "formatted_date": "July 5, 1923"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/3b\/06\/3f\/fa\/5344486a78868ad7\/5344486a78868ad7_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/3b\/06\/3f\/fa\/5344486a78868ad7\/5344486a78868ad7_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/3b\/06\/3f\/fa\/5344486a78868ad7\/5344486a78868ad7_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/3b\/06\/3f\/fa\/5344486a78868ad7\/5344486a78868ad7_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/3b\/06\/3f\/fa\/5344486a78868ad7\/5344486a78868ad7_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/3b\/06\/3f\/fa\/5344486a78868ad7\/5344486a78868ad7.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154117"
+    }
+}

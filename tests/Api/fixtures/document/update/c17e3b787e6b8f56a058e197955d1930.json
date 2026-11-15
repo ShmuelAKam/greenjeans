@@ -1,0 +1,30 @@
+{
+    "id": "document-47257747",
+    "guid": "6000000225687076866",
+    "created_at": "1779840321",
+    "updated_at": "1779840322",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257747",
+    "title": "Title",
+    "description": "From King George",
+    "date": {
+        "day": 16,
+        "month": 12,
+        "year": 1963,
+        "formatted_date": "December 16, 1963"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla",
+        "super helpful",
+        "purely academic",
+        "strictly confidential"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257747"
+    }
+}

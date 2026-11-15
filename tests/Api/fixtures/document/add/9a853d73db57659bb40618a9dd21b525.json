@@ -1,0 +1,27 @@
+{
+    "id": "document-47260297",
+    "guid": "6000000225689452834",
+    "created_at": "1779859643",
+    "updated_at": "1779859643",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260297",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 13,
+        "month": 8,
+        "year": 2013,
+        "formatted_date": "August 13, 2013"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260297"
+    }
+}

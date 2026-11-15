@@ -1,0 +1,23 @@
+{
+    "id": "video-153908",
+    "guid": "6000000225687745881",
+    "created_at": "1779842172",
+    "updated_at": "1779842173",
+    "url": "https:\/\/www.geni.com\/api\/video-153908",
+    "title": "Title",
+    "date": {
+        "day": 11,
+        "month": 8,
+        "year": 1922,
+        "formatted_date": "August 11, 1922"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/37\/be\/74\/dc\/5344486a7861b559\/5344486a7861b559_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/37\/be\/74\/dc\/5344486a7861b559\/5344486a7861b559_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/37\/be\/74\/dc\/5344486a7861b559\/5344486a7861b559_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/37\/be\/74\/dc\/5344486a7861b559\/5344486a7861b559_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/37\/be\/74\/dc\/5344486a7861b559\/5344486a7861b559_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/37\/be\/74\/dc\/5344486a7861b559\/5344486a7861b559.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153908"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672757",
+    "public": false,
+    "name": "Norway Friedman",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Norway Friedman",
+        "date": {
+            "day": 26,
+            "month": 1,
+            "year": 1956,
+            "formatted_date": "January 26, 1956"
+        },
+        "location": {
+            "street_address1": "The Crescent 53",
+            "city": "Angola",
+            "county": "Luanda",
+            "state": "Luanda Province",
+            "country": "Luanda",
+            "latitude": -8.8146556,
+            "longitude": 13.2301756,
+            "formatted_location": "The Crescent 53, Angola, Luanda, Luanda Province, Luanda"
+        }
+    }
+}

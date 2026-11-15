@@ -1,0 +1,21 @@
+{
+    "id": "document-47260314",
+    "guid": "6000000225689387859",
+    "created_at": "1779859660",
+    "updated_at": "1779859662",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260314",
+    "title": "First",
+    "date": {
+        "day": 9,
+        "month": 9,
+        "year": 1962,
+        "formatted_date": "September 9, 1962"
+    },
+    "page_count": 4,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/ff\/32\/93\/de\/5344486a787ac353\/test-doc-1_original.pdf?hash=acbab2a25c7202f1cdb3a3898951df3131f9e4aec1dd7f9e2211e56863a9545e.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260314"
+    }
+}

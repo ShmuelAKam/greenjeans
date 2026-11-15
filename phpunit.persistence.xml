@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.5/phpunit.xsd"
+         bootstrap="tests/Persistence/GlobalSetup.php"
+         backupGlobals="false"
+         cacheResult="true"
+         cacheDirectory=".phpunit.cache"
+         colors="true"
+         displayDetailsOnTestsThatTriggerDeprecations="true"
+         displayDetailsOnPhpunitDeprecations="true"
+         displayDetailsOnTestsThatTriggerWarnings="true">
+
+    <source ignoreSuppressionOfDeprecations="true">
+        <include>
+            <directory suffix=".php">src/Persistence</directory>
+        </include>
+        <exclude>
+            <directory>vendor</directory>
+        </exclude>
+    </source>
+
+    <php>
+        <ini name="error_reporting" value="-1"/>
+        <ini name="display_errors" value="1"/>
+        <ini name="date.timezone" value="UTC"/>
+    </php>
+
+    <testsuites>
+        <testsuite name="primary">
+            <file>tests/Persistence/Data/DB_CommentMapperTest.php</file>
+            <file>tests/Persistence/Data/DB_DateMapperTest.php</file>
+            <file>tests/Persistence/Data/DB_DocumentImageSizeMapMapperTest.php</file>
+            <file>tests/Persistence/Data/DB_EventMapperTest.php</file>
+            <file>tests/Persistence/Data/DB_LocationMapperTest.php</file>
+            <file>tests/Persistence/Data/DB_NameMapperTest.php</file>
+            <file>tests/Persistence/Data/DB_PhoneNumberMapperTest.php</file>
+            <file>tests/Persistence/Data/DB_PhotoImageSizeMapMapperTest.php</file>
+            <file>tests/Persistence/Data/DB_TagMapperTest.php</file>
+            <file>tests/Persistence/Data/DB_VideoImageSizeMapMapperTest.php</file>
+            <file>tests/Persistence/DB_DocumentMapperTest.php</file>
+            <file>tests/Persistence/DB_LinkTableMapperTest.php</file>
+            <file>tests/Persistence/DB_PhotoAlbumMapperTest.php</file>
+            <file>tests/Persistence/DB_PhotoMapperTest.php</file>
+            <file>tests/Persistence/DB_ProfileMapperTest.php</file>
+            <file>tests/Persistence/DB_ProjectMapperTest.php</file>
+            <file>tests/Persistence/DB_RelationMapperTest.php</file>
+            <file>tests/Persistence/DB_RevisionMapperTest.php</file>
+            <file>tests/Persistence/DB_SurnameMapperTest.php</file>
+            <file>tests/Persistence/DB_UnionMapperTest.php</file>
+            <file>tests/Persistence/DB_UserMapperTest.php</file>
+            <file>tests/Persistence/DB_VideoMapperTest.php</file>
+        </testsuite>
+        <testsuite name="secondary">
+            <file>tests/Persistence/Data/DB_PathMapperTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>

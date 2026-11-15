@@ -1,0 +1,38 @@
+{
+    "id": "photo-51190389",
+    "guid": "6000000222544428843",
+    "created_at": "1764625636",
+    "updated_at": "1782028918",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51190389",
+    "title": "File-SDK-1.jpg",
+    "attribution": "S.A.K",
+    "date": {
+        "day": 20,
+        "month": 6,
+        "year": 1971,
+        "formatted_date": "June 20, 1971"
+    },
+    "location": {
+        "city": "Kiryat Ono",
+        "country": "Israel",
+        "country_code": "IL",
+        "latitude": 32.054863,
+        "longitude": 34.858858,
+        "formatted_location": "Kiryat Ono, Israel"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/23\/f8\/83\/95\/53444869bd067f2b\/file-sdk-1_large.jpg?hash=aae41c9d73e428439d85d9cfce1859e6718b05113a859f945f922193393ea596.1782197999",
+        "medium": "https:\/\/media.geni.com\/p14\/23\/f8\/83\/95\/53444869bd067f2b\/file-sdk-1_medium.jpg?hash=9d55c3655c2d8a229ac91446195aadaea93945da5120b5231e0ace7374a92144.1782197999",
+        "small": "https:\/\/media.geni.com\/p14\/23\/f8\/83\/95\/53444869bd067f2b\/file-sdk-1_small.jpg?hash=578079190fd7fba70cf915ae1da290224d299af6883b1839007bfc15042ff338.1782197999",
+        "thumb": "https:\/\/media.geni.com\/p14\/23\/f8\/83\/95\/53444869bd067f2b\/file-sdk-1_t.jpg?hash=eb11eccb05cd09e85c5ff7a82e332e9ed19a228c634085277f14629855f2fe08.1782197999",
+        "print": "https:\/\/media.geni.com\/p14\/23\/f8\/83\/95\/53444869bd067f2b\/file-sdk-1_print.jpg?hash=f9b282ccc29f59aa55160691b770a75b0f5b9c13d18614e2a8b48a9eee3fb6b9.1782197999",
+        "thumb2": "https:\/\/media.geni.com\/p14\/23\/f8\/83\/95\/53444869bd067f2b\/file-sdk-1_t2.jpg?hash=6208c5472be8642266ab818e5481cb312749e790cc957da714407a82a32c84ca.1782197999",
+        "original": "https:\/\/media.geni.com\/p14\/23\/f8\/83\/95\/53444869bd067f2b\/file-sdk-1_original.jpg?hash=8241eee565382620b287cabfc89f73263ec69c21b042e766825cee92d4557ad3.1782197999",
+        "url": "https:\/\/www.geni.com\/api\/photo-51190389"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-34838408195"
+    ]
+}

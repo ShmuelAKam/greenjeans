@@ -1,0 +1,20 @@
+{
+    "album_id": "6000000222544428842",
+    "attribution": "Shimi",
+    "content_type": "image\/jpeg",
+    "created_at": "1781726860",
+    "description": "Description",
+    "guid": "6000000226145155874",
+    "id": "photo-52067799",
+    "title": "9. Number 9",
+    "updated_at": "1782322502",
+    "url": "https:\/\/www.geni.com\/api\/photo-52067799",
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/f9\/b7\/41\/b3\/5344486a93a53b22\/file-sdk-9_large.jpg?hash=2a5a113c2ab23fe63d66aa483aa528cba4e75b5d8178819b25641289fdb8bd71.1782370799",
+        "medium": "https:\/\/media.geni.com\/p14\/f9\/b7\/41\/b3\/5344486a93a53b22\/file-sdk-9_medium.jpg?hash=5301b832851528f874cf2e0ff81842e96cd1b693a3f44029e941be4d7dade040.1782370799",
+        "print": "https:\/\/media.geni.com\/p14\/f9\/b7\/41\/b3\/5344486a93a53b22\/file-sdk-9_print.jpg?hash=8208687952cf5c0bc5b8bee37cb8dc29787a831ba32f4d03ec3fd5ee754ab74e.1782370799",
+        "small": "https:\/\/media.geni.com\/p14\/f9\/b7\/41\/b3\/5344486a93a53b22\/file-sdk-9_small.jpg?hash=0f28f5ce945362c747408b927f21ebb70299ee391ffaf1ebadd242a2734bef4f.1782370799",
+        "thumb": "https:\/\/media.geni.com\/p14\/f9\/b7\/41\/b3\/5344486a93a53b22\/file-sdk-9_t.jpg?hash=148417ceb273a3db3e3b0b1c4b483be75b2265469ffa4932ef5b8d76be23de35.1782370799",
+        "thumb2": "https:\/\/media.geni.com\/p14\/f9\/b7\/41\/b3\/5344486a93a53b22\/file-sdk-9_t2.jpg?hash=dccc0319716f0595da195069dcace1a4356fcc36ba2ccf779f14bfb14a0672ae.1782370799"
+    }
+}

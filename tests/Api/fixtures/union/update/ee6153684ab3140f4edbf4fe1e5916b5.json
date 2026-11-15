@@ -1,0 +1,43 @@
+{
+    "id": "union-128847660",
+    "url": "https:\/\/www.geni.com\/api\/union-128847660",
+    "guid": "6000000225689968827",
+    "marriage_date": {
+        "day": 12,
+        "month": 2,
+        "year": 1907,
+        "formatted_date": "February 12, 1907"
+    },
+    "marriage_location": {
+        "street_address1": "New Road 61",
+        "city": "Belgium",
+        "state": "Brussels",
+        "country": "Brussels",
+        "latitude": 50.8477029,
+        "longitude": 4.3572001,
+        "formatted_location": "New Road 61, Belgium, Brussels, Brussels"
+    },
+    "marriage": {
+        "name": "Marriage of Leo Azulay and Aria Bitton",
+        "date": {
+            "day": 12,
+            "month": 2,
+            "year": 1907,
+            "formatted_date": "February 12, 1907"
+        },
+        "location": {
+            "street_address1": "New Road 61",
+            "city": "Belgium",
+            "state": "Brussels",
+            "country": "Brussels",
+            "latitude": 50.8477029,
+            "longitude": 4.3572001,
+            "formatted_location": "New Road 61, Belgium, Brussels, Brussels"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679504",
+        "https:\/\/www.geni.com\/api\/profile-34858679503"
+    ]
+}

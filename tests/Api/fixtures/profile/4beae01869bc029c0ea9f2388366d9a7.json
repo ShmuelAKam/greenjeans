@@ -1,0 +1,21 @@
+{
+    "burial": {
+        "name": "Burial of Austria Ohayon",
+        "date": {
+            "day": 29,
+            "month": 3,
+            "year": 1924,
+            "formatted_date": "March 29, 1924"
+        },
+        "location": {
+            "street_address1": "Queens Road 46",
+            "city": "Netherlands",
+            "county": "Government of Amsterdam",
+            "state": "North Holland",
+            "country": "Amsterdam",
+            "latitude": 52.3675734,
+            "longitude": 4.9041389,
+            "formatted_location": "Queens Road 46, Netherlands, Government of Amsterdam, North Holland, Amsterdam"
+        }
+    }
+}

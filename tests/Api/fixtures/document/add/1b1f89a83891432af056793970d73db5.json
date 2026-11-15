@@ -1,0 +1,25 @@
+{
+    "id": "document-47260164",
+    "guid": "6000000225689331824",
+    "created_at": "1779859455",
+    "updated_at": "1779859455",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260164",
+    "title": "Title",
+    "date": {
+        "day": 28,
+        "month": 2,
+        "year": 1944,
+        "formatted_date": "February 28, 1944"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260164"
+    }
+}

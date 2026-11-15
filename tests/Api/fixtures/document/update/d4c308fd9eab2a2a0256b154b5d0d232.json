@@ -1,0 +1,29 @@
+{
+    "id": "document-47257755",
+    "guid": "6000000225687076869",
+    "created_at": "1779840331",
+    "updated_at": "1779840332",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257755",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 7,
+        "month": 12,
+        "year": 1936,
+        "formatted_date": "December 7, 1936"
+    },
+    "labels": [
+        "Labels",
+        "purely academic",
+        "super helpful",
+        "strictly confidential"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257755"
+    }
+}

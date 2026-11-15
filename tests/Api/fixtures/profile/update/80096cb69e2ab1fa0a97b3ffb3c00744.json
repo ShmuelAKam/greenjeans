@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678628",
+    "public": false,
+    "name": "Jaxon Azulay",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Jaxon Azulay",
+        "date": {
+            "day": 4,
+            "month": 5,
+            "year": 1904,
+            "formatted_date": "May 4, 1904"
+        },
+        "location": {
+            "street_address1": "Church Road 12",
+            "city": "Ghana",
+            "county": "Adenta Municipal",
+            "state": "Greater Accra Region",
+            "country": "Accra",
+            "latitude": 5.657057,
+            "longitude": -0.1220891,
+            "formatted_location": "Church Road 12, Ghana, Adenta Municipal, Greater Accra Region, Accra"
+        }
+    }
+}

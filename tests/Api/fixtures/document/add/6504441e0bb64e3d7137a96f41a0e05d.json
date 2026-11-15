@@ -1,0 +1,27 @@
+{
+    "id": "document-47257713",
+    "guid": "6000000225687021840",
+    "created_at": "1779840239",
+    "updated_at": "1779840239",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257713",
+    "title": "Magna Carta",
+    "description": "\"Great Charter\"",
+    "date": {
+        "day": 10,
+        "month": 9,
+        "year": 1935,
+        "formatted_date": "September 10, 1935"
+    },
+    "labels": [
+        "england",
+        "King"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257713"
+    }
+}

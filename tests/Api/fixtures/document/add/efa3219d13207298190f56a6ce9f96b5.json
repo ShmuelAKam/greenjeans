@@ -1,0 +1,27 @@
+{
+    "id": "document-47257834",
+    "guid": "6000000225687035866",
+    "created_at": "1779840416",
+    "updated_at": "1779840416",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257834",
+    "title": "Magna Carta",
+    "description": "\"Great Charter\"",
+    "date": {
+        "day": 20,
+        "month": 8,
+        "year": 1976,
+        "formatted_date": "August 20, 1976"
+    },
+    "labels": [
+        "england",
+        "King"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257834"
+    }
+}

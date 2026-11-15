@@ -1,0 +1,21 @@
+{
+    "id": "document-47260325",
+    "guid": "6000000225689332868",
+    "created_at": "1779859667",
+    "updated_at": "1779859671",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260325",
+    "title": "Third",
+    "date": {
+        "day": 20,
+        "month": 11,
+        "year": 1979,
+        "formatted_date": "November 20, 1979"
+    },
+    "page_count": 10,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/d5\/81\/b2\/06\/5344486a7879ec84\/test-doc-3_original.pdf?hash=d73eb6a8e82977f145c49d1a4a382c425ee6742fa6227188cfab3adf46d34a91.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260325"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": "document-47257772",
+    "guid": "6000000225687076876",
+    "created_at": "1779840363",
+    "updated_at": "1779840363",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257772",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 10,
+        "month": 8,
+        "year": 1973,
+        "formatted_date": "August 10, 1973"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257772"
+    }
+}

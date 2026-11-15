@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678567",
+    "public": true,
+    "name": "Henry Levy",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of Henry Levy",
+        "date": {
+            "day": 5,
+            "month": 11,
+            "year": 1921,
+            "formatted_date": "November 5, 1921"
+        },
+        "location": {
+            "street_address1": "Park Avenue 78",
+            "city": "Finland",
+            "country": "Helsinki",
+            "latitude": 61.92411,
+            "longitude": 25.7481511,
+            "formatted_location": "Park Avenue 78, Finland, Helsinki"
+        }
+    }
+}

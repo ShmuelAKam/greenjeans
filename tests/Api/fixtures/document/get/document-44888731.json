@@ -1,0 +1,31 @@
+{
+    "id": "document-44888731",
+    "guid": "6000000222480027828",
+    "created_at": "1764279859",
+    "updated_at": "1764279926",
+    "content_type": "text\/html",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-44888731",
+    "source_url": "http:\/\/kam-motion.com\/Test\/files\/test-Doc-2.pdf",
+    "title": "SDK Uploaded test-Doc-2.pdf",
+    "location": {
+        "city": "Jerusalem",
+        "country": "Israel",
+        "country_code": "IL",
+        "latitude": 31.768319,
+        "longitude": 35.21371,
+        "formatted_location": "Jerusalem, Israel"
+    },
+    "labels": [
+        "Other"
+    ],
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/f6\/ba\/14\/2f\/53444869b92fd0b4\/test-doc-2_large.png?hash=60e46a1c6457c8839609683fb96f952dec21b62915e4013870013037faa65367.1780729199",
+        "thumb": "https:\/\/media.geni.com\/p14\/f6\/ba\/14\/2f\/53444869b92fd0b4\/test-doc-2_t.png?hash=5c56665f1aaab19734e591ae2eb78860d57ca2d454c6014bc64223a5280ed268.1780729199",
+        "original": "https:\/\/media.geni.com\/p14\/f6\/ba\/14\/2f\/53444869b92fd0b4\/test-doc-2_original.png?hash=23c6cdf82d7646ef1b1b500d3bced84c408b3d004d7e111d578611b194a61013.1780729199",
+        "url": "https:\/\/www.geni.com\/api\/document-44888731"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190"
+    ]
+}

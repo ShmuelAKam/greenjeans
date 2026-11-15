@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672890",
+    "public": false,
+    "name": "William Ashknazi",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of William Ashknazi",
+        "date": {
+            "day": 24,
+            "month": 5,
+            "year": 1938,
+            "formatted_date": "May 24, 1938"
+        },
+        "location": {
+            "street_address1": "Station Road 6",
+            "city": "Italy",
+            "county": "Metropolitan City of Rome Capital",
+            "state": "Lazio",
+            "country": "Rome",
+            "latitude": 41.8967068,
+            "longitude": 12.4822025,
+            "formatted_location": "Station Road 6, Italy, Metropolitan City of Rome Capital, Lazio, Rome"
+        }
+    }
+}

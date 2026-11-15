@@ -1,0 +1,27 @@
+{
+    "id": "photo-51986307",
+    "guid": "6000000225687705825",
+    "created_at": "1779841204",
+    "updated_at": "1779841228",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986307",
+    "title": "Testitle",
+    "description": "Testing getUpdatedAt",
+    "date": {
+        "day": 27,
+        "month": 10,
+        "year": 2022,
+        "formatted_date": "October 27, 2022"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/6f\/a2\/cd\/16\/5344486a786118e1\/file-sdk-mona-lisa_large.jpg?hash=38508b4b2b0768c3597b62314f03f4421df5a4eb7b030641e085b90cb2ff385e.1779951599",
+        "medium": "https:\/\/media.geni.com\/p14\/6f\/a2\/cd\/16\/5344486a786118e1\/file-sdk-mona-lisa_medium.jpg?hash=04c66965793ba0a05ec095e79a4b237414adf5bd3d4382da3858c1cd3dd63805.1779951599",
+        "small": "https:\/\/media.geni.com\/p14\/6f\/a2\/cd\/16\/5344486a786118e1\/file-sdk-mona-lisa_small.jpg?hash=add55ebf38b49afea7b23176c91f12cf2adcf9963d73fb3098c944f7bf47e19f.1779951599",
+        "thumb": "https:\/\/media.geni.com\/p14\/6f\/a2\/cd\/16\/5344486a786118e1\/file-sdk-mona-lisa_t.jpg?hash=9c8f5d8383f500421dc1ebef5f9262d943840626ac1b0f9d4cecc6ec507c0d73.1779951599",
+        "print": "https:\/\/media.geni.com\/p14\/6f\/a2\/cd\/16\/5344486a786118e1\/file-sdk-mona-lisa_print.jpg?hash=b199e8ee8d49264f2560c16cc45681a78dd84a090f9c41fd53c2ca13f28cd9ed.1779951599",
+        "thumb2": "https:\/\/media.geni.com\/p14\/6f\/a2\/cd\/16\/5344486a786118e1\/file-sdk-mona-lisa_t2.jpg?hash=b19e6653ebdb80a544a66896f485b8f9b79354f478faeceec3055041d05ae555.1779951599",
+        "original": "https:\/\/media.geni.com\/p14\/6f\/a2\/cd\/16\/5344486a786118e1\/file-sdk-mona-lisa_original.jpg?hash=4c73b254b1a870c1162c1e353c6441f01ad9cfbbc57a080b3307e18e1995250f.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986307"
+    }
+}

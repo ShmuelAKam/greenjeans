@@ -1,0 +1,21 @@
+{
+    "id": "document-47257795",
+    "guid": "6000000225687539936",
+    "created_at": "1779840386",
+    "updated_at": "1779840390",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257795",
+    "title": "Third",
+    "date": {
+        "day": 30,
+        "month": 5,
+        "year": 1993,
+        "formatted_date": "May 30, 1993"
+    },
+    "page_count": 10,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/ce\/32\/15\/a0\/5344486a785e90e0\/test-doc-3_original.pdf?hash=5622e07e87c794832d5f4028d03b84c7c939e00ccec1b650f49df2837ca0b1e5.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47257795"
+    }
+}

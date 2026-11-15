@@ -1,0 +1,26 @@
+{
+    "id": "photo-51986373",
+    "guid": "6000000225687782821",
+    "created_at": "1779841961",
+    "updated_at": "1779841961",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986373",
+    "title": "Title",
+    "date": {
+        "day": 3,
+        "month": 7,
+        "year": 1963,
+        "formatted_date": "July 3, 1963"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/7a\/6a\/99\/9e\/5344486a786245a5\/file-sdk-2_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/7a\/6a\/99\/9e\/5344486a786245a5\/file-sdk-2_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/7a\/6a\/99\/9e\/5344486a786245a5\/file-sdk-2_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/7a\/6a\/99\/9e\/5344486a786245a5\/file-sdk-2_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/7a\/6a\/99\/9e\/5344486a786245a5\/file-sdk-2_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/7a\/6a\/99\/9e\/5344486a786245a5\/file-sdk-2_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/7a\/6a\/99\/9e\/5344486a786245a5\/file-sdk-2_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986373"
+    }
+}

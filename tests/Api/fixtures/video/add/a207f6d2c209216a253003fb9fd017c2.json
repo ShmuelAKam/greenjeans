@@ -1,0 +1,23 @@
+{
+    "id": "video-154135",
+    "guid": "6000000225689739076",
+    "created_at": "1779864429",
+    "updated_at": "1779864430",
+    "url": "https:\/\/www.geni.com\/api\/video-154135",
+    "title": "Title",
+    "date": {
+        "day": 12,
+        "month": 3,
+        "year": 1912,
+        "formatted_date": "March 12, 1912"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/3b\/a8\/09\/07\/5344486a78801f44\/5344486a78801f44_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/3b\/a8\/09\/07\/5344486a78801f44\/5344486a78801f44_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/3b\/a8\/09\/07\/5344486a78801f44\/5344486a78801f44_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/3b\/a8\/09\/07\/5344486a78801f44\/5344486a78801f44_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/3b\/a8\/09\/07\/5344486a78801f44\/5344486a78801f44_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/3b\/a8\/09\/07\/5344486a78801f44\/5344486a78801f44.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154135"
+    }
+}

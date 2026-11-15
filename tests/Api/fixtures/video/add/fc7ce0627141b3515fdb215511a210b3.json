@@ -1,0 +1,23 @@
+{
+    "id": "video-153981",
+    "guid": "6000000225687960823",
+    "created_at": "1779844859",
+    "updated_at": "1779844860",
+    "url": "https:\/\/www.geni.com\/api\/video-153981",
+    "title": "Title",
+    "date": {
+        "day": 22,
+        "month": 4,
+        "year": 1944,
+        "formatted_date": "April 22, 1944"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/c6\/fd\/02\/58\/5344486a7864fcf7\/5344486a7864fcf7_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/c6\/fd\/02\/58\/5344486a7864fcf7\/5344486a7864fcf7_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/c6\/fd\/02\/58\/5344486a7864fcf7\/5344486a7864fcf7_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/c6\/fd\/02\/58\/5344486a7864fcf7\/5344486a7864fcf7_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/c6\/fd\/02\/58\/5344486a7864fcf7\/5344486a7864fcf7_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/c6\/fd\/02\/58\/5344486a7864fcf7\/5344486a7864fcf7.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153981"
+    }
+}

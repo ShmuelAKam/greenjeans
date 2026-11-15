@@ -1,0 +1,15 @@
+{
+    "id": "profile-34858678708",
+    "public": false,
+    "name": "Who Dunnit",
+    "is_alive": false,
+    "current_residence": {
+        "street_address1": "Peter Pan Ave. 1",
+        "city": "Never",
+        "state": "St. James Parish",
+        "country": "Never Land",
+        "latitude": 18.4740378,
+        "longitude": -77.9076469,
+        "formatted_location": "Peter Pan Ave. 1, Never, St. James Parish, Never Land"
+    }
+}

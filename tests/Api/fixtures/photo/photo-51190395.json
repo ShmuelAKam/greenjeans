@@ -1,0 +1,26 @@
+{
+    "album_id": "6000000222544428842",
+    "attribution": "Donatello",
+    "content_type": "image\/jpeg",
+    "created_at": "1764625638",
+    "guid": "6000000222544428849",
+    "id": "photo-51190395",
+    "title": "File-SDK-Donatello-David.jpg",
+    "updated_at": "1764630996",
+    "url": "https:\/\/www.geni.com\/api\/photo-51190395",
+    "date": {
+        "year": 1409
+    },
+    "location": {
+        "country": "Italy",
+        "city": "Florence"
+    },
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/fe\/aa\/9d\/99\/53444869bd067f31\/file-sdk-donatello-david_large.jpg?hash=264920702b391a9966d4978f79c6ed3027abe1029218213d207b9632ff407197.1782370799",
+        "medium": "https:\/\/media.geni.com\/p14\/fe\/aa\/9d\/99\/53444869bd067f31\/file-sdk-donatello-david_medium.jpg?hash=efbc9707a16dd3c2015543e875007c8e8a46bc6a351f1a9cf223e2f5a599dacf.1782370799",
+        "print": "https:\/\/media.geni.com\/p14\/fe\/aa\/9d\/99\/53444869bd067f31\/file-sdk-donatello-david_print.jpg?hash=41d3014824f71f5012a785d5014a8376627d9369918b75881a1ca14ded3b1d3a.1782370799",
+        "small": "https:\/\/media.geni.com\/p14\/fe\/aa\/9d\/99\/53444869bd067f31\/file-sdk-donatello-david_small.jpg?hash=36d8e8b2c1db7dcc4c00e22de951719d17e4043ec618d92190f428412dfb8b22.1782370799",
+        "thumb": "https:\/\/media.geni.com\/p14\/fe\/aa\/9d\/99\/53444869bd067f31\/file-sdk-donatello-david_t.jpg?hash=49155f9818164713d25d4d0dfa6da4ea4742e868f219f22796e511c5288a91da.1782370799",
+        "thumb2": "https:\/\/media.geni.com\/p14\/fe\/aa\/9d\/99\/53444869bd067f31\/file-sdk-donatello-david_t2.jpg?hash=c4fc6c574acdbe977afa2e1fbfbbcfa364177e36f6138adb307ab261942b7fac.1782370799"
+    }
+}

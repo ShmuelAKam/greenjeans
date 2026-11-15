@@ -1,0 +1,20 @@
+{
+    "birth": {
+        "name": "Birth of Ella Moshe",
+        "date": {
+            "day": 14,
+            "month": 10,
+            "year": 1953,
+            "formatted_date": "October 14, 1953"
+        },
+        "location": {
+            "street_address1": "Kings Road 14",
+            "city": "Algeria",
+            "state": "Algiers Province",
+            "country": "Algiers",
+            "latitude": 36.753768,
+            "longitude": 3.0587561,
+            "formatted_location": "Kings Road 14, Algeria, Algiers Province, Algiers"
+        }
+    }
+}

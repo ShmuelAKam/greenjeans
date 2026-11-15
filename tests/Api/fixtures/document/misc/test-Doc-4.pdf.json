@@ -1,0 +1,21 @@
+{
+    "id": "document-47399151",
+    "guid": "6000000225878010833",
+    "created_at": "1780660459",
+    "updated_at": "1780660463",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47399151",
+    "title": "Forth ",
+    "date": {
+        "day": 18,
+        "month": 8,
+        "year": 1907,
+        "formatted_date": "August 18, 1907"
+    },
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/e3\/61\/b0\/eb\/5344486a83b8ebd1\/test-doc-4_original.pdf?hash=b761af26c11e24083d9ea2bd21542e9f68c6d65716f395baa7243bacf6452b59.1780729199",
+        "url": "https:\/\/www.geni.com\/api\/document-47399151"
+    }
+}

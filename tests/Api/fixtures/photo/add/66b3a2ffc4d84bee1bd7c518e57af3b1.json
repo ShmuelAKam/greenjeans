@@ -1,0 +1,27 @@
+{
+    "id": "photo-51987103",
+    "guid": "6000000225689631899",
+    "created_at": "1779861301",
+    "updated_at": "1779861301",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51987103",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 2,
+        "month": 2,
+        "year": 1948,
+        "formatted_date": "February 2, 1948"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/e8\/08\/a7\/d1\/5344486a787e7c9b\/file-sdk-6_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/e8\/08\/a7\/d1\/5344486a787e7c9b\/file-sdk-6_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/e8\/08\/a7\/d1\/5344486a787e7c9b\/file-sdk-6_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/e8\/08\/a7\/d1\/5344486a787e7c9b\/file-sdk-6_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/e8\/08\/a7\/d1\/5344486a787e7c9b\/file-sdk-6_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/e8\/08\/a7\/d1\/5344486a787e7c9b\/file-sdk-6_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/e8\/08\/a7\/d1\/5344486a787e7c9b\/file-sdk-6_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51987103"
+    }
+}

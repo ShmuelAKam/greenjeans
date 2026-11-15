@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678668",
+    "public": true,
+    "name": "Switzerland Segel",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of Switzerland Segel",
+        "date": {
+            "day": 4,
+            "month": 11,
+            "year": 1995,
+            "formatted_date": "November 4, 1995"
+        },
+        "location": {
+            "street_address1": "Hill Street 6",
+            "city": "South Africa",
+            "country": "Pretoria",
+            "latitude": -33.2492993,
+            "longitude": 27.4233344,
+            "formatted_location": "Hill Street 6, South Africa, Pretoria"
+        }
+    }
+}

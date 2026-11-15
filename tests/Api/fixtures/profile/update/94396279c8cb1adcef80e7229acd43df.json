@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678662",
+    "public": false,
+    "name": "USA Yosef",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of USA Yosef",
+        "date": {
+            "day": 21,
+            "month": 10,
+            "year": 2004,
+            "formatted_date": "October 21, 2004"
+        },
+        "location": {
+            "street_address1": "Windsor Road 84",
+            "city": "Greece",
+            "country": "Athens",
+            "latitude": 37.9838096,
+            "longitude": 23.7275388,
+            "formatted_location": "Windsor Road 84, Greece, Athens"
+        }
+    }
+}

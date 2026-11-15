@@ -1,0 +1,22 @@
+{
+    "results": [
+        {
+            "id": "document-44745"
+        },
+        {
+            "id": "document-44742"
+        },
+        {
+            "id": "document-44583"
+        },
+        {
+            "id": "document-18542"
+        },
+        {
+            "id": "document-18541"
+        }
+    ],
+    "total_count": 805,
+    "page": 17,
+    "previous_page": "https:\/\/www.geni.com\/api\/user\/followed-documents?fields=id&page=16&per_page=50"
+}

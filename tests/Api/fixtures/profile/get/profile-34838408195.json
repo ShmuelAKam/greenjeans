@@ -1,0 +1,73 @@
+{
+  "id": "profile-34838408195",
+  "url": "https://www.geni.com/api/profile-34838408195",
+  "profile_url": "https://www.geni.com/people/Enosh/6000000214522461839",
+  "public": true,
+  "guid": "6000000214522461839",
+  "first_name": "Enosh",
+  "middle_name": "Test Profile",
+  "maiden_name": ".",
+  "last_name": ".",
+  "name": "Enosh Test Profile .",
+  "is_alive": false,
+  "gender": "male",
+  "created_by": "https://www.geni.com/api/profile-9288190",
+  "merge_note": "Test copy of Enosh:\r\nhttps://www.geni.com/people/Enosh/6000000000190131271",
+  "claimed": false,
+  "mugshot_urls": {
+    "large": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_large.jpg?hash=615ecaa58f82b653440b03bfb425949426c3d37142fc75b1cf4962b39e62f46a.1789109999",
+    "medium": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_medium.jpg?hash=5db398e30b174988e29ef0e7f7d45216afa4b86169c60f5b6db2b28a79533872.1789109999",
+    "small": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_small.jpg?hash=bf6789a1b778ad087ba3e72dff818d319123320f9fa6b6be193eadb149ec603a.1789109999",
+    "thumb": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_t.jpg?hash=e1f9e573606e4877cdee82fe5416f53a5f276fe087a12adb10a60a30c8591faa.1789109999",
+    "print": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_print.jpg?hash=0fb7ca54c15162b08c677b83274acec80f5f34396ca2f0ebdd05e89ee968f0e9.1789109999",
+    "thumb2": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_t2.jpg?hash=728d90bc77c841c0595bc0829d642e77f4d5e7015dccfd6a20780ad3de35dd19.1789109999",
+    "original": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_original.jpg?hash=54e202553eaa597a212ed63b5739e6b53e2ade34c72abe26919cc3019d1b4bfa.1789109999",
+    "url": "https://www.geni.com/api/photo-51190389"
+  },
+  "unions": [
+    "https://www.geni.com/api/union-121945318",
+    "https://www.geni.com/api/union-123413945"
+  ],
+  "birth_order": 13,
+  "living": false,
+  "creator": "https://www.geni.com/api/user-1444024",
+  "birth": {
+    "name": "Birth of Enosh Test Profile .",
+    "date": {
+      "year": -3525,
+      "formatted_date": "-3525"
+    },
+    "location": {
+      "place_name": "Shulon, East Eden",
+      "formatted_location": "Shulon, East Eden"
+    }
+  },
+  "death": {
+    "name": "Death of Enosh Test Profile . at East of Eden",
+    "date": {
+      "year": -2620,
+      "formatted_date": "-2620"
+    },
+    "location": {
+      "place_name": "East of Eden",
+      "formatted_location": "East of Eden"
+    }
+  },
+  "photo_urls": {
+    "large": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_large.jpg?hash=615ecaa58f82b653440b03bfb425949426c3d37142fc75b1cf4962b39e62f46a.1789109999",
+    "medium": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_medium.jpg?hash=5db398e30b174988e29ef0e7f7d45216afa4b86169c60f5b6db2b28a79533872.1789109999",
+    "small": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_small.jpg?hash=bf6789a1b778ad087ba3e72dff818d319123320f9fa6b6be193eadb149ec603a.1789109999",
+    "thumb": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_t.jpg?hash=e1f9e573606e4877cdee82fe5416f53a5f276fe087a12adb10a60a30c8591faa.1789109999",
+    "print": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_print.jpg?hash=0fb7ca54c15162b08c677b83274acec80f5f34396ca2f0ebdd05e89ee968f0e9.1789109999",
+    "thumb2": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_t2.jpg?hash=728d90bc77c841c0595bc0829d642e77f4d5e7015dccfd6a20780ad3de35dd19.1789109999",
+    "original": "https://media.geni.com/p14/23/f8/83/95/53444869bd067f2b/file-sdk-1_original.jpg?hash=54e202553eaa597a212ed63b5739e6b53e2ade34c72abe26919cc3019d1b4bfa.1789109999",
+    "url": "https://www.geni.com/api/photo-51190389"
+  },
+  "created_at": "1737982848",
+  "updated_at": "1767283479",
+  "deleted": false,
+  "project_ids": [
+    "project-4506705"
+  ]
+}
+

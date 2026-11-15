@@ -1,0 +1,21 @@
+{
+    "id": "document-47260349",
+    "guid": "6000000225689333859",
+    "created_at": "1779859683",
+    "updated_at": "1779859684",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260349",
+    "title": "Test getTitle - 27\/05\/2026",
+    "date": {
+        "day": 8,
+        "month": 3,
+        "year": 2021,
+        "formatted_date": "March 8, 2021"
+    },
+    "page_count": 4,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/2e\/15\/b3\/dc\/5344486a7879f063\/test-doc-1_original.pdf?hash=9e0d144c4ffce36e4775358fd40d8c3c378cc30b0cb638e6b8c64e376dc8d61c.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260349"
+    }
+}

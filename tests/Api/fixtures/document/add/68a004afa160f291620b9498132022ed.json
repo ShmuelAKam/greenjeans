@@ -1,0 +1,22 @@
+{
+    "id": "document-47260220",
+    "guid": "6000000225689318872",
+    "created_at": "1779859573",
+    "updated_at": "1779859573",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260220",
+    "title": "Title",
+    "date": {
+        "day": 12,
+        "month": 12,
+        "year": 1952,
+        "formatted_date": "December 12, 1952"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260220"
+    }
+}

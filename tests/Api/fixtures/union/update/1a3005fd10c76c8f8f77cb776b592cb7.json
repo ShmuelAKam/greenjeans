@@ -1,0 +1,67 @@
+{
+    "id": "union-128845946",
+    "url": "https:\/\/www.geni.com\/api\/union-128845946",
+    "guid": "6000000225687700326",
+    "marriage_date": {
+        "day": 19,
+        "month": 12,
+        "year": 2018,
+        "formatted_date": "December 19, 2018"
+    },
+    "marriage_location": {
+        "street_address1": "Cedar Street 12",
+        "city": "France",
+        "county": "Lamar County",
+        "state": "Texas",
+        "country": "Paris",
+        "postal_code": "75460",
+        "latitude": 33.6519307,
+        "longitude": -95.5437351,
+        "formatted_location": "Cedar Street 12, France, Lamar County, Texas, 75460, Paris"
+    },
+    "divorce": {
+        "name": "Divorce of Austria Cohen and Millie Reuben",
+        "date": {
+            "day": 22,
+            "month": 1,
+            "year": 2001,
+            "formatted_date": "January 22, 2001"
+        },
+        "location": {
+            "street_address1": "Main Street 81",
+            "city": "France",
+            "county": "Paris",
+            "state": "\u00cele-de-France",
+            "country": "Paris",
+            "postal_code": "75004",
+            "latitude": 48.8487572,
+            "longitude": 2.3651896,
+            "formatted_location": "Main Street 81, France, Paris, \u00cele-de-France, 75004, Paris"
+        }
+    },
+    "marriage": {
+        "name": "Marriage of Austria Cohen and Millie Reuben",
+        "date": {
+            "day": 19,
+            "month": 12,
+            "year": 2018,
+            "formatted_date": "December 19, 2018"
+        },
+        "location": {
+            "street_address1": "Cedar Street 12",
+            "city": "France",
+            "county": "Lamar County",
+            "state": "Texas",
+            "country": "Paris",
+            "postal_code": "75460",
+            "latitude": 33.6519307,
+            "longitude": -95.5437351,
+            "formatted_location": "Cedar Street 12, France, Lamar County, Texas, 75460, Paris"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673633",
+        "https:\/\/www.geni.com\/api\/profile-34858673632"
+    ]
+}

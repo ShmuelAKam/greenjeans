@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858672889",
+    "public": true,
+    "name": "Ronnie Gaby",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of Ronnie Gaby",
+        "date": {
+            "day": 29,
+            "month": 8,
+            "year": 1985,
+            "formatted_date": "August 29, 1985"
+        },
+        "location": {
+            "street_address1": "Second Street 55",
+            "city": "Austria",
+            "country": "Vienna",
+            "latitude": 47.516231,
+            "longitude": 14.550072,
+            "formatted_location": "Second Street 55, Austria, Vienna"
+        }
+    }
+}

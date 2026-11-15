@@ -1,0 +1,25 @@
+{
+    "id": "photo-51987124",
+    "guid": "6000000225689736856",
+    "created_at": "1779861367",
+    "updated_at": "1779861383",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51987124",
+    "title": "Mona Lisa",
+    "description": "Silly half smile",
+    "date": {
+        "year": 1504,
+        "formatted_date": "1504"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/af\/2b\/9d\/ee\/5344486a78801698\/file-sdk-mona-lisa_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/af\/2b\/9d\/ee\/5344486a78801698\/file-sdk-mona-lisa_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/af\/2b\/9d\/ee\/5344486a78801698\/file-sdk-mona-lisa_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/af\/2b\/9d\/ee\/5344486a78801698\/file-sdk-mona-lisa_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/af\/2b\/9d\/ee\/5344486a78801698\/file-sdk-mona-lisa_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/af\/2b\/9d\/ee\/5344486a78801698\/file-sdk-mona-lisa_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/af\/2b\/9d\/ee\/5344486a78801698\/file-sdk-mona-lisa_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51987124"
+    }
+}

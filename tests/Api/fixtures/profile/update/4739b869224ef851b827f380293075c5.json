@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672809",
+    "public": false,
+    "name": "Vietnam Schwartz",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Vietnam Schwartz",
+        "date": {
+            "day": 7,
+            "month": 8,
+            "year": 1994,
+            "formatted_date": "August 7, 1994"
+        },
+        "location": {
+            "street_address1": "Victoria Road 12",
+            "city": "Switzerland",
+            "county": "Bern-Mittelland District",
+            "state": "Canton of Bern",
+            "country": "Bern",
+            "latitude": 46.9479739,
+            "longitude": 7.4474468,
+            "formatted_location": "Victoria Road 12, Switzerland, Bern-Mittelland District, Canton of Bern, Bern"
+        }
+    }
+}

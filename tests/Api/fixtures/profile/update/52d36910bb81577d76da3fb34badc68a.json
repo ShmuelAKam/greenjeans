@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678645",
+    "public": false,
+    "name": "Olive Levy",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Olive Levy",
+        "date": {
+            "day": 27,
+            "month": 7,
+            "year": 1955,
+            "formatted_date": "July 27, 1955"
+        },
+        "location": {
+            "street_address1": "Kings Road 88",
+            "city": "Ghana",
+            "county": "Ledzokuku Municipal",
+            "state": "Greater Accra Region",
+            "country": "Accra",
+            "latitude": 5.5890307,
+            "longitude": -0.1146223,
+            "formatted_location": "Kings Road 88, Ghana, Ledzokuku Municipal, Greater Accra Region, Accra"
+        }
+    }
+}

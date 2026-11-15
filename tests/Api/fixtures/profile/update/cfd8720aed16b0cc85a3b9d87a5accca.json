@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672863",
+    "public": false,
+    "name": "Amelia David",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Amelia David",
+        "date": {
+            "day": 22,
+            "month": 12,
+            "year": 1937,
+            "formatted_date": "December 22, 1937"
+        },
+        "location": {
+            "street_address1": "Church Lane 80",
+            "city": "Morocco",
+            "county": "Rabat",
+            "state": "Rabat-Sal\u00e9-K\u00e9nitra",
+            "country": "Rabat",
+            "latitude": 34.0083637,
+            "longitude": -6.8538748,
+            "formatted_location": "Church Lane 80, Morocco, Rabat, Rabat-Sal\u00e9-K\u00e9nitra, Rabat"
+        }
+    }
+}

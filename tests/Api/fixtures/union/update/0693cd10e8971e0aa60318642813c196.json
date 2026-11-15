@@ -1,0 +1,28 @@
+{
+    "id": "union-128845943",
+    "url": "https:\/\/www.geni.com\/api\/union-128845943",
+    "guid": "6000000225687809020",
+    "divorce": {
+        "name": "Divorce of Teddy Adri and Scarlett Friedman",
+        "date": {
+            "day": 21,
+            "month": 7,
+            "year": 2016,
+            "formatted_date": "July 21, 2016"
+        },
+        "location": {
+            "street_address1": "Park Avenue 20",
+            "city": "Namibia",
+            "state": "Khomas Region",
+            "country": "Windhoek",
+            "latitude": -22.5649344,
+            "longitude": 17.0842147,
+            "formatted_location": "Park Avenue 20, Namibia, Khomas Region, Windhoek"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673626",
+        "https:\/\/www.geni.com\/api\/profile-34858673627"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678592",
+    "public": false,
+    "name": "Louie Ohayon",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of Louie Ohayon",
+        "date": {
+            "day": 13,
+            "month": 12,
+            "year": 1993,
+            "formatted_date": "December 13, 1993"
+        },
+        "location": {
+            "street_address1": "Cedar Street 82",
+            "city": "Switzerland",
+            "county": "Bern-Mittelland District",
+            "state": "Canton of Bern",
+            "country": "Bern",
+            "latitude": 46.9479739,
+            "longitude": 7.4474468,
+            "formatted_location": "Cedar Street 82, Switzerland, Bern-Mittelland District, Canton of Bern, Bern"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": "photo-51987072",
+    "guid": "6000000225689606906",
+    "created_at": "1779861064",
+    "updated_at": "1779861064",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51987072",
+    "title": "Marble David",
+    "description": "Totally Stoned",
+    "date": {
+        "day": 16,
+        "month": 10,
+        "year": 1931,
+        "formatted_date": "October 16, 1931"
+    },
+    "album_id": "6000000030925442802",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/09\/b7\/f9\/78\/5344486a787e1afa\/file-sdk-donatello-david_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/09\/b7\/f9\/78\/5344486a787e1afa\/file-sdk-donatello-david_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/09\/b7\/f9\/78\/5344486a787e1afa\/file-sdk-donatello-david_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/09\/b7\/f9\/78\/5344486a787e1afa\/file-sdk-donatello-david_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/09\/b7\/f9\/78\/5344486a787e1afa\/file-sdk-donatello-david_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/09\/b7\/f9\/78\/5344486a787e1afa\/file-sdk-donatello-david_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/09\/b7\/f9\/78\/5344486a787e1afa\/file-sdk-donatello-david_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51987072"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190",
+        "https:\/\/www.geni.com\/api\/profile-34858677812"
+    ]
+}

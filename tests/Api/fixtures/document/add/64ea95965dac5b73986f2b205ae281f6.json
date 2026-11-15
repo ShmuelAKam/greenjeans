@@ -1,0 +1,25 @@
+{
+    "id": "document-47257740",
+    "guid": "6000000225687539894",
+    "created_at": "1779840285",
+    "updated_at": "1779840285",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257740",
+    "title": "Title",
+    "date": {
+        "day": 9,
+        "month": 2,
+        "year": 1967,
+        "formatted_date": "February 9, 1967"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257740"
+    }
+}

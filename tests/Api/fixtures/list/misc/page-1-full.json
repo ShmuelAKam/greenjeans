@@ -1,0 +1,1051 @@
+{
+    "results": [
+        {
+            "id": "profile-334690",
+            "url": "https:\/\/www.geni.com\/api\/profile-334690",
+            "public": false,
+            "name": "Dudi Scharia",
+            "first_name": "Dudi",
+            "last_name": "Scharia",
+            "gender": "male",
+            "is_alive": true
+        },
+        {
+            "id": "profile-414563",
+            "url": "https:\/\/www.geni.com\/api\/profile-414563",
+            "public": false,
+            "name": "Rodrigo G. Castel",
+            "first_name": "Rodrigo",
+            "middle_name": "Hugo Geuer",
+            "last_name": "Castel",
+            "display_name": "Rodrigo G. Castel",
+            "gender": "male",
+            "is_alive": true,
+            "birth": {
+                "name": "Birth of Rodrigo G. Castel",
+                "date": {
+                    "day": 13,
+                    "month": 3,
+                    "year": 1993,
+                    "formatted_date": "March 13, 1993"
+                },
+                "location": {
+                    "city": "Campinas",
+                    "state": "S\u00e3o Paulo",
+                    "country": "BR",
+                    "country_code": "BR",
+                    "latitude": -22.906365,
+                    "longitude": -47.061574,
+                    "formatted_location": "Campinas, S\u00e3o Paulo, Brazil"
+                }
+            }
+        },
+        {
+            "id": "profile-1696167",
+            "url": "https:\/\/www.geni.com\/api\/profile-1696167",
+            "public": true,
+            "name": "Tappuah .",
+            "first_name": "Tappuah",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-1696187",
+            "url": "https:\/\/www.geni.com\/api\/profile-1696187",
+            "public": true,
+            "name": "Shema .",
+            "first_name": "Shema",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-1696199",
+            "url": "https:\/\/www.geni.com\/api\/profile-1696199",
+            "public": true,
+            "name": "Racham .",
+            "first_name": "Racham",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-2417710",
+            "url": "https:\/\/www.geni.com\/api\/profile-2417710",
+            "public": true,
+            "locked": true,
+            "name": "Rabbi Pinchas HaLevi Horowitz",
+            "title": "Rabbi",
+            "first_name": "Pinchas",
+            "last_name": "HaLevi Horowitz",
+            "suffix": "of Prague, Parnas of the 4 Lands",
+            "display_name": "Rabbi Pinchas HaLevi Horowitz",
+            "gender": "male",
+            "is_alive": false,
+            "birth": {
+                "name": "Birth of Rabbi Pinchas HaLevi Horowitz",
+                "date": {
+                    "year": 1535,
+                    "formatted_date": "1535"
+                }
+            },
+            "death": {
+                "name": "Death of Rabbi Pinchas HaLevi Horowitz",
+                "date": {
+                    "day": 3,
+                    "month": 1,
+                    "year": 1618,
+                    "formatted_date": "January 3, 1618"
+                },
+                "location": {
+                    "city": "Cracow",
+                    "state": "Lesser Poland Voivodeship",
+                    "country": "Poland",
+                    "country_code": "PL",
+                    "latitude": 50.0646501,
+                    "longitude": 19.9449799,
+                    "formatted_location": "Cracow, Lesser Poland Voivodeship, Poland"
+                }
+            }
+        },
+        {
+            "id": "profile-2418855",
+            "url": "https:\/\/www.geni.com\/api\/profile-2418855",
+            "public": true,
+            "locked": true,
+            "name": "Rabbi Aharon ben Nethanel Luria, [the 1st Luria] ABD Heilbronn",
+            "title": "Rabbi",
+            "first_name": "Aharon",
+            "middle_name": "ben Nethanel",
+            "maiden_name": "Luria",
+            "last_name": "Luria",
+            "suffix": "[the 1st Luria] ABD Heilbronn",
+            "gender": "male",
+            "is_alive": false,
+            "birth": {
+                "name": "Birth of Rabbi Aharon ben Nethanel Luria, [the 1st Luria] ABD Heilbronn",
+                "date": {
+                    "year": 1413,
+                    "circa": true,
+                    "formatted_date": "circa 1413"
+                },
+                "location": {
+                    "city": "Heilbronn",
+                    "state": "Baden-W\u00fcrttemberg",
+                    "country": "DE",
+                    "country_code": "DE",
+                    "latitude": 53.011776,
+                    "longitude": 9.035223,
+                    "formatted_location": "Heilbronn, Baden-W\u00fcrttemberg, Germany"
+                }
+            },
+            "death": {
+                "name": "Death of Rabbi Aharon ben Nethanel Luria, [the 1st Luria] ABD Heilbronn",
+                "date": {
+                    "year": 1478,
+                    "formatted_date": "1478"
+                },
+                "location": {
+                    "city": "Worms",
+                    "state": "Rheinland Pfalz",
+                    "country": "DE",
+                    "country_code": "DE",
+                    "latitude": 49.630644,
+                    "longitude": 8.357911,
+                    "formatted_location": "Worms, Rheinland Pfalz, Germany"
+                }
+            },
+            "burial": {
+                "name": "Burial of Rabbi Aharon ben Nethanel Luria, [the 1st Luria] ABD Heilbronn",
+                "date": {
+                    "year": 1478,
+                    "formatted_date": "1478"
+                }
+            }
+        },
+        {
+            "id": "profile-2418861",
+            "url": "https:\/\/www.geni.com\/api\/profile-2418861",
+            "public": true,
+            "locked": true,
+            "name": "Rabbi Nethanel Ben Yehiel pre-Luria, [of Wurzburg]",
+            "title": "Rabbi",
+            "first_name": "Nethanel",
+            "middle_name": "Ben Yehiel",
+            "last_name": "pre-Luria",
+            "suffix": "[of Wurzburg]",
+            "gender": "male",
+            "is_alive": false,
+            "birth": {
+                "name": "Birth of Rabbi Nethanel Ben Yehiel pre-Luria, [of Wurzburg]",
+                "date": {
+                    "year": 1385,
+                    "formatted_date": "1385"
+                },
+                "location": {
+                    "city": "Loria",
+                    "county": "Provincia di Treviso",
+                    "state": "Veneto",
+                    "country": "Italy",
+                    "country_code": "IT",
+                    "postal_code": "31037",
+                    "latitude": 45.7293773,
+                    "longitude": 11.8656531,
+                    "formatted_location": "Loria, Provincia di Treviso, Veneto, Italy"
+                }
+            },
+            "death": {
+                "name": "Death of Rabbi Nethanel Ben Yehiel pre-Luria, [of Wurzburg]",
+                "date": {
+                    "year": 1460,
+                    "formatted_date": "1460"
+                },
+                "location": {
+                    "city": "Mantua",
+                    "county": "Province of Mantua",
+                    "state": "Lombardy",
+                    "country": "Italy",
+                    "country_code": "IT",
+                    "postal_code": "46100",
+                    "latitude": 45.1564168,
+                    "longitude": 10.7913751,
+                    "formatted_location": "Mantua, Province of Mantua, Lombardy, Italy"
+                }
+            },
+            "burial": {
+                "name": "Burial of Rabbi Nethanel Ben Yehiel pre-Luria, [of Wurzburg]",
+                "date": {
+                    "year": 1460,
+                    "circa": true,
+                    "formatted_date": "circa 1460"
+                },
+                "location": {
+                    "place_name": "Mantua, Mantova, Lombardia, Italy",
+                    "formatted_location": "Mantua, Mantova, Lombardia, Italy"
+                }
+            }
+        },
+        {
+            "id": "profile-2951970",
+            "url": "https:\/\/www.geni.com\/api\/profile-2951970",
+            "public": false,
+            "name": "Sara Toper (Fuchs)",
+            "first_name": "Sara",
+            "maiden_name": "Fuchs",
+            "last_name": "Toper",
+            "gender": "female",
+            "is_alive": true
+        },
+        {
+            "id": "profile-2952009",
+            "url": "https:\/\/www.geni.com\/api\/profile-2952009",
+            "public": false,
+            "name": "Dalia Rubin",
+            "first_name": "Dalia",
+            "maiden_name": "\u05e4\u05d5\u05e7\u05e1",
+            "last_name": "Rubin",
+            "gender": "female",
+            "is_alive": true
+        },
+        {
+            "id": "profile-3434455",
+            "url": "https:\/\/www.geni.com\/api\/profile-3434455",
+            "public": true,
+            "name": "Caroline of Ansbach",
+            "title": "HM Princess",
+            "first_name": "Wilhelmine",
+            "middle_name": "Charlotte Karoline",
+            "maiden_name": "Hohenzollern",
+            "last_name": "of Brandenburg-Ansbach",
+            "suffix": "Queen consort of Great Britain and Ireland, Electress of Hanover",
+            "display_name": "Caroline of Ansbach",
+            "gender": "female",
+            "is_alive": false,
+            "birth": {
+                "name": "Birth of Caroline of Ansbach",
+                "date": {
+                    "day": 1,
+                    "month": 3,
+                    "year": 1683,
+                    "formatted_date": "March 1, 1683"
+                },
+                "location": {
+                    "city": "Ansbach",
+                    "county": "Middle Franconia",
+                    "state": "BY",
+                    "country": "Germany",
+                    "country_code": "DE",
+                    "postal_code": "91522",
+                    "latitude": 49.3004246,
+                    "longitude": 10.5719357,
+                    "formatted_location": "Ansbach, Middle Franconia, BY, Germany"
+                }
+            },
+            "death": {
+                "name": "Death of Caroline of Ansbach",
+                "date": {
+                    "day": 20,
+                    "month": 11,
+                    "year": 1737,
+                    "formatted_date": "November 20, 1737"
+                },
+                "location": {
+                    "street_address1": " St James's Palace",
+                    "city": "London",
+                    "state": "Middelsex",
+                    "country": "England",
+                    "country_code": "GB",
+                    "latitude": 43.6708666,
+                    "longitude": -79.3733064,
+                    "formatted_location": " St James&#39;s Palace, London, Middelsex, England (United Kingdom)"
+                }
+            },
+            "burial": {
+                "name": "Burial of Caroline of Ansbach",
+                "date": {
+                    "day": 17,
+                    "month": 12,
+                    "year": 1737,
+                    "formatted_date": "December 17, 1737"
+                },
+                "location": {
+                    "city": "Westminster Abbey, London",
+                    "state": "Middlesex",
+                    "country": "England",
+                    "country_code": "GB",
+                    "latitude": 51.49947,
+                    "longitude": -0.12757,
+                    "formatted_location": "Westminster Abbey, London, Middlesex, England (United Kingdom)"
+                }
+            }
+        },
+        {
+            "id": "profile-4060592",
+            "url": "https:\/\/www.geni.com\/api\/profile-4060592",
+            "public": false,
+            "name": "Sagit Blumrosen-sela",
+            "first_name": "Sagit",
+            "maiden_name": "\u05d1\u05dc\u05d5\u05de\u05e8\u05d5\u05d6\u05df",
+            "last_name": "Blumrosen-sela",
+            "display_name": "\u05e9\u05d2\u05d9\u05ea \u05d1\u05dc\u05d5\u05de\u05e8\u05d5\u05d6\u05df-\u05e1\u05dc\u05e2",
+            "gender": "female",
+            "is_alive": true
+        },
+        {
+            "id": "profile-4128330",
+            "url": "https:\/\/www.geni.com\/api\/profile-4128330",
+            "public": true,
+            "name": "Anchises",
+            "first_name": "Anchises",
+            "gender": "male",
+            "is_alive": false,
+            "birth": {
+                "name": "Birth of Anchises",
+                "location": {
+                    "place_name": "Dardania (Troada)",
+                    "formatted_location": "Dardania (Troada)"
+                }
+            },
+            "death": {
+                "name": "Death of Anchises",
+                "location": {
+                    "state": "Sicily",
+                    "country": "Italy",
+                    "country_code": "IT",
+                    "latitude": 37.4742,
+                    "longitude": 14.0384,
+                    "formatted_location": "Sicily, Italy"
+                }
+            },
+            "burial": {
+                "name": "Burial of Anchises",
+                "location": {
+                    "country": "IT",
+                    "country_code": "IT",
+                    "latitude": 41.292667,
+                    "longitude": 12.573501,
+                    "formatted_location": "Italy"
+                }
+            }
+        },
+        {
+            "id": "profile-4095543",
+            "url": "https:\/\/www.geni.com\/api\/profile-4095543",
+            "public": true,
+            "locked": true,
+            "name": "Eve of Eden",
+            "first_name": "Eve",
+            "maiden_name": ".",
+            "last_name": ".",
+            "display_name": "Eve of Eden",
+            "gender": "female",
+            "is_alive": false,
+            "birth": {
+                "name": "Birth of Eve of Eden",
+                "date": {
+                    "year": -3760,
+                    "circa": true,
+                    "formatted_date": "circa -3760"
+                },
+                "location": {
+                    "state": "Garden of Eden",
+                    "formatted_location": "Garden of Eden"
+                }
+            },
+            "death": {
+                "name": "Death of Eve of Eden at Olaha, Shinehah",
+                "location": {
+                    "place_name": "Olaha, Shinehah",
+                    "formatted_location": "Olaha, Shinehah"
+                }
+            },
+            "burial": {
+                "name": "Burial of Eve of Eden",
+                "location": {
+                    "city": "Cave of Machpelah",
+                    "formatted_location": "Cave of Machpelah"
+                }
+            }
+        },
+        {
+            "id": "profile-4195150",
+            "url": "https:\/\/www.geni.com\/api\/profile-4195150",
+            "public": true,
+            "name": "Sima Malka Unger",
+            "first_name": "Sima Malka",
+            "last_name": "Unger",
+            "gender": "female",
+            "is_alive": false
+        },
+        {
+            "id": "profile-4275051",
+            "url": "https:\/\/www.geni.com\/api\/profile-4275051",
+            "public": false,
+            "name": "Rivka Teperberg (Yudelevitch)",
+            "first_name": "Rivka",
+            "maiden_name": "Yudelevitch",
+            "last_name": "Teperberg",
+            "gender": "female",
+            "is_alive": true
+        },
+        {
+            "id": "profile-4304945",
+            "url": "https:\/\/www.geni.com\/api\/profile-4304945",
+            "public": true,
+            "name": "Lia",
+            "first_name": "Lia",
+            "maiden_name": ".",
+            "last_name": ".",
+            "display_name": "Lia",
+            "gender": "female",
+            "is_alive": false
+        },
+        {
+            "id": "profile-4403990",
+            "url": "https:\/\/www.geni.com\/api\/profile-4403990",
+            "public": true,
+            "name": "Thomas Little",
+            "first_name": "Thomas",
+            "maiden_name": "Little",
+            "last_name": "Little",
+            "gender": "male",
+            "is_alive": false,
+            "birth": {
+                "name": "Birth of Thomas Little",
+                "date": {
+                    "day": 27,
+                    "month": 10,
+                    "year": 1711,
+                    "formatted_date": "October 27, 1711"
+                },
+                "location": {
+                    "place_name": "Newbury, Essex, Massachusetts",
+                    "formatted_location": "Newbury, Essex, Massachusetts"
+                }
+            },
+            "death": {
+                "name": "Death of Thomas Little",
+                "date": {
+                    "day": 8,
+                    "month": 11,
+                    "year": 1766,
+                    "formatted_date": "November 8, 1766"
+                },
+                "location": {
+                    "city": "Hampstead",
+                    "county": "Rockingham County",
+                    "state": "New Hampshire",
+                    "country": "United States of America",
+                    "country_code": "US",
+                    "latitude": 42.874936,
+                    "longitude": -71.181196,
+                    "formatted_location": "Hampstead, Rockingham County, New Hampshire, United States of America (United States)"
+                }
+            },
+            "burial": {
+                "name": "Burial of Thomas Little",
+                "date": {
+                    "year": 1766,
+                    "formatted_date": "1766"
+                },
+                "location": {
+                    "city": "Atkinson",
+                    "county": "Rockingham County",
+                    "state": "New Hampshire",
+                    "country": "United States of America",
+                    "country_code": "US",
+                    "latitude": 42.836502,
+                    "longitude": -71.147566,
+                    "formatted_location": "Atkinson, Rockingham County, New Hampshire, United States of America (United States)"
+                }
+            }
+        },
+        {
+            "id": "profile-4965120",
+            "url": "https:\/\/www.geni.com\/api\/profile-4965120",
+            "public": false,
+            "name": "\u05e0\u05d0\u05d5\u05d4 \u05d1\u05d0-\u05d2\u05d3",
+            "first_name": "\u05e0\u05d0\u05d5\u05d4",
+            "maiden_name": "\u05d1\u05d0-\u05d2\u05d3",
+            "last_name": "\u05d1\u05d0-\u05d2\u05d3",
+            "gender": "female",
+            "is_alive": true
+        },
+        {
+            "id": "profile-5031048",
+            "url": "https:\/\/www.geni.com\/api\/profile-5031048",
+            "public": true,
+            "name": "NN",
+            "first_name": "NN",
+            "gender": "female",
+            "is_alive": false,
+            "birth": {
+                "name": "Birth of NN",
+                "date": {
+                    "year": -1976,
+                    "end_year": -1916,
+                    "range": "between",
+                    "formatted_date": "between -1976 and -1916"
+                }
+            }
+        },
+        {
+            "id": "profile-5269640",
+            "url": "https:\/\/www.geni.com\/api\/profile-5269640",
+            "public": true,
+            "locked": true,
+            "name": "Ajah .",
+            "first_name": "Ajah",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-6138465",
+            "url": "https:\/\/www.geni.com\/api\/profile-6138465",
+            "public": true,
+            "name": "Sarah Lawrence Hatfield (Edwards)",
+            "first_name": "Sarah",
+            "middle_name": "Lawrence",
+            "maiden_name": "Edwards",
+            "last_name": "Hatfield",
+            "gender": "female",
+            "is_alive": false,
+            "birth": {
+                "name": "Birth of Sarah Lawrence Hatfield (Edwards)",
+                "date": {
+                    "day": 19,
+                    "month": 10,
+                    "year": 1833,
+                    "formatted_date": "October 19, 1833"
+                },
+                "location": {
+                    "state": "Indiana",
+                    "country": "USA",
+                    "country_code": "US",
+                    "latitude": 38.1701136,
+                    "longitude": -86.1751759,
+                    "formatted_location": "Indiana, United States"
+                }
+            },
+            "death": {
+                "name": "Death of Sarah Lawrence Hatfield (Edwards)",
+                "date": {
+                    "day": 16,
+                    "month": 3,
+                    "year": 1908,
+                    "formatted_date": "March 16, 1908"
+                },
+                "location": {
+                    "city": "Ozone",
+                    "county": "Johnson County",
+                    "state": "Arkansas",
+                    "country": "USA",
+                    "country_code": "US",
+                    "latitude": 35.638465,
+                    "longitude": -93.442776,
+                    "formatted_location": "Ozone, Johnson County, Arkansas, United States"
+                }
+            }
+        },
+        {
+            "id": "profile-6264652",
+            "url": "https:\/\/www.geni.com\/api\/profile-6264652",
+            "public": true,
+            "locked": true,
+            "name": "Hezron .",
+            "first_name": "Hezron",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-6264664",
+            "url": "https:\/\/www.geni.com\/api\/profile-6264664",
+            "public": true,
+            "locked": true,
+            "name": "Carmi .",
+            "first_name": "Carmi",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-6344079",
+            "url": "https:\/\/www.geni.com\/api\/profile-6344079",
+            "public": true,
+            "name": "Stuart Nelson Twiss",
+            "first_name": "Stuart Nelson",
+            "last_name": "Twiss",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-6345209",
+            "url": "https:\/\/www.geni.com\/api\/profile-6345209",
+            "public": true,
+            "name": "Benjamin Stanislaus Kopchainski",
+            "first_name": "Benjamin Stanislaus",
+            "last_name": "Kopchainski",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-6729076",
+            "url": "https:\/\/www.geni.com\/api\/profile-6729076",
+            "public": false,
+            "name": "Rivka Walles (Lando)",
+            "first_name": "Rivka",
+            "maiden_name": "Lando",
+            "last_name": "Walles",
+            "gender": "female",
+            "is_alive": true,
+            "birth": {
+                "name": "Birth of Rivka Walles (Lando)",
+                "date": {
+                    "day": 14,
+                    "month": 5,
+                    "year": 1949,
+                    "formatted_date": "May 14, 1949"
+                },
+                "location": {
+                    "city": "Cinnacitta",
+                    "state": "Rome",
+                    "country": "IT",
+                    "country_code": "IT",
+                    "latitude": 41.90311,
+                    "longitude": 12.49576,
+                    "formatted_location": "Cinnacitta, Rome, Italy"
+                }
+            }
+        },
+        {
+            "id": "profile-7147636",
+            "url": "https:\/\/www.geni.com\/api\/profile-7147636",
+            "public": false,
+            "name": "Aron Dov Walles",
+            "first_name": "Aron",
+            "middle_name": "Dov",
+            "maiden_name": "Walles",
+            "last_name": "Walles",
+            "gender": "male",
+            "is_alive": true,
+            "birth": {
+                "name": "Birth of Aron Dov Walles",
+                "date": {
+                    "day": 29,
+                    "month": 3,
+                    "year": 1947,
+                    "formatted_date": "March 29, 1947"
+                },
+                "location": {
+                    "country": "Israel",
+                    "country_code": "IL",
+                    "latitude": 31.046051,
+                    "longitude": 34.851612,
+                    "formatted_location": "Israel"
+                }
+            }
+        },
+        {
+            "id": "profile-7429645",
+            "url": "https:\/\/www.geni.com\/api\/profile-7429645",
+            "public": true,
+            "name": "Binyomin Zev Ashkenazi",
+            "first_name": "Binyomin Zev",
+            "last_name": "Ashkenazi",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-7540536",
+            "url": "https:\/\/www.geni.com\/api\/profile-7540536",
+            "public": true,
+            "name": "Nochum (Nathen) Etkin",
+            "first_name": "Nochum",
+            "middle_name": "(Nathen)",
+            "maiden_name": "\u05d0\u05d8\u05e7\u05d9\u05df",
+            "last_name": "Etkin",
+            "gender": "male",
+            "is_alive": false,
+            "birth": {
+                "name": "Birth of Nochum (Nathen) Etkin",
+                "date": {
+                    "day": 1,
+                    "month": 3,
+                    "year": 1918,
+                    "formatted_date": "March 1, 1918"
+                },
+                "location": {
+                    "city": "Seattle",
+                    "county": "King County",
+                    "state": "Washington",
+                    "country": "United States",
+                    "country_code": "US",
+                    "latitude": 47.6062095,
+                    "longitude": -122.3320708,
+                    "formatted_location": "Seattle, King County, Washington, United States"
+                }
+            },
+            "death": {
+                "name": "Death of Nochum (Nathen) Etkin",
+                "date": {
+                    "day": 26,
+                    "month": 7,
+                    "year": 1986,
+                    "formatted_date": "July 26, 1986"
+                },
+                "location": {
+                    "city": "Seattle",
+                    "county": "King County",
+                    "state": "Washington",
+                    "country": "United States",
+                    "country_code": "US",
+                    "latitude": 47.6062095,
+                    "longitude": -122.3320708,
+                    "formatted_location": "Seattle, King County, Washington, United States"
+                }
+            },
+            "burial": {
+                "name": "Burial of Nochum (Nathen) Etkin",
+                "location": {
+                    "place_name": "Bikur Cholim Cemetery, Seattle, United States",
+                    "formatted_location": "Bikur Cholim Cemetery, Seattle, United States"
+                }
+            }
+        },
+        {
+            "id": "profile-7567069",
+            "url": "https:\/\/www.geni.com\/api\/profile-7567069",
+            "public": false,
+            "name": "Michele Kaplowitz",
+            "first_name": "Michel Schmera",
+            "maiden_name": "Malvin",
+            "last_name": "Kaplowitz",
+            "display_name": "Michele Kaplowitz",
+            "gender": "female",
+            "is_alive": true,
+            "birth": {
+                "name": "Birth of Michele Kaplowitz",
+                "date": {
+                    "day": 1,
+                    "month": 7,
+                    "year": 1944,
+                    "formatted_date": "July 1, 1944"
+                }
+            }
+        },
+        {
+            "id": "profile-7890690",
+            "url": "https:\/\/www.geni.com\/api\/profile-7890690",
+            "public": true,
+            "name": "Cecillia Etkin (Polack)",
+            "first_name": "Cecillia",
+            "maiden_name": "Polack",
+            "last_name": "Etkin",
+            "gender": "female",
+            "is_alive": false,
+            "birth": {
+                "name": "Birth of Cecillia Etkin (Polack)",
+                "date": {
+                    "day": 12,
+                    "month": 6,
+                    "year": 1922,
+                    "formatted_date": "June 12, 1922"
+                },
+                "location": {
+                    "city": "Sighet",
+                    "state": "Maramures",
+                    "country": "RO",
+                    "country_code": "RO",
+                    "latitude": 45.947115,
+                    "longitude": 24.980499,
+                    "formatted_location": "Sighet, Maramures, Romania"
+                }
+            },
+            "death": {
+                "name": "Death of Cecillia Etkin (Polack) at Kline Galland Home",
+                "date": {
+                    "day": 28,
+                    "month": 7,
+                    "year": 2009,
+                    "formatted_date": "July 28, 2009"
+                },
+                "location": {
+                    "place_name": "Kline Galland Home",
+                    "city": "Seattle",
+                    "state": "WA",
+                    "country": "United States",
+                    "country_code": "US",
+                    "latitude": 47.620973,
+                    "longitude": -122.347276,
+                    "formatted_location": "Kline Galland Home, Seattle, WA, United States"
+                }
+            }
+        },
+        {
+            "id": "profile-8045169",
+            "url": "https:\/\/www.geni.com\/api\/profile-8045169",
+            "public": true,
+            "name": "Zigmond Wolff",
+            "first_name": "Zigmond",
+            "middle_name": "\u05d6\u05d9\u05d2\u05de\u05d5\u05e0\u05d3",
+            "last_name": "Wolff",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8045175",
+            "url": "https:\/\/www.geni.com\/api\/profile-8045175",
+            "public": true,
+            "name": "Selma Wolff",
+            "first_name": "Selma",
+            "middle_name": "\u05d6\u05dc\u05de\u05d4",
+            "maiden_name": "\u05e7\u05e8\u05de\u05e8",
+            "last_name": "Wolff",
+            "gender": "female",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8258871",
+            "url": "https:\/\/www.geni.com\/api\/profile-8258871",
+            "public": true,
+            "name": "Heber .",
+            "first_name": "Heber",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259512",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259512",
+            "public": true,
+            "locked": true,
+            "name": "Isshiah .",
+            "first_name": "Isshiah",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259615",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259615",
+            "public": true,
+            "locked": true,
+            "name": "Jehoiarib .",
+            "first_name": "Jehoiarib",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259625",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259625",
+            "public": true,
+            "locked": true,
+            "name": "Harim .",
+            "first_name": "Harim",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259639",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259639",
+            "public": true,
+            "locked": true,
+            "name": "Malchijah .",
+            "first_name": "Malchijah",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259646",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259646",
+            "public": true,
+            "locked": true,
+            "name": "Hakkoz .",
+            "first_name": "Hakkoz",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259655",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259655",
+            "public": true,
+            "locked": true,
+            "name": "Jeshua .",
+            "first_name": "Jeshua",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259667",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259667",
+            "public": true,
+            "locked": true,
+            "name": "Eliashib .",
+            "first_name": "Eliashib",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259674",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259674",
+            "public": true,
+            "locked": true,
+            "name": "Huppah .",
+            "first_name": "Huppah",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259679",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259679",
+            "public": true,
+            "locked": true,
+            "name": "Bilgah .",
+            "first_name": "Bilgah",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259694",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259694",
+            "public": true,
+            "locked": true,
+            "name": "Hezir .",
+            "first_name": "Hezir",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259702",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259702",
+            "public": true,
+            "locked": true,
+            "name": "Hapizzez .",
+            "first_name": "Hapizzez",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259748",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259748",
+            "public": true,
+            "locked": true,
+            "name": "Pethahiah .",
+            "first_name": "Pethahiah",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259760",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259760",
+            "public": true,
+            "locked": true,
+            "name": "Jehezkel .",
+            "first_name": "Jehezkel",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259770",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259770",
+            "public": true,
+            "locked": true,
+            "name": "Jachin .",
+            "first_name": "Jachin",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        },
+        {
+            "id": "profile-8259778",
+            "url": "https:\/\/www.geni.com\/api\/profile-8259778",
+            "public": true,
+            "locked": true,
+            "name": "Gamul .",
+            "first_name": "Gamul",
+            "maiden_name": ".",
+            "last_name": ".",
+            "gender": "male",
+            "is_alive": false
+        }
+    ],
+    "total_count": 144775,
+    "page": 1,
+    "next_page": "https:\/\/www.geni.com\/api\/user\/followed-profiles?field_group=list&page=2&per_page=50"
+}

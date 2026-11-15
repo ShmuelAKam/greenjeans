@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672781",
+    "public": false,
+    "name": "Arthur Reuben",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Arthur Reuben",
+        "date": {
+            "day": 19,
+            "month": 6,
+            "year": 1915,
+            "formatted_date": "June 19, 1915"
+        },
+        "location": {
+            "street_address1": "Oak Street 86",
+            "city": "Morocco",
+            "county": "Rabat",
+            "state": "Rabat-Sal\u00e9-K\u00e9nitra",
+            "country": "Rabat",
+            "latitude": 34.0083637,
+            "longitude": -6.8538748,
+            "formatted_location": "Oak Street 86, Morocco, Rabat, Rabat-Sal\u00e9-K\u00e9nitra, Rabat"
+        }
+    }
+}

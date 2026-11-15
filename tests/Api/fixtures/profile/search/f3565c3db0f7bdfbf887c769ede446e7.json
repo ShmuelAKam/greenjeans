@@ -1,0 +1,84 @@
+{
+    "id": "profile-37971933",
+    "url": "https:\/\/www.geni.com\/api\/profile-37971933",
+    "profile_url": "https:\/\/www.geni.com\/people\/Haman-the-Agagite\/6000000002134736232",
+    "public": true,
+    "guid": "6000000002134736232",
+    "first_name": "Haman",
+    "maiden_name": ".",
+    "last_name": ".",
+    "display_name": "Haman the Agagite",
+    "name": "Haman the Agagite",
+    "is_alive": false,
+    "gender": "male",
+    "created_by": "https:\/\/www.geni.com\/api\/profile-112030341",
+    "claimed": false,
+    "curator": "https:\/\/www.geni.com\/api\/profile-9288190",
+    "mugshot_urls": {
+        "large": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_large.jpg?hash=51246e4f362c3372cefc4169f2c2a0f75a94693c503b2031866ef117d436c957.1780124399",
+        "medium": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_medium.jpg?hash=5ee04c541a53b5612088f509cb23311f1a4734d1f8f4d28f651ed4bed39d9d7d.1780124399",
+        "small": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_small.jpg?hash=8052f225793e8a85774ba5cd9e205e620dac4831203054ada29c170d5ea4e101.1780124399",
+        "thumb": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_t.jpg?hash=8893e3761257465f63c1b1f1befa89a1655ce5972180897c66673cb5b5b34bde.1780124399",
+        "print": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_print.jpg?hash=afcfa88da4b7a02fd293399f1ff604525f8b214c2e718982417be3fb77bf9b61.1780124399",
+        "thumb2": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_t2.jpg?hash=e99a448cf01816e51dab4406981c28a20c191ca5eba7b66a110b6287aaca6f80.1780124399",
+        "original": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_original.jpg?hash=28601fb6876b62a65cafcb0b3dd101e84ab5d449e01c246c7b3e72d00905701d.1780124399",
+        "url": "https:\/\/www.geni.com\/api\/photo-26415145"
+    },
+    "unions": [
+        "https:\/\/www.geni.com\/api\/union-8698211",
+        "https:\/\/www.geni.com\/api\/union-17136767"
+    ],
+    "marriage_orders": {
+        "6000000003243731968": 0
+    },
+    "birth_order": 99,
+    "names": {
+        "en-US": {
+            "first_name": "Haman",
+            "last_name": ".",
+            "maiden_name": ".",
+            "display_name": "Haman the Agagite"
+        },
+        "he": {
+            "first_name": "\u05d4\u05de\u05df",
+            "display_name": "\u05d4\u05de\u05df \u05d4\u05d0\u05d2\u05d2\u05d9"
+        }
+    },
+    "living": false,
+    "creator": "https:\/\/www.geni.com\/api\/user-1049058",
+    "death": {
+        "name": "Death of Haman the Agagite",
+        "date": {
+            "year": 357,
+            "circa": true,
+            "formatted_date": "circa 357"
+        },
+        "location": {
+            "city": "Shush",
+            "county": "Shush",
+            "state": "Khuzestan Province",
+            "country": "Iran",
+            "country_code": "IR",
+            "latitude": 32.1957948,
+            "longitude": 48.254283,
+            "formatted_location": "Shush, Shush, Khuzestan Province, Iran (Iran, Islamic Republic of)"
+        }
+    },
+    "photo_urls": {
+        "large": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_large.jpg?hash=51246e4f362c3372cefc4169f2c2a0f75a94693c503b2031866ef117d436c957.1780124399",
+        "medium": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_medium.jpg?hash=5ee04c541a53b5612088f509cb23311f1a4734d1f8f4d28f651ed4bed39d9d7d.1780124399",
+        "small": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_small.jpg?hash=8052f225793e8a85774ba5cd9e205e620dac4831203054ada29c170d5ea4e101.1780124399",
+        "thumb": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_t.jpg?hash=8893e3761257465f63c1b1f1befa89a1655ce5972180897c66673cb5b5b34bde.1780124399",
+        "print": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_print.jpg?hash=afcfa88da4b7a02fd293399f1ff604525f8b214c2e718982417be3fb77bf9b61.1780124399",
+        "thumb2": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_t2.jpg?hash=e99a448cf01816e51dab4406981c28a20c191ca5eba7b66a110b6287aaca6f80.1780124399",
+        "original": "https:\/\/media.geni.com\/p13\/6b\/57\/da\/68\/5344483995fbb88b\/images-5_original.jpg?hash=28601fb6876b62a65cafcb0b3dd101e84ab5d449e01c246c7b3e72d00905701d.1780124399",
+        "url": "https:\/\/www.geni.com\/api\/photo-26415145"
+    },
+    "created_at": "1193673227",
+    "updated_at": "1764019574",
+    "deleted": false,
+    "project_ids": [
+        "project-10621",
+        "project-38"
+    ]
+}

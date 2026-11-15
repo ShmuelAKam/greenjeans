@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678600",
+    "public": false,
+    "name": "Scarlett Levy",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Scarlett Levy",
+        "date": {
+            "day": 25,
+            "month": 6,
+            "year": 1904,
+            "formatted_date": "June 25, 1904"
+        },
+        "location": {
+            "street_address1": "The Avenue 52",
+            "city": "Ukraine",
+            "country": "Kyiv",
+            "latitude": 48.379433,
+            "longitude": 31.1655799,
+            "formatted_location": "The Avenue 52, Ukraine, Kyiv"
+        }
+    }
+}

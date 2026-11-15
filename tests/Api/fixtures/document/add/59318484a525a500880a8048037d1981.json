@@ -1,0 +1,21 @@
+{
+    "id": "document-47257885",
+    "guid": "6000000225687075915",
+    "created_at": "1779840449",
+    "updated_at": "1779840451",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257885",
+    "title": "Test getTitle - 27\/05\/2026",
+    "date": {
+        "day": 15,
+        "month": 5,
+        "year": 1936,
+        "formatted_date": "May 15, 1936"
+    },
+    "page_count": 4,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/d7\/90\/a2\/23\/5344486a78577c4b\/test-doc-1_original.pdf?hash=d8135aca5603ad10b518439783aedad550a619f1d21bc9474c3a01db69822437.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47257885"
+    }
+}

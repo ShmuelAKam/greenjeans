@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858672768",
+    "public": false,
+    "name": "Willow Klein",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Willow Klein",
+        "date": {
+            "day": 23,
+            "month": 1,
+            "year": 1997,
+            "formatted_date": "January 23, 1997"
+        },
+        "location": {
+            "street_address1": "Hill Street 81",
+            "city": "Algeria",
+            "state": "Algiers Province",
+            "country": "Algiers",
+            "latitude": 36.753768,
+            "longitude": 3.0587561,
+            "formatted_location": "Hill Street 81, Algeria, Algiers Province, Algiers"
+        }
+    }
+}

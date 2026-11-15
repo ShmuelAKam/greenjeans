@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678620",
+    "public": true,
+    "name": "Evie Moshe",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Evie Moshe",
+        "date": {
+            "day": 19,
+            "month": 9,
+            "year": 1976,
+            "formatted_date": "September 19, 1976"
+        },
+        "location": {
+            "street_address1": "Park Avenue 21",
+            "city": "Italy",
+            "county": "Metropolitan City of Rome Capital",
+            "state": "Lazio",
+            "country": "Rome",
+            "latitude": 41.8967068,
+            "longitude": 12.4822025,
+            "formatted_location": "Park Avenue 21, Italy, Metropolitan City of Rome Capital, Lazio, Rome"
+        }
+    }
+}

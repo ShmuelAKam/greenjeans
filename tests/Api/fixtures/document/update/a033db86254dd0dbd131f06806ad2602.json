@@ -1,0 +1,29 @@
+{
+    "id": "document-47257749",
+    "guid": "6000000225687598841",
+    "created_at": "1779840323",
+    "updated_at": "1779840323",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257749",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 11,
+        "month": 1,
+        "year": 1987,
+        "formatted_date": "January 11, 1987"
+    },
+    "labels": [
+        "badly formatted",
+        "crystal clear",
+        "super helpful",
+        "deeply insightful"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257749"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "id": "document-47260762",
+    "guid": "6000000225689558909",
+    "created_at": "1779861217",
+    "updated_at": "1779861217",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260762",
+    "title": "The Road Not Taken",
+    "description": "Robert Frost",
+    "date": {
+        "day": 27,
+        "month": 10,
+        "year": 1964,
+        "formatted_date": "October 27, 1964"
+    },
+    "labels": [
+        "Peotry",
+        "Irony",
+        "Woods"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260762"
+    }
+}

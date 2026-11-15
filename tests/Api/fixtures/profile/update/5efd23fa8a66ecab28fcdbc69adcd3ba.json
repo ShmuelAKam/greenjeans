@@ -1,0 +1,26 @@
+{
+    "id": "profile-34858678617",
+    "public": false,
+    "name": "Belgium Gaby",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Belgium Gaby",
+        "date": {
+            "day": 16,
+            "month": 4,
+            "year": 2022,
+            "formatted_date": "April 16, 2022"
+        },
+        "location": {
+            "street_address1": "View Street 86",
+            "city": "Tunisia",
+            "county": "M\u00e9dina",
+            "state": "Tunis Governorate",
+            "country": "Tunis",
+            "country_code": "TN",
+            "latitude": 36.8064948,
+            "longitude": 10.1815316,
+            "formatted_location": "View Street 86, Tunisia, M\u00e9dina, Tunis Governorate, Tunis (Tunisia)"
+        }
+    }
+}

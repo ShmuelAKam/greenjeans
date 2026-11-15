@@ -1,0 +1,45 @@
+{
+  "id": "profile-34838408159",
+  "url": "https://www.geni.com/api/profile-34838408159",
+  "profile_url": "https://www.geni.com/people/Adam/6000000214522348827",
+  "public": true,
+  "guid": "6000000214522348827",
+  "first_name": "Adam",
+  "middle_name": "Test Profile",
+  "maiden_name": ".",
+  "last_name": ".",
+  "name": "Adam Test Profile .",
+  "is_alive": false,
+  "gender": "male",
+  "created_by": "https://www.geni.com/api/profile-9288190",
+  "merge_note": "Test copy of: Adam.\r\nhttps://www.geni.com/people/Adam-of-Eden/6000000003538706117",
+  "claimed": false,
+  "unions": [
+    "https://www.geni.com/api/union-121945280",
+    "https://www.geni.com/api/union-121945315"
+  ],
+  "birth_order": 1,
+  "living": false,
+  "creator": "https://www.geni.com/api/user-1444024",
+  "birth": {
+    "name": "Birth of Adam Test Profile .",
+    "date": {
+      "year": -3760,
+      "formatted_date": "-3760"
+    }
+  },
+  "death": {
+    "name": "Death of Adam Test Profile .",
+    "date": {
+      "year": -2830,
+      "formatted_date": "-2830"
+    }
+  },
+  "created_at": "1737982797",
+  "updated_at": "1767283476",
+  "deleted": false,
+  "project_ids": [
+    "project-4506705"
+  ]
+}
+

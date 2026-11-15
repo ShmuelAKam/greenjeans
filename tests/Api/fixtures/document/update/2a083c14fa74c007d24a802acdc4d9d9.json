@@ -1,0 +1,31 @@
+{
+    "id": "document-47260203",
+    "guid": "6000000225689302891",
+    "created_at": "1779859556",
+    "updated_at": "1779859556",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260203",
+    "title": "Title",
+    "description": "Robert Frost",
+    "date": {
+        "day": 11,
+        "month": 9,
+        "year": 1955,
+        "formatted_date": "September 11, 1955"
+    },
+    "labels": [
+        "Irony",
+        "Woods",
+        "perfectly concise",
+        "Peotry",
+        "rather vague",
+        "deeply insightful"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260203"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "id": "union-128847665",
+    "url": "https:\/\/www.geni.com\/api\/union-128847665",
+    "guid": "6000000225690035827",
+    "marriage_date": {
+        "day": 13,
+        "month": 2,
+        "year": 1949,
+        "formatted_date": "February 13, 1949"
+    },
+    "marriage_location": {
+        "street_address1": "London Road 89",
+        "city": "Spain",
+        "county": "Madrid",
+        "state": "Community of Madrid",
+        "country": "Madrid",
+        "latitude": 40.4167279,
+        "longitude": -3.7032905,
+        "formatted_location": "London Road 89, Spain, Madrid, Community of Madrid, Madrid"
+    },
+    "marriage": {
+        "name": "Marriage of Hunter Klein and Ava Katz",
+        "date": {
+            "day": 13,
+            "month": 2,
+            "year": 1949,
+            "formatted_date": "February 13, 1949"
+        },
+        "location": {
+            "street_address1": "London Road 89",
+            "city": "Spain",
+            "county": "Madrid",
+            "state": "Community of Madrid",
+            "country": "Madrid",
+            "latitude": 40.4167279,
+            "longitude": -3.7032905,
+            "formatted_location": "London Road 89, Spain, Madrid, Community of Madrid, Madrid"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679515",
+        "https:\/\/www.geni.com\/api\/profile-34858679516"
+    ]
+}

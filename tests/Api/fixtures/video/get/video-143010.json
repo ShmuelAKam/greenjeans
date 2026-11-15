@@ -1,0 +1,35 @@
+{
+    "attribution": "S.A.K",
+    "created_at": "1765799749",
+    "date": {
+        "day": 20,
+        "formatted_date": "June 20, 1971",
+        "month": 6,
+        "year": 1971
+    },
+    "guid": "6000000222772306833",
+    "id": "video-143010",
+    "location": {
+        "city": "Jerusalem",
+        "country": "Israel",
+        "country_code": "IL",
+        "formatted_location": "Jerusalem, Israel",
+        "latitude": 31.7768831,
+        "longitude": 35.2224346
+    },
+    "sizes": {
+        "medium": "https://media.geni.com/p14/2d/3d/c6/01/53444869ca9ba391/53444869ca9ba391_medium.jpg?hash=c816a6c607cf582bae11b0235dac858f14f3bfc6b87b3cf331ee8db7cd54b2e4.1782716399",
+        "original": "https://media.geni.com/p14/2d/3d/c6/01/53444869ca9ba391/53444869ca9ba391_original.jpg?hash=3f76900c171712ea5298a268bbeb191932f4741473e7a22198b5d630b65f9b03.1782716399",
+        "small": "https://media.geni.com/p14/2d/3d/c6/01/53444869ca9ba391/53444869ca9ba391_small.jpg?hash=123a194b845d062914f78627537c8b93053d168f00de0576351e9bd770635a15.1782716399",
+        "thumb": "https://media.geni.com/p14/2d/3d/c6/01/53444869ca9ba391/53444869ca9ba391_t.jpg?hash=8f189524585ddcd5de4f6f3824d88dc934058dfbf9f0be2d1d9a8312dccc60fe.1782716399",
+        "thumb2": "https://media.geni.com/p14/2d/3d/c6/01/53444869ca9ba391/53444869ca9ba391_t2.jpg?hash=2bc1e34a1701cea9bdb7c21c7bdad0a9e1d403300c1cb560924812484622e4a2.1782716399",
+        "url": "https://www.geni.com/api/video-143010",
+        "video": "https://media.geni.com/p14/2d/3d/c6/01/53444869ca9ba391/53444869ca9ba391.mp4?hash=644034884a648e0931418f73b41ff2f11d99030ee0b94fbeaa8f3a167939f62e.1782716399"
+    },
+    "tags": [
+        "https://www.geni.com/api/profile-9288190"
+    ],
+    "title": "Going Going Gone",
+    "updated_at": "1765801548",
+    "url": "https://www.geni.com/api/video-143010"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "video-153963",
+    "guid": "6000000225687936837",
+    "created_at": "1779844776",
+    "updated_at": "1779844778",
+    "url": "https:\/\/www.geni.com\/api\/video-153963",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 11,
+        "month": 9,
+        "year": 1907,
+        "formatted_date": "September 11, 1907"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/0e\/cf\/e8\/be\/5344486a78649f45\/5344486a78649f45_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/0e\/cf\/e8\/be\/5344486a78649f45\/5344486a78649f45_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/0e\/cf\/e8\/be\/5344486a78649f45\/5344486a78649f45_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/0e\/cf\/e8\/be\/5344486a78649f45\/5344486a78649f45_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/0e\/cf\/e8\/be\/5344486a78649f45\/5344486a78649f45_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/0e\/cf\/e8\/be\/5344486a78649f45\/5344486a78649f45.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153963"
+    }
+}

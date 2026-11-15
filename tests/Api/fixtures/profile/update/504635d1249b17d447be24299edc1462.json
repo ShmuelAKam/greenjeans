@@ -1,0 +1,15 @@
+{
+    "id": "profile-34858678725",
+    "public": true,
+    "name": "Who Dunnit",
+    "is_alive": false,
+    "nicknames": [
+        "Sneezy",
+        "Sleepy",
+        "Grumpy",
+        "Dopey",
+        "Doc",
+        "Happy",
+        "Bashful"
+    ]
+}

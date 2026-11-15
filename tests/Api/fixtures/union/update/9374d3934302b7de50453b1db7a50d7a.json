@@ -1,0 +1,64 @@
+{
+    "id": "union-128847672",
+    "url": "https:\/\/www.geni.com\/api\/union-128847672",
+    "guid": "6000000225690023838",
+    "marriage_date": {
+        "day": 11,
+        "month": 1,
+        "year": 1988,
+        "formatted_date": "January 11, 1988"
+    },
+    "marriage_location": {
+        "street_address1": "Second Street 74",
+        "city": "Zambia",
+        "county": "Lusaka",
+        "state": "Lusaka Province",
+        "country": "Lusaka",
+        "latitude": -15.4076287,
+        "longitude": 28.3983616,
+        "formatted_location": "Second Street 74, Zambia, Lusaka, Lusaka Province, Lusaka"
+    },
+    "divorce": {
+        "name": "Divorce of Finland Adri and Brazil Mizrahi",
+        "date": {
+            "day": 31,
+            "month": 3,
+            "year": 1932,
+            "formatted_date": "March 31, 1932"
+        },
+        "location": {
+            "street_address1": "Cedar Street 79",
+            "city": "France",
+            "county": "Paris",
+            "state": "\u00cele-de-France",
+            "country": "Paris",
+            "latitude": 48.8575475,
+            "longitude": 2.3513765,
+            "formatted_location": "Cedar Street 79, France, Paris, \u00cele-de-France, Paris"
+        }
+    },
+    "marriage": {
+        "name": "Marriage of Finland Adri and Brazil Mizrahi",
+        "date": {
+            "day": 11,
+            "month": 1,
+            "year": 1988,
+            "formatted_date": "January 11, 1988"
+        },
+        "location": {
+            "street_address1": "Second Street 74",
+            "city": "Zambia",
+            "county": "Lusaka",
+            "state": "Lusaka Province",
+            "country": "Lusaka",
+            "latitude": -15.4076287,
+            "longitude": 28.3983616,
+            "formatted_location": "Second Street 74, Zambia, Lusaka, Lusaka Province, Lusaka"
+        }
+    },
+    "status": "ex_spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858679530",
+        "https:\/\/www.geni.com\/api\/profile-34858679531"
+    ]
+}

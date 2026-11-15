@@ -1,0 +1,22 @@
+{
+    "id": "document-47260794",
+    "guid": "6000000225689736853",
+    "created_at": "1779861243",
+    "updated_at": "1779861243",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260794",
+    "title": "Title",
+    "date": {
+        "day": 13,
+        "month": 7,
+        "year": 1946,
+        "formatted_date": "July 13, 1946"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260794"
+    }
+}

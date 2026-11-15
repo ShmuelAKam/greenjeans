@@ -1,0 +1,118 @@
+{
+  "id": "profile-4094989",
+  "url": "https://www.geni.com/api/profile-4094989",
+  "profile_url": "https://www.geni.com/people/Enosh/6000000000190131271",
+  "public": true,
+  "guid": "6000000000190131271",
+  "first_name": "Enosh",
+  "maiden_name": ".",
+  "last_name": ".",
+  "name": "Enosh .",
+  "is_alive": false,
+  "locked": true,
+  "master_profile": true,
+  "gender": "male",
+  "occupation": "Biblical figure, Born: 436 AM, Luke 3:38, b.ca3765bc d.ca2870bc, 905år, Man'; aka IdrisBorn: 3769 BC Died: 2864 BC, Lived 905 years, Patriarch, Died at 905, Primero en invocar el nombre de Yahveh Dios.",
+  "created_by": "https://www.geni.com/api/profile-9288190",
+  "claimed": false,
+  "curator": "https://www.geni.com/api/profile-9288190",
+  "mugshot_urls": {
+    "medium": "https://media.geni.com/p10/2446/0735/53444837f72861c3/siv33fuk_medium.jpg?hash=b19b27ee41985924bc347354aa2987afab32e829cf6c017f617febdd120effa7.1786085999",
+    "small": "https://media.geni.com/p10/2446/0735/53444837f72861c3/siv33fuk_small.jpg?hash=0d8f41b266e80975e10a297a3a4ec0bd990e1c4c34b4876688af5eb6155ae6ed.1786085999",
+    "thumb": "https://media.geni.com/p10/2446/0735/53444837f72861c3/siv33fuk_t.jpg?hash=332a884f51082d8471053832b80f8116196f30fefe806a7793e33622a952dc7c.1786085999",
+    "print": "https://media.geni.com/p10/2446/0735/53444837f72861c3/siv33fuk_print.jpg?hash=a5b9567be344e54393296039920f5e96f30f67ddcc0d0a4e62709a05cbb48354.1786085999",
+    "thumb2": "https://media.geni.com/p10/2446/0735/53444837f72861c3/siv33fuk_t2.jpg?hash=d8cf44d1507bf47a63013fe39b0d3c48c6644c388af80126ff22cb12dc301c9c.1786085999",
+    "url": "https://www.geni.com/api/photo_crop-6000000008771363267"
+  },
+  "unions": [
+    "https://www.geni.com/api/union-19124527",
+    "https://www.geni.com/api/union-18123201"
+  ],
+  "marriage_orders": {
+    "6000000003513277528": 0
+  },
+  "birth_order": 1,
+  "names": {
+    "en-US": {
+      "first_name": "Enosh",
+      "last_name": ".",
+      "maiden_name": ".",
+      "nicknames": "Enosh,Enos,Anoosh,Anoush,Anush,Anwas"
+    },
+    "he": {
+      "first_name": "אנוש"
+    },
+    "ar": {
+      "first_name": "أنوش"
+    },
+    "et": {
+      "first_name": "Enos"
+    },
+    "id": {
+      "first_name": "Anwas"
+    },
+    "es": {
+      "first_name": "Enos"
+    }
+  },
+  "living": false,
+  "creator": "https://www.geni.com/api/user-1444024",
+  "birth": {
+    "name": "Birth of Enosh .",
+    "description": "Génesis 5\r\nReina-Valera 1960 (RVR1960)\r\nLos descendientes de Adán\r\n(1 Cr. 1.1-4)\r\n\r\n6 Vivió Set ciento cinco años, y engendró a Enós.",
+    "date": {
+      "year": -3525,
+      "formatted_date": "-3525"
+    },
+    "location": {
+      "place_name": "Shulon, East Eden",
+      "formatted_location": "Shulon, East Eden"
+    }
+  },
+  "death": {
+    "name": "Death of Enosh . at East of Eden",
+    "description": "Génesis 5\r\nReina-Valera 1960 (RVR1960)\r\nLos descendientes de Adán\r\n(1 Cr. 1.1-4)\r\n\r\n10 Y vivió Enós, después que engendró a Cainán, ochocientos quince años, y engendró hijos e hijas.\r\n\r\n11 Y fueron todos los días de Enós novecientos cinco años; y murió.",
+    "date": {
+      "year": -2620,
+      "formatted_date": "-2620"
+    },
+    "location": {
+      "place_name": "East of Eden",
+      "formatted_location": "East of Eden"
+    }
+  },
+  "nicknames": [
+    "Enosh",
+    "Enos",
+    "Anoosh",
+    "Anoush",
+    "Anush",
+    "Anwas"
+  ],
+  "photo_urls": {
+    "medium": "https://media.geni.com/p10/2446/0735/53444837f72861c3/siv33fuk_medium.jpg?hash=b19b27ee41985924bc347354aa2987afab32e829cf6c017f617febdd120effa7.1786085999",
+    "small": "https://media.geni.com/p10/2446/0735/53444837f72861c3/siv33fuk_small.jpg?hash=0d8f41b266e80975e10a297a3a4ec0bd990e1c4c34b4876688af5eb6155ae6ed.1786085999",
+    "thumb": "https://media.geni.com/p10/2446/0735/53444837f72861c3/siv33fuk_t.jpg?hash=332a884f51082d8471053832b80f8116196f30fefe806a7793e33622a952dc7c.1786085999",
+    "print": "https://media.geni.com/p10/2446/0735/53444837f72861c3/siv33fuk_print.jpg?hash=a5b9567be344e54393296039920f5e96f30f67ddcc0d0a4e62709a05cbb48354.1786085999",
+    "thumb2": "https://media.geni.com/p10/2446/0735/53444837f72861c3/siv33fuk_t2.jpg?hash=d8cf44d1507bf47a63013fe39b0d3c48c6644c388af80126ff22cb12dc301c9c.1786085999",
+    "url": "https://www.geni.com/api/photo_crop-6000000008771363267"
+  },
+  "created_at": "1172481280",
+  "updated_at": "1788995364",
+  "documents_updated_at": "1544469383",
+  "photos_updated_at": "1764894645",
+  "deleted": false,
+  "project_ids": [
+    "project-4504495",
+    "project-12495",
+    "project-2380",
+    "project-2305",
+    "project-12283",
+    "project-10927",
+    "project-1055",
+    "project-38"
+  ],
+  "managers": [
+    "https:\/\/www.geni.com\/api\/profile-9288190"
+  ]
+}

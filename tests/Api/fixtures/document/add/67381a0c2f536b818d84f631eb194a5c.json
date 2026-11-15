@@ -1,0 +1,27 @@
+{
+    "id": "document-47258010",
+    "guid": "6000000225687701915",
+    "created_at": "1779841832",
+    "updated_at": "1779841832",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258010",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 11,
+        "month": 4,
+        "year": 1977,
+        "formatted_date": "April 11, 1977"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258010"
+    }
+}

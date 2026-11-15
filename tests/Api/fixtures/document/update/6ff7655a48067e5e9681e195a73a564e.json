@@ -1,0 +1,29 @@
+{
+    "id": "document-47257753",
+    "guid": "6000000225687007871",
+    "created_at": "1779840328",
+    "updated_at": "1779840329",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257753",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 6,
+        "month": 10,
+        "year": 1997,
+        "formatted_date": "October 6, 1997"
+    },
+    "labels": [
+        "exceptionally detailed",
+        "very good",
+        "visually appealing",
+        "well structured"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257753"
+    }
+}

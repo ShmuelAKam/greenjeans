@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672761",
+    "public": false,
+    "name": "Nicaragua Ohayon",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Nicaragua Ohayon",
+        "date": {
+            "day": 8,
+            "month": 8,
+            "year": 1928,
+            "formatted_date": "August 8, 1928"
+        },
+        "location": {
+            "street_address1": "The Avenue 14",
+            "city": "Greece",
+            "county": "Clarke County",
+            "state": "Georgia",
+            "country": "Athens",
+            "latitude": 33.9596643,
+            "longitude": -83.3764161,
+            "formatted_location": "The Avenue 14, Greece, Clarke County, Georgia, Athens"
+        }
+    }
+}

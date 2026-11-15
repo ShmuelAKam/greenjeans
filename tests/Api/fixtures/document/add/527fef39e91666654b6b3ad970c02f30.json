@@ -1,0 +1,27 @@
+{
+    "id": "document-47258024",
+    "guid": "6000000225687682968",
+    "created_at": "1779841847",
+    "updated_at": "1779841847",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258024",
+    "title": "Magna Carta",
+    "description": "\"Great Charter\"",
+    "date": {
+        "day": 2,
+        "month": 12,
+        "year": 2023,
+        "formatted_date": "December 2, 2023"
+    },
+    "labels": [
+        "england",
+        "King"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258024"
+    }
+}

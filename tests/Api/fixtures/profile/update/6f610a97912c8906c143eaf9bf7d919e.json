@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678639",
+    "public": false,
+    "name": "Ezra Omer",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Ezra Omer",
+        "date": {
+            "day": 24,
+            "month": 2,
+            "year": 1986,
+            "formatted_date": "February 24, 1986"
+        },
+        "location": {
+            "street_address1": "The Avenue 86",
+            "city": "Portugal",
+            "country": "Lisbon",
+            "latitude": 39.399872,
+            "longitude": -8.224454,
+            "formatted_location": "The Avenue 86, Portugal, Lisbon"
+        }
+    }
+}

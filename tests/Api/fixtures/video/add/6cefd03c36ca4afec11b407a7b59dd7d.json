@@ -1,0 +1,24 @@
+{
+    "id": "video-154002",
+    "guid": "6000000225687941834",
+    "created_at": "1779844961",
+    "updated_at": "1779844962",
+    "url": "https:\/\/www.geni.com\/api\/video-154002",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 15,
+        "month": 9,
+        "year": 1929,
+        "formatted_date": "September 15, 1929"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/be\/bd\/9f\/03\/5344486a7864b2ca\/5344486a7864b2ca_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/be\/bd\/9f\/03\/5344486a7864b2ca\/5344486a7864b2ca_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/be\/bd\/9f\/03\/5344486a7864b2ca\/5344486a7864b2ca_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/be\/bd\/9f\/03\/5344486a7864b2ca\/5344486a7864b2ca_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/be\/bd\/9f\/03\/5344486a7864b2ca\/5344486a7864b2ca_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/be\/bd\/9f\/03\/5344486a7864b2ca\/5344486a7864b2ca.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-154002"
+    }
+}

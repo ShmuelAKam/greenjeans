@@ -1,0 +1,25 @@
+{
+    "id": "document-47290420",
+    "guid": "6000000225731989031",
+    "created_at": "1780015861",
+    "updated_at": "1780015861",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47290420",
+    "title": "Title",
+    "date": {
+        "day": 8,
+        "month": 5,
+        "year": 1954,
+        "formatted_date": "May 8, 1954"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47290420"
+    }
+}

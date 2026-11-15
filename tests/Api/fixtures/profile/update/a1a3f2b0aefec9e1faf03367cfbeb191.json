@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672740",
+    "public": true,
+    "name": "Aria Reuben",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of Aria Reuben",
+        "date": {
+            "day": 12,
+            "month": 10,
+            "year": 1919,
+            "formatted_date": "October 12, 1919"
+        },
+        "location": {
+            "street_address1": "Oak Street 26",
+            "city": "Zimbabwe",
+            "county": "Harare",
+            "state": "Harare Province",
+            "country": "Harare",
+            "latitude": -17.8262928,
+            "longitude": 31.0503723,
+            "formatted_location": "Oak Street 26, Zimbabwe, Harare, Harare Province, Harare"
+        }
+    }
+}

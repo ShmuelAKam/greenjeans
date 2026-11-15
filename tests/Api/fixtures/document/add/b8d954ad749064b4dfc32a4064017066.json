@@ -1,0 +1,21 @@
+{
+    "id": "document-47260355",
+    "guid": "6000000225689135997",
+    "created_at": "1779859686",
+    "updated_at": "1779859688",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260355",
+    "title": "Test getTitle - 27\/05\/2026",
+    "date": {
+        "day": 13,
+        "month": 11,
+        "year": 2014,
+        "formatted_date": "November 13, 2014"
+    },
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/d6\/8e\/f5\/6f\/5344486a7876eb7d\/test-doc-2_original.pdf?hash=c0e28b0e240dcc927fc06563626e5d7101d23286baefdc4d35826a7944ce83f4.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47260355"
+    }
+}

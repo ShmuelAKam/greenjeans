@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678641",
+    "public": false,
+    "name": "Jack Bitton",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Jack Bitton",
+        "date": {
+            "day": 16,
+            "month": 11,
+            "year": 1919,
+            "formatted_date": "November 16, 1919"
+        },
+        "location": {
+            "street_address1": "Pine Street 64",
+            "city": "Ghana",
+            "county": "Ledzokuku Municipal",
+            "state": "Greater Accra Region",
+            "country": "Accra",
+            "latitude": 5.5926257,
+            "longitude": -0.0982871,
+            "formatted_location": "Pine Street 64, Ghana, Ledzokuku Municipal, Greater Accra Region, Accra"
+        }
+    }
+}

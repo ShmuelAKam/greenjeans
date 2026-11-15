@@ -1,0 +1,34 @@
+{
+    "id": "video-142576",
+    "guid": "6000000222761121839",
+    "created_at": "1765738393",
+    "updated_at": "1765783996",
+    "url": "https:\/\/www.geni.com\/api\/video-142576",
+    "title": "Alles Kaputen",
+    "date": {
+        "day": 7,
+        "month": 4,
+        "year": 1995,
+        "formatted_date": "April 7, 1995"
+    },
+    "location": {
+        "city": "Washington",
+        "country": "United States",
+        "country_code": "US",
+        "latitude": 38.9071923,
+        "longitude": -77.0368707,
+        "formatted_location": "Washington, United States"
+    },
+    "sizes": {
+        "medium": "https:\/\/media.geni.com\/p14\/e8\/90\/08\/10\/53444869c9f0f82f\/53444869c9f0f82f_medium.jpg?hash=3cc83e924af70ecad88a88daa672ba578103d6a6d8c7e3dfb3d3cc87f397449f.1780124399",
+        "small": "https:\/\/media.geni.com\/p14\/e8\/90\/08\/10\/53444869c9f0f82f\/53444869c9f0f82f_small.jpg?hash=2b5fd5f4827c0d2082ee3f3311f069af5b6936d2745e1f614f74ba1decc1ba6b.1780124399",
+        "thumb": "https:\/\/media.geni.com\/p14\/e8\/90\/08\/10\/53444869c9f0f82f\/53444869c9f0f82f_t.jpg?hash=9a1dfd8d50708a8556abfbfeb20a4d2242aa45b2cfb5eaa4925cad0733e7cf56.1780124399",
+        "thumb2": "https:\/\/media.geni.com\/p14\/e8\/90\/08\/10\/53444869c9f0f82f\/53444869c9f0f82f_t2.jpg?hash=12436f17022d8812258baf5e1a27b95a4eba02faa067e2ebceb3a7522bff8f42.1780124399",
+        "original": "https:\/\/media.geni.com\/p14\/e8\/90\/08\/10\/53444869c9f0f82f\/53444869c9f0f82f_original.jpg?hash=c5c1a49f951e9f736dfb33588a432795a73f3fd8d29eca796d7104bc9afb3be6.1780124399",
+        "video": "https:\/\/media.geni.com\/p14\/e8\/90\/08\/10\/53444869c9f0f82f\/53444869c9f0f82f.mp4?hash=3dd6a383bd6a0f47a76a488ee148999d03eaf7c675540dcd025167fca649bdd2.1780124399",
+        "url": "https:\/\/www.geni.com\/api\/video-142576"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-9288190"
+    ]
+}

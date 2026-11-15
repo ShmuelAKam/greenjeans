@@ -1,0 +1,28 @@
+{
+    "id": "document-47260216",
+    "guid": "6000000225689313856",
+    "created_at": "1779859567",
+    "updated_at": "1779859568",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260216",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 10,
+        "month": 1,
+        "year": 1989,
+        "formatted_date": "January 10, 1989"
+    },
+    "labels": [
+        "crystal clear",
+        "badly formatted",
+        "United States"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260216"
+    }
+}

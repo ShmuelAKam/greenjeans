@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672799",
+    "public": false,
+    "name": "Ruby Bitton",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Ruby Bitton",
+        "date": {
+            "day": 28,
+            "month": 2,
+            "year": 1957,
+            "formatted_date": "February 28, 1957"
+        },
+        "location": {
+            "street_address1": "Station Road 47",
+            "city": "Zimbabwe",
+            "county": "Harare",
+            "state": "Harare Province",
+            "country": "Harare",
+            "latitude": -17.6859816,
+            "longitude": 31.1142187,
+            "formatted_location": "Station Road 47, Zimbabwe, Harare, Harare Province, Harare"
+        }
+    }
+}

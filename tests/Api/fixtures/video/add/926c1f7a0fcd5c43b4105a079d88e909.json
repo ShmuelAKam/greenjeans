@@ -1,0 +1,24 @@
+{
+    "id": "video-153983",
+    "guid": "6000000225687833985",
+    "created_at": "1779844869",
+    "updated_at": "1779844870",
+    "url": "https:\/\/www.geni.com\/api\/video-153983",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 1,
+        "month": 5,
+        "year": 1935,
+        "formatted_date": "May 1, 1935"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/75\/2b\/61\/af\/5344486a78630d81\/5344486a78630d81_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/75\/2b\/61\/af\/5344486a78630d81\/5344486a78630d81_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/75\/2b\/61\/af\/5344486a78630d81\/5344486a78630d81_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/75\/2b\/61\/af\/5344486a78630d81\/5344486a78630d81_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/75\/2b\/61\/af\/5344486a78630d81\/5344486a78630d81_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/75\/2b\/61\/af\/5344486a78630d81\/5344486a78630d81.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153983"
+    }
+}

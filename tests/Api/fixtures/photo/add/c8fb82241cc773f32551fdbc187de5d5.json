@@ -1,0 +1,27 @@
+{
+    "id": "photo-51986163",
+    "guid": "6000000225687007900",
+    "created_at": "1779840537",
+    "updated_at": "1779840537",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-51986163",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 22,
+        "month": 9,
+        "year": 1992,
+        "formatted_date": "September 22, 1992"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/0c\/13\/dd\/75\/5344486a7856729c\/file-sdk-3_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/0c\/13\/dd\/75\/5344486a7856729c\/file-sdk-3_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/0c\/13\/dd\/75\/5344486a7856729c\/file-sdk-3_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/0c\/13\/dd\/75\/5344486a7856729c\/file-sdk-3_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/0c\/13\/dd\/75\/5344486a7856729c\/file-sdk-3_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/0c\/13\/dd\/75\/5344486a7856729c\/file-sdk-3_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/0c\/13\/dd\/75\/5344486a7856729c\/file-sdk-3_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-51986163"
+    }
+}

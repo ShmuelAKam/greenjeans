@@ -1,0 +1,30 @@
+{
+    "id": "document-47257979",
+    "guid": "6000000225687699914",
+    "created_at": "1779841627",
+    "updated_at": "1779841627",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257979",
+    "title": "Magna Carta",
+    "description": "\"Great Charter\"",
+    "date": {
+        "day": 5,
+        "month": 6,
+        "year": 1964,
+        "formatted_date": "June 5, 1964"
+    },
+    "labels": [
+        "england",
+        "King"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257979"
+    },
+    "tags": [
+        "https:\/\/www.geni.com\/api\/profile-34858672081"
+    ]
+}

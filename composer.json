@@ -1,0 +1,46 @@
+{
+  "name": "shmuelakam/greenjeans",
+  "description": "PHP SDK and persistence layer for Geni.com API",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Shmuel A. Kam",
+      "role": "Owner",
+      "email": "shmuel@kam-motion.com"
+    }
+  ],
+  "keywords": [
+    "Geni API",
+    "Geni SDK",
+    "Persistence"
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "2.2.x-dev",
+    "phpstan/phpstan-phpunit": "2.0.x-dev",
+    "phpunit/phpunit": "^10.5",
+    "friendsofphp/php-cs-fixer": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "ShmuelAKam\\Greenjeans\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ShmuelAKam\\Greenjeans\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test:api": "vendor/bin/phpunit -c phpunit.api.xml",
+    "test:db": "vendor/bin/phpunit -c phpunit.persistence.xml",
+    "test": [
+      "@test:api",
+      "@test:db"
+    ],
+    "phpstan": "vendor/bin/phpstan analyse"
+  }
+}

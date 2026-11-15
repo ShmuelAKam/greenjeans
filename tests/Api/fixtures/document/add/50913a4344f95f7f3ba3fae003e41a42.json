@@ -1,0 +1,27 @@
+{
+    "id": "document-47258237",
+    "guid": "6000000225687864827",
+    "created_at": "1779843579",
+    "updated_at": "1779843579",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47258237",
+    "title": "Magna Carta",
+    "description": "\"Great Charter\"",
+    "date": {
+        "day": 26,
+        "month": 2,
+        "year": 1903,
+        "formatted_date": "February 26, 1903"
+    },
+    "labels": [
+        "King",
+        "england"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47258237"
+    }
+}

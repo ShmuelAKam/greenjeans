@@ -1,0 +1,13 @@
+<?php
+
+namespace ShmuelAKam\Greenjeans\Tests;
+
+// db.local.php
+// DB credentials.
+
+return [
+    'db_user' => 'DB_USER_HERE',
+    'db_pass' => 'DB_PASSWORD_HERE',
+    'db_name' => 'DB_NAME_HERE',
+    'db_host' => '127.0.0.1',
+];

@@ -1,0 +1,25 @@
+{
+    "id": "document-47260291",
+    "guid": "6000000225689335881",
+    "created_at": "1779859639",
+    "updated_at": "1779859640",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260291",
+    "title": "Title",
+    "date": {
+        "day": 14,
+        "month": 4,
+        "year": 1985,
+        "formatted_date": "April 14, 1985"
+    },
+    "labels": [
+        "Labels"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260291"
+    }
+}

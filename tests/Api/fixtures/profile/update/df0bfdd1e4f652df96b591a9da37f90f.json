@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858672744",
+    "public": false,
+    "name": "Czechia Mizrahi",
+    "is_alive": true,
+    "birth": {
+        "name": "Birth of Czechia Mizrahi",
+        "date": {
+            "day": 1,
+            "month": 1,
+            "year": 1996,
+            "formatted_date": "January 1, 1996"
+        },
+        "location": {
+            "street_address1": "Kings Road 18",
+            "city": "Portugal",
+            "country": "Lisbon",
+            "latitude": 39.399872,
+            "longitude": -8.224454,
+            "formatted_location": "Kings Road 18, Portugal, Lisbon"
+        }
+    }
+}

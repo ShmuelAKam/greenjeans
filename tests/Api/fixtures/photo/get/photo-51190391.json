@@ -1,0 +1,28 @@
+{
+    "album_id": "6000000222544428842",
+    "attribution": "L.L.K",
+    "content_type": "image\/jpeg",
+    "created_at": "1764625637",
+    "guid": "6000000222544428845",
+    "id": "photo-51190391",
+    "title": "File-SDK-3.jpg",
+    "updated_at": "1764632831",
+    "url": "https:\/\/www.geni.com\/api\/photo-51190391",
+    "date": {
+        "year": 1995,
+        "month": "07",
+        "day": "04"
+    },
+    "location": {
+        "country": "United States",
+        "city": "Yonkers"
+    },
+    "sizes": {
+        "large": "https:\/\/media.geni.com\/p14\/5f\/1e\/ae\/d4\/53444869bd067f2d\/file-sdk-3_large.jpg?hash=1b295eb6fd891c776741eea18eecbe8badb90d4bd9ced60d19902752e96d8c87.1782370799",
+        "medium": "https:\/\/media.geni.com\/p14\/5f\/1e\/ae\/d4\/53444869bd067f2d\/file-sdk-3_medium.jpg?hash=7b9cadcf7fb13f7f96456c2a5d87031a0c3ed1774c2f8993c5e12f30ba91b458.1782370799",
+        "print": "https:\/\/media.geni.com\/p14\/5f\/1e\/ae\/d4\/53444869bd067f2d\/file-sdk-3_print.jpg?hash=e943453401fd138356b6181fc7f98cbfa2a4013a087f49a2ca98cb9fdca56056.1782370799",
+        "small": "https:\/\/media.geni.com\/p14\/5f\/1e\/ae\/d4\/53444869bd067f2d\/file-sdk-3_small.jpg?hash=d13fb64fab8cb624ead6de44fe2148ed30b07225adf18ddad47cb0f0927c2a5b.1782370799",
+        "thumb": "https:\/\/media.geni.com\/p14\/5f\/1e\/ae\/d4\/53444869bd067f2d\/file-sdk-3_t.jpg?hash=27a2207ab4f0c673665b8e55a80d368ddad617099dac55d217e2597bcf0b19f2.1782370799",
+        "thumb2": "https:\/\/media.geni.com\/p14\/5f\/1e\/ae\/d4\/53444869bd067f2d\/file-sdk-3_t2.jpg?hash=3d4c267391ee6e548e94ba3e56c7e8883f626673f47675b43aa9ee60913b56d7.1782370799"
+    }
+}

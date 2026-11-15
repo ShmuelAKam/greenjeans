@@ -1,0 +1,22 @@
+{
+    "id": "document-47257824",
+    "guid": "6000000225687076885",
+    "created_at": "1779840405",
+    "updated_at": "1779840405",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257824",
+    "title": "Title",
+    "date": {
+        "day": 13,
+        "month": 2,
+        "year": 1966,
+        "formatted_date": "February 13, 1966"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257824"
+    }
+}

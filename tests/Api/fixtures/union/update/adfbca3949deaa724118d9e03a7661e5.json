@@ -1,0 +1,45 @@
+{
+    "id": "union-128845937",
+    "url": "https:\/\/www.geni.com\/api\/union-128845937",
+    "guid": "6000000225687818980",
+    "marriage_date": {
+        "day": 14,
+        "month": 12,
+        "year": 1996,
+        "formatted_date": "December 14, 1996"
+    },
+    "marriage_location": {
+        "street_address1": "Church Lane 11",
+        "city": "Zambia",
+        "county": "Lusaka",
+        "state": "Lusaka Province",
+        "country": "Lusaka",
+        "latitude": -15.3724437,
+        "longitude": 28.3393324,
+        "formatted_location": "Church Lane 11, Zambia, Lusaka, Lusaka Province, Lusaka"
+    },
+    "marriage": {
+        "name": "Marriage of Lucas Friedman and Scarlett Segel",
+        "date": {
+            "day": 14,
+            "month": 12,
+            "year": 1996,
+            "formatted_date": "December 14, 1996"
+        },
+        "location": {
+            "street_address1": "Church Lane 11",
+            "city": "Zambia",
+            "county": "Lusaka",
+            "state": "Lusaka Province",
+            "country": "Lusaka",
+            "latitude": -15.3724437,
+            "longitude": 28.3393324,
+            "formatted_location": "Church Lane 11, Zambia, Lusaka, Lusaka Province, Lusaka"
+        }
+    },
+    "status": "spouse",
+    "partners": [
+        "https:\/\/www.geni.com\/api\/profile-34858673614",
+        "https:\/\/www.geni.com\/api\/profile-34858673615"
+    ]
+}

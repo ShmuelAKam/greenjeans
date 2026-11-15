@@ -1,0 +1,27 @@
+{
+    "id": "photo-52081308",
+    "guid": "6000000226208198851",
+    "created_at": "1782074108",
+    "updated_at": "1782074108",
+    "content_type": "image\/jpeg",
+    "url": "https:\/\/www.geni.com\/api\/photo-52081308",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 21,
+        "month": 2,
+        "year": 1984,
+        "formatted_date": "February 21, 1984"
+    },
+    "album_id": "6000000222544428842",
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/media\/p14\/3e\/41\/a5\/62\/5344486a976730c3\/test_large.jpg",
+        "medium": "https:\/\/www.geni.com\/media\/p14\/3e\/41\/a5\/62\/5344486a976730c3\/test_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/3e\/41\/a5\/62\/5344486a976730c3\/test_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/3e\/41\/a5\/62\/5344486a976730c3\/test_t.jpg",
+        "print": "https:\/\/www.geni.com\/media\/p14\/3e\/41\/a5\/62\/5344486a976730c3\/test_print.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/3e\/41\/a5\/62\/5344486a976730c3\/test_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/3e\/41\/a5\/62\/5344486a976730c3\/test_original.jpg",
+        "url": "https:\/\/www.geni.com\/api\/photo-52081308"
+    }
+}

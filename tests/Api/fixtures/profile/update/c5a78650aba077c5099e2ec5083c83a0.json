@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858678574",
+    "public": true,
+    "name": "Sophie Reuben",
+    "is_alive": false,
+    "birth": {
+        "name": "Birth of Sophie Reuben",
+        "date": {
+            "day": 1,
+            "month": 1,
+            "year": 1992,
+            "formatted_date": "January 1, 1992"
+        },
+        "location": {
+            "street_address1": "View Street 42",
+            "city": "Tanzania",
+            "county": "Dodoma Urban",
+            "state": "Dodoma Region",
+            "country": "Dodoma",
+            "latitude": -6.1811245,
+            "longitude": 35.746877,
+            "formatted_location": "View Street 42, Tanzania, Dodoma Urban, Dodoma Region, Dodoma"
+        }
+    }
+}

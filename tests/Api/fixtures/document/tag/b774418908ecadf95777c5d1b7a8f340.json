@@ -1,0 +1,15 @@
+{
+    "results": [
+        {
+            "id": "profile-34861418931",
+            "url": "https:\/\/www.geni.com\/api\/profile-34861418931",
+            "public": false,
+            "name": "Hunter Levy",
+            "first_name": "Hunter",
+            "last_name": "Levy",
+            "gender": "male",
+            "is_alive": true
+        }
+    ],
+    "total_count": 1
+}

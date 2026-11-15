@@ -1,0 +1,29 @@
+{
+    "id": "document-47257759",
+    "guid": "6000000225687021861",
+    "created_at": "1779840337",
+    "updated_at": "1779840337",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257759",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 6,
+        "month": 9,
+        "year": 1908,
+        "formatted_date": "September 6, 1908"
+    },
+    "labels": [
+        "visually appealing",
+        "exceptionally detailed",
+        "well structured",
+        "very good"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257759"
+    }
+}

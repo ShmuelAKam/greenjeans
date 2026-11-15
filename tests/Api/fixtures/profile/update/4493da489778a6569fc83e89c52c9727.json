@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672767",
+    "public": false,
+    "name": "Reuben Avraham",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Reuben Avraham",
+        "date": {
+            "day": 15,
+            "month": 10,
+            "year": 1933,
+            "formatted_date": "October 15, 1933"
+        },
+        "location": {
+            "street_address1": "Station Road 91",
+            "city": "Botswana",
+            "county": "Gaborone",
+            "state": "Gaborone City",
+            "country": "Gaborone",
+            "latitude": -24.6634945,
+            "longitude": 25.905837,
+            "formatted_location": "Station Road 91, Botswana, Gaborone, Gaborone City, Gaborone"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "id": "document-47260796",
+    "guid": "6000000225689631888",
+    "created_at": "1779861245",
+    "updated_at": "1779861245",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260796",
+    "title": "Title",
+    "date": {
+        "day": 10,
+        "month": 3,
+        "year": 1976,
+        "formatted_date": "March 10, 1976"
+    },
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260796"
+    }
+}

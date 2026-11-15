@@ -1,0 +1,24 @@
+{
+    "id": "profile-34858672789",
+    "public": true,
+    "name": "Luca Katz",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Luca Katz",
+        "date": {
+            "day": 30,
+            "month": 7,
+            "year": 2009,
+            "formatted_date": "July 30, 2009"
+        },
+        "location": {
+            "street_address1": "Station Road 27",
+            "city": "Ethiopia",
+            "state": "Addis Ababa",
+            "country": "Addis Ababa",
+            "latitude": 9.0191936,
+            "longitude": 38.7524635,
+            "formatted_location": "Station Road 27, Ethiopia, Addis Ababa, Addis Ababa"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "id": "document-47257890",
+    "guid": "6000000225687075920",
+    "created_at": "1779840452",
+    "updated_at": "1779840455",
+    "content_type": "application\/pdf",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257890",
+    "title": "Test getTitle - 27\/05\/2026",
+    "date": {
+        "day": 7,
+        "month": 10,
+        "year": 1960,
+        "formatted_date": "October 7, 1960"
+    },
+    "page_count": 5,
+    "sizes": {
+        "original": "https:\/\/media.geni.com\/p14\/db\/27\/22\/38\/5344486a78577c50\/test-doc-2_original.pdf?hash=34b014d323908505f7e05b7ae2b4e7db4db1b80d36a88f24bbfe4bb712ad14c4.1779951599",
+        "url": "https:\/\/www.geni.com\/api\/document-47257890"
+    }
+}

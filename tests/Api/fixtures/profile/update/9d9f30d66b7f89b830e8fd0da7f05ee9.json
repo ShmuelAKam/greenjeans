@@ -1,0 +1,25 @@
+{
+    "id": "profile-34858672875",
+    "public": false,
+    "name": "Leo Mizrahi",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of Leo Mizrahi",
+        "date": {
+            "day": 12,
+            "month": 6,
+            "year": 2002,
+            "formatted_date": "June 12, 2002"
+        },
+        "location": {
+            "street_address1": "View Street 66",
+            "city": "Switzerland",
+            "county": "Bern-Mittelland District",
+            "state": "Canton of Bern",
+            "country": "Bern",
+            "latitude": 46.9479739,
+            "longitude": 7.4474468,
+            "formatted_location": "View Street 66, Switzerland, Bern-Mittelland District, Canton of Bern, Bern"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "id": "document-47383161",
+    "guid": "6000000225854140840",
+    "created_at": "1780560854",
+    "updated_at": "1780560856",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47383161",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 10,
+        "month": 7,
+        "year": 1918,
+        "formatted_date": "July 10, 1918"
+    },
+    "labels": [
+        "highly professional",
+        "Labels",
+        "rather vague"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47383161"
+    }
+}

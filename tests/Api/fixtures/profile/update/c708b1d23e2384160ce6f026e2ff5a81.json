@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858672758",
+    "public": false,
+    "name": "Saudi Arabia Segel",
+    "is_alive": false,
+    "death": {
+        "name": "Death of Saudi Arabia Segel",
+        "date": {
+            "day": 16,
+            "month": 12,
+            "year": 1913,
+            "formatted_date": "December 16, 1913"
+        },
+        "location": {
+            "street_address1": "Elm Street 49",
+            "city": "Austria",
+            "country": "Vienna",
+            "latitude": 47.516231,
+            "longitude": 14.550072,
+            "formatted_location": "Elm Street 49, Austria, Vienna"
+        }
+    }
+}

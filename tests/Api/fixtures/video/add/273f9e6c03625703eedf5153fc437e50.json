@@ -1,0 +1,24 @@
+{
+    "id": "video-153971",
+    "guid": "6000000225687837990",
+    "created_at": "1779844817",
+    "updated_at": "1779844818",
+    "url": "https:\/\/www.geni.com\/api\/video-153971",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 15,
+        "month": 8,
+        "year": 1971,
+        "formatted_date": "August 15, 1971"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/18\/cd\/b8\/b4\/5344486a78631d26\/5344486a78631d26_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/18\/cd\/b8\/b4\/5344486a78631d26\/5344486a78631d26_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/18\/cd\/b8\/b4\/5344486a78631d26\/5344486a78631d26_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/18\/cd\/b8\/b4\/5344486a78631d26\/5344486a78631d26_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/18\/cd\/b8\/b4\/5344486a78631d26\/5344486a78631d26_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/18\/cd\/b8\/b4\/5344486a78631d26\/5344486a78631d26.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153971"
+    }
+}

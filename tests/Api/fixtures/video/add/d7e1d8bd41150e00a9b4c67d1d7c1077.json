@@ -1,0 +1,23 @@
+{
+    "id": "video-153961",
+    "guid": "6000000225687943843",
+    "created_at": "1779844771",
+    "updated_at": "1779844772",
+    "url": "https:\/\/www.geni.com\/api\/video-153961",
+    "title": "Title",
+    "date": {
+        "day": 7,
+        "month": 1,
+        "year": 1980,
+        "formatted_date": "January 7, 1980"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/a4\/b9\/a7\/48\/5344486a7864baa3\/5344486a7864baa3_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/a4\/b9\/a7\/48\/5344486a7864baa3\/5344486a7864baa3_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/a4\/b9\/a7\/48\/5344486a7864baa3\/5344486a7864baa3_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/a4\/b9\/a7\/48\/5344486a7864baa3\/5344486a7864baa3_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/a4\/b9\/a7\/48\/5344486a7864baa3\/5344486a7864baa3_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/a4\/b9\/a7\/48\/5344486a7864baa3\/5344486a7864baa3.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153961"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858672874",
+    "public": true,
+    "name": "Netherlands Isaac",
+    "is_alive": false,
+    "baptism": {
+        "name": "Baptism of Netherlands Isaac",
+        "date": {
+            "day": 1,
+            "month": 5,
+            "year": 1906,
+            "formatted_date": "May 1, 1906"
+        },
+        "location": {
+            "street_address1": "View Street 86",
+            "city": "Ukraine",
+            "country": "Kyiv",
+            "latitude": 48.379433,
+            "longitude": 31.1655799,
+            "formatted_location": "View Street 86, Ukraine, Kyiv"
+        }
+    }
+}

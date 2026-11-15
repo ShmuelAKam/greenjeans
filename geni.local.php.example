@@ -1,0 +1,13 @@
+<?php
+
+namespace ShmuelAKam\Greenjeans\Tests;
+
+// geni.local.php
+// Geni Server credentials.
+
+return [
+    'app_num'      => your_app_id,  // An int, NOT a string.
+    'app_id'       => 'your_app_id_hash',
+    'app_secret'   => 'your_app_secret_key',
+    'app_redirect' => 'http://your_domain.com/path/page.php',
+];

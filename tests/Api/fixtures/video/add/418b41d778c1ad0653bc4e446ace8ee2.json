@@ -1,0 +1,24 @@
+{
+    "id": "video-153945",
+    "guid": "6000000225687745892",
+    "created_at": "1779842292",
+    "updated_at": "1779842293",
+    "url": "https:\/\/www.geni.com\/api\/video-153945",
+    "title": "Title",
+    "description": "Description",
+    "date": {
+        "day": 27,
+        "month": 3,
+        "year": 1923,
+        "formatted_date": "March 27, 1923"
+    },
+    "sizes": {
+        "medium": "https:\/\/www.geni.com\/media\/p14\/c6\/f5\/c6\/e6\/5344486a7861b564\/5344486a7861b564_medium.jpg",
+        "small": "https:\/\/www.geni.com\/media\/p14\/c6\/f5\/c6\/e6\/5344486a7861b564\/5344486a7861b564_small.jpg",
+        "thumb": "https:\/\/www.geni.com\/media\/p14\/c6\/f5\/c6\/e6\/5344486a7861b564\/5344486a7861b564_t.jpg",
+        "thumb2": "https:\/\/www.geni.com\/media\/p14\/c6\/f5\/c6\/e6\/5344486a7861b564\/5344486a7861b564_t2.jpg",
+        "original": "https:\/\/www.geni.com\/media\/p14\/c6\/f5\/c6\/e6\/5344486a7861b564\/5344486a7861b564_original.jpg",
+        "video": "https:\/\/www.geni.com\/media\/p14\/c6\/f5\/c6\/e6\/5344486a7861b564\/5344486a7861b564.mp4",
+        "url": "https:\/\/www.geni.com\/api\/video-153945"
+    }
+}

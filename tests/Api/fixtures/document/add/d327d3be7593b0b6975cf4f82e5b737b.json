@@ -1,0 +1,27 @@
+{
+    "id": "document-47257750",
+    "guid": "6000000225687598842",
+    "created_at": "1779840324",
+    "updated_at": "1779840324",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47257750",
+    "title": "Declaration of Independence",
+    "description": "From King George",
+    "date": {
+        "day": 3,
+        "month": 7,
+        "year": 2015,
+        "formatted_date": "July 3, 2015"
+    },
+    "labels": [
+        "USA",
+        "Bla Bla"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47257750"
+    }
+}

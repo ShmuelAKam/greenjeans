@@ -1,0 +1,23 @@
+{
+    "id": "profile-34858678624",
+    "public": false,
+    "name": "Jack Avraham",
+    "is_alive": false,
+    "burial": {
+        "name": "Burial of Jack Avraham",
+        "date": {
+            "day": 21,
+            "month": 1,
+            "year": 1916,
+            "formatted_date": "January 21, 1916"
+        },
+        "location": {
+            "street_address1": "Windsor Road 85",
+            "city": "Russia",
+            "country": "Moscow",
+            "latitude": 57.2140002,
+            "longitude": 31.902393,
+            "formatted_location": "Windsor Road 85, Russia, Moscow"
+        }
+    }
+}

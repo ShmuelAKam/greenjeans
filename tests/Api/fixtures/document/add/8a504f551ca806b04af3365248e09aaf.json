@@ -1,0 +1,28 @@
+{
+    "id": "document-47260348",
+    "guid": "6000000225689318909",
+    "created_at": "1779859682",
+    "updated_at": "1779859682",
+    "content_type": "text\/plain",
+    "public": true,
+    "url": "https:\/\/www.geni.com\/api\/document-47260348",
+    "title": "Test getTitle - 27\/05\/2026",
+    "description": "Robert Frost",
+    "date": {
+        "day": 17,
+        "month": 4,
+        "year": 1987,
+        "formatted_date": "April 17, 1987"
+    },
+    "labels": [
+        "Woods",
+        "Peotry",
+        "Irony"
+    ],
+    "sizes": {
+        "large": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "thumb": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "original": "https:\/\/www.geni.com\/images\/documents\/doc.png",
+        "url": "https:\/\/www.geni.com\/api\/document-47260348"
+    }
+}

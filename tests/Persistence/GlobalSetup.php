@@ -5,7 +5,6 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence;
 $GLOBALS ['PACKAGE_ROOT']  = dirname(__DIR__, 2);
 $GLOBALS ['TEST_API_ROOT'] = realpath($GLOBALS ['PACKAGE_ROOT'] . '/tests/Api');
 
-
 require_once $GLOBALS ['PACKAGE_ROOT'] . '/vendor/autoload.php';
 
 use PDO;

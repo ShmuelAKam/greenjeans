@@ -7,40 +7,46 @@ $GLOBALS ['PACKAGE_ROOT'] = dirname(__DIR__, 2);
 require_once $GLOBALS ['PACKAGE_ROOT'] . '/vendor/autoload.php';
 
 use PDO;
+use RuntimeException;
 use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 
 $GLOBALS['startRunTime'] = time();
 
-// The username and passwords should be input paramters to the script,
-// or at least hardcoded in some start-up code.
+//--------------------------------------------------------------
+// Get DB connection param from config file.
 
-$username = '';
-$password = '';
+$configFile = $GLOBALS ['PACKAGE_ROOT'] . '/db.local.php';
+
+if (!file_exists($configFile)) {
+    throw new RuntimeException ("Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.");
+}
+
+$dbConfig = require $configFile;
+$username = $dbConfig['db_user'];
+
+//--------------------------------------------------------------
 
 // $DBType = 'SQLite';
 $DBType = 'MySQL';
 
 /**
- * @var \PDO|NULL $sharedPDO
+ * @var \PDO|null $sharedPDO
  */
 $sharedPDO = null;
 
 switch ($DBType)
 {
     case 'MySQL':
-        // The username and password should be input parameters to the script,
-        // or at least hardcoded in some start-up code.
-
-        $sharedPDO = setupMySQL($username, $password);
+        $sharedPDO = setupMySQL($dbConfig);
         break;
 
     case 'SQLite':
-        $sharedPDO = setupSQLite($username);
+        $sharedPDO = setupSQLite($dbConfig['db_user']);
         break;
 
     default:
         echo "Unsupported DB type.\r\n";
-        die();
+        exit(1);
 }
 
 
@@ -63,12 +69,6 @@ if ($persistor == null)
 //--------------------------------------------------------------
 // End of general set-up. Your start-up code goes here.
 //--------------------------------------------------------------
-
-/**
-function setupMySQL (string $username, string $password): PDO
-{
-    return new PDO ('mysql:host=localhost;dbname=geni_db;charset=utf8mb4', $username, $password);
-}
 
 /**
  * Full set up of the SQLite database and the PDO.

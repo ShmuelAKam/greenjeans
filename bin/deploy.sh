@@ -25,6 +25,7 @@ rsync -rlvzc $DRY_RUN --delete --no-p --no-t \
   --exclude="*.phar" \
   --exclude="/.phpunit.result.cache" \
   --exclude="/.php-cs-fixer.cache" \
+  --exclude='CHEATSHEET.md' \
   ./ www-data@kam-motion.com:/var/www/html/greenjeans/
 
 echo

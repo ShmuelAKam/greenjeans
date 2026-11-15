@@ -37,7 +37,6 @@ $storeFile      = $GLOBALS ['PACKAGE_ROOT'] . '/SessionAuth.json';
 $appNumber      = (int) $serverConfig['app_num'];
 $appID          = $serverConfig['app_id'];
 $appSecret      = $serverConfig['app_secret'];
-$appRedirectURL = $serverConfig['app_redirect'];
 
 // Initialize the Desktop client.
 
@@ -48,8 +47,8 @@ $API_Wrap = new API_WrapperDesktop(
     $appNumber,
     $appID,
     $appSecret,
-    silent: true
-    useSandbox: false,
+    silent: true,
+    useSandbox: false
 );
 
 /**

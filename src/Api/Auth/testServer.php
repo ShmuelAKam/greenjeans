@@ -1,3 +1,6 @@
+<?php
+namespace ShmuelAKam\Greenjeans\Api\Auth;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,8 +9,6 @@
     <title>Authentication Page</title>
 </head>
 <?php
-namespace ShmuelAKam\Greenjeans\Api\Auth;
-
 /**
  * testServer.php - Example script for starting session with Server-flow authentication.
  *
@@ -94,6 +95,7 @@ if (!$API_Wrap->retrieve($storeFile))
         $API_Wrap->store($storeFile);
     }
 
+    $operation = 'started';
     $msg = 'Session started - ' . date(DATE_RFC2822);
 }
 else

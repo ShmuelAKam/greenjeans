@@ -25,20 +25,6 @@ use RuntimeException;
 
 $GLOBALS ['startRunTime'] = time();
 
-//--------------------------------------------------------------
-// Get Server connection parameters from config file.
-
-$configFile = $GLOBALS ['PACKAGE_ROOT'] . '/geni.local.php';
-
-if (!file_exists($configFile)) {
-    throw new RuntimeException ("Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.");
-}
-
-$serverConfig = require $configFile;
-
-//--------------------------------------------------------------
-
-
 /**
  * There are three set-up options here:
  *
@@ -70,7 +56,7 @@ switch ($runType)
 {
     case 'Normal':
         /** @var \ShmuelAKam\Greenjeans\Api\Core\API_WrapperServer $regular See comment above. */
-        $regular = serverSetup($serverConfig);
+        $regular = serverSetup();
         break;
 
     case 'Recording':
@@ -139,14 +125,25 @@ TestData::setup();
 //--------------------------------------------------------------
 
 /**
- * Perform set-up for MY application.
- *
  * @param bool $silent
  * @param bool $hideHTTP
  * @return API_WrapperServer
  */
-function serverSetup(array $serverConfig, bool $silent = false, bool $hideHTTP = true): API_WrapperServer
+function serverSetup(bool $silent = false, bool $hideHTTP = true): API_WrapperServer
 {
+    //--------------------------------------------------------------
+    // Get Server connection parameters from config file.
+
+    $configFile = $GLOBALS ['PACKAGE_ROOT'] . '/geni.local.php';
+
+    if (!file_exists($configFile)) {
+        throw new RuntimeException ("Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.");
+    }
+
+    $serverConfig = require $configFile;
+
+    //--------------------------------------------------------------
+
     $appNumber      = $serverConfig['app_num'];
     $appID          = $serverConfig['app_id'];
     $appSecret      = $serverConfig['app_secret'];

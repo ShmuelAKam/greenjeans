@@ -401,13 +401,13 @@ class API_Profile extends API_Base
 
             if (isset($arrayValues ['photos']))
             {
-                $this->photos = API_ListObjects::newFromDB($arrayValues ['photos'], API_Document::class, 'photos');
+                $this->photos = API_ListObjects::newFromDB($arrayValues ['photos'], API_Photo::class, 'photos');
                 $this->setLoaded('photos');
             }
 
             if (isset($arrayValues ['videos']))
             {
-                $this->videos = API_ListObjects::newFromDB($arrayValues ['videos'], API_Document::class, 'videos');
+                $this->videos = API_ListObjects::newFromDB($arrayValues ['videos'], API_Video::class, 'videos');
                 $this->setLoaded('videos');
             }
         }

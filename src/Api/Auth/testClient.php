@@ -101,8 +101,6 @@ else
 {
     // Found an auth file from previous authentication.
 
-    $operation = 'restored';
-
     if ($API_Wrap->checkRefresh())
     {
         // Check if towards end of session, and refesh it if needed.

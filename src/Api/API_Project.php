@@ -126,19 +126,19 @@ class API_Project extends API_Base
         {
             if (isset($arrayValues ['collaborators']) && count($arrayValues ['collaborators']) > 0)
             {
-                $this->collaborators = API_ListProfiles::newFromArray($arrayValues ['collaborators'], listName: 'API_Document/tags', fromDB: $fromDB);
+                $this->collaborators = API_ListProfiles::newFromArray($arrayValues ['collaborators'], listName: 'API_Project/collaborators', fromDB: $fromDB);
                 $this->setLoaded('collaborators');
             }
 
             if (isset($arrayValues ['followers']) && count($arrayValues ['followers']) > 0)
             {
-                $this->followers = API_ListProfiles::newFromArray($arrayValues ['followers'], listName: 'API_Document/tags', fromDB: $fromDB);
+                $this->followers = API_ListProfiles::newFromArray($arrayValues ['followers'], listName: 'API_Project/followers', fromDB: $fromDB);
                 $this->setLoaded('followers');
             }
 
             if (isset($arrayValues ['profiles']) && count($arrayValues ['profiles']) > 0)
             {
-                $this->profiles = API_ListProfiles::newFromArray($arrayValues ['profiles'], listName: 'API_Document/tags', fromDB: $fromDB);
+                $this->profiles = API_ListProfiles::newFromArray($arrayValues ['profiles'], listName: 'API_Project/profiles', fromDB: $fromDB);
                 $this->setLoaded('profiles');
             }
         }

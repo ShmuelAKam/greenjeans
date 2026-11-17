@@ -67,7 +67,7 @@ switch ($runType)
 
     case 'Mocking':
         verifyMockers();
-        /** @var \ShmuelAKam\Greenjeans\Tests\Api\Core\API_WrapperMocker   $mocker   See comment above. */
+        /** @var \ShmuelAKam\Greenjeans\Tests\Api\Core\API_WrapperMocker   $mocker See comment above. */
         $mocker                  = new API_WrapperMocker(silent: false);
         $GLOBALS ['shreddingON'] = false;
         API_BaseTest::setMockingRun();

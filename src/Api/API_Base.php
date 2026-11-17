@@ -69,7 +69,6 @@ class API_Base
         $fieldValue = $getReply [$fieldName] ?? null;
 
         return $fieldValue;
-
     }
 
     /**

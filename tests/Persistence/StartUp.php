@@ -2,7 +2,8 @@
 
 namespace ShmuelAKam\Greenjeans\Tests\Persistence;
 
-$GLOBALS ['PACKAGE_ROOT'] = dirname(__DIR__, 2);
+$GLOBALS ['PACKAGE_ROOT']  = dirname(__DIR__, 2);
+$GLOBALS ['TEST_API_ROOT'] = realpath($GLOBALS ['PACKAGE_ROOT'] . '/tests/Api');
 
 require_once $GLOBALS ['PACKAGE_ROOT'] . '/vendor/autoload.php';
 
@@ -26,8 +27,8 @@ $username = $dbConfig['db_user'];
 
 //--------------------------------------------------------------
 
-// $DBType = 'SQLite';
-$DBType = 'MySQL';
+$DBType = 'SQLite';
+// $DBType = 'MySQL';
 
 /**
  * @var \PDO|null $sharedPDO
@@ -49,14 +50,12 @@ switch ($DBType)
         exit(1);
 }
 
-
+//--------------------------------------------------------------
+// Create the persistor, which is the ROOT object.
 //--------------------------------------------------------------
 
-// Create the persistor, which is the ROOT object.
-
-/**
- * @var \ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor $persistor
- */
+/** @var \ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor $persistor */
+global $persistor;
 
 $persistor = new DB_Persistor($sharedPDO, $username);
 
@@ -67,8 +66,28 @@ if ($persistor == null)
 }
 
 //--------------------------------------------------------------
-// End of general set-up. Your start-up code goes here.
+// Global set-up ENDS here. Your start-up code goes here.
 //--------------------------------------------------------------
+
+
+//--------------------------------------------------------------
+// Database Helper Functions
+//--------------------------------------------------------------
+
+/**
+ * Connect to MySQL DB.
+ * @param array<string> $dbConfigParam
+ * @return PDO
+ */
+function setupMySQL(array $dbConfigParam): PDO
+{
+    $dbUser = $dbConfigParam['db_user'];
+    $dbPass = $dbConfigParam['db_pass'];
+    $dbHost = $dbConfigParam['db_host'];
+    $dbName = $dbConfigParam['db_name'];
+
+    return new PDO("mysql:host=$dbHost;dbname=$dbName;charset=utf8mb4", $dbUser, $dbPass);
+}
 
 /**
  * Full set up of the SQLite database and the PDO.
@@ -108,10 +127,11 @@ function initializeSQLiteSchema(PDO $pdo): void
     $pdo->exec($schema);
 }
 
+//--------------------------------------------------------------
 /**
  * This code runs after ALL tests and any coverage generation
  */
 register_shutdown_function(function () {
     $totalRunTime = time() - $GLOBALS['startRunTime'];
-    echo "Total run time: $totalRunTime seconds (" . $totalRunTime / 60 . " minutes)\r\n";
+    echo "Total run time: {$totalRunTime} seconds (" . ($totalRunTime / 60) . " minutes)\r\n";
 });

@@ -2,7 +2,6 @@
 
 namespace ShmuelAKam\Greenjeans\Persistence\Manage;
 
-use Exception;
 use PDO;
 
 /**

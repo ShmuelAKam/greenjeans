@@ -56,7 +56,7 @@ abstract class API_ListBase implements ArrayAccess, Countable, IteratorAggregate
     /**
      * @var int Current page, starts at 1 (ignored when API_ListBase::getAll is set).
      */
-    protected int    $pageNum;
+    protected int  $pageNum;
 
     /**
      * @var int Max. number of pages. Starts at 1 (ignored when API_ListBase::getAll is set).

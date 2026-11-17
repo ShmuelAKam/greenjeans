@@ -646,7 +646,7 @@ class API_Date
         // If string ends with '/', then remove it.
         if (str_ends_with($dateString, '/'))
         {
-            $dateString = substr($dateString, strlen($dateString) - 1);
+            $dateString = substr($dateString, 0, -1);
         }
 
         return $dateString;

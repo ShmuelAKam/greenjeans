@@ -8,7 +8,7 @@ use ArrayAccess;
 use Countable;
 use IteratorAggregate;
 
-use function ShmuelAKam\Greenjeans\Tests\Api\boolToString;
+use function ShmuelAKam\Greenjeans\Api\Core\boolToString;
 
 /**
  * Base class for all types of "lists" sent from Server. The lists are sent in

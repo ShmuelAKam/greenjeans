@@ -39,8 +39,10 @@ class API_WrapperRecorder extends API_WrapperTesting
         // This wrapper does all the work.
         $this->server = $actualServer;
 
-        $this->server->setHideHTTP(false);  //SKULL
-        $this->server->setSilent(false);    //SKULL
+        // Defaults to no output from API calls to the screen.
+
+        $this->server->setHideHTTP(false);
+        $this->server->setSilent(false);
     }
 
     //------------------------------------------------------

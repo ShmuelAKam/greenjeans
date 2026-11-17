@@ -4,6 +4,7 @@ namespace ShmuelAKam\Greenjeans\Persistence\Manage;
 
 use Exception;
 use PDO;
+use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_UserMapper;
 
 class DB_MapperFactory
 {
@@ -26,7 +27,8 @@ class DB_MapperFactory
 
     /**
      * Returns the correct mapper based on the provided object or class name.
-     * @param string|object $target  Class-name or object to get mapper for.
+     * @param DB_Persistor  $persistor Active persistor session.
+     * @param string|object $target    Class-name or object to get mapper for.
      */
     public function getMapper(DB_Persistor $persistor, string|object $target): mixed
     {
@@ -37,7 +39,7 @@ class DB_MapperFactory
         {
             $mapper = new $mapperClass($persistor, $this->pdo, $this->runID);
 
-            if ($target == 'ShmuelAKam\Greenjeans\Api\API_User')
+            if ($mapper instanceof DB_UserMapper)
             {
                 $mapper->setProfileID($this->profileID);
             }
@@ -45,28 +47,48 @@ class DB_MapperFactory
             $this->instances[$mapperClass] = $mapper;
         }
 
-        return $this->instances [$mapperClass];
+        return $this->instances[$mapperClass];
     }
 
     private function getMapperName(string|object $target): string
     {
-        $className = is_object($target) ? get_class($target) : $target;
+        $className = ltrim(is_object($target) ? get_class($target) : $target, '\\');
 
-        // 1. Break the namespace into parts (ltrim prevents issues with leading slashes)
-        $parts = explode('\\', ltrim($className, '\\'));
-
-        // 2. Swap the root namespace
-        if ($parts[0] === 'Geni_API')
+        // 1. If a DB_*Mapper class name was already passed directly, validate and return it
+        if (str_starts_with($className, 'ShmuelAKam\\Greenjeans\\Persistence\\Mappers\\'))
         {
-            $parts[0] = 'Geni_DB';
+            if (!class_exists($className))
+            {
+                throw new Exception("Mapper class not found at $className");
+            }
+
+            return $className;
         }
 
-        // 3. Isolate and clean the short class name (remove 'API_' prefix)
+        // 2. Break the namespace into parts
+        $parts = explode('\\', $className);
+
+        // 3. Swap 'ShmuelAKam\Greenjeans\Api' -> 'ShmuelAKam\Greenjeans\Persistence\Mappers'
+        if (
+            count($parts) >= 3
+            && $parts[0] === 'ShmuelAKam'
+            && $parts[1] === 'Greenjeans'
+            && $parts[2] === 'Api'
+        ) {
+            array_splice($parts, 2, 1, ['Persistence', 'Mappers']);
+        }
+
+        // 4. Isolate and transform the short class name ('API_Profile' -> 'DB_ProfileMapper')
         $shortName = array_pop($parts);
         $cleanName = str_starts_with($shortName, 'API_') ? substr($shortName, 4) : $shortName;
 
-        // 4. Put the clean name back and rebuild the full namespace string
-        $parts[]     = $cleanName;
+        // Special case: API_Relation lives in Api\Data, but DB_RelationMapper sits in root Mappers\
+        if ($cleanName === 'Relation' && end($parts) === 'Data')
+        {
+            array_pop($parts);
+        }
+
+        $parts[]     = 'DB_' . $cleanName . 'Mapper';
         $mapperClass = implode('\\', $parts);
 
         if (!class_exists($mapperClass))

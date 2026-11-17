@@ -1,6 +1,6 @@
 <?php
 
-namespace ShmuelAKam\Greenjeans\Tests\Api;
+namespace ShmuelAKam\Greenjeans\Api\Core;
 
 //=====================================================
 // Some generic functions for debug output.

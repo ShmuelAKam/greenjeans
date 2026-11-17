@@ -42,7 +42,7 @@ class DB_RunMapper
         $runID = -1;
         if ($success)
         {
-            $runID = $this->pdo->lastInsertId();
+            $runID = (int) $this->pdo->lastInsertId();
         }
 
         return $runID;

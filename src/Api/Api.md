@@ -81,9 +81,10 @@ Read-only collection classes implementing PHP's `ArrayAccess`, `Countable`, and 
 - **`API_ListProfiles`** — Specialized paginated collection for `API_Profile` result sets (supporting both full profile hydration and ID/GUID-only modes).
 - **`API_ListStrings`**  — Paginated collection for endpoints returning scalar string lists (such as tags or nicknames).
 
-### Error Handling
+### Error Handling & Debug prints
 
 - **`API_Exception`**    — Custom exception thrown on HTTP transport errors, invalid OAuth tokens, rate-limit violations, or malformed API responses.
+- **`Debug_OUT.php`**    — A few global functions for internal debug purposes. Especially `print_rr` which does a `print_r` of TWO objects side by side for comparrison.
 
 ---
 

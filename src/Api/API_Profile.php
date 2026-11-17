@@ -15,8 +15,8 @@ use ShmuelAKam\Greenjeans\Api\Data\API_Path;
 use ShmuelAKam\Greenjeans\Api\Data\API_PhoneNumber;
 use ShmuelAKam\Greenjeans\Api\Data\API_PhotoImageSizeMap;
 
-use function ShmuelAKam\Greenjeans\Tests\Api\boolToString;
-use function ShmuelAKam\Greenjeans\Tests\Api\print_rr;
+use function ShmuelAKam\Greenjeans\Api\Core\boolToString;
+use function ShmuelAKam\Greenjeans\Api\Core\print_rr;
 
 /**
  * API_Profile - central object of the API. Represents a profile on the site.

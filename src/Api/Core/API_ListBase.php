@@ -2,8 +2,6 @@
 
 namespace ShmuelAKam\Greenjeans\Api\Core;
 
-//require_once '../../Test/Debug_OUT.php';
-
 use ArrayAccess;
 use Countable;
 use IteratorAggregate;

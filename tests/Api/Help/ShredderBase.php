@@ -5,6 +5,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Api\Help;
 use ShmuelAKam\Greenjeans\Api\Core\API_Wrapper;
 
 use function ShmuelAKam\Greenjeans\Tests\Api\serverSetup;
+use Exception;
 
 abstract class ShredderBase
 {
@@ -70,9 +71,13 @@ abstract class ShredderBase
 
     protected function shredderSetup(bool $silent): void
     {
-        $API_Wrap = API_Wrapper::getInstance();
+        $API_Wrap = null;
 
-        if ($API_Wrap == null)
+        try
+        {
+            $API_Wrap = API_Wrapper::getInstance();
+        }
+        catch (Exception $e)
         {
             $API_Wrap = serverSetup();
         }

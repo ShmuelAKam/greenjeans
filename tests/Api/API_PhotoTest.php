@@ -550,23 +550,16 @@ class API_PhotoTest extends API_BaseTest
 
         $tagList = $checkerPhoto->getTags(getAll: true);
 
-        if ($tagList != null)
-        {
-            $tagArray = $tagList->getList();
+        $tagArray = $tagList->getList();
 
-            if ($tagArray != null)
-            {
-                $this->assertCount(1, $tagArray, 'Tag array is empty');
-                $this->assertEquals($tageeID, array_key_first($tagArray));
-            }
-            else
-            {
-                $this->fail('No array returned');
-            }
+        if ($tagArray != null)
+        {
+            $this->assertCount(1, $tagArray, 'Tag array is empty');
+            $this->assertEquals($tageeID, array_key_first($tagArray));
         }
         else
         {
-            $this->fail('No list returned');
+            $this->fail('No array returned');
         }
     }
 
@@ -607,24 +600,17 @@ class API_PhotoTest extends API_BaseTest
 
         $tagList = $checkerPhoto->getTags(true);
 
-        if ($tagList != null)
+        $tagArray = array_keys($tagList->getList());
+
+        if ($tagArray != null)
         {
-            $tagArray = array_keys($tagList->getList());
+            $this->assertCount($count, $tagArray, "Tag array wrong size (expected: $count, actual" . count($tagArray));
 
-            if ($tagArray != null)
-            {
-                $this->assertCount($count, $tagArray, "Tag array wrong size (expected: $count, actual" . count($tagArray));
-
-                $this->assertEquals($tageeIDs, $tagArray, 'Tags not equal');
-            }
-            else
-            {
-                $this->fail('No array returned');
-            }
+            $this->assertEquals($tageeIDs, $tagArray, 'Tags not equal');
         }
         else
         {
-            $this->fail('No list returned');
+            $this->fail('No array returned');
         }
     }
 
@@ -919,24 +905,17 @@ class API_PhotoTest extends API_BaseTest
         $tagList = $checkerPhoto->getTags(getAll: true, force: true);
         // --------------------------------------------------
 
-        if ($tagList != null)
+        $tagArray = array_keys($tagList->getList());
+
+        if ($tagArray != null)
         {
-            $tagArray = array_keys($tagList->getList());
+            $this->assertCount($count, $tagArray, "Tag array wrong size (expected: $count, actual" . count($tagArray));
 
-            if ($tagArray != null)
-            {
-                $this->assertCount($count, $tagArray, "Tag array wrong size (expected: $count, actual" . count($tagArray));
-
-                $this->assertEquals($tageeIDs, $tagArray, 'Tags not equal');
-            }
-            else
-            {
-                $this->fail('No array returned');
-            }
+            $this->assertEquals($tageeIDs, $tagArray, 'Tags not equal');
         }
         else
         {
-            $this->fail('No list returned');
+            $this->fail('No array returned');
         }
     }
 

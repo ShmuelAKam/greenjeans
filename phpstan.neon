@@ -11,7 +11,7 @@ parameters:
         - vendor/autoload.php
 
     scanFiles:
-        - tests/Api/Debug_OUT.php
+        - src/Api/Core/Debug_OUT.php
         - tests/Api/GlobalSetup.php 
         - tests/Persistence/GlobalSetup.php 
 

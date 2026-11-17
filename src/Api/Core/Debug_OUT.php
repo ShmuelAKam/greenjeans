@@ -3,7 +3,7 @@
 namespace ShmuelAKam\Greenjeans\Api\Core;
 
 //=====================================================
-// Some generic functions for debug output.
+// Debug-OUT.php - Some generic functions for debug output.
 
 /**
  * Convert bool values to string.

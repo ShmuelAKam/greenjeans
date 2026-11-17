@@ -241,7 +241,7 @@ class DB_ProfileMapper extends DB_BaseMapper
 
         $fullRow = array_merge($profileRow, $collections);
 
-        return API_Profile::newFromArray($fullRow);
+        return API_Profile::newFromArray($fullRow, fromDB: true);
     }
 
     /**

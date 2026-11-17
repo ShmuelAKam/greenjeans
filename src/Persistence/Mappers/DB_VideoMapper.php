@@ -37,7 +37,7 @@ class DB_VideoMapper extends DB_BaseMapper
         $this->locationMapper = $this->getMapper(DB_LocationMapper::class);
         $this->tagMapper      = $this->getMapper(DB_TagMapper::class);
 
-        $this->sizeMapper     = $this->getMapper(DB_VideoImageSizeMapMapper::class);
+        $this->sizeMapper = $this->getMapper(DB_VideoImageSizeMapMapper::class);
 
         $sql = "INSERT INTO geni_videos (
                     video_id, title, description, attribution,

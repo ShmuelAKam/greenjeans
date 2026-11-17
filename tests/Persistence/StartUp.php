@@ -19,8 +19,9 @@ $GLOBALS['startRunTime'] = time();
 
 $configFile = $GLOBALS ['PACKAGE_ROOT'] . '/db.local.php';
 
-if (!file_exists($configFile)) {
-    throw new RuntimeException ("Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.");
+if (!file_exists($configFile))
+{
+    throw new RuntimeException("Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.");
 }
 
 $dbConfig = require $configFile;

@@ -2,10 +2,10 @@
 
 namespace ShmuelAKam\Greenjeans\Tests\Api\Help;
 
+use Exception;
 use ShmuelAKam\Greenjeans\Api\Core\API_Wrapper;
 
 use function ShmuelAKam\Greenjeans\Tests\Api\serverSetup;
-use Exception;
 
 abstract class ShredderBase
 {

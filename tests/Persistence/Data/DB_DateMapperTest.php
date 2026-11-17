@@ -3,7 +3,6 @@
 namespace ShmuelAKam\Greenjeans\Tests\Persistence\Data;
 
 use ShmuelAKam\Greenjeans\Api\Data\API_Date;
-
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_DateMapper;
 use ShmuelAKam\Greenjeans\Tests\Persistence\DB_MapperTestBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperDates;

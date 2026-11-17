@@ -1,5 +1,7 @@
 <?php
+
 namespace ShmuelAKam\Greenjeans\Api\Auth;
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,12 +34,12 @@ if (!file_exists($configFile))
 {
     echo "<br>Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.<br>";
 
-    throw new \RuntimeException ("Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.");
+    throw new \RuntimeException("Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.");
 }
 
 $serverConfig = require $configFile;
 
-$storeFile      = $GLOBALS ['PACKAGE_ROOT'] . '/SessionAuth.json';
+$storeFile = $GLOBALS ['PACKAGE_ROOT'] . '/SessionAuth.json';
 
 $appNumber      = (int) $serverConfig['app_num'];
 $appID          = $serverConfig['app_id'];
@@ -96,7 +98,7 @@ if (!$API_Wrap->retrieve($storeFile))
     }
 
     $operation = 'started';
-    $msg = 'Session started - ' . date(DATE_RFC2822);
+    $msg       = 'Session started - ' . date(DATE_RFC2822);
 }
 else
 {

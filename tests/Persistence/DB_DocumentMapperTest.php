@@ -6,7 +6,6 @@ use ShmuelAKam\Greenjeans\Api\API_Document;
 use ShmuelAKam\Greenjeans\Api\Data\API_Date;
 use ShmuelAKam\Greenjeans\Api\Data\API_DocumentImageSizeMap;
 use ShmuelAKam\Greenjeans\Api\Data\API_Location;
-
 use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_DocumentMapper;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperDocuments;
 

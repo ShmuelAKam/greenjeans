@@ -718,7 +718,7 @@ class API_DocumentTest extends API_BaseTest
 
         $this->assertNotNull($checkerDoc);
 
-        $tagList  = $checkerDoc->getTags(true);
+        $tagList = $checkerDoc->getTags(true);
 
         $tagArray = array_keys($tagList->getList());
 

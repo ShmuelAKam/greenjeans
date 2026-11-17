@@ -9,6 +9,7 @@ $GLOBALS ['TEST_FIXTURES_ROOT'] = $GLOBALS ['TEST_API_ROOT'] . '/fixtures/';
 
 require_once $GLOBALS ['PACKAGE_ROOT'] . '/vendor/autoload.php';
 
+use RuntimeException;
 use ShmuelAKam\Greenjeans\Api\Core\API_WrapperServer;
 use ShmuelAKam\Greenjeans\Tests\Api\Core\API_WrapperMocker;
 use ShmuelAKam\Greenjeans\Tests\Api\Core\API_WrapperRecorder;
@@ -21,7 +22,6 @@ use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryPhotos;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryProfiles;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryUnions;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryVideos;
-use RuntimeException;
 
 $GLOBALS ['startRunTime'] = time();
 
@@ -136,8 +136,9 @@ function serverSetup(bool $silent = false, bool $hideHTTP = true): API_WrapperSe
 
     $configFile = $GLOBALS ['PACKAGE_ROOT'] . '/geni.local.php';
 
-    if (!file_exists($configFile)) {
-        throw new RuntimeException ("Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.");
+    if (!file_exists($configFile))
+    {
+        throw new RuntimeException("Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.");
     }
 
     $serverConfig = require $configFile;

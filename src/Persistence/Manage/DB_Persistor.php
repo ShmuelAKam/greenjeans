@@ -7,7 +7,6 @@ use PDO;
 class DB_Persistor
 {
     private static ?DB_Persistor $instance = null;
-
     private DB_MapperFactory $factory;
     private DB_RunMapper     $runner;
     private PDO              $pdo;

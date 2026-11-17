@@ -82,7 +82,7 @@ class DB_UserMapper extends DB_BaseMapper
         //--------------------------------------------------
         // Get user-ID. Doesn't change throughout the run.
 
-        $sql         = "SELECT user_id FROM geni_users WHERE run_id = :run_id";
+        $sql = "SELECT user_id FROM geni_users WHERE run_id = :run_id";
 
         $queryUserID = $pdo->prepare($sql);
         $queryUserID->bindValue(':run_id', $run_id, PDO::PARAM_INT);
@@ -206,7 +206,6 @@ class DB_UserMapper extends DB_BaseMapper
     }
 
     //--------------------------------------------------
-
 
     private function getUserID(): string
     {

@@ -1,4 +1,5 @@
 <?php
+
 namespace ShmuelAKam\Greenjeans\Api\Auth;
 
 /**
@@ -25,16 +26,16 @@ if (!file_exists($configFile))
 {
     echo "<br>Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.<br>";
 
-    throw new \RuntimeException ("Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.");
+    throw new \RuntimeException("Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.");
 }
 
 $serverConfig = require $configFile;
 
-$storeFile      = $GLOBALS ['PACKAGE_ROOT'] . '/SessionAuth.json';
+$storeFile = $GLOBALS ['PACKAGE_ROOT'] . '/SessionAuth.json';
 
-$appNumber      = (int) $serverConfig['app_num'];
-$appID          = $serverConfig['app_id'];
-$appSecret      = $serverConfig['app_secret'];
+$appNumber = (int) $serverConfig['app_num'];
+$appID     = $serverConfig['app_id'];
+$appSecret = $serverConfig['app_secret'];
 
 
 // Get connection to Server. Log output set to 'silent'.
@@ -44,7 +45,7 @@ $API_Wrap = new API_WrapperClient(
     $appNumber,
     $appID,
     $appSecret,
-    silent: true
+    silent: true,
 );
 
 /**
@@ -105,7 +106,7 @@ else
     {
         // Check if towards end of session, and refesh it if needed.
 
-    echo "Session restored from $storeFile\n";
+        echo "Session restored from $storeFile\n";
     }
 }
 

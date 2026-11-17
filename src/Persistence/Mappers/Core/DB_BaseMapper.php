@@ -2,9 +2,9 @@
 
 namespace ShmuelAKam\Greenjeans\Persistence\Mappers\Core;
 
-use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use PDO;
 use PDOStatement;
+use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 
 abstract class DB_BaseMapper
 {

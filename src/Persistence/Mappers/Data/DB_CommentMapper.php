@@ -2,9 +2,9 @@
 
 namespace ShmuelAKam\Greenjeans\Persistence\Mappers\Data;
 
+use PDO;
 use ShmuelAKam\Greenjeans\Api\Data\API_Comment;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_BaseMapper;
-use PDO;
 
 /**
  * DB_CommentMapper

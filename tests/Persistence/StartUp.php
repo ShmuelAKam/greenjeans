@@ -7,6 +7,7 @@ $GLOBALS ['TEST_API_ROOT'] = realpath($GLOBALS ['PACKAGE_ROOT'] . '/tests/Api');
 
 require_once $GLOBALS ['PACKAGE_ROOT'] . '/vendor/autoload.php';
 
+use LogicException;
 use PDO;
 use RuntimeException;
 use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
@@ -54,12 +55,11 @@ switch ($DBType)
 // Create the persistor, which is the ROOT object.
 //--------------------------------------------------------------
 
-/** @var \ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor $persistor */
-global $persistor;
-
-$persistor = new DB_Persistor($sharedPDO, $username);
-
-if ($persistor == null)
+try
+{
+    DB_Persistor::init($sharedPDO, $username);
+}
+catch (LogicException $e)
 {
     echo "FAILED to create DB_Persistor.\r\n";
     die();

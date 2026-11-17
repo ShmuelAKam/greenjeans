@@ -19,7 +19,7 @@ class DB_LocationMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_LocationMapper::class);
+        $this->mapper = $this->getMapper(DB_LocationMapper::class);
     }
 
     // =====================================================

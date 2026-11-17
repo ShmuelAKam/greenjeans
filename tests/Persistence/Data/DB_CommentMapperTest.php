@@ -3,6 +3,7 @@
 namespace ShmuelAKam\Greenjeans\Tests\Persistence\Data;
 
 use ShmuelAKam\Greenjeans\Api\Data\API_Comment;
+
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_CommentMapper;
 use ShmuelAKam\Greenjeans\Tests\Persistence\DB_MapperTestBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperComments;
@@ -19,7 +20,8 @@ class DB_CommentMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_CommentMapper::class);
+
+        $this->mapper = $this->getMapper(DB_CommentMapper::class);
     }
 
     // =====================================================

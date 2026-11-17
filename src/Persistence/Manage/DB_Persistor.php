@@ -6,12 +6,14 @@ use PDO;
 
 class DB_Persistor
 {
+    private static ?DB_Persistor $instance = null;
+
     private DB_MapperFactory $factory;
     private DB_RunMapper     $runner;
     private PDO              $pdo;
     private int              $runID;
 
-    public function __construct(PDO $pdo, string $username)
+    private function __construct(PDO $pdo, string $username)
     {
         $this->pdo = $pdo;
 
@@ -24,15 +26,33 @@ class DB_Persistor
         $this->factory = new DB_MapperFactory($pdo, $this->runID, $profileID);
     }
 
-    public function __destruct()
+    public static function init(PDO $pdo, string $username): DB_Persistor
     {
-        // SKULL remove this from real code.
-        $this->cleanupUnitOfWork($this->runID);
+        if (self::$instance !== null)
+        {
+            throw new \LogicException('DB_Persistor has already been initialized.');
+        }
+
+        self::$instance = new self($pdo, $username);
+
+        return self::$instance;
     }
+
+    public static function getInstance(): DB_Persistor
+    {
+        if (self::$instance === null)
+        {
+            throw new \LogicException('DB_Persistor must be initialized via init() before calling getInstance().');
+        }
+
+        return self::$instance;
+    }
+
+    //--------------------------------------------------------------
 
     public function getMapper(string|object $target): mixed
     {
-        return $this->factory->getMapper($this, $target);
+        return $this->factory->getMapper($target);
     }
 
     public function complete(): bool
@@ -72,45 +92,5 @@ class DB_Persistor
         }
 
         return (int) $clientID;
-    }
-
-    //--------------------------------------------------------------
-    // SKULL this function should NOT EXIST. It is only for test runs.
-
-    /**
-     * Dynamic Cleanup: Wipes all records matching the test's run_id across all tables.
-     */
-    private function cleanupUnitOfWork(int $runId): void
-    {
-        $driver = $this->pdo->getAttribute(PDO::ATTR_DRIVER_NAME);
-
-        $sql = match ($driver)
-        {
-            'sqlite' => "SELECT name FROM sqlite_master
-                     WHERE type = 'table' AND name NOT LIKE 'sqlite_%'",
-
-            'mysql'  => "SELECT table_name AS name FROM information_schema.tables
-                     WHERE table_schema = DATABASE() AND table_type = 'BASE TABLE'",
-
-            default  => throw new \RuntimeException("Unsupported PDO driver: {$driver}"),
-        };
-
-        $tablesStmt = $this->pdo->query($sql);
-        $tables     = $tablesStmt->fetchAll(PDO::FETCH_COLUMN);
-
-        foreach ($tables as $table)
-        {
-            // Do NOT delete the meta-data.
-            if ($table === 'geni_runs'
-                || $table === 'geni_clients')
-            {
-                continue;
-            }
-
-            // Delete records belonging strictly to this run_id
-            $sql  = "DELETE FROM `{$table}` WHERE run_id = :rid";
-            $stmt = $this->pdo->prepare($sql);
-            $stmt->execute([':rid' => $runId]);
-        }
     }
 }

@@ -19,7 +19,7 @@ class DB_EventMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_EventMapper::class);
+        $this->mapper = $this->getMapper(DB_EventMapper::class);
     }
 
     // =====================================================

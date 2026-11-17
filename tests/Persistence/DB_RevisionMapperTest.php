@@ -18,7 +18,7 @@ class DB_RevisionMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_RevisionMapper::class);
+        $this->mapper = $this->getMapper(DB_RevisionMapper::class);
     }
 
     // =====================================================

@@ -7,7 +7,6 @@ use ShmuelAKam\Greenjeans\Api\API_Profile;
 use ShmuelAKam\Greenjeans\Api\Data\API_Event;
 use ShmuelAKam\Greenjeans\Api\Data\API_Location;
 use ShmuelAKam\Greenjeans\Api\Data\API_PhotoImageSizeMap;
-use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_BaseMapper;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_LinkTableMapper;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_EventMapper;
@@ -33,16 +32,16 @@ class DB_ProfileMapper extends DB_BaseMapper
     private \PDOStatement $querySelectIDs;
     private \PDOStatement $queryInsertDetails;
 
-    public function __construct(DB_Persistor $persistor, PDO $pdo, int $run_id)
+    public function __construct(PDO $pdo, int $run_id)
     {
         parent::__construct($pdo, $run_id, 'geni_profiles', 'profile_id');
 
-        $this->eventMapper    = $persistor->getMapper(DB_EventMapper::class);
-        $this->linkMapper     = $persistor->getMapper(DB_LinkTableMapper::class);
-        $this->locationMapper = $persistor->getMapper(DB_LocationMapper::class);
-        $this->nameMapper     = $persistor->getMapper(DB_NameMapper::class);
-        $this->phoneMapper    = $persistor->getMapper(DB_PhoneNumberMapper::class);
-        $this->sizeMapper     = $persistor->getMapper(DB_PhotoImageSizeMapMapper::class);
+        $this->eventMapper    = $this->getMapper(DB_EventMapper::class);
+        $this->linkMapper     = $this->getMapper(DB_LinkTableMapper::class);
+        $this->locationMapper = $this->getMapper(DB_LocationMapper::class);
+        $this->nameMapper     = $this->getMapper(DB_NameMapper::class);
+        $this->phoneMapper    = $this->getMapper(DB_PhoneNumberMapper::class);
+        $this->sizeMapper     = $this->getMapper(DB_PhotoImageSizeMapMapper::class);
 
         $sql = "INSERT INTO geni_profiles (
             profile_id, guid, name, display_name, first_name, middle_name, last_name, maiden_name, suffix,

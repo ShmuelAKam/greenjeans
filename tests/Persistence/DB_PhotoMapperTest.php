@@ -22,7 +22,7 @@ class DB_PhotoMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_PhotoMapper::class);
+        $this->mapper = $this->getMapper(DB_PhotoMapper::class);
     }
 
     // =====================================================

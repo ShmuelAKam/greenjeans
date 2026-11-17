@@ -18,7 +18,7 @@ class DB_TagMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_TagMapper::class);
+        $this->mapper = $this->getMapper(DB_TagMapper::class);
     }
 
     // =====================================================

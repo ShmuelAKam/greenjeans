@@ -21,7 +21,7 @@ class DB_VideoMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_VideoMapper::class);
+        $this->mapper = $this->getMapper(DB_VideoMapper::class);
     }
 
     // =====================================================

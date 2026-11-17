@@ -4,7 +4,6 @@ namespace ShmuelAKam\Greenjeans\Persistence\Mappers;
 
 use PDO;
 use ShmuelAKam\Greenjeans\Api\API_User;
-use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_BaseMapper;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_LinkTableMapper;
 
@@ -42,11 +41,11 @@ class DB_UserMapper extends DB_BaseMapper
 
     //------------------------------------------------------
 
-    public function __construct(DB_Persistor $persistor, PDO $pdo, int $run_id)
+    public function __construct(PDO $pdo, int $run_id)
     {
         parent::__construct($pdo, $run_id, 'geni_users', 'user_id');
 
-        $this->linkMapper = $persistor->getMapper(DB_LinkTableMapper::class);
+        $this->linkMapper = $this->getMapper(DB_LinkTableMapper::class);
 
         //--------------------------------------------------
         $sql = "INSERT INTO geni_users (name, account_type, metadata_json, run_id)
@@ -84,6 +83,7 @@ class DB_UserMapper extends DB_BaseMapper
         // Get user-ID. Doesn't change throughout the run.
 
         $sql         = "SELECT user_id FROM geni_users WHERE run_id = :run_id";
+
         $queryUserID = $pdo->prepare($sql);
         $queryUserID->bindValue(':run_id', $run_id, PDO::PARAM_INT);
 
@@ -207,9 +207,15 @@ class DB_UserMapper extends DB_BaseMapper
 
     //--------------------------------------------------
 
+
     private function getUserID(): string
     {
         return $this->userID;
+    }
+
+    public function setUserID(string $ID): void
+    {
+        $this->userID = $ID;
     }
 
     /**

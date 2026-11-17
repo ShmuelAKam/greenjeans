@@ -4,7 +4,6 @@ namespace ShmuelAKam\Greenjeans\Persistence\Mappers;
 
 use PDO;
 use ShmuelAKam\Greenjeans\Api\API_Revision;
-use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_BaseMapper;
 
 /**
@@ -20,12 +19,10 @@ class DB_RevisionMapper extends DB_BaseMapper
     //------------------------------------------------------
 
     /**
-     * @param DB_Persistor $persistor
      * @param PDO $pdo
      * @param int $run_id
-     * @phpstan-ignore constructor.unusedParameter
      */
-    public function __construct(DB_Persistor $persistor, PDO $pdo, int $run_id)
+    public function __construct(PDO $pdo, int $run_id)
     {
         parent::__construct($pdo, $run_id, 'geni_revisions', 'revision_id');
 

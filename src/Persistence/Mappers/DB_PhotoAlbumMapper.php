@@ -4,7 +4,6 @@ namespace ShmuelAKam\Greenjeans\Persistence\Mappers;
 
 use PDO;
 use ShmuelAKam\Greenjeans\Api\API_PhotoAlbum;
-use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_BaseMapper;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_PhotoImageSizeMapMapper;
 
@@ -21,12 +20,12 @@ class DB_PhotoAlbumMapper extends DB_BaseMapper
     private \PDOStatement $querySelectIDs;
     private \PDOStatement $queryUpdate;
 
-    public function __construct(DB_Persistor $persistor, PDO $pdo, int $run_id)
+    public function __construct(PDO $pdo, int $run_id)
     {
         parent::__construct($pdo, $run_id, 'geni_photo_albums', 'album_id');
 
-        $this->sizeMapper  = $persistor->getMapper(DB_PhotoImageSizeMapMapper::class);
-        $this->photoMapper = $persistor->getMapper(DB_PhotoMapper::class);
+        $this->sizeMapper  = $this->getMapper(DB_PhotoImageSizeMapMapper::class);
+        $this->photoMapper = $this->getMapper(DB_PhotoMapper::class);
 
         $sql = "INSERT INTO geni_photo_albums (
                     album_id, name, description, photos_count, url,

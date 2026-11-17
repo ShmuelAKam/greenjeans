@@ -18,7 +18,7 @@ class DB_ProjectMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_ProjectMapper::class);
+        $this->mapper = $this->getMapper(DB_ProjectMapper::class);
     }
 
     // =====================================================

@@ -19,7 +19,7 @@ class DB_PhoneNumberMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_PhoneNumberMapper::class);
+        $this->mapper = $this->getMapper(DB_PhoneNumberMapper::class);
     }
 
     // =====================================================

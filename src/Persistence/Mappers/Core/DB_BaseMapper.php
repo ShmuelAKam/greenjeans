@@ -2,6 +2,7 @@
 
 namespace ShmuelAKam\Greenjeans\Persistence\Mappers\Core;
 
+use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use PDO;
 use PDOStatement;
 
@@ -319,6 +320,13 @@ abstract class DB_BaseMapper
     {
         return $this->run_id;
     }
+
+    protected function getMapper(string|object $target): mixed
+    {
+        return DB_Persistor::getInstance()->getMapper($target);
+    }
+
+    //------------------------------------------------------
 
     public function dumpTable(PDO $pdo, string $tableName, string $id = '', string $idColumn = 'rowid'): void
     {

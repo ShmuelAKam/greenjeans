@@ -4,7 +4,6 @@ namespace ShmuelAKam\Greenjeans\Persistence\Mappers;
 
 use PDO;
 use ShmuelAKam\Greenjeans\Api\API_Video;
-use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_BaseMapper;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_CommentMapper;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_DateMapper;
@@ -29,16 +28,16 @@ class DB_VideoMapper extends DB_BaseMapper
 
     //------------------------------------------------------
 
-    public function __construct(DB_Persistor $persistor, PDO $pdo, int $run_id)
+    public function __construct(PDO $pdo, int $run_id)
     {
         parent::__construct($pdo, $run_id, 'geni_videos', 'video_id');
 
-        $this->commentMapper  = $persistor->getMapper(DB_CommentMapper::class);
-        $this->dateMapper     = $persistor->getMapper(DB_DateMapper::class);
-        $this->locationMapper = $persistor->getMapper(DB_LocationMapper::class);
-        $this->tagMapper      = $persistor->getMapper(DB_TagMapper::class);
+        $this->commentMapper  = $this->getMapper(DB_CommentMapper::class);
+        $this->dateMapper     = $this->getMapper(DB_DateMapper::class);
+        $this->locationMapper = $this->getMapper(DB_LocationMapper::class);
+        $this->tagMapper      = $this->getMapper(DB_TagMapper::class);
 
-        $this->sizeMapper = $persistor->getMapper(DB_VideoImageSizeMapMapper::class);
+        $this->sizeMapper     = $this->getMapper(DB_VideoImageSizeMapMapper::class);
 
         $sql = "INSERT INTO geni_videos (
                     video_id, title, description, attribution,

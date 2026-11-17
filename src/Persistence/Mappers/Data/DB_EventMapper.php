@@ -7,7 +7,6 @@ use PDOStatement;
 use ShmuelAKam\Greenjeans\Api\Data\API_Date;
 use ShmuelAKam\Greenjeans\Api\Data\API_Event;
 use ShmuelAKam\Greenjeans\Api\Data\API_Location;
-use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_BaseMapper;
 
 /**
@@ -22,12 +21,12 @@ class DB_EventMapper extends DB_BaseMapper
     private PDOStatement $queryInsert;
     private PDOStatement $querySelectIDs;
 
-    public function __construct(DB_Persistor $persistor, PDO $pdo, int $run_id)
+    public function __construct(PDO $pdo, int $run_id)
     {
         parent::__construct($pdo, $run_id, 'geni_events', 'id');
 
-        $this->dateMapper     = $persistor->getMapper(DB_DateMapper::class);
-        $this->locationMapper = $persistor->getMapper(DB_LocationMapper::class);
+        $this->dateMapper     = $this->getMapper(DB_DateMapper::class);
+        $this->locationMapper = $this->getMapper(DB_LocationMapper::class);
 
         $sql = "INSERT INTO geni_events (owner_id, name, description, date_id, location_id, run_id)
                 VALUES (:owner_id, :name, :description, :date_id, :location_id, :run_id)";

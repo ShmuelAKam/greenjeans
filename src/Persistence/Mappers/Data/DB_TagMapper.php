@@ -3,7 +3,6 @@
 namespace ShmuelAKam\Greenjeans\Persistence\Mappers\Data;
 
 use PDO;
-use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_BaseMapper;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_LinkTableMapper;
 
@@ -15,11 +14,11 @@ class DB_TagMapper extends DB_BaseMapper
 {
     private DB_LinkTableMapper $linkMapper;
 
-    public function __construct(DB_Persistor $persistor, PDO $pdo, int $run_id)
+    public function __construct(PDO $pdo, int $run_id)
     {
         parent::__construct($pdo, $run_id, 'geni_media_tags', 'owner_id');
 
-        $this->linkMapper = $persistor->getMapper(DB_LinkTableMapper::class);
+        $this->linkMapper = $this->getMapper(DB_LinkTableMapper::class);
     }
 
     /**

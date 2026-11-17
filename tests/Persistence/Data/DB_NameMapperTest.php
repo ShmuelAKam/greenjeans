@@ -19,7 +19,7 @@ class DB_NameMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_NameMapper::class);
+        $this->mapper = $this->getMapper(DB_NameMapper::class);
     }
 
     // =====================================================

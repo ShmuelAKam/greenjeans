@@ -4,7 +4,6 @@ namespace ShmuelAKam\Greenjeans\Persistence\Mappers;
 
 use PDO;
 use ShmuelAKam\Greenjeans\Api\API_Project;
-use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_BaseMapper;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_LinkTableMapper;
 
@@ -21,11 +20,11 @@ class DB_ProjectMapper extends DB_BaseMapper
 
     //------------------------------------------------------
 
-    public function __construct(DB_Persistor $persistor, PDO $pdo, int $run_id)
+    public function __construct(PDO $pdo, int $run_id)
     {
         parent::__construct($pdo, $run_id, 'geni_projects', 'project_id');
 
-        $this->linkMapper = $persistor->getMapper(DB_LinkTableMapper::class);
+        $this->linkMapper = $this->getMapper(DB_LinkTableMapper::class);
 
         $sql = "INSERT INTO geni_projects (
                     project_id, name, description, created_at,

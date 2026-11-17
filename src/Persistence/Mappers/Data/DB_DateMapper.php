@@ -2,11 +2,10 @@
 
 namespace ShmuelAKam\Greenjeans\Persistence\Mappers\Data;
 
+use ShmuelAKam\Greenjeans\Api\Data\API_Date;
+use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_BaseMapper;
 use PDO;
 use PDOStatement;
-use ShmuelAKam\Greenjeans\Api\Data\API_Date;
-use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
-use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_BaseMapper;
 
 /**
  * DB_DateMapper
@@ -17,12 +16,10 @@ class DB_DateMapper extends DB_BaseMapper
     private PDOStatement $queryInsert;
 
     /**
-     * @param DB_Persistor $persistor
      * @param PDO $pdo
      * @param int $run_id
-     * @phpstan-ignore constructor.unusedParameter
      */
-    public function __construct(DB_Persistor $persistor, PDO $pdo, int $run_id)
+    public function __construct(PDO $pdo, int $run_id)
     {
         parent::__construct($pdo, $run_id, 'geni_dates', 'id');
 

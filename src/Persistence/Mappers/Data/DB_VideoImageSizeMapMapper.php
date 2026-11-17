@@ -5,7 +5,6 @@ namespace ShmuelAKam\Greenjeans\Persistence\Mappers\Data;
 use PDO;
 use PDOStatement;
 use ShmuelAKam\Greenjeans\Api\Data\API_VideoImageSizeMap;
-use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_BaseMapper;
 
 /**
@@ -18,12 +17,10 @@ class DB_VideoImageSizeMapMapper extends DB_BaseMapper
     private PDOStatement $queryInsert;
 
     /**
-     * @param DB_Persistor $persistor
      * @param PDO $pdo
      * @param int $run_id
-     * @phpstan-ignore constructor.unusedParameter
      */
-    public function __construct(DB_Persistor $persistor, PDO $pdo, int $run_id)
+    public function __construct(PDO $pdo, int $run_id)
     {
         parent::__construct($pdo, $run_id, 'geni_video_sizes', 'id');
 

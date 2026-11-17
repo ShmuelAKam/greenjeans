@@ -35,7 +35,6 @@ use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperVideos;
 abstract class DB_MapperTestBase extends TestCase
 {
     protected PDO          $pdo;
-    protected DB_Persistor $persistor;
     protected int          $runID;
 
     public static function setUpBeforeClass(): void
@@ -49,9 +48,9 @@ abstract class DB_MapperTestBase extends TestCase
 
         $this->restoreGlobals();
 
-        $this->persistor = $GLOBALS ['persistor'];
-        $this->runID     = $this->persistor->getRunID();
-        $this->pdo       = $this->persistor->getPDO();
+        $persistor   = DB_Persistor::getInstance();
+        $this->runID = $persistor->getRunID();
+        $this->pdo   = $persistor->getPDO();
     }
 
     protected function tearDown(): void
@@ -155,6 +154,11 @@ abstract class DB_MapperTestBase extends TestCase
     protected function getRunID(): int
     {
         return $this->runID;
+    }
+
+    protected function getMapper(string|object $target): mixed
+    {
+        return DB_Persistor::getInstance()->getMapper($target);
     }
 
     /**

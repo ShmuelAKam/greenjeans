@@ -4,7 +4,6 @@ namespace ShmuelAKam\Greenjeans\Persistence\Mappers\Core;
 
 use PDO;
 use PDOStatement;
-use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 
 /**
  * This class handles ALL link tables by creating cached statements for all
@@ -22,12 +21,10 @@ class DB_LinkTableMapper extends DB_BaseMapper
     //------------------------------------------------------
 
     /**
-     * @param DB_Persistor $persistor
      * @param PDO $pdo
      * @param int $run_id
-     * @phpstan-ignore constructor.unusedParameter
      */
-    public function __construct(DB_Persistor $persistor, PDO $pdo, int $run_id)
+    public function __construct(PDO $pdo, int $run_id)
     {
         parent::__construct($pdo, $run_id, '', '');
     }

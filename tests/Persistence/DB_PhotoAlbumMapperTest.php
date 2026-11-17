@@ -27,8 +27,8 @@ class DB_PhotoAlbumMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper      = $this->persistor->getMapper(DB_PhotoAlbumMapper::class);
-        $this->photoMapper = $this->persistor->getMapper(DB_PhotoMapper::class);
+        $this->mapper      = $this->getMapper(DB_PhotoAlbumMapper::class);
+        $this->photoMapper = $this->getMapper(DB_PhotoMapper::class);
     }
 
     // =====================================================

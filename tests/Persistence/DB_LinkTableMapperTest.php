@@ -16,7 +16,7 @@ class DB_LinkTableMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_LinkTableMapper::class);
+        $this->mapper = $this->getMapper(DB_LinkTableMapper::class);
     }
 
     // =====================================================

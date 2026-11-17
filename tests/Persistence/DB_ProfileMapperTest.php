@@ -18,7 +18,7 @@ class DB_ProfileMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_ProfileMapper::class);
+        $this->mapper = $this->getMapper(DB_ProfileMapper::class);
     }
 
     // =====================================================

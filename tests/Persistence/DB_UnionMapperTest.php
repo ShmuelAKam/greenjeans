@@ -18,7 +18,7 @@ class DB_UnionMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_UnionMapper::class);
+        $this->mapper = $this->getMapper(DB_UnionMapper::class);
     }
 
     // =====================================================

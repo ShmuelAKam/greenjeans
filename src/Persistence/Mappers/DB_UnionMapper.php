@@ -4,7 +4,6 @@ namespace ShmuelAKam\Greenjeans\Persistence\Mappers;
 
 use PDO;
 use ShmuelAKam\Greenjeans\Api\API_Union;
-use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_BaseMapper;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_LinkTableMapper;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_EventMapper;
@@ -26,12 +25,12 @@ class DB_UnionMapper extends DB_BaseMapper
 
     //------------------------------------------------------
 
-    public function __construct(DB_Persistor $persistor, PDO $pdo, int $run_id)
+    public function __construct(PDO $pdo, int $run_id)
     {
         parent::__construct($pdo, $run_id, 'geni_unions', 'union_id');
 
-        $this->eventMapper = $persistor->getMapper(DB_EventMapper::class);
-        $this->linkMapper  = $persistor->getMapper(DB_LinkTableMapper::class);
+        $this->eventMapper = $this->getMapper(DB_EventMapper::class);
+        $this->linkMapper  = $this->getMapper(DB_LinkTableMapper::class);
 
         $sql = "INSERT INTO geni_unions (union_id, status, marriage_id, divorce_id, run_id)
                 VALUES (:id, :status, :marriage_id, :divorce_id, :run_id)";

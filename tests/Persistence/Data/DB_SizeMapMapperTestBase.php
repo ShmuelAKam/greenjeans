@@ -24,7 +24,7 @@ abstract class DB_SizeMapMapperTestBase extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper($this->getMapperClass());
+        $this->mapper = $this->getMapper($this->getMapperClass());
     }
 
     public function testSaveAndReadSizeMap(): void

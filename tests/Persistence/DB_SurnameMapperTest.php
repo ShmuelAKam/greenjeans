@@ -18,7 +18,7 @@ class DB_SurnameMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper = $this->persistor->getMapper(DB_SurnameMapper::class);
+        $this->mapper = $this->getMapper(DB_SurnameMapper::class);
     }
 
     // =====================================================

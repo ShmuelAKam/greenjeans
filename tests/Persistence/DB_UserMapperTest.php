@@ -20,8 +20,8 @@ class DB_UserMapperTest extends DB_MapperTestBase
     {
         parent::setUp();
 
-        $this->mapper     = $this->persistor->getMapper(DB_UserMapper::class);
-        $this->linkMapper = $this->persistor->getMapper(DB_LinkTableMapper::class);
+        $this->mapper     = $this->getMapper(DB_UserMapper::class);
+        $this->linkMapper = $this->getMapper(DB_LinkTableMapper::class);
     }
 
     protected function tearDown(): void

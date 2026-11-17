@@ -27,21 +27,20 @@ class DB_MapperFactory
 
     /**
      * Returns the correct mapper based on the provided object or class name.
-     * @param DB_Persistor  $persistor Active persistor session.
      * @param string|object $target    Class-name or object to get mapper for.
      */
-    public function getMapper(DB_Persistor $persistor, string|object $target): mixed
+    public function getMapper(string|object $target): mixed
     {
         $mapperClass = $this->getMapperName($target);
 
         // Singleton-style caching of mapper instances
         if (!isset($this->instances[$mapperClass]))
         {
-            $mapper = new $mapperClass($persistor, $this->pdo, $this->runID);
+            $mapper = new $mapperClass($this->pdo, $this->runID);
 
             if ($mapper instanceof DB_UserMapper)
             {
-                $mapper->setProfileID($this->profileID);
+                $mapper->setUserID($this->profileID);
             }
 
             $this->instances[$mapperClass] = $mapper;

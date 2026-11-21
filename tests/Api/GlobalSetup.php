@@ -147,7 +147,8 @@ function serverTestsSetup(): void
         $testConfig = require $configFile;
 
         if (isset($testConfig ['test_server'])
-            && $testConfig ['test_server'] != 'http://your_server_url/') {
+            && $testConfig ['test_server'] != 'http://your_server_url/')
+        {
 
             $GLOBALS ['API_TEST_SERVER'] = $testConfig['test_server'];
         }

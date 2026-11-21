@@ -6,8 +6,6 @@ use ArrayAccess;
 use Countable;
 use IteratorAggregate;
 
-use function ShmuelAKam\Greenjeans\Api\Core\boolToString;
-
 /**
  * Base class for all types of "lists" sent from Server. The lists are sent in
  * the format of pages. ALL of the logic for list classes is HERE, except for

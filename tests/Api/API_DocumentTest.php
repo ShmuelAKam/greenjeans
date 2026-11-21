@@ -1142,9 +1142,14 @@ class API_DocumentTest extends API_BaseTest
      *
      * @dataProvider provideUploadedDocument
      */
-    public function testGetAttribution(string $ID, string $GUID, string $city, string $country,
-        string $date, string $attribution): void
-    {
+    public function testGetAttribution(
+        string $ID,
+        string $GUID,
+        string $city,
+        string $country,
+        string $date,
+        string $attribution,
+    ): void {
         $doc = API_Document::get($ID);
 
         $this->assertNotNull($doc);
@@ -1290,9 +1295,14 @@ class API_DocumentTest extends API_BaseTest
      *
      * @dataProvider provideUploadedDocument
      */
-    public function testGetGUID(string $ID, string $GUID, string $city, string $country,
-        string $date, string $attribution): void
-    {
+    public function testGetGUID(
+        string $ID,
+        string $GUID,
+        string $city,
+        string $country,
+        string $date,
+        string $attribution,
+    ): void {
         $doc = API_Document::get($ID);
 
         $this->assertNotNull($doc);
@@ -1368,9 +1378,14 @@ class API_DocumentTest extends API_BaseTest
      *
      * @dataProvider provideUploadedDocument
      */
-    public function testGetLocation(string $ID, string $GUID, string $city, string $country,
-        string $date, string $attribution): void
-    {
+    public function testGetLocation(
+        string $ID,
+        string $GUID,
+        string $city,
+        string $country,
+        string $date,
+        string $attribution,
+    ): void {
         $doc = API_Document::get($ID);
 
         $this->assertNotNull($doc, "Couldn't get document! Test failed before it started.");

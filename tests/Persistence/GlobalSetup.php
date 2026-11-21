@@ -39,7 +39,7 @@ $GLOBALS['startRunTime'] = time();
 //--------------------------------------------------------------
 // Get DB connection param from config file.
 
-$configFile = $GLOBALS ['PACKAGE_ROOT'] . '/db.local.php';
+$configFile = $GLOBALS ['PACKAGE_ROOT'] . '/config.db.local.php';
 
 if (!file_exists($configFile))
 {

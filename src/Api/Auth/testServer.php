@@ -15,12 +15,12 @@ namespace ShmuelAKam\Greenjeans\Api\Auth;
  * testServer.php - Example script for starting session with Server-flow authentication.
  *
  * There is NO need to change this script. The connection parameters are set in
- * geni.local.php in the project root directory.
+ * config.geni.local.php in the project root directory.
  */
 
 $GLOBALS ['PACKAGE_ROOT'] = dirname(__DIR__, 2);
 require_once  $GLOBALS ['PACKAGE_ROOT'] . '/vendor/autoload.php';
-$configFile = $GLOBALS ['PACKAGE_ROOT'] . '/geni.local.php';
+$configFile = $GLOBALS ['PACKAGE_ROOT'] . '/config.geni.local.php';
 
 use ShmuelAKam\Greenjeans\Api\API_Profile;
 use ShmuelAKam\Greenjeans\Api\Core\API_WrapperServer;

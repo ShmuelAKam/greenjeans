@@ -122,4 +122,4 @@ The persistence suite verifies database CRUD operations and object graph mapping
 
 - **SQLite:** Requires no manual setup; the test database schema is initialized automatically at runtime.
 
-- **MySQL:** Ensure your test database credentials are configured in `db.local.php` and the schema from `resources/sql/full-schema.sql` has been loaded before running `phpunit.persistence.xml`.
+- **MySQL:** Ensure your test database credentials are configured in `config.db.local.php` and the schema from `resources/sql/full-schema.sql` has been loaded before running `phpunit.persistence.xml`.

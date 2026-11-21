@@ -18,9 +18,9 @@ Thumbs.db
 .settings/
 
 # Config files - Credentials and such
-db.local.php
-geni.local.php
 config.db.local.php
+config.geni.local.php
+config.test.server.php
 SessionAuth.json
 
 # Other stuff

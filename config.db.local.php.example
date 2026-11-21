@@ -2,7 +2,7 @@
 
 namespace ShmuelAKam\Greenjeans\Tests;
 
-// db.local.php
+// config.db.local.php
 // DB credentials.
 
 return [

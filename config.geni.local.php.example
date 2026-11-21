@@ -2,7 +2,7 @@
 
 namespace ShmuelAKam\Greenjeans\Tests;
 
-// geni.local.php
+// config.geni.local.php
 // Geni Server credentials.
 
 return [

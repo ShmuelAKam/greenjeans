@@ -1,6 +1,6 @@
 <?php
 
-namespace ShmuelAKam\Greenjeans\Tests;
+namespace ShmuelAKam\Greenjeans;
 
 // config.db.local.php
 // DB credentials.

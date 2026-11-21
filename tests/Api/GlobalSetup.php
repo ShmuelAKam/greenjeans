@@ -57,19 +57,25 @@ $GLOBALS ['runType']     = $runType;
 switch ($runType)
 {
     case 'Normal':
-        /** @var \ShmuelAKam\Greenjeans\Api\Core\API_WrapperServer $regular See comment above. */
+        /** @var \ShmuelAKam\Greenjeans\Api\Core\API_WrapperServer $regular
+         * See comment above.
+         */
         $regular = serverSetup();
         break;
 
     case 'Recording':
         $regular = serverSetup();
-        /** @var \ShmuelAKam\Greenjeans\Tests\Api\Core\API_WrapperRecorder $recorder See comment above. */
+        /** @var \ShmuelAKam\Greenjeans\Tests\Api\Core\API_WrapperRecorder $recorder
+         * See comment above.
+         */
         $recorder = new API_WrapperRecorder($regular);
         break;
 
     case 'Mocking':
         verifyMockers();
-        /** @var \ShmuelAKam\Greenjeans\Tests\Api\Core\API_WrapperMocker   $mocker See comment above. */
+        /** @var \ShmuelAKam\Greenjeans\Tests\Api\Core\API_WrapperMocker   $mocker
+         * See comment above.
+         */
         $mocker                  = new API_WrapperMocker(silent: false);
         $GLOBALS ['shreddingON'] = false;
         API_BaseTest::setMockingRun();
@@ -163,44 +169,10 @@ function serverTestsSetup(): void
  */
 function serverSetup(bool $silent = false, bool $hideHTTP = true): API_WrapperServer
 {
-    //--------------------------------------------------------------
-    // Get Server connection parameters from config file.
+    // Call the authentication script.
+    // It returns a configured API_WrapperServer object.
 
-    $configFile = $GLOBALS ['PACKAGE_ROOT'] . '/geni.local.php';
-
-    if (!file_exists($configFile))
-    {
-        throw new RuntimeException("Missing configuration file: $configFile. Copy $configFile.example and fill in credentials.");
-    }
-
-    $serverConfig = require $configFile;
-
-    //--------------------------------------------------------------
-
-    $appNumber      = $serverConfig['app_num'];
-    $appID          = $serverConfig['app_id'];
-    $appSecret      = $serverConfig['app_secret'];
-    $appRedirectURL = $serverConfig['app_redirect'];
-    $storeFile      = $GLOBALS ['PACKAGE_ROOT'] . '/SessionAuth.json';
-
-    $API_Server = new API_WrapperServer(
-        $appNumber,
-        $appID,
-        $appSecret,
-        $appRedirectURL,
-        silent: $silent,
-        hideHTTP: $hideHTTP,
-    );
-
-    $haveAuth = $API_Server->retrieve($storeFile);
-
-    if (!$haveAuth)
-    {
-        echo "Auth failed. Exiting.\n";
-        exit(-1);
-    }
-
-    return $API_Server;
+    return require $GLOBALS['PACKAGE_ROOT'] . '/public/index.php';
 }
 
 function verifyMockers(): void

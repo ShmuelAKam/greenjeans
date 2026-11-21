@@ -17,9 +17,10 @@ Thumbs.db
 .buildpath
 .settings/
 
-# Credentials and such
+# Config files - Credentials and such
 db.local.php
 geni.local.php
+config.db.local.php
 SessionAuth.json
 
 # Other stuff

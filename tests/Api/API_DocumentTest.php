@@ -97,10 +97,22 @@ class API_DocumentTest extends API_BaseTest
      * Provider for documents from FILE on the Geni server.
      *
      * @return array <string, array <string>>
+     *         array<int, array<int|string, string>>.
      */
     public static function provideUploadedDocument(): array
     {
-        return FactoryDocuments::DOCUMENTS_UPLOADED_FROM_URL;
+        $fixedUploadedDocs = [];
+
+        foreach (FactoryDocuments::DOCUMENTS_UPLOADED_FROM_URL as $docName => $UploadedDoc)
+        {
+            $fullFileName     = $GLOBALS ['API_TEST_SERVER'] . 'Test/files/' . $docName;
+            $doc              = $UploadedDoc;
+            $doc ['filename'] = $fullFileName;
+
+            $fixedUploadedDocs [$docName] = $doc;
+        }
+
+        return $fixedUploadedDocs;
     }
 
     /**
@@ -1130,7 +1142,8 @@ class API_DocumentTest extends API_BaseTest
      *
      * @dataProvider provideUploadedDocument
      */
-    public function testGetAttribution(string $name, string $ID, string $GUID, string $city, string $country, string $date, string $sourceURL, string $attribution): void
+    public function testGetAttribution(string $ID, string $GUID, string $city, string $country,
+        string $date, string $attribution): void
     {
         $doc = API_Document::get($ID);
 
@@ -1277,7 +1290,8 @@ class API_DocumentTest extends API_BaseTest
      *
      * @dataProvider provideUploadedDocument
      */
-    public function testGetGUID(string $name, string $ID, string $GUID, string $city, string $country, string $date, string $sourceURL, string $attribution): void
+    public function testGetGUID(string $ID, string $GUID, string $city, string $country,
+        string $date, string $attribution): void
     {
         $doc = API_Document::get($ID);
 
@@ -1354,7 +1368,8 @@ class API_DocumentTest extends API_BaseTest
      *
      * @dataProvider provideUploadedDocument
      */
-    public function testGetLocation(string $name, string $ID, string $GUID, string $city, string $country, string $date, string $sourceURL, string $attribution): void
+    public function testGetLocation(string $ID, string $GUID, string $city, string $country,
+        string $date, string $attribution): void
     {
         $doc = API_Document::get($ID);
 
@@ -1439,16 +1454,15 @@ class API_DocumentTest extends API_BaseTest
      * @dataProvider provideUploadedDocument
      */
     public function testGetSourceURL(
-        string $name,
         string $ID,
         string $GUID,
         string $city,
         string $country,
         string $date,
-        string $sourceURL,
         string $attribution,
     ): void {
-        $doc = API_Document::get($ID);
+        $doc       = API_Document::get($ID);
+        $sourceURL = 'Test/files/' . $this->dataName();
 
         // --------------------------------------------------
         $docSourceURL = $doc->getSourceURL();
@@ -1551,13 +1565,11 @@ class API_DocumentTest extends API_BaseTest
      * @dataProvider provideUploadedDocument
      */
     public function testGetURL(
-        string $name,
         string $ID,
         string $GUID,
         string $city,
         string $country,
         string $date,
-        string $sourceURL,
         string $attribution,
     ): void {
         $doc = API_Document::get($ID);

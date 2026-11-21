@@ -86,7 +86,7 @@ class API_DocumentMocker extends API_MediaMocker
 
             if (isset($API_Params['source_url']))
             {
-                $docFixture['source_url'] = 'http://kam-motion.com/Test/files/' . self::DOCUMENTS_ON_SERVER[$docID];
+                $docFixture['source_url'] = $GLOBALS ['API_TEST_SERVER'] . '/Test/files/' . self::DOCUMENTS_ON_SERVER[$docID];
             }
 
             $this->setTestObject($docFixture, 'document');

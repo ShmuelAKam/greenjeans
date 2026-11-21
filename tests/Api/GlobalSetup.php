@@ -25,6 +25,8 @@ use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryVideos;
 
 $GLOBALS ['startRunTime'] = time();
 
+serverTestsSetup();
+
 /**
  * There are three set-up options here:
  *
@@ -123,6 +125,36 @@ TestData::setup();
 //--------------------------------------------------------------
 // Global set-up ENDS here. From here onwards phpunit is running the tests.
 //--------------------------------------------------------------
+
+//--------------------------------------------------------------
+// Helper functions.
+
+function serverTestsSetup(): void
+{
+    //--------------------------------------------------------------
+    // Get Test Server parameters from config file.
+
+    $configFile = $GLOBALS ['PACKAGE_ROOT'] . '/config.test.server.php';
+
+    if (file_exists($configFile))
+    {
+        $testConfig = require $configFile;
+
+        if (isset($testConfig ['test_server'])
+            && $testConfig ['test_server'] != 'http://your_server_url/') {
+
+            $GLOBALS ['API_TEST_SERVER'] = $testConfig['test_server'];
+        }
+        else
+        {
+            throw new RuntimeException("Configuration file not set: $configFile. Fill it in.");
+        }
+    }
+    else
+    {
+        throw new RuntimeException("Missing configuration file: $configFile. Fill it in.");
+    }
+}
 
 /**
  * @param bool $silent

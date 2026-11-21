@@ -1,6 +1,6 @@
 # Testing Guide
 
-The `greenjeans` test suite is divided into two independent suites—**API** and **Persistence**—so you can test remote API interactions (via recorded fixtures or live calls) separately from local database mapping. For general installation and architecture details, see [`README.md`](../README.md), [`src/Api/Api.md`](../src/Api/Api.md), and [`src/Persistence/Persistence.md`](../src/Persistence/Persistence.md).
+The `greenjeans` test suite is divided into two independent suites—**API** and **Persistence**—so you can test remote API interactions (via recorded fixtures or live calls) separately from local database mapping. There are no end-to-end tests. For general installation and architecture details, see [`README.md`](../README.md), [`src/Api/Api.md`](../src/Api/Api.md), and [`src/Persistence/Persistence.md`](../src/Persistence/Persistence.md).
 
 ---
 
@@ -29,6 +29,7 @@ greenjeans/
 │       ├── GlobalSetup.php       # Controls target database engine ($DBType)
 │       ├── Data/                 # Test classes for low-level PODO mappers
 │       └── Help/                 # DB_Persistor & mapper helpers for setting up test persistence contexts
+├── config.test.server.php        # Configuration file specific to testing: URL of test server.
 ├── phpunit.api.xml               # PHPUnit configuration for the API suite
 └── phpunit.persistence.xml       # PHPUnit configuration for the Persistence suite
 ```
@@ -92,6 +93,18 @@ Contains sample documents, photos, and videos used to verify multipart upload an
 When running integration tests against the live Geni API (`normal` or `recording` mode), tests create temporary profiles and media objects:
 - As objects are created during a live run, their IDs are recorded in temporary log files inside `tests/Api/log/`.
 - Cleanup utilities in `tests/Api/Help/` read these logs to "shred" (delete) all test-created objects from Geni afterward, leaving the remote account clean. This can take an additional hour.
+
+### Local Configuration
+
+Before running the application, create your local configuration files from the provided examples in the project root:
+
+```bash
+cp config.test.server.php.example   config.test.server.php
+```
+
+- **`config.test.server.php`** — Holds the URL of your test server.
+
+> **Note:** The `config.test.server.php` files is excluded from Git via `.gitignore` and will not be overwritten during deployments.
 
 ---
 

@@ -254,24 +254,11 @@ class FactoryDocuments extends FactoryBase
 
     /** @var array <string, array <string>> Used by API_DocumentTest::provideUploadedDocument */
     public const DOCUMENTS_UPLOADED_FROM_URL = [
-        //                    Name              ID                   GUID,
-            // City,          Country,  Date
-        'test-Doc-1.pdf' => [ 'test-Doc-1.pdf', 'document-44888697', '6000000222479984825',
-            'Tel-Aviv',    'Israel', "1-1-1901",
-            // Source-URL                                      Attribution
-            'http://kam-motion.com/Test/files/test-Doc-1.pdf', ''  ],
-
-        'test-Doc-2.pdf' => [ 'test-Doc-2.pdf', 'document-44888731', '6000000222480027828',
-            'Jerusalem',   'Israel', "",
-            'http://kam-motion.com/Test/files/test-Doc-2.pdf', ''  ],
-
-        'test-Doc-3.pdf' => [ 'test-Doc-3.pdf', 'document-44888736', '6000000222479901879',
-            'Rehovot',     'Israel', "20-6-1971",
-            'http://kam-motion.com/Test/files/test-Doc-3.pdf', ''  ],
-
-            'test-Doc-4.pdf' => [ 'test-Doc-4.pdf', 'document-47801298', '6000000226472095823',
-            'Tal-Menashe', 'Israel', "27-11-2025",
-            'http://kam-motion.com/Test/files/test-Doc-4.pdf', ''  ],
+        // File-name          ID                   GUID,                  City,          Country,   Date     Attribution
+        'test-Doc-1.pdf' => [ 'document-44888697', '6000000222479984825', 'Tel-Aviv',    'Israel',   '1-1-1901', ''  ],
+        'test-Doc-2.pdf' => [ 'document-44888731', '6000000222480027828', 'Jerusalem',   'Israel',  '',          ''  ],
+        'test-Doc-3.pdf' => [ 'document-44888736', '6000000222479901879', 'Rehovot',     'Israel',  '20-6-1971', ''  ],
+        'test-Doc-4.pdf' => [ 'document-47801298', '6000000226472095823', 'Tal-Menashe', 'Israel', '27-11-2025', ''  ],
     ];
 
     /**

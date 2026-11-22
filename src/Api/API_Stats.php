@@ -5,8 +5,10 @@ namespace ShmuelAKam\Greenjeans\Api;
 use ShmuelAKam\Greenjeans\Api\Core\API_Wrapper;
 
 /**
- * API_Stats - This is a general "object" that returns statistics about Geni and the WFT
- * (World Family Tree, AKA "Big Tree") on Geni. As such it does NOT contain any data.
+ * API_Stats - This is a general "object" that returns statistics about Geni and
+ * the WFT (World Family Tree, AKA "Big Tree") on Geni. As such it does NOT contain
+ * any data members, rather the server replies are returned directly. It is read
+ * only. This is why it does not have any of the factory methods.
  *
  * {@link https://www.geni.com/platform/developer/help/api?path=stats&version=1 API_Stats}
  */

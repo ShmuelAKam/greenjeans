@@ -23,7 +23,29 @@ Classes in the root `Api` namespace represent primary Geni resources that map di
 ### Base Abstractions
 
 - **`API_Base`**        — Concrete root class shared by all top-level API entities. Tracks lazy-loaded sub-collection states (`isLoaded()`), performs single-field API lookups via `API_Wrapper`, and provides Geni-specific formatting helpers (converting ID arrays to comma-separated/GUID strings and normalizing inconsistent comma-delimited API responses).
-- **`API_MediaBase`**   — Extends `API_Base` to provide shared upload, metadata, and tagging behavior across all media types (`API_Document`, `API_Photo`, and `API_Video`). Implements most of the API for the derived classes.
+- **`API_MediaBase`**   — Extends `API_Base` to provide shared upload, metadata, and tagging behavior across all media types: `API_Document`, `API_Photo`, and `API_Video`. Implements most of the API for the derived classes.
+
+Almost all of the classes implement the following the hydration /factory /serialization functions. There are some variations (and exceptions). For example the PODOs do not have the `$fromDB` parameter (because this logic is handled by the higher level objects).
+
+```php
+    public        function updateFromArray (array $arrayValues, bool $fromDB = false): void
+    public static function newFromArray    (array $arrayValues, bool $fromDB = false): static
+    public        function makeParamArray  (): array
+```
+
+- **`updateFromArray`** - Hydration. Updates an existing objects, from an array of values that was received from either the Geni Server or the Persistence layer.
+
+- **`newFromArray`**    - Factory. Returns a new instance of an object. Typically by creating a blank object, and calling `updateFromArray` on it.
+
+- **`makeParamArray`**  - Serialization. Returns an array of all relevant data-fields. This is used primarily to send objects to the Geni Server.
+
+All of the high-level objects implement the following (except `API_Stats` and `API_User` which do NOT have an id):
+
+```php
+    public static function get   (string $ID): ?static
+    public        function getID (): ?string
+```
+
 
 ### Genealogical & Account Entities
 

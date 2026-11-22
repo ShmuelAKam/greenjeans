@@ -236,11 +236,6 @@ class API_Video extends API_MediaBase
     // There are NO setter functions. The limited number of changes are
     // made using the update function.
 
-    public function getID(): ?string
-    {
-        return $this->id;
-    }
-
     public function getSizes(): ?API_VideoImageSizeMap
     {
         return $this->sizes;

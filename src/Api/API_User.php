@@ -11,7 +11,7 @@ use ShmuelAKam\Greenjeans\Api\Core\API_Wrapper;
 /**
  * API_User - This class API describes the USER that authorized the app, i.e.
  * who is running it. It is a READ-ONLY object (Except for the two metadata
- * functions).
+ * functions). This is why it does not have any of the factory methods.
  *
  * {@link https://www.geni.com/platform/developer/help/api?path=user&version=1 API_User}
  */
@@ -38,6 +38,7 @@ class API_User extends API_Base
      * @var array<string, string|array<string, mixed>>
      */
     private array  $metadata;
+
     private ?API_ListObjects  $followed_documents;
     private ?API_ListProfiles $followed_profiles;
     private ?API_ListObjects  $followed_projects;
@@ -49,6 +50,7 @@ class API_User extends API_Base
     private ?API_ListObjects  $uploaded_documents;
     private ?API_ListObjects  $uploaded_photos;
     private ?API_ListObjects  $uploaded_videos;
+
     private bool              $fromDB;
 
     //------------------------------------------------------

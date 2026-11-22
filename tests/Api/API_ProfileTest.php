@@ -1253,7 +1253,7 @@ class API_ProfileTest extends API_BaseTest
         global $profileFactory;
 
         // Using newFromArray to provide the information, WITHOUT creating a profile.
-        $this->aPI_Profile = API_Profile::newFromArray($addProfileArray['values'], brief: false);
+        $this->aPI_Profile = API_Profile::newFromArray($addProfileArray['values']);
 
         // ----------------------------------------
         $addedProfile = $this->aPI_Profile->add();
@@ -1324,7 +1324,7 @@ class API_ProfileTest extends API_BaseTest
         $this->assertNotNull($parentProfile, "Ooops couldn't get base profile.");
 
         // Using newFromArray to provide the information, WITHOUT creating a profile.
-        $this->aPI_Profile = API_Profile::newFromArray($addProfileArray['values'], brief: false);
+        $this->aPI_Profile = API_Profile::newFromArray($addProfileArray['values']);
 
         // --------------------------------------------------
         $addedProfile = $parentProfile->addChild($this->aPI_Profile);
@@ -1351,7 +1351,7 @@ class API_ProfileTest extends API_BaseTest
         $this->assertNotNull($childProfile, "Ooops couldn't get base profile.");
 
         // Using newFromArray to provide the information, WITHOUT creating a profile.
-        $this->aPI_Profile = API_Profile::newFromArray($addProfileArray['values'], brief: false);
+        $this->aPI_Profile = API_Profile::newFromArray($addProfileArray['values']);
 
         // --------------------------------------------------
         $addedProfile = $childProfile->addParent($this->aPI_Profile);
@@ -1377,7 +1377,7 @@ class API_ProfileTest extends API_BaseTest
 
         $this->assertNotNull($partnerProfile, "Ooops couldn't get base profile.");
 
-        $this->aPI_Profile = API_Profile::newFromArray($addProfileArray['values'], brief: false);
+        $this->aPI_Profile = API_Profile::newFromArray($addProfileArray['values']);
 
         // ----------------------------------------
         $addedProfile = $partnerProfile->addPartner($this->aPI_Profile, null, null);
@@ -1599,7 +1599,7 @@ class API_ProfileTest extends API_BaseTest
 
         $this->assertNotNull($siblingProfile, "Ooops couldn't get base profile.");
 
-        $this->aPI_Profile = API_Profile::newFromArray($addProfileArray['values'], brief: false);
+        $this->aPI_Profile = API_Profile::newFromArray($addProfileArray['values']);
 
         // ----------------------------------------
         $addedProfile = $siblingProfile->addSibling($this->aPI_Profile);

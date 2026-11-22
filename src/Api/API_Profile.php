@@ -420,7 +420,7 @@ class API_Profile extends API_Base
      * @param bool   $brief
      * @return API_Profile
      */
-    public static function newFromArray(array $arrayValues, bool $brief = false, bool $fromDB = false): API_Profile
+    public static function newFromArray(array $arrayValues, bool $fromDB = false, bool $brief = false, ): API_Profile
     {
         $profile = new API_Profile();
 
@@ -1552,7 +1552,7 @@ class API_Profile extends API_Base
 
         if (array_key_exists('id', $relativeArray))
         {
-            $relativeOut = API_Profile::newFromArray($relativeArray, $relativeIn->isBrief());
+            $relativeOut = API_Profile::newFromArray($relativeArray, brief: $relativeIn->isBrief());
         }
 
         return $relativeOut;

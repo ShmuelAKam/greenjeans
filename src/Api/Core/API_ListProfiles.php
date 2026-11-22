@@ -34,6 +34,9 @@ class API_ListProfiles extends API_ListBase
 
     //------------------------------------------------------
 
+    // There is NO updateFromArray function, because these objects are never
+    // updated. The data itself is read-only.
+
     /**
      * Factory method: Create instance from array
      * Called from the updateFromArray processes of objects that contain lists.

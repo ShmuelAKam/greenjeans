@@ -53,6 +53,21 @@ class API_DocumentImageSizeMap
         return $sizeMap;
     }
 
+    /**
+     * Convert object into array of values for API call.
+     * @return array<string, string>
+     */
+    public function makeParamArray(): array
+    {
+        $paramArray = [
+            'large'  => $this->large,
+            'origin' => $this->origin,
+            'thumb'  => $this->thumb,
+        ];
+
+        return $paramArray;
+    }
+
     //-------------------------------------------------
 
     public function getLarge(): string

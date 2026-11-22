@@ -46,6 +46,7 @@ All of the high-level objects implement the following (except `API_Stats` and `A
     public        function getID (): ?string
 ```
 
+---
 
 ### Genealogical & Account Entities
 

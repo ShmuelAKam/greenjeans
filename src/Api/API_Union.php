@@ -128,7 +128,7 @@ class API_Union extends API_Base
         return $union;
     }
 
-    //------------------------------------------------------
+    //=====================================================
 
     /**
      * Call API to add child or partner. Returns ID of added profile.
@@ -182,7 +182,7 @@ class API_Union extends API_Base
         return $addID;
     }
 
-    //------------------------------------------------------
+    //=====================================================
     // API calls.
 
     /**
@@ -316,7 +316,7 @@ class API_Union extends API_Base
         return $partner2ID;
     }
 
-    //------------------------------------------------------
+    //=====================================================
     // Getter functions for union values.
     // There are NO Setter functions. All changes to the object are made
     // through the API functions.
@@ -360,6 +360,9 @@ class API_Union extends API_Base
         return $this->divorce;
     }
 
+    /**
+     * @return string 'spouse' or 'ex_spouse'.
+     */
     public function getStatus(): string
     {
         return $this->status;

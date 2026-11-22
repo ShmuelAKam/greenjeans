@@ -249,7 +249,7 @@ class API_Project extends API_Base
      * Add profiles to Project.
      *
      * (There is NO API to remove profiles from a project (or to
-     * remove a project from a profile).)
+     * remove a project from a profile)).
      *
      * @param array <string>  $blockofIDs  Array of IDs (or GUIDs) to add.
      * @param boolean $isGUID      TRUE when input are GUIDs.
@@ -358,7 +358,10 @@ class API_Project extends API_Base
 
     /**
      * Returns number of profiles in Project.
-     * This does NOT get or update the list of profiles itself.
+     * This function does NOT get or update the list of profiles itself. If the
+     * list of profiles is NOT loaded, it makes an API call to get the
+     * number of profiles, otherwise use already set value.
+     * @return int Number of profiles, or -1, if list not loaded.
      */
     public function getNumProfiles(): int
     {
@@ -508,7 +511,7 @@ class API_Project extends API_Base
         return $this->$listType;
     }
 
-    //-----------------------------------------------------
+    //=====================================================
     // Getters of project attributes.
 
     public function getID(): string

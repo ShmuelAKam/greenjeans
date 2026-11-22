@@ -12,8 +12,7 @@ use ShmuelAKam\Greenjeans\Api\Data\API_Location;
 
 /**
  * API_MediaBase - This is the base-class for media objects: Document, Photo & Video.
- * It implements most of their API functions. It is deliberate that this class does
- * NOT have ANY data-members.
+ * It implements most of their API functions.
  *
  * @phpstan-consistent-constructor
  */
@@ -71,7 +70,7 @@ abstract class API_MediaBase extends API_Base
      * The media's title. This is ONLY field that MUST be set.
      * @var string
      */
-    protected string   $title;
+    protected string    $title;
 
     /**
      * Epoch time. When the media was last updated.
@@ -86,6 +85,7 @@ abstract class API_MediaBase extends API_Base
     protected ?string   $url;
 
     // -----------------------------------------------------
+    // Optional collection lists.
 
     /**
      * List of API_Comments on document.
@@ -399,7 +399,8 @@ abstract class API_MediaBase extends API_Base
             $updateParams['title'] = $title;
         }
 
-        // Labels paramter applies ONLY to documents.
+        // Labels parameter applies ONLY to documents.
+        // The other object types set $labels parameter to null.
 
         if ($labels != null)
         {
@@ -567,8 +568,8 @@ abstract class API_MediaBase extends API_Base
 
     //=====================================================
     // Getter functions.
-    // There are NO setter functions. The limited number of changes are
-    // made using the update function.
+    // There are NO setter functions. The limited number of changes are made
+    // using the class specific update function (and _update in this class).
 
     public function getAttribution(): ?string
     {

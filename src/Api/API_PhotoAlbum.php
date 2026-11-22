@@ -8,13 +8,12 @@ use ShmuelAKam\Greenjeans\Api\Core\API_Wrapper;
 use ShmuelAKam\Greenjeans\Api\Data\API_PhotoImageSizeMap;
 
 /**
- * API_PhotoAlbum - a collection of API_Photo objects.
+ * API_PhotoAlbum - a collection of {@link API_Photo} objects.
  * This class has only TWO data-members that can be changed: $description & $name
  * (by calling the {@link API_PhotoAlbum::update} function). The other data-members
  * are set by the Server.
  *
  * There is NO API to delete a photo-album. This must be done manually, via the website.
- *
  * There is NO API to set the cover-photo.
  *
  * Photos are added to albums, when they are created (see {@link API_Photo::add}), or manually.

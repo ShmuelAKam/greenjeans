@@ -8,6 +8,10 @@ use ShmuelAKam\Greenjeans\Api\Core\API_Wrapper;
 
 /**
  * API_Surname
+ * Represents a surname in the general sense, i.e. without reference to a specific
+ * profile. It contains a description of the family-name, if entered by a user,
+ * and has two optional lists of the profiles with the name, or those that follow it.
+ *
  * {@link https://www.geni.com/platform/developer/help/api?path=surname&version=1 API_Surname}
  */
 class API_Surname extends API_Base
@@ -16,12 +20,14 @@ class API_Surname extends API_Base
     private string $ID;             // The surname's node id.
     private string $slugged_name;   // The surname's slugged name.
     private string $URL;            // The surname's url.
+
     private int    $follower_count;
     private int    $profile_count;
+
     private ?API_ListProfiles  $followers;
     private ?API_ListProfiles  $profiles;
 
-    //-------------------------------------------------
+    //=====================================================
 
     /**
      * Constructor.

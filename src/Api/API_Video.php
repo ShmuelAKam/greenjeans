@@ -21,7 +21,7 @@ class API_Video extends API_MediaBase
      * URLs to the video's sizes.
      * @var \ShmuelAKam\Greenjeans\Api\Data\API_VideoImageSizeMap|NULL
      */
-    private ?\ShmuelAKam\Greenjeans\Api\Data\API_VideoImageSizeMap  $sizes;
+    private ?API_VideoImageSizeMap  $sizes;
 
     //======================================================
 
@@ -207,8 +207,8 @@ class API_Video extends API_MediaBase
         return parent::untag($profileID);
     }
 
-    //======================================================
-    // Get functions for list values. The API is called by the constructor
+    //-------------------------------------------------
+    // Get functions for list values. The API call is made by the constructor
     // of the list base class.
 
     /**

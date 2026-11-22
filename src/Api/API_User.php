@@ -10,7 +10,7 @@ use ShmuelAKam\Greenjeans\Api\Core\API_Wrapper;
 
 /**
  * API_User - This class API describes the USER that authorized the app, i.e.
- * who is running it. It is a READ-ONLY object (Except for the two metadata
+ * whoever is running it. It is a READ-ONLY object (Except for the two metadata
  * functions). This is why it does not have any of the factory methods.
  *
  * {@link https://www.geni.com/platform/developer/help/api?path=user&version=1 API_User}
@@ -53,7 +53,7 @@ class API_User extends API_Base
 
     private bool              $fromDB;
 
-    //------------------------------------------------------
+    //=====================================================
 
     /**
      * Constructor.
@@ -203,7 +203,7 @@ class API_User extends API_Base
         return $user;
     }
 
-    //------------------------------------------------------
+    //=====================================================
     // API calls.
 
     /**
@@ -546,7 +546,7 @@ class API_User extends API_Base
         return $this->getListObjects('uploaded-videos', API_Video::class, $getAll, $IDsOnly, $force, $pageSize);
     }
 
-    //------------------------------------------------------
+    //=====================================================
 
     /**
      * Get number of entries in list, WITHOUT loading it.
@@ -558,7 +558,7 @@ class API_User extends API_Base
         return API_ListBase::getListCount('user', $listName);
     }
 
-    //------------------------------------------------------
+    //=====================================================
     // Getter functions for data-fields.
 
     /**

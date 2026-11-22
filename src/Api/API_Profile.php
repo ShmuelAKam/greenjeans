@@ -871,7 +871,7 @@ class API_Profile extends API_Base
 
     //-----------------------------------------------------
     // The following functions set values in the $values array, where they stay
-    // until a call to 'update' happens. This is why the all call setSetFields
+    // until a call to 'update' happens. This is why they all call setSetFields
     // which contains a list of fields to update.
 
     /**
@@ -1341,7 +1341,8 @@ class API_Profile extends API_Base
     }
 
     //=====================================================
-    // Functions to add profile objects.
+    // Functions to add profile objects. Either as a standalone object, or in
+    // reference to the current profile.
 
     /**
      * Add THIS Profile as a SEPARATE branch.
@@ -2541,7 +2542,7 @@ class API_Profile extends API_Base
 
     //=====================================================
     // Getters for specific fields. They call the API, except for the
-    // basic fields which ALWAYS have a value, for initialized objects.
+    // basic fields which ALWAYS have a value for initialized objects.
 
     /**
      * Get the About-Me text for profile.

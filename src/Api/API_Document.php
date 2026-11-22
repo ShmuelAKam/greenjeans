@@ -28,7 +28,7 @@ use ShmuelAKam\Greenjeans\Api\Data\API_DocumentImageSizeMap;
  * See the comment for {@link API_Document::add} regarding the two categories
  * of documents that can be created.
  *
- * The ONLY way to update the labels on the document are by using {@link API_Document::update}.
+ * The ONLY way to update the labels on the document is by using {@link API_Document::update}.
  *
  * {@link https://www.geni.com/platform/developer/help/api?path=document&version=1 API_Document}
  */
@@ -352,8 +352,8 @@ class API_Document extends API_MediaBase
         return parent::untag($profileID);
     }
 
-    //======================================================
-    // Get functions for list values. The API is called by the constructor
+    //-------------------------------------------------
+    // Get functions for list values. The API call is made by the constructor
     // of the API_List classes.
 
     /**

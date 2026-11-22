@@ -227,8 +227,8 @@ class API_Photo extends API_MediaBase
         return parent::untag($profileID);
     }
 
-    //======================================================
-    // Get functions for list values. The API is called by the constructor
+    //-------------------------------------------------
+    // Get functions for list values. The API call is made by the constructor
     // of the list base class.
 
     /**

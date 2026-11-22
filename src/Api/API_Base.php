@@ -5,8 +5,8 @@ namespace ShmuelAKam\Greenjeans\Api;
 use ShmuelAKam\Greenjeans\Api\Core\API_Wrapper;
 
 /**
- * Base class for all API objects.
- * Mostly empty.
+ * Base class for all higher-level API objects.
+ * The user should not generally be interacting with this class.
  */
 class API_Base
 {
@@ -23,6 +23,7 @@ class API_Base
     }
 
     //--------------------------------------------------------------------------
+    // Functions to keep track of object fields that use lazy-loading.
 
     /**
      * Check if collection is loaded.
@@ -56,6 +57,12 @@ class API_Base
 
     //--------------------------------------------------------------------------
 
+    /**
+     * Make API call to read single field in any object.
+     * @param string $ID        Object ID, e.g. profile-365, project-47, etc.
+     * @param string $fieldName As defined in the API.
+     * @return mixed
+     */
     protected function getObjectField(string $ID, string $fieldName): mixed
     {
         $API_Wrap = API_Wrapper::getInstance();

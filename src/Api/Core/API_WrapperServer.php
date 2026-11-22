@@ -7,13 +7,14 @@ namespace ShmuelAKam\Greenjeans\Api\Core;
  * This class handles ONLY the authentication, while all of the actual Server
  * calls are handled by the base class.
  *
- * See example script testServer.php after class, for initizaling a CLI script.
+ * See example script Api/Auth/testServer.php for initizaling a CLI script.
  * @see API_Wrapper
  */
 class API_WrapperServer extends API_Wrapper
 {
     /**
      * URL that is sent TO the Server. Geni returns the Auth code to this URL.
+     * This value was also set, by the user, when the application was registered.
      * @var string
      */
     protected string $AppRedirectURL;

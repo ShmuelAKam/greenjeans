@@ -7,7 +7,7 @@ namespace ShmuelAKam\Greenjeans\Api\Core;
  * This class handles ONLY the authentication, while all of the actual Server
  * calls are handled by the base class.
  *
- * See example script testClient.php after class, for initizaling a CLI script.
+ * See example script Api/Auth/testClient.php
  * @see API_Wrapper
  */
 class API_WrapperClient extends API_Wrapper

@@ -23,6 +23,7 @@ use IteratorAggregate;
  *
  * @template TValueType
  * @implements \ArrayAccess<int|string, TValueType>
+ * @implements \Countable
  * @implements \IteratorAggregate<int|string, TValueType>
  */
 abstract class API_ListBase implements ArrayAccess, Countable, IteratorAggregate
@@ -178,17 +179,28 @@ abstract class API_ListBase implements ArrayAccess, Countable, IteratorAggregate
     //------------------------------------------------------
     // Getters and Setters.
 
-    /** @return array<TValueType> */
+    /**
+     * Returns current contents of list as regular array.
+     * @return array<TValueType>
+     * */
     public function getList(): array
     {
         return $this->listArray;
     }
 
+    /**
+     * Get name of API call that use used to create list, e.g. 'profile-ID/photos'.
+     * @return string
+     */
     public function getListName(): string
     {
         return $this->listName;
     }
 
+    /**
+     * Return number of items in current PAGE.
+     * @return int
+     */
     public function getPageCount(): int
     {
         return $this->pageCount;
@@ -224,21 +236,38 @@ abstract class API_ListBase implements ArrayAccess, Countable, IteratorAggregate
         return $this->className;
     }
 
+    /**
+     * Returns true when server returned empty list.
+     * @return bool
+     */
     public function isEmpty(): bool
     {
         return ($this->totalCount == 0);
     }
 
+    /**
+     * Returns true when entire list was read in initial read. In other words,
+     * the entire list is one "page".
+     * @return bool
+     */
     public function isGetAll(): bool
     {
         return  $this->getAll;
     }
 
+    /**
+     * Returns true list contains only IDs, not the actual objects.
+     * @return bool
+     */
     public function isIDsOnly(): bool
     {
         return  $this->IDsOnly;
     }
 
+    /**
+     * Returns true, when list created from API call, and not from DB data.
+     * @return bool
+     */
     public function isFromAPICall(): bool
     {
         return  $this->fromAPICall;
@@ -249,7 +278,10 @@ abstract class API_ListBase implements ArrayAccess, Countable, IteratorAggregate
         $this->IDsOnly = $only;
     }
 
-    /** @param array<TValueType> $list */
+    /**
+     * Assign parsed list of values to internal array.
+     * @param array<TValueType> $list
+     */
     protected function setList(array $list): void
     {
         $this->listArray = $list;
@@ -291,6 +323,7 @@ abstract class API_ListBase implements ArrayAccess, Countable, IteratorAggregate
         }
         else
         {
+            // The objects have no IDs. Return list as is.
             $listIDs = $this->getList();
         }
 

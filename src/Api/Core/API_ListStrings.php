@@ -3,8 +3,8 @@
 namespace ShmuelAKam\Greenjeans\Api\Core;
 
 /**
- * List of *strings* as returned from the server. E.g. the list returned from
- * /user/labels
+ * List of *strings* as returned from the server, e.g. the list returned from
+ * /user/labels No processing of the data is needed as it's a simple array.
  * @see API_ListBase
  * @extends API_ListBase<string>
  */
@@ -48,7 +48,7 @@ class API_ListStrings extends API_ListBase
     }
 
     /**
-     * Factory method: Create instance from array
+     * Factory method: Create instance from array with data from DB.
      * Called from the updateFromArray processes of objects that contain lists.
      * NO need to parse. Passed specific field.
      * @param array <string> $arrayValues

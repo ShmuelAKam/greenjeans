@@ -4,10 +4,10 @@ namespace ShmuelAKam\Greenjeans\Api\Core;
 
 /**
  * List of objects as returned from the server.
- * For example the list returned from * /profile/documents will contain API_Document objects.
- * If the object has an ID value, this will be used as a KEY for the lists/array. If the $IDsOnly flag is
- * set on creation, instead of the object, the list value will TRUE.
-
+ * For example the list returned from /profile/documents will contain API_Document
+ * objects. If the object has an ID value, this will be used as a KEY for the list's
+ * array. If the $IDsOnly flag is set on creation, instead of the object, the list
+ * "value" will be TRUE.
  * @see API_ListBase
  * @extends API_ListBase <bool|object>
  */
@@ -59,7 +59,7 @@ class API_ListObjects extends API_ListBase
     }
 
     /**
-     * Factory method: Create instance from array
+     * Factory method: Create instance from array with data from DB.
      * Called from the updateFromArray processes of objects that contain lists.
      * @param array <string, string|mixed> $arrayValues
      * @param string $listClass

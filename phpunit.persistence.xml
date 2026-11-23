@@ -8,6 +8,8 @@
          colors="true"
          displayDetailsOnTestsThatTriggerDeprecations="true"
          displayDetailsOnPhpunitDeprecations="true"
+         displayDetailsOnTestsThatTriggerErrors="true"
+         displayDetailsOnTestsThatTriggerNotices="true"
          displayDetailsOnTestsThatTriggerWarnings="true">
 
     <source ignoreSuppressionOfDeprecations="true">

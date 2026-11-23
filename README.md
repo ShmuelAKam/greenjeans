@@ -19,15 +19,18 @@ composer require shmuelakam/greenjeans
 Before running the application, create your local configuration files from the provided examples in the project root:
 
 ```bash
-cp config.db.local.php.example   config.db.local.php
-cp config.geni.local.php.example config.geni.local.php
+cp config.db.local.php.example    config.db.local.php
+cp config.geni.local.php.example  config.geni.local.php
+cp config.test.server.php.example config.test.server.php
 ```
 
 - **`config.db.local.php`** — Holds your local or production database connection settings (host, database name, username, and password). Edit this file with your MySQL credentials (SQLite requires only a username).
 
 - **`config.geni.local.php`** — Holds your Geni API application credentials (client ID, client secret, and redirect URI, if relevant). Edit this file with your registered Geni app details.
 
-> **Note:** Both `*.local.php` files are excluded from Git via `.gitignore` and will not be overwritten during deployments.
+- **`config.test.server.php`** — Required ONLY if running the **test code.** It contains the URL of your test-server.
+
+> **Note:** The three `config.*.php` files are excluded from Git via `.gitignore` and will not be overwritten during deployments.
 
 ### Database Setup
 

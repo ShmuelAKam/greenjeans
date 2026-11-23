@@ -52,9 +52,12 @@ $appID          = $serverConfig['app_id'];
 $appSecret      = $serverConfig['app_secret'];
 $appRedirectURL = $serverConfig['app_redirect'];
 
+$silent = $GLOBALS ['logSilent'] ?? true;
+
 if (PHP_SAPI !== 'cli')
 {
     session_start();
+    $silent = true;
 }
 
 // Get connection to Server. Log output set to 'silent'.
@@ -65,7 +68,7 @@ $API_Wrap = new API_WrapperServer(
     $appID,
     $appSecret,
     $appRedirectURL,
-    silent: true,
+    silent: $silent,
     useSandbox: false,
 );
 

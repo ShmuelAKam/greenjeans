@@ -2,12 +2,8 @@
 date
 umask 0002
 
-TEST_SUITE="$1"
+TEST_SUITE="${1:-primary}"
+DB_TYPE="${2:-SQLite}"
 
-if [ -z "$TEST_SUITE" ]; then
-    TEST_SUITE="primary"
-fi
-
-./vendor/bin/phpunit --configuration ./phpunit.persistence.xml  --display-deprecations --testsuite $TEST_SUITE
-
+DB_TYPE="$DB_TYPE" ./vendor/bin/phpunit --configuration ./phpunit.persistence.xml  --display-deprecations --testsuite $TEST_SUITE
 # --stop-on-failure

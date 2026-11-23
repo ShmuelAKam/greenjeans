@@ -47,23 +47,24 @@ serverTestsSetup();
  * so these local variables can be ignored.
  */
 
-$runType = 'Normal';
-// $runType = 'Recording';
-// $runType = 'Mocking';
+$runType      = strtolower(getenv('RUN_TYPE') ?: 'Normal');
+$silentString = getenv('SILENT') ?: 'SILENT';
+$silent       = ($silentString === 'SILENT');
 
+$GLOBALS ['logSilent']   = $silent;
 $GLOBALS ['shreddingON'] = true;
 $GLOBALS ['runType']     = $runType;
 
 switch ($runType)
 {
-    case 'Normal':
+    case 'normal':
         /** @var \ShmuelAKam\Greenjeans\Api\Core\API_WrapperServer $regular
          * See comment above.
          */
         $regular = serverSetup();
         break;
 
-    case 'Recording':
+    case 'recording':
         $regular = serverSetup();
         /** @var \ShmuelAKam\Greenjeans\Tests\Api\Core\API_WrapperRecorder $recorder
          * See comment above.
@@ -71,7 +72,7 @@ switch ($runType)
         $recorder = new API_WrapperRecorder($regular);
         break;
 
-    case 'Mocking':
+    case 'mocking':
         verifyMockers();
         /** @var \ShmuelAKam\Greenjeans\Tests\Api\Core\API_WrapperMocker   $mocker
          * See comment above.
@@ -82,7 +83,9 @@ switch ($runType)
         break;
 
     default:
-        echo "Invalid run type: $runType. Exiting.";
+        echo "Invalid run type: $runType.\r\n";
+        echo "Use Normal, Recording or Mocking.\r\n";
+        echo "Exiting.\r\n";
         die();
 }
 

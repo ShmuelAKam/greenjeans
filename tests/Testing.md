@@ -7,7 +7,7 @@ The `greenjeans` test suite is divided into two independent suites—**API** and
 ## Directory Layout
 
 ```text
-greenjeans/
+ShmuelAKam/Greenjeans/
 ├── bin/
 │   ├── api-test-full.sh          # Run the full API test suite
 │   ├── db-test-full.sh           # Run the full Persistence test suite
@@ -42,15 +42,15 @@ greenjeans/
 
 The `bin/` directory provides wrapper scripts for running full suites, targeted test files, static analysis, and deployments:
 
-- **`bin/api-test-full.sh`** — Runs the entire API test suite (`phpunit.api.xml`).
+- **`bin/api-test-full.sh`** — Runs the entire API test suite (`phpunit.api.xml`). Takes three parameters. Testsuite to run:'**primary**' or 'secondary', run-mode: '**Normal**', 'Mocking' or 'Recording', and logging to screen '**SILENT**' or 'LOG'.
 
-- **`bin/test-api-specific.sh`** — Runs a specific API test class or method.
+- **`bin/db-test-full.sh`** — Runs the entire Persistence test suite (`phpunit.persistence.xml`). Takes two parameters. Testsuite to run:'**primary**' or 'secondary', and database: '**SQLite**' and 'MySQL'.
 
-- **`bin/db-test-full.sh`** — Runs the entire Persistence test suite (`phpunit.persistence.xml`).
+- **`bin/test-api-specific.sh`** — Runs a specific API test class or method. Takes one or two parameters: The testclass, and optional testname.
 
-- **`bin/test-db-specific.sh`** — Runs a specific Persistence test class or method.
+- **`bin/test-db-specific.sh`** — Runs a specific Persistence test class or method. Takes one or two parameters: The testclass, and optional testname.
 
-- **`bin/phpstan.sh`** — Runs PHPStan static analysis against the codebase.
+- **`bin/phpstan.sh`** — Runs PHPStan static analysis against the codebase. Takes level as parameter. Defaults to 6. Please don't run it any higher.
 
 - **`bin/deploy.sh`** — Deploys the package source files.
 
@@ -58,7 +58,10 @@ The `bin/` directory provides wrapper scripts for running full suites, targeted 
 
 ### Via PHPUnit Directly
 
-You can also invoke PHPUnit directly using each suite's configuration file:
+You can also invoke PHPUnit directly using each suite's configuration file. In this case the tests will run with their default values:
+
+- Api:         Primary testsuite, Normal run-type, and silent no-logging.
+- Persistence: Primary testsuite, SQLite.
 
 ```bash
 # Run the API test suite

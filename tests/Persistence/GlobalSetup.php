@@ -51,8 +51,9 @@ $username = $dbConfig['db_user'];
 
 //--------------------------------------------------------------
 
-$DBType = 'SQLite';
-// $DBType = 'MySQL';
+// Get requested DB type from CLI. Convert to lowercase to catch all options.
+
+$DBType = strtolower(getenv('DB_TYPE') ?: 'SQLite');
 
 /**
  * @var \PDO|null $sharedPDO
@@ -61,16 +62,17 @@ $sharedPDO = null;
 
 switch ($DBType)
 {
-    case 'MySQL':
+    case 'mysql':
         $sharedPDO = setupMySQL($dbConfig);
         break;
 
-    case 'SQLite':
+    case 'sqlite':
         $sharedPDO = setupSQLite($dbConfig['db_user']);
         break;
 
     default:
         echo "Unsupported DB type.\r\n";
+        echo "Enter MySQL or SQLite.\r\n";
         exit(1);
 }
 

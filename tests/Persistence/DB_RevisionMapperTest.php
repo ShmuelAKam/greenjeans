@@ -4,6 +4,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence;
 
 use ShmuelAKam\Greenjeans\Api\API_Revision;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_RevisionMapper;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperRevisions;
 
 /**
@@ -64,7 +65,7 @@ class DB_RevisionMapperTest extends DB_MapperTestBase
         string  $timestamp,
     ): void {
         /** @var FactoryMapperRevisions $revisionMapFactory */
-        global $revisionMapFactory;
+        $revisionMapFactory = FactoryMapperBase::getFactory(API_Revision::class);
 
         $revision   = $revisionMapFactory->makeMapRevision($action, $story, $dateLocal, $timeLocal, $timestamp);
         $revisionID = $revision->getID();
@@ -97,7 +98,7 @@ class DB_RevisionMapperTest extends DB_MapperTestBase
     public function testUpdateRevision(): void
     {
         /** @var FactoryMapperRevisions $revisionMapFactory */
-        global $revisionMapFactory;
+        $revisionMapFactory = FactoryMapperBase::getFactory(API_Revision::class);
 
         $initialRevision = $revisionMapFactory->makeMapRevision('create', 'Initial story');
         $revisionID      = $initialRevision->getID();
@@ -126,7 +127,7 @@ class DB_RevisionMapperTest extends DB_MapperTestBase
     public function testDeleteRevision(): void
     {
         /** @var FactoryMapperRevisions $revisionMapFactory */
-        global $revisionMapFactory;
+        $revisionMapFactory = FactoryMapperBase::getFactory(API_Revision::class);
 
         $revision   = $revisionMapFactory->makeMapRevision('delete', 'Story to be deleted');
         $revisionID = $revision->getID();

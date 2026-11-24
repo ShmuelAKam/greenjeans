@@ -8,6 +8,7 @@ use ShmuelAKam\Greenjeans\Api\Data\API_Date;
 use ShmuelAKam\Greenjeans\Api\Data\API_Location;
 use ShmuelAKam\Greenjeans\Api\Data\API_PhotoImageSizeMap;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_PhotoMapper;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperPhotos;
 
 /**
@@ -203,7 +204,7 @@ class DB_PhotoMapperTest extends DB_MapperTestBase
         int     $numComments,
     ): void {
         /** @var FactoryMapperPhotos $photoMapFactory */
-        global $photoMapFactory;
+        $photoMapFactory = FactoryMapperBase::getFactory(API_Photo::class);
 
         $photo = $photoMapFactory->makeMapPhoto(
             $title,
@@ -247,7 +248,7 @@ class DB_PhotoMapperTest extends DB_MapperTestBase
     public function testUpdatePhotoScalarFields(?string $newTitle, ?string $newDesc, ?string $newFile): void
     {
         /** @var FactoryMapperPhotos $photoMapFactory */
-        global $photoMapFactory;
+        $photoMapFactory = FactoryMapperBase::getFactory(API_Photo::class);
 
         $initialPhoto = $photoMapFactory->makeMapPhoto('Original Title', 'Original Desc', 'original.jpg');
         $photoID      = $initialPhoto->getId();
@@ -284,7 +285,7 @@ class DB_PhotoMapperTest extends DB_MapperTestBase
     public function testAlbumCollectionBatchLifecycle(): void
     {
         /** @var FactoryMapperPhotos $photoMapFactory */
-        global $photoMapFactory;
+        $photoMapFactory = FactoryMapperBase::getFactory(API_Photo::class);
 
         $albumID = 'album-uuid-101';
 
@@ -332,7 +333,7 @@ class DB_PhotoMapperTest extends DB_MapperTestBase
         int     $numComments,
     ): void {
         /** @var FactoryMapperPhotos $photoMapFactory */
-        global $photoMapFactory;
+        $photoMapFactory = FactoryMapperBase::getFactory(API_Photo::class);
 
         // 1. Persist initial photo with tags and comments loaded
 
@@ -388,7 +389,7 @@ class DB_PhotoMapperTest extends DB_MapperTestBase
     public function testSubObjectMutationAndOrphanCleanup(): void
     {
         /** @var FactoryMapperPhotos $photoMapFactory */
-        global $photoMapFactory;
+        $photoMapFactory = FactoryMapperBase::getFactory(API_Photo::class);
 
         $photoParams = $photoMapFactory->makeParamArray(
             'Sub-Object Test',
@@ -445,7 +446,7 @@ class DB_PhotoMapperTest extends DB_MapperTestBase
     public function testCascadeDeletePhotoAndSubObjects(): void
     {
         /* @var $photoMapFactory \ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperPhotos */
-        global $photoMapFactory;
+        $photoMapFactory = FactoryMapperBase::getFactory(API_Photo::class);
 
         $photoParams = $photoMapFactory->makeParamArray(
             'Cascade Delete Test',
@@ -490,7 +491,7 @@ class DB_PhotoMapperTest extends DB_MapperTestBase
     public function testPhotoSaveRollbackOnException(): void
     {
         /** @var FactoryMapperPhotos $photoMapFactory */
-        global $photoMapFactory;
+        $photoMapFactory = FactoryMapperBase::getFactory(API_Photo::class);
 
         $photoParams = $photoMapFactory->makeParamArray('Rollback Photo', 'Desc', 'photo.jpg', 'Author', null);
         $photo       = API_Photo::newFromArray($photoParams, fromDB: true);

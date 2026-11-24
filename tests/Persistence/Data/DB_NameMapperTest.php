@@ -5,6 +5,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence\Data;
 use ShmuelAKam\Greenjeans\Api\Data\API_Name;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_NameMapper;
 use ShmuelAKam\Greenjeans\Tests\Persistence\DB_MapperTestBase;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperNames;
 
 /**
@@ -72,7 +73,7 @@ class DB_NameMapperTest extends DB_MapperTestBase
     public function testCreateAndReadNamePresets(string $presetKey): void
     {
         /** @var FactoryMapperNames $nameMapFactory */
-        global $nameMapFactory;
+        $nameMapFactory = FactoryMapperBase::getFactory(API_Name::class);
 
         $profileID = 'profile-test-name-001';
         $locale    = 'en-US';
@@ -95,7 +96,7 @@ class DB_NameMapperTest extends DB_MapperTestBase
     public function testCreateAllAndReadAllMultipleLocales(): void
     {
         /** @var FactoryMapperNames $nameMapFactory */
-        global $nameMapFactory;
+        $nameMapFactory = FactoryMapperBase::getFactory(API_Name::class);
 
         $profileID = 'profile-test-name-002';
 
@@ -137,7 +138,7 @@ class DB_NameMapperTest extends DB_MapperTestBase
     public function testDeleteAll(): void
     {
         /** @var FactoryMapperNames $nameMapFactory */
-        global $nameMapFactory;
+        $nameMapFactory = FactoryMapperBase::getFactory(API_Name::class);
 
         $profileID = 'profile-test-name-003';
 

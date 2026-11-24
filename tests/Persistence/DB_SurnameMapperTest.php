@@ -4,6 +4,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence;
 
 use ShmuelAKam\Greenjeans\Api\API_Surname;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_SurnameMapper;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperSurnames;
 
 /**
@@ -115,7 +116,7 @@ class DB_SurnameMapperTest extends DB_MapperTestBase
         int     $numProfiles,
     ): void {
         /** @var FactoryMapperSurnames $surnameMapFactory */
-        global $surnameMapFactory;
+        $surnameMapFactory = FactoryMapperBase::getFactory(API_Surname::class);
 
         $surname = $surnameMapFactory->makeMapSurname(
             $sluggedName,
@@ -160,7 +161,7 @@ class DB_SurnameMapperTest extends DB_MapperTestBase
     public function testUpdateSurnameScalarFields(?string $newSlug, ?string $newDesc): void
     {
         /** @var FactoryMapperSurnames $surnameMapFactory */
-        global $surnameMapFactory;
+        $surnameMapFactory = FactoryMapperBase::getFactory(API_Surname::class);
 
         $initialSurname = $surnameMapFactory->makeMapSurname('original-slug', 'Original Desc', full: true);
         $surnameID      = $initialSurname->getID();
@@ -194,7 +195,7 @@ class DB_SurnameMapperTest extends DB_MapperTestBase
     public function testPartialHydrationPreservesSurnameLinks(string  $sluggedName, ?string $description, int $numFollowers, int $numProfiles): void
     {
         /** @var FactoryMapperSurnames $surnameMapFactory */
-        global $surnameMapFactory;
+        $surnameMapFactory = FactoryMapperBase::getFactory(API_Surname::class);
 
         // 1. Save fully loaded surname
         $initialParams = $surnameMapFactory->makeParamArray(
@@ -247,7 +248,7 @@ class DB_SurnameMapperTest extends DB_MapperTestBase
         int     $numProfiles,
     ): void {
         /** @var FactoryMapperSurnames $surnameMapFactory */
-        global $surnameMapFactory;
+        $surnameMapFactory = FactoryMapperBase::getFactory(API_Surname::class);
 
         $surnameParams = $surnameMapFactory->makeParamArray(
             $sluggedName,
@@ -281,7 +282,7 @@ class DB_SurnameMapperTest extends DB_MapperTestBase
     public function testSurnameSaveRollbackOnException(): void
     {
         /** @var FactoryMapperSurnames $surnameMapFactory */
-        global $surnameMapFactory;
+        $surnameMapFactory = FactoryMapperBase::getFactory(API_Surname::class);
 
         $surnameParams = $surnameMapFactory->makeParamArray('rollback-surname', 'Desc', numFollowers: 2, full: true);
         $surname       = API_Surname::newFromArray($surnameParams);

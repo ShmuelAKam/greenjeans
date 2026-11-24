@@ -4,6 +4,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence;
 
 use ShmuelAKam\Greenjeans\Api\API_Profile;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_ProfileMapper;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperProfiles;
 
 /**
@@ -133,7 +134,7 @@ class DB_ProfileMapperTest extends DB_MapperTestBase
     public function testCreateAndReadPresets(string $presetKey): void
     {
         /** @var FactoryMapperProfiles $profileMapFactory */
-        global $profileMapFactory;
+        $profileMapFactory = FactoryMapperBase::getFactory(API_Profile::class);
 
         $profile   = $profileMapFactory->makePresetProfile($presetKey, full: true);
         $profileID = $profile->getId();
@@ -168,7 +169,7 @@ class DB_ProfileMapperTest extends DB_MapperTestBase
     public function testUpdateProfileReplacesSubObjects(): void
     {
         /** @var FactoryMapperProfiles $profileMapFactory */
-        global $profileMapFactory;
+        $profileMapFactory = FactoryMapperBase::getFactory(API_Profile::class);
 
         $initialProfile = $profileMapFactory->makePresetProfile('presidential', full: true);
         $profileID      = $initialProfile->getId();
@@ -198,7 +199,7 @@ class DB_ProfileMapperTest extends DB_MapperTestBase
     public function testDeleteProfileClearsSubObjectsAndLinks(): void
     {
         /** @var FactoryMapperProfiles $profileMapFactory */
-        global $profileMapFactory;
+        $profileMapFactory = FactoryMapperBase::getFactory(API_Profile::class);
 
         $profile   = $profileMapFactory->makePresetProfile('presidential', full: true);
         $profileID = $profile->getId();

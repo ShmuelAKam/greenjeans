@@ -5,6 +5,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence;
 use ShmuelAKam\Greenjeans\Api\API_User;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Core\DB_LinkTableMapper;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_UserMapper;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperUsers;
 
 /**
@@ -130,7 +131,7 @@ class DB_UserMapperTest extends DB_MapperTestBase
         int    $numFollowed,
     ): void {
         /** @var FactoryMapperUsers $userMapFactory */
-        global $userMapFactory;
+        $userMapFactory = FactoryMapperBase::getFactory(API_User::class);
 
         $user = $userMapFactory->makeMapUser($name, $accountType, $metadata, $numLabels, $numFollowed, full: true);
 
@@ -151,7 +152,7 @@ class DB_UserMapperTest extends DB_MapperTestBase
     public function testUpdateUser(): void
     {
         /** @var FactoryMapperUsers $userMapFactory */
-        global $userMapFactory;
+        $userMapFactory = FactoryMapperBase::getFactory(API_User::class);
 
         $initialUser = $userMapFactory->makeMapUser('Initial Name', 'basic', ['theme' => 'light'], full: true);
         $this->mapper->save($initialUser);
@@ -182,7 +183,7 @@ class DB_UserMapperTest extends DB_MapperTestBase
     public function testDeleteUser(): void
     {
         /** @var FactoryMapperUsers $userMapFactory */
-        global $userMapFactory;
+        $userMapFactory = FactoryMapperBase::getFactory(API_User::class);
 
         $this->linkMapper->clear('geni_user_labels', 'run_id', (string) $this->getRunID());
 

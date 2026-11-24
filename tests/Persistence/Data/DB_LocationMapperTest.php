@@ -5,6 +5,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence\Data;
 use ShmuelAKam\Greenjeans\Api\Data\API_Location;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_LocationMapper;
 use ShmuelAKam\Greenjeans\Tests\Persistence\DB_MapperTestBase;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperLocations;
 
 /**
@@ -70,7 +71,7 @@ class DB_LocationMapperTest extends DB_MapperTestBase
     public function testCreateAndReadLocationPresets(string $presetKey): void
     {
         /** @var FactoryMapperLocations $locationMapFactory */
-        global $locationMapFactory;
+        $locationMapFactory = FactoryMapperBase::getFactory(API_Location::class);
 
         $ownerID  = 'event-test-owner-101';
         $location = $locationMapFactory->makePresetLocation($presetKey);
@@ -92,7 +93,7 @@ class DB_LocationMapperTest extends DB_MapperTestBase
     public function testReadArrayUnsetsInternalColumns(): void
     {
         /** @var FactoryMapperLocations $locationMapFactory */
-        global $locationMapFactory;
+        $locationMapFactory = FactoryMapperBase::getFactory(API_Location::class);
 
         $ownerID  = 'event-test-owner-102';
         $location = $locationMapFactory->makePresetLocation('full_location');
@@ -126,7 +127,7 @@ class DB_LocationMapperTest extends DB_MapperTestBase
     public function testDeleteLocation(): void
     {
         /** @var FactoryMapperLocations $locationMapFactory */
-        global $locationMapFactory;
+        $locationMapFactory = FactoryMapperBase::getFactory(API_Location::class);
 
         $ownerID  = 'event-test-owner-103';
         $location = $locationMapFactory->makePresetLocation('city_state_only');

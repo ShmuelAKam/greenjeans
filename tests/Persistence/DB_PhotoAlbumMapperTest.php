@@ -2,13 +2,16 @@
 
 namespace ShmuelAKam\Greenjeans\Tests\Persistence;
 
+use ShmuelAKam\Greenjeans\Api\API_Photo;
 use ShmuelAKam\Greenjeans\Api\API_PhotoAlbum;
 use ShmuelAKam\Greenjeans\Api\API_Profile;
 use ShmuelAKam\Greenjeans\Api\Data\API_PhotoImageSizeMap;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_PhotoAlbumMapper;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_PhotoMapper;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperPhotoAlbums;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperPhotos;
 
 /**
  * DB_PhotoAlbumMapperTest
@@ -124,7 +127,7 @@ class DB_PhotoAlbumMapperTest extends DB_MapperTestBase
     public function testCreateAndRead(string $name, ?string $description, int $photosCount): void
     {
         /** @var FactoryMapperPhotoAlbums $albumMapFactory */
-        global $albumMapFactory;
+        $albumMapFactory = FactoryMapperBase::getFactory(API_PhotoAlbum::class);
 
         $album   = $albumMapFactory->makeMapAlbum($name, $description, $photosCount, full: true);
         $albumID = $album->getID();
@@ -159,11 +162,13 @@ class DB_PhotoAlbumMapperTest extends DB_MapperTestBase
     public function testUpdateAlbumScalarFields(?string $newName, ?string $newDesc): void
     {
         /** @var FactoryMapperPhotoAlbums $albumMapFactory */
-        global $albumMapFactory, $photoMapFactory;
+        $albumMapFactory = FactoryMapperBase::getFactory(API_PhotoAlbum::class);
+
+        /** @var FactoryMapperPhotos      $photoMapFactory */
+        $photoMapFactory = FactoryMapperBase::getFactory(API_Photo::class);
 
         $albumID = FactoryBase::generatePrefixedId('album');
-
-        $photos = $photoMapFactory->makePhotoList($albumID, 3);
+        $photos  = $photoMapFactory->makePhotoList($albumID, 3);
 
         $initialAlbum = $albumMapFactory->makeMapAlbum('Original Name', 'Original Desc', photosCount: 0, full: true);
         $albumID      = $initialAlbum->getID();
@@ -196,7 +201,7 @@ class DB_PhotoAlbumMapperTest extends DB_MapperTestBase
     public function testCascadeDeleteAlbumAndPhotos(): void
     {
         /** @var FactoryMapperPhotoAlbums $albumMapFactory */
-        global $albumMapFactory;
+        $albumMapFactory = FactoryMapperBase::getFactory(API_PhotoAlbum::class);
 
         $albumParams = $albumMapFactory->makeParamArray('Cascade Delete Test', 'Desc', photosCount: 2, full: true);
         $album       = API_PhotoAlbum::newFromArray($albumParams, true);
@@ -240,7 +245,7 @@ class DB_PhotoAlbumMapperTest extends DB_MapperTestBase
     public function testAlbumSaveRollbackOnException(): void
     {
         /** @var FactoryMapperPhotoAlbums $albumMapFactory */
-        global $albumMapFactory;
+        $albumMapFactory = FactoryMapperBase::getFactory(API_PhotoAlbum::class);
 
         $albumParams = $albumMapFactory->makeParamArray('Rollback Album', 'Desc', photosCount: 0);
         $album       = API_PhotoAlbum::newFromArray($albumParams, true);

@@ -14,25 +14,7 @@ use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDates;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryLocations;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperComments;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperDates;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperDocuments;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperEvents;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperLocations;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperNames;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperPhoneNumbers;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperPhotoAlbums;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperPhotos;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperProfiles;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperProjects;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperRelations;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperRevisions;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperSizeMaps;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperSurnames;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperTags;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperUnions;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperUsers;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperVideos;
 
 $GLOBALS['startRunTime'] = time();
 
@@ -99,33 +81,6 @@ FactoryBase::setRunType('Normal');
 global $dateFactory, $locationFactory;
 $dateFactory     = new FactoryDates();
 $locationFactory = new FactoryLocations();
-
-global $commentMapFactory,  $dateMapFactory,     $eventMapFactory,  $locationMapFactory,
-$nameMapFactory,     $phoneMapFactory,    $tagMapFactory,    $sizeMapFactory,
-$docMapFactory,      $photoMapFactory,    $albumMapFactory,  $profileMapFactory,
-$projectMapFactory,  $relationFactory,    $revisionMapFactory, $videoMapFactory,
-$surnameMapFactory,  $unionMapFactory,    $userMapFactory;
-
-$commentMapFactory  = new FactoryMapperComments();
-$dateMapFactory     = new FactoryMapperDates();
-$eventMapFactory    = new FactoryMapperEvents();
-$locationMapFactory = new FactoryMapperLocations();
-$nameMapFactory     = new FactoryMapperNames();
-$phoneMapFactory    = new FactoryMapperPhoneNumbers();
-$tagMapFactory      = new FactoryMapperTags();
-$sizeMapFactory     = new FactoryMapperSizeMaps();
-
-$docMapFactory      = new FactoryMapperDocuments();
-$photoMapFactory    = new FactoryMapperPhotos();
-$albumMapFactory    = new FactoryMapperPhotoAlbums();
-$profileMapFactory  = new FactoryMapperProfiles();
-$projectMapFactory  = new FactoryMapperProjects();
-$relationFactory    = new FactoryMapperRelations();
-$revisionMapFactory = new FactoryMapperRevisions();
-$videoMapFactory    = new FactoryMapperVideos();
-$surnameMapFactory  = new FactoryMapperSurnames();
-$unionMapFactory    = new FactoryMapperUnions();
-$userMapFactory     = new FactoryMapperUsers();
 
 FactoryMapperDocuments::setup();
 

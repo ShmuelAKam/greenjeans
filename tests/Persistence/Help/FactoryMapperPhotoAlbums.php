@@ -2,6 +2,7 @@
 
 namespace ShmuelAKam\Greenjeans\Tests\Persistence\Help;
 
+use ShmuelAKam\Greenjeans\Api\API_Photo;
 use ShmuelAKam\Greenjeans\Api\API_PhotoAlbum;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryPhotoAlbums;
@@ -14,8 +15,8 @@ class FactoryMapperPhotoAlbums extends FactoryPhotoAlbums
 {
     public const ALBUM_LIST = [
         //                    Name             Description            Photos Count
-        'ALL fields'     => [ 'Vacation 2026', 'Trip to Europe',      3 ],
-        'name only'      => [ 'Family',        null,                  0 ],
+        'ALL fields'     => [ 'Vacation 2026', 'Trip to Europe',       3 ],
+        'name only'      => [ 'Family',        null,                   0 ],
         'description'    => [ 'Archives',      'Historical documents', 2 ],
     ];
 
@@ -52,7 +53,7 @@ class FactoryMapperPhotoAlbums extends FactoryPhotoAlbums
         bool    $full = true,
     ): array {
         /** @var FactoryMapperPhotos $photoMapFactory */
-        global $photoMapFactory;
+        $photoMapFactory = FactoryMapperBase::getFactory(API_Photo::class);
 
         $albumID = ($id !== null && $id !== '')
             ? $id

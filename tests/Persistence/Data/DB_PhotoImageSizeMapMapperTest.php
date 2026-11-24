@@ -4,6 +4,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence\Data;
 
 use ShmuelAKam\Greenjeans\Api\Data\API_PhotoImageSizeMap;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_PhotoImageSizeMapMapper;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperSizeMaps;
 
 class DB_PhotoImageSizeMapMapperTest extends DB_SizeMapMapperTestBase
@@ -16,7 +17,7 @@ class DB_PhotoImageSizeMapMapperTest extends DB_SizeMapMapperTestBase
     protected function makeTestObject(): object
     {
         /** @var FactoryMapperSizeMaps $sizeMapFactory */
-        global $sizeMapFactory;
+        $sizeMapFactory = FactoryMapperBase::getFactory(API_PhotoImageSizeMap::class);
 
         return $sizeMapFactory->makePhotoSizeMap();
     }

@@ -4,6 +4,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence;
 
 use ShmuelAKam\Greenjeans\Api\Data\API_Relation;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_RelationMapper;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperRelations;
 
 /**
@@ -43,7 +44,7 @@ class DB_RelationMapperTest extends DB_MapperTestBase
     public function testSaveAndFindByParentId(): void
     {
         /** @var FactoryMapperRelations $relationFactory */
-        global $relationFactory;
+        $relationFactory = FactoryMapperBase::getFactory(API_Relation::class);
 
         $parentId = 'union-test-uuid-99';
         $rel1     = $relationFactory->makeRelation('Father Step', 'father', 'https://www.geni.com/api/profile-1');
@@ -66,7 +67,7 @@ class DB_RelationMapperTest extends DB_MapperTestBase
     public function testCreateAllAutoSequencesList(): void
     {
         /** @var FactoryMapperRelations $relationFactory */
-        global $relationFactory;
+        $relationFactory = FactoryMapperBase::getFactory(API_Relation::class);
 
         $parentId  = 'union-batch-test-123';
         $relations = $relationFactory->makeRelationList(3);
@@ -87,7 +88,7 @@ class DB_RelationMapperTest extends DB_MapperTestBase
     public function testCreateAllWithClearReplacesExistingRelations(): void
     {
         /** @var FactoryMapperRelations $relationFactory */
-        global $relationFactory;
+        $relationFactory = FactoryMapperBase::getFactory(API_Relation::class);
 
         $parentId    = 'union-replace-test-456';
         $initialList = $relationFactory->makeRelationList(2);
@@ -112,7 +113,7 @@ class DB_RelationMapperTest extends DB_MapperTestBase
     public function testFindByParentIdIsolatesParents(): void
     {
         /** @var FactoryMapperRelations $relationFactory */
-        global $relationFactory;
+        $relationFactory = FactoryMapperBase::getFactory(API_Relation::class);
 
         $parentA = 'union-parent-A';
         $parentB = 'union-parent-B';
@@ -152,7 +153,7 @@ class DB_RelationMapperTest extends DB_MapperTestBase
     public function testDeleteAllByParentId(): void
     {
         /** @var FactoryMapperRelations $relationFactory */
-        global $relationFactory;
+        $relationFactory = FactoryMapperBase::getFactory(API_Relation::class);
 
         $parentId  = 'parent-to-delete-123';
         $relations = $relationFactory->makeRelationList(3);

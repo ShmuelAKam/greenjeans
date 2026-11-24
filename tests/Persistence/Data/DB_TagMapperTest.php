@@ -4,6 +4,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence\Data;
 
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_TagMapper;
 use ShmuelAKam\Greenjeans\Tests\Persistence\DB_MapperTestBase;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperTags;
 
 /**
@@ -59,7 +60,7 @@ class DB_TagMapperTest extends DB_MapperTestBase
     public function testCreateAllWithListFormat(): void
     {
         /** @var FactoryMapperTags $tagMapFactory */
-        global $tagMapFactory;
+        $tagMapFactory = FactoryMapperBase::getFactory('Tag Mapper');
 
         $ownerID = 'media-photo-002';
         $tags    = $tagMapFactory->makePresetTags('multiple_profiles_list');
@@ -80,7 +81,7 @@ class DB_TagMapperTest extends DB_MapperTestBase
     public function testCreateAllWithLookupTableFormat(): void
     {
         /** @var FactoryMapperTags $tagMapFactory */
-        global $tagMapFactory;
+        $tagMapFactory = FactoryMapperBase::getFactory('Tag Mapper');
 
         $ownerID = 'media-photo-003';
         $tags    = $tagMapFactory->makePresetTags('multiple_profiles_lookup');
@@ -124,7 +125,7 @@ class DB_TagMapperTest extends DB_MapperTestBase
     public function testDeleteAll(): void
     {
         /** @var FactoryMapperTags $tagMapFactory */
-        global $tagMapFactory;
+        $tagMapFactory = FactoryMapperBase::getFactory('Tag Mapper');
 
         $ownerID = 'media-doc-005';
         $tags    = $tagMapFactory->makePresetTags('multiple_profiles_list');

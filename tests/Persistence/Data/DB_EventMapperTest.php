@@ -5,6 +5,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence\Data;
 use ShmuelAKam\Greenjeans\Api\Data\API_Event;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_EventMapper;
 use ShmuelAKam\Greenjeans\Tests\Persistence\DB_MapperTestBase;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperEvents;
 
 /**
@@ -85,7 +86,7 @@ class DB_EventMapperTest extends DB_MapperTestBase
     public function testCreateAndReadEventPresets(string $presetKey): void
     {
         /** @var FactoryMapperEvents $eventMapFactory */
-        global $eventMapFactory;
+        $eventMapFactory = FactoryMapperBase::getFactory(API_Event::class);
 
         $ownerID = 'profile-test-owner-001';
         $event   = $eventMapFactory->makePresetEvent($presetKey);
@@ -115,7 +116,7 @@ class DB_EventMapperTest extends DB_MapperTestBase
     public function testReadArrayHydratesSubObjectsAndUnsetsForeignKeys(): void
     {
         /** @var FactoryMapperEvents $eventMapFactory */
-        global $eventMapFactory;
+        $eventMapFactory = FactoryMapperBase::getFactory(API_Event::class);
 
         $ownerID = 'profile-test-owner-002';
         $event   = $eventMapFactory->makePresetEvent('birth');
@@ -143,7 +144,7 @@ class DB_EventMapperTest extends DB_MapperTestBase
     public function testReadAllReturnsChronologicallySortedEvents(): void
     {
         /** @var FactoryMapperEvents $eventMapFactory */
-        global $eventMapFactory;
+        $eventMapFactory = FactoryMapperBase::getFactory(API_Event::class);
 
         $ownerID = 'profile-test-owner-003';
 
@@ -177,7 +178,7 @@ class DB_EventMapperTest extends DB_MapperTestBase
     public function testCreateAllSortsAndPersistsEvents(): void
     {
         /** @var FactoryMapperEvents $eventMapFactory */
-        global $eventMapFactory;
+        $eventMapFactory = FactoryMapperBase::getFactory(API_Event::class);
 
         $ownerID = 'profile-test-owner-004';
 
@@ -208,7 +209,7 @@ class DB_EventMapperTest extends DB_MapperTestBase
     public function testDeleteEventCascadesToSubObjects(): void
     {
         /** @var FactoryMapperEvents $eventMapFactory */
-        global $eventMapFactory;
+        $eventMapFactory = FactoryMapperBase::getFactory(API_Event::class);
 
         $ownerID = 'profile-test-owner-005';
         $event   = $eventMapFactory->makePresetEvent('birth');
@@ -230,7 +231,7 @@ class DB_EventMapperTest extends DB_MapperTestBase
     public function testDeleteAll(): void
     {
         /** @var FactoryMapperEvents $eventMapFactory */
-        global $eventMapFactory;
+        $eventMapFactory = FactoryMapperBase::getFactory(API_Event::class);
 
         $ownerID = 'profile-test-owner-006';
 

@@ -4,6 +4,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence;
 
 use ShmuelAKam\Greenjeans\Api\API_Project;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_ProjectMapper;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperProjects;
 
 /**
@@ -121,7 +122,7 @@ class DB_ProjectMapperTest extends DB_MapperTestBase
         int     $numFollowers,
     ): void {
         /** @var FactoryMapperProjects $projectMapFactory */
-        global $projectMapFactory;
+        $projectMapFactory = FactoryMapperBase::getFactory(API_Project::class);
 
         $project = $projectMapFactory->makeMapProject(
             $name,
@@ -165,7 +166,7 @@ class DB_ProjectMapperTest extends DB_MapperTestBase
     public function testUpdateProjectScalarFields(?string $newName, ?string $newDesc): void
     {
         /** @var FactoryMapperProjects $projectMapFactory */
-        global $projectMapFactory;
+        $projectMapFactory = FactoryMapperBase::getFactory(API_Project::class);
 
         $initialProject = $projectMapFactory->makeMapProject('Original Name', 'Original Desc', full: true);
         $projectID      = $initialProject->getID();
@@ -202,7 +203,7 @@ class DB_ProjectMapperTest extends DB_MapperTestBase
         int     $numFollowers,
     ): void {
         /** @var FactoryMapperProjects $projectMapFactory */
-        global $projectMapFactory;
+        $projectMapFactory = FactoryMapperBase::getFactory(API_Project::class);
 
         // 1. Save fully loaded project
         $initialParams = $projectMapFactory->makeParamArray(
@@ -249,7 +250,7 @@ class DB_ProjectMapperTest extends DB_MapperTestBase
     public function testDeleteProjectClearsLinks(): void
     {
         /** @var FactoryMapperProjects $projectMapFactory */
-        global $projectMapFactory;
+        $projectMapFactory = FactoryMapperBase::getFactory(API_Project::class);
 
         $projectParams = $projectMapFactory->makeParamArray(
             'Delete Project Test',
@@ -281,7 +282,7 @@ class DB_ProjectMapperTest extends DB_MapperTestBase
     public function testProjectSaveRollbackOnException(): void
     {
         /** @var FactoryMapperProjects $projectMapFactory */
-        global $projectMapFactory;
+        $projectMapFactory = FactoryMapperBase::getFactory(API_Project::class);
 
         $projectParams = $projectMapFactory->makeParamArray('Rollback Project', 'Desc', numProfiles: 2, full: true);
         $project       = API_Project::newFromArray($projectParams, true);

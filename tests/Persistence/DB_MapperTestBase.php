@@ -7,25 +7,6 @@ use PHPUnit\Framework\TestCase;
 use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDates;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryLocations;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperComments;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperDates;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperDocuments;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperEvents;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperLocations;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperNames;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperPhoneNumbers;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperPhotoAlbums;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperPhotos;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperProfiles;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperProjects;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperRelations;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperRevisions;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperSizeMaps;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperSurnames;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperTags;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperUnions;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperUsers;
-use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperVideos;
 
 /**
  * DB_MapperTestBase
@@ -81,60 +62,6 @@ abstract class DB_MapperTestBase extends TestCase
          */
         $dateFactory     = $GLOBALS ['dateFactory'];
         $locationFactory = $GLOBALS ['locationFactory'];
-
-        global $commentMapFactory,  $dateMapFactory,   $eventMapFactory,  $locationMapFactory,
-        $nameMapFactory,     $phoneMapFactory,  $tagMapFactory,    $sizeMapFactory;
-
-        /**
-         * These are factories that create objects WITHOUT calling the Geni server.
-         *
-         * @var FactoryMapperComments     $commentMapFactory
-         * @var FactoryMapperDates        $dateMapFactory
-         * @var FactoryMapperEvents       $eventMapFactory
-         * @var FactoryMapperLocations    $locationMapFactory
-         * @var FactoryMapperNames        $nameMapFactory
-         * @var FactoryMapperPhoneNumbers $phoneMapFactory
-         * @var FactoryMapperTags         $tagMapFactory
-         * @var FactoryMapperSizeMaps     $sizeMapFactory
-         */
-
-        $commentMapFactory  = $GLOBALS ['commentMapFactory'];
-        $dateMapFactory     = $GLOBALS ['dateMapFactory'];
-        $eventMapFactory    = $GLOBALS ['eventMapFactory'];
-        $locationMapFactory = $GLOBALS ['locationMapFactory'];
-        $nameMapFactory     = $GLOBALS ['nameMapFactory'];
-        $phoneMapFactory    = $GLOBALS ['phoneMapFactory'];
-        $tagMapFactory      = $GLOBALS ['tagMapFactory'];
-        $sizeMapFactory     = $GLOBALS ['sizeMapFactory'];
-
-        global $docMapFactory,      $photoMapFactory,  $albumMapFactory,     $profileMapFactory,
-        $projectMapFactory,  $relationFactory,  $revisionMapFactory,  $videoMapFactory,
-        $surnameMapFactory,  $unionMapFactory,  $userMapFactory;
-
-        /**
-         * @var FactoryMapperDocuments    $docMapFactory
-         * @var FactoryMapperPhotos       $photoMapFactory
-         * @var FactoryMapperVideos       $videoMapFactory
-         * @var FactoryMapperPhotoAlbums  $albumMapFactory
-         * @var FactoryMapperProfiles     $profileMapFactory
-         * @var FactoryMapperProjects     $projectMapFactory
-         * @var FactoryMapperRelations    $relationFactory
-         * @var FactoryMapperRevisions    $revisionMapFactory
-         * @var FactoryMapperSurnames     $surnameMapFactory
-         * @var FactoryMapperUnions       $unionMapFactory
-         * @var FactoryMapperUsers        $userMapFactory
-         */
-        $docMapFactory      = $GLOBALS ['docMapFactory'];
-        $photoMapFactory    = $GLOBALS ['photoMapFactory'];
-        $albumMapFactory    = $GLOBALS ['albumMapFactory'];
-        $profileMapFactory  = $GLOBALS ['profileMapFactory'];
-        $projectMapFactory  = $GLOBALS ['projectMapFactory'];
-        $relationFactory    = $GLOBALS ['relationFactory'];
-        $revisionMapFactory = $GLOBALS ['revisionMapFactory'];
-        $videoMapFactory    = $GLOBALS ['videoMapFactory'];
-        $surnameMapFactory  = $GLOBALS ['surnameMapFactory'];
-        $unionMapFactory    = $GLOBALS ['unionMapFactory'];
-        $userMapFactory     = $GLOBALS ['userMapFactory'];
     }
 
     //--------------------------------------------------------------

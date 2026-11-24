@@ -7,6 +7,7 @@ use ShmuelAKam\Greenjeans\Api\Data\API_Date;
 use ShmuelAKam\Greenjeans\Api\Data\API_Location;
 use ShmuelAKam\Greenjeans\Api\Data\API_VideoImageSizeMap;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_VideoMapper;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperVideos;
 
 /**
@@ -193,7 +194,7 @@ class DB_VideoMapperTest extends DB_MapperTestBase
         int     $numComments,
     ): void {
         /** @var FactoryMapperVideos $videoMapFactory */
-        global $videoMapFactory;
+        $videoMapFactory = FactoryMapperBase::getFactory(API_Video::class);
 
         $video = $videoMapFactory->makeMapVideo(
             $title,
@@ -234,7 +235,7 @@ class DB_VideoMapperTest extends DB_MapperTestBase
     public function testUpdateVideoScalarFields(?string $newTitle, ?string $newDesc, ?string $newFile): void
     {
         /** @var FactoryMapperVideos $videoMapFactory */
-        global $videoMapFactory;
+        $videoMapFactory = FactoryMapperBase::getFactory(API_Video::class);
 
         $initialVideo = $videoMapFactory->makeMapVideo('Original Title', 'Original Desc', 'original.mp4');
         $videoID      = $initialVideo->getId();
@@ -281,7 +282,7 @@ class DB_VideoMapperTest extends DB_MapperTestBase
         int     $numComments,
     ): void {
         /** @var FactoryMapperVideos $videoMapFactory */
-        global $videoMapFactory;
+        $videoMapFactory = FactoryMapperBase::getFactory(API_Video::class);
 
         // 1. Persist initial video with tags and comments loaded
         $initialParams = $videoMapFactory->makeParamArray(
@@ -334,7 +335,7 @@ class DB_VideoMapperTest extends DB_MapperTestBase
     public function testSubObjectMutationAndOrphanCleanup(): void
     {
         /** @var FactoryMapperVideos $videoMapFactory */
-        global $videoMapFactory;
+        $videoMapFactory = FactoryMapperBase::getFactory(API_Video::class);
 
         $videoParams = $videoMapFactory->makeParamArray(
             'Sub-Object Test',
@@ -391,7 +392,7 @@ class DB_VideoMapperTest extends DB_MapperTestBase
     public function testCascadeDeleteVideoAndSubObjects(): void
     {
         /** @var FactoryMapperVideos $videoMapFactory */
-        global $videoMapFactory;
+        $videoMapFactory = FactoryMapperBase::getFactory(API_Video::class);
 
         $videoParams = $videoMapFactory->makeParamArray(
             'Cascade Delete Test',
@@ -435,7 +436,7 @@ class DB_VideoMapperTest extends DB_MapperTestBase
     public function testVideoSaveRollbackOnException(): void
     {
         /** @var FactoryMapperVideos $videoMapFactory */
-        global $videoMapFactory;
+        $videoMapFactory = FactoryMapperBase::getFactory(API_Video::class);
 
         $videoParams = $videoMapFactory->makeParamArray('Rollback Video', 'Desc', 'video.mp4', 'Author', null);
         $video       = API_Video::newFromArray($videoParams, fromDB: true);

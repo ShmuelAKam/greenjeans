@@ -4,6 +4,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence;
 
 use ShmuelAKam\Greenjeans\Api\API_Union;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_UnionMapper;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperUnions;
 
 /**
@@ -90,7 +91,7 @@ class DB_UnionMapperTest extends DB_MapperTestBase
     public function testCreateAndReadPresets(string $presetKey): void
     {
         /** @var FactoryMapperUnions $unionMapFactory */
-        global $unionMapFactory;
+        $unionMapFactory = FactoryMapperBase::getFactory(API_Union::class);
 
         $union   = $unionMapFactory->makePresetUnion($presetKey);
         $unionID = $union->getID();
@@ -123,7 +124,7 @@ class DB_UnionMapperTest extends DB_MapperTestBase
     public function testUpdateUnionReplacesEventsAndCollections(): void
     {
         /** @var FactoryMapperUnions $unionMapFactory */
-        global $unionMapFactory;
+        $unionMapFactory = FactoryMapperBase::getFactory(API_Union::class);
 
         $initialUnion = $unionMapFactory->makePresetUnion('married_bio_children');
         $unionID      = $initialUnion->getID();
@@ -148,7 +149,7 @@ class DB_UnionMapperTest extends DB_MapperTestBase
     public function testDeleteUnionClearsEventsAndLinks(): void
     {
         /** @var FactoryMapperUnions $unionMapFactory */
-        global $unionMapFactory;
+        $unionMapFactory = FactoryMapperBase::getFactory(API_Union::class);
 
         $union   = $unionMapFactory->makePresetUnion('married_blended_children');
         $unionID = $union->getID();

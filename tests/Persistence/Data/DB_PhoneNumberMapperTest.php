@@ -5,6 +5,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence\Data;
 use ShmuelAKam\Greenjeans\Api\Data\API_PhoneNumber;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_PhoneNumberMapper;
 use ShmuelAKam\Greenjeans\Tests\Persistence\DB_MapperTestBase;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperPhoneNumbers;
 
 /**
@@ -64,7 +65,7 @@ class DB_PhoneNumberMapperTest extends DB_MapperTestBase
     public function testCreateAndReadPhonePresets(string $presetKey): void
     {
         /** @var FactoryMapperPhoneNumbers $phoneMapFactory */
-        global $phoneMapFactory;
+        $phoneMapFactory = FactoryMapperBase::getFactory(API_PhoneNumber::class);
 
         $ownerID     = 'profile-test-owner-201';
         $phoneNumber = $phoneMapFactory->makePresetPhoneNumber($presetKey);
@@ -99,7 +100,7 @@ class DB_PhoneNumberMapperTest extends DB_MapperTestBase
     public function testCreateAllAndReadAllForOwner(): void
     {
         /** @var FactoryMapperPhoneNumbers $phoneMapFactory */
-        global $phoneMapFactory;
+        $phoneMapFactory = FactoryMapperBase::getFactory(API_PhoneNumber::class);
 
         $ownerID = 'profile-test-owner-202';
 
@@ -125,7 +126,7 @@ class DB_PhoneNumberMapperTest extends DB_MapperTestBase
     public function testCreateAllClearsExistingNumbers(): void
     {
         /** @var FactoryMapperPhoneNumbers $phoneMapFactory */
-        global $phoneMapFactory;
+        $phoneMapFactory = FactoryMapperBase::getFactory(API_PhoneNumber::class);
 
         $ownerID = 'profile-test-owner-203';
 
@@ -157,7 +158,7 @@ class DB_PhoneNumberMapperTest extends DB_MapperTestBase
     public function testDeleteAndDeleteAll(): void
     {
         /** @var FactoryMapperPhoneNumbers $phoneMapFactory */
-        global $phoneMapFactory;
+        $phoneMapFactory = FactoryMapperBase::getFactory(API_PhoneNumber::class);
 
         $ownerID     = 'profile-test-owner-204';
         $phoneNumber = $phoneMapFactory->makePresetPhoneNumber('mobile_us');

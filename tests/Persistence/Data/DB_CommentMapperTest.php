@@ -5,6 +5,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence\Data;
 use ShmuelAKam\Greenjeans\Api\Data\API_Comment;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_CommentMapper;
 use ShmuelAKam\Greenjeans\Tests\Persistence\DB_MapperTestBase;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperComments;
 
 /**
@@ -64,7 +65,7 @@ class DB_CommentMapperTest extends DB_MapperTestBase
     public function testCreateAndReadCommentPresets(string $presetKey): void
     {
         /** @var FactoryMapperComments $commentMapFactory */
-        global $commentMapFactory;
+        $commentMapFactory = FactoryMapperBase::getFactory(API_Comment::class);
 
         $ownerID = 'profile-test-owner-001';
         $comment = $commentMapFactory->makePresetComment($presetKey);
@@ -101,7 +102,7 @@ class DB_CommentMapperTest extends DB_MapperTestBase
     public function testCreateAllAndReadAll(): void
     {
         /** @var FactoryMapperComments $commentMapFactory */
-        global $commentMapFactory;
+        $commentMapFactory = FactoryMapperBase::getFactory(API_Comment::class);
 
         $ownerID = 'profile-test-owner-002';
 
@@ -126,7 +127,7 @@ class DB_CommentMapperTest extends DB_MapperTestBase
     public function testCreateAllWithClearOverwritesExisting(): void
     {
         /** @var FactoryMapperComments $commentMapFactory */
-        global $commentMapFactory;
+        $commentMapFactory = FactoryMapperBase::getFactory(API_Comment::class);
 
         $ownerID = 'profile-test-owner-003';
 
@@ -157,7 +158,7 @@ class DB_CommentMapperTest extends DB_MapperTestBase
     public function testDeleteAndDeleteAll(): void
     {
         /** @var FactoryMapperComments $commentMapFactory */
-        global $commentMapFactory;
+        $commentMapFactory = FactoryMapperBase::getFactory(API_Comment::class);
 
         $ownerID = 'profile-test-owner-004';
         $comment = $commentMapFactory->makePresetComment('basic_comment');

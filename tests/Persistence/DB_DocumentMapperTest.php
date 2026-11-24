@@ -7,6 +7,7 @@ use ShmuelAKam\Greenjeans\Api\Data\API_Date;
 use ShmuelAKam\Greenjeans\Api\Data\API_DocumentImageSizeMap;
 use ShmuelAKam\Greenjeans\Api\Data\API_Location;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\DB_DocumentMapper;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperDocuments;
 
 class DB_DocumentMapperTest extends DB_MapperTestBase
@@ -257,7 +258,7 @@ class DB_DocumentMapperTest extends DB_MapperTestBase
         int     $numComments,
     ): void {
         /** @var FactoryMapperDocuments $docMapFactory */
-        global $docMapFactory;
+        $docMapFactory = FactoryMapperBase::getFactory(API_Document::class);
 
         $doc = $docMapFactory->makeMapDocument(
             $title,
@@ -272,6 +273,7 @@ class DB_DocumentMapperTest extends DB_MapperTestBase
             $numComments,
             full: true,
         );
+
         $docID = $doc->getID();
 
         //-------------------------------
@@ -315,7 +317,7 @@ class DB_DocumentMapperTest extends DB_MapperTestBase
         mixed   $update,
     ): void {
         /** @var FactoryMapperDocuments $docMapFactory */
-        global $docMapFactory;
+        $docMapFactory = FactoryMapperBase::getFactory(API_Document::class);
 
         // Create initial document from parameters.
         $docParam = $docMapFactory->makeParamArray(
@@ -386,7 +388,7 @@ class DB_DocumentMapperTest extends DB_MapperTestBase
         int     $numComments,
     ): void {
         /** @var FactoryMapperDocuments $docMapFactory */
-        global $docMapFactory;
+        $docMapFactory = FactoryMapperBase::getFactory(API_Document::class);
 
         $doc = $docMapFactory->makeMapDocument(
             $title,
@@ -401,6 +403,7 @@ class DB_DocumentMapperTest extends DB_MapperTestBase
             $numComments,
             full: true,
         );
+
         $docID = $doc->getID();
 
         $this->mapper->save($doc);
@@ -463,7 +466,7 @@ class DB_DocumentMapperTest extends DB_MapperTestBase
         int     $numComments,
     ): void {
         /** @var FactoryMapperDocuments $docMapFactory */
-        global $docMapFactory;
+        $docMapFactory = FactoryMapperBase::getFactory(API_Document::class);
 
         // 1. Build initial document parameters and force fromDB: TRUE so collections
         // are marked as loaded
@@ -527,7 +530,7 @@ class DB_DocumentMapperTest extends DB_MapperTestBase
     public function testSubObjectMutationAndOrphanCleanup(): void
     {
         /** @var FactoryMapperDocuments $docMapFactory */
-        global $docMapFactory;
+        $docMapFactory = FactoryMapperBase::getFactory(API_Document::class);
 
         // 1. Create parameter array with sub-objects (Date, Location, SizeMap)
         $docParam = $docMapFactory->makeParamArray(
@@ -600,7 +603,7 @@ class DB_DocumentMapperTest extends DB_MapperTestBase
     public function testSaveRollbackOnException(): void
     {
         /** @var FactoryMapperDocuments $docMapFactory */
-        global $docMapFactory;
+        $docMapFactory = FactoryMapperBase::getFactory(API_Document::class);
 
         $doc = $docMapFactory->makeMapDocument(
             'Rollback Test',

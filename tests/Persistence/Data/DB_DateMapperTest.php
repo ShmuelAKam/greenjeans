@@ -5,6 +5,7 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence\Data;
 use ShmuelAKam\Greenjeans\Api\Data\API_Date;
 use ShmuelAKam\Greenjeans\Persistence\Mappers\Data\DB_DateMapper;
 use ShmuelAKam\Greenjeans\Tests\Persistence\DB_MapperTestBase;
+use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperBase;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperDates;
 
 /**
@@ -78,7 +79,7 @@ class DB_DateMapperTest extends DB_MapperTestBase
     public function testCreateAndReadDatePresets(string $presetKey): void
     {
         /** @var FactoryMapperDates $dateMapFactory */
-        global $dateMapFactory;
+        $dateMapFactory = FactoryMapperBase::getFactory(API_Date::class);
 
         $ownerID = 'event-test-owner-001';
         $dateObj = $dateMapFactory->makePresetDate($presetKey);
@@ -100,7 +101,7 @@ class DB_DateMapperTest extends DB_MapperTestBase
     public function testReadArrayFiltersUnsetAndFalseCirca(): void
     {
         /** @var FactoryMapperDates $dateMapFactory */
-        global $dateMapFactory;
+        $dateMapFactory = FactoryMapperBase::getFactory(API_Date::class);
 
         $ownerID   = 'event-test-owner-003';
         $exactDate = $dateMapFactory->makePresetDate('exact_date'); // circa = false
@@ -125,7 +126,7 @@ class DB_DateMapperTest extends DB_MapperTestBase
     public function testReadArrayRemapsDateRangeColumn(): void
     {
         /** @var FactoryMapperDates $dateMapFactory */
-        global $dateMapFactory;
+        $dateMapFactory = FactoryMapperBase::getFactory(API_Date::class);
 
         $ownerID   = 'event-test-owner-004';
         $rangeDate = $dateMapFactory->makePresetDate('date_range');
@@ -154,7 +155,7 @@ class DB_DateMapperTest extends DB_MapperTestBase
     public function testDeleteDate(): void
     {
         /** @var FactoryMapperDates $dateMapFactory */
-        global $dateMapFactory;
+        $dateMapFactory = FactoryMapperBase::getFactory(API_Date::class);
 
         $ownerID = 'event-test-owner-005';
         $dateObj = $dateMapFactory->makePresetDate('exact_date');

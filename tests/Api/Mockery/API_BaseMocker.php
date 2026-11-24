@@ -172,7 +172,7 @@ abstract class API_BaseMocker
         $pathStack = explode('/', trim($pathString, '/'));
 
         // 2. Get the subject and object type (i.e. 'document', etc.)
-        //    The explode gives the cirrect results, even if NO hyphen.
+        //    The explode gives the correct results, even if NO hyphen.
 
         $subject      = array_shift($pathStack);
         $stripped     = explode('-', $subject);

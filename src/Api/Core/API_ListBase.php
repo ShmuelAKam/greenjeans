@@ -23,8 +23,8 @@ use IteratorAggregate;
  *
  * @template TValueType
  * @implements \ArrayAccess<int|string, TValueType>
- * @implements \Countable
  * @implements \IteratorAggregate<int|string, TValueType>
+ *  implements \Countable
  */
 abstract class API_ListBase implements ArrayAccess, Countable, IteratorAggregate
 {

@@ -7,7 +7,6 @@
          cacheDirectory=".phpunit.cache"
          colors="true"
          displayDetailsOnTestsThatTriggerDeprecations="true"
-         displayDetailsOnPhpunitDeprecations="true"
          displayDetailsOnTestsThatTriggerErrors="true"
          displayDetailsOnTestsThatTriggerNotices="true"
          displayDetailsOnTestsThatTriggerWarnings="true">
@@ -47,6 +46,8 @@
         </testsuite>
         <testsuite name="secondary">
             <file>tests/Api/API_RevisionTest.php</file>
+            <!-- Don't run the Photo-Album Tests if you don't want to
+                 manually delete 27 albums. -->
             <file>tests/Api/API_PhotoAlbumTest.php</file>
         </testsuite>
     </testsuites>

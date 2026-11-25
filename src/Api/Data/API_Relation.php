@@ -83,7 +83,7 @@ class API_Relation
      * Creates array to send to Server in API calls. This object is never sent. Hmmm.
      * @return array <string, string>
      */
-    public function makeParamArray  (): array
+    public function makeParamArray(): array
     {
         $paramArray = [
             'name'     => $this->name,

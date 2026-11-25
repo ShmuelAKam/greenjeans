@@ -420,7 +420,7 @@ class API_Profile extends API_Base
      * @param bool   $brief
      * @return API_Profile
      */
-    public static function newFromArray(array $arrayValues, bool $fromDB = false, bool $brief = false, ): API_Profile
+    public static function newFromArray(array $arrayValues, bool $fromDB = false, bool $brief = false): API_Profile
     {
         $profile = new API_Profile();
 

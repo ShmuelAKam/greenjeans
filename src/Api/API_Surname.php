@@ -20,10 +20,8 @@ class API_Surname extends API_Base
     private string $ID;             // The surname's node id.
     private string $slugged_name;   // The surname's slugged name.
     private string $URL;            // The surname's url.
-
     private int    $follower_count;
     private int    $profile_count;
-
     private ?API_ListProfiles  $followers;
     private ?API_ListProfiles  $profiles;
 

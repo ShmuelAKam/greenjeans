@@ -38,7 +38,6 @@ class API_User extends API_Base
      * @var array<string, string|array<string, mixed>>
      */
     private array  $metadata;
-
     private ?API_ListObjects  $followed_documents;
     private ?API_ListProfiles $followed_profiles;
     private ?API_ListObjects  $followed_projects;
@@ -50,7 +49,6 @@ class API_User extends API_Base
     private ?API_ListObjects  $uploaded_documents;
     private ?API_ListObjects  $uploaded_photos;
     private ?API_ListObjects  $uploaded_videos;
-
     private bool              $fromDB;
 
     //=====================================================

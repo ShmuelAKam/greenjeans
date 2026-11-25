@@ -4,8 +4,10 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence\Help;
 
 use ShmuelAKam\Greenjeans\Api\API_Photo;
 use ShmuelAKam\Greenjeans\Api\Data\API_Comment;
+use ShmuelAKam\Greenjeans\Api\Data\API_Location;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDocuments;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryLocations;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryPhotos;
 
 /**
@@ -125,7 +127,9 @@ class FactoryMapperPhotos extends FactoryPhotos
         ?string $doc_id = null,
         bool    $full = true,
     ): array {
-        global $locationFactory;
+        /** @var FactoryLocations $locationFactory */
+        $locationFactory = FactoryBase::getFactory(API_Location::class);
+
 
         static $HALF_HOUR = 1800;
 

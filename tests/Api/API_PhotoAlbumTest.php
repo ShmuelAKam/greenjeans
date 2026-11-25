@@ -2,7 +2,10 @@
 
 namespace ShmuelAKam\Greenjeans\Tests\Api;
 
+use ShmuelAKam\Greenjeans\Api\API_Photo;
 use ShmuelAKam\Greenjeans\Api\API_PhotoAlbum;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryPhotos;
 
 /**
  * API_PhotoAlbum test case.
@@ -126,7 +129,9 @@ class API_PhotoAlbumTest extends API_BaseTest
      */
     private function makePhotos(int $count, string $albumID): array
     {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
 
         $photos = [];
 

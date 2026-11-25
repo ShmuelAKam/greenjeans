@@ -4,14 +4,6 @@ namespace ShmuelAKam\Greenjeans\Tests\Api;
 
 use PHPUnit\Framework\TestCase;
 use ShmuelAKam\Greenjeans\Api\API_Profile;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDates;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDocuments;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryEvents;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryLocations;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryPhotos;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryProfiles;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryUnions;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryVideos;
 use ShmuelAKam\Greenjeans\Tests\Api\Mockery\API_BaseMocker;
 
 /**
@@ -37,8 +29,6 @@ class API_BaseTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-
-        $this->restoreGlobals();
 
         // Reset the mocking engine.
         if (self::$mockingRun)
@@ -228,40 +218,5 @@ class API_BaseTest extends TestCase
     public static function getRunningProfileID(): string
     {
         return self::$runnerProfileID;
-    }
-
-    /**
-     * For some fragged reason phpunit "looses" the global variables at the
-     * beginning of every test. This function enables them to be found again.
-     * I do NOT want to recreate the factories every time, because some of
-     * them keep internal counters.
-     */
-    private function restoreGlobals(): void
-    {
-        /**
-         * These are global factory objects to create test objects used by the
-         * various test classes.
-         *
-         * @var FactoryDates     $dateFactory
-         * @var FactoryDocuments $documentFactory
-         * @var FactoryEvents    $eventFactory
-         * @var FactoryLocations $locationFactory
-         * @var FactoryPhotos    $photoFactory
-         * @var FactoryProfiles  $profileFactory
-         * @var FactoryUnions    $unionFactory
-         * @var FactoryVideos    $videoFactory
-         */
-
-        global $dateFactory,    $documentFactory, $eventFactory, $locationFactory, $photoFactory,
-        $profileFactory, $unionFactory,    $videoFactory;
-
-        $dateFactory     = $GLOBALS['dateFactory'    ];
-        $documentFactory = $GLOBALS['documentFactory'];
-        $eventFactory    = $GLOBALS['eventFactory'   ];
-        $locationFactory = $GLOBALS['locationFactory'];
-        $photoFactory    = $GLOBALS['photoFactory'   ];
-        $profileFactory  = $GLOBALS['profileFactory' ];
-        $unionFactory    = $GLOBALS['unionFactory'   ];
-        $videoFactory    = $GLOBALS['videoFactory'   ];
     }
 }

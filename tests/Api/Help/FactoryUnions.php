@@ -90,7 +90,8 @@ class FactoryUnions extends FactoryBase
      */
     public function addFirstChild(API_Profile &$parent, int &$biological = 0, int &$adopted = 0, int &$foster = 0): ?API_Profile
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         if ($biological == 0 && $adopted == 0 && $foster == 0)
         {
@@ -135,7 +136,8 @@ class FactoryUnions extends FactoryBase
      */
     private function logUnion(API_Union $union, ?API_Profile $partner): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         if ($partner != null)
         {
@@ -167,7 +169,8 @@ class FactoryUnions extends FactoryBase
      */
     public function makeUnion(bool $addPartner, bool $empty = false, int $biological = 0, int $adopted = 0, int $foster = 0): ?array
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $makeChildren = false;
         if ($biological > 0 || $adopted > 0 || $foster > 0)
@@ -237,7 +240,8 @@ class FactoryUnions extends FactoryBase
      */
     public function makeChildren(API_Union &$union, int $count, string $modifier = ''): array
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $childrenIDs = [];
 

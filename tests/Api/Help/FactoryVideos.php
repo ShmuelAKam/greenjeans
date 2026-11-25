@@ -40,7 +40,8 @@ class FactoryVideos extends FactoryBase
         ?string $fileName = null,
         ?string $fileType = null,
     ): ?API_Video {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         if ($dateJSON != null)
         {

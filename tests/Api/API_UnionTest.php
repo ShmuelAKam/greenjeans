@@ -4,6 +4,11 @@ namespace ShmuelAKam\Greenjeans\Tests\Api;
 
 use ShmuelAKam\Greenjeans\Api\API_Profile;
 use ShmuelAKam\Greenjeans\Api\API_Union;
+use ShmuelAKam\Greenjeans\Api\Data\API_Event;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryEvents;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryProfiles;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryUnions;
 
 /**
  * API_Union test case.
@@ -15,7 +20,8 @@ class API_UnionTest extends API_BaseTest
      */
     protected function setUp(): void
     {
-        global $unionFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
 
         parent::setUp();
 
@@ -149,7 +155,10 @@ class API_UnionTest extends API_BaseTest
 
     private function addAssertChildren(API_Union $union, int $count, string $modifier = ''): void
     {
-        global $unionFactory, $profileFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         if ($count == 0)
         {
@@ -215,7 +224,8 @@ class API_UnionTest extends API_BaseTest
      */
     public function testGet_Empty(int $ignore): void
     {
-        global $unionFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
 
         // Set-up.
         // API calls this function makes (in order) BEFORE the test GET call.
@@ -246,7 +256,8 @@ class API_UnionTest extends API_BaseTest
      */
     public function testGet_WithChildren(bool $addPartner, int $biological, int $adopted, int $foster): void
     {
-        global $unionFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
 
         // Set-up.
         // API-calls this function makes (in order) BEFORE the test GET call.
@@ -273,7 +284,10 @@ class API_UnionTest extends API_BaseTest
      */
     public function testAddChild_Empty(int $ignore): void
     {
-        global $profileFactory, $unionFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
 
         // Set-up.
         list(, $unionID, , ) = $unionFactory->makeUnion(addPartner: true, empty: true);
@@ -301,8 +315,11 @@ class API_UnionTest extends API_BaseTest
     //      */
     //     public function testAddPartner_Empty(int $ignore): void
     //     {
-    //         global $profileFactory, $unionFactory;
-
+    //         /** @var FactoryProfiles $profileFactory */
+    //         $profileFactory = FactoryBase::getFactory(API_Profile::class);
+    //         /** @var FactoryUnions $unionFactory */
+    //         $unionFactory = FactoryBase::getFactory(API_Union::class);
+    //
     //         // Set-up.
     //         list ( , $unionID, ,) = $unionFactory->makeUnion(addPartner: FALSE, empty: TRUE);
 
@@ -330,7 +347,10 @@ class API_UnionTest extends API_BaseTest
      */
     public function testAdd_Full(bool $addPartner, int $biological, int $adopted, int $foster): void
     {
-        global $unionFactory, $profileFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $base = $profileFactory->makeRandomProfile();
 
@@ -393,7 +413,10 @@ class API_UnionTest extends API_BaseTest
      */
     public function testUpdate(bool $marriage, bool $divorce, bool $expected, string $ignore): void
     {
-        global $unionFactory, $eventFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
+        /** @var FactoryEvents $eventFactory */
+        $eventFactory = FactoryBase::getFactory(API_Event::class);
 
         // Set-up.
         list($union, /*$unionID*/, $base, $partner) = $unionFactory->makeUnion(addPartner: true);
@@ -453,7 +476,8 @@ class API_UnionTest extends API_BaseTest
      */
     public function testGetOtherPartner_Second(int $ignore): void
     {
-        global $unionFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
 
         // Set-up.
         list($union, /*$unionID*/, $base, $partner) = $unionFactory->makeUnion(addPartner: true);
@@ -472,7 +496,8 @@ class API_UnionTest extends API_BaseTest
      */
     public function testGetOtherPartner_First(int $ignore): void
     {
-        global $unionFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
 
         // Set-up.
         list($union, /*$unionID*/, $base, $partner) = $unionFactory->makeUnion(addPartner: true);
@@ -494,7 +519,8 @@ class API_UnionTest extends API_BaseTest
      */
     public function testGetID(int $ignore): void
     {
-        global $unionFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
 
         // Set-up.
         list($union, $unionID, $base, $partner) = $unionFactory->makeUnion(addPartner: true);
@@ -520,7 +546,8 @@ class API_UnionTest extends API_BaseTest
      */
     public function testGetChildren(int $count): void
     {
-        global $unionFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
 
         list($union, , , ) = $unionFactory->makeUnion(addPartner: true);
 
@@ -540,7 +567,8 @@ class API_UnionTest extends API_BaseTest
      */
     public function testGetAdoptedChildren(int $count): void
     {
-        global $unionFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
 
         list($union, , , ) = $unionFactory->makeUnion(addPartner: true);
 
@@ -560,7 +588,8 @@ class API_UnionTest extends API_BaseTest
      */
     public function testGetFosterChildren(int $count): void
     {
-        global $unionFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
 
         list($union, , , ) = $unionFactory->makeUnion(addPartner: true);
 
@@ -580,7 +609,8 @@ class API_UnionTest extends API_BaseTest
      */
     public function testGetPartners(int $ignore): void
     {
-        global $unionFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
 
         // Set-up.
         list($union, /*$unionID*/, $base, $partner) = $unionFactory->makeUnion(addPartner: true);
@@ -605,7 +635,10 @@ class API_UnionTest extends API_BaseTest
      */
     public function testGetMarriage(int $ignore): void
     {
-        global $unionFactory, $eventFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
+        /** @var FactoryEvents $eventFactory */
+        $eventFactory = FactoryBase::getFactory(API_Event::class);
 
         // Set-up.
         list($union, /*$unionID*/, $base, $partner) = $unionFactory->makeUnion(addPartner: true);
@@ -632,7 +665,10 @@ class API_UnionTest extends API_BaseTest
      */
     public function testGetDivorce(int $ignore): void
     {
-        global $unionFactory, $eventFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
+        /** @var FactoryEvents $eventFactory */
+        $eventFactory = FactoryBase::getFactory(API_Event::class);
 
         // Set-up.
         list($union, /*$unionID*/, $base, $partner) = $unionFactory->makeUnion(addPartner: true);
@@ -659,7 +695,10 @@ class API_UnionTest extends API_BaseTest
      */
     public function testGetStatus(bool $marriage, bool $divorce, bool $ignore, string $expectedStatus): void
     {
-        global $unionFactory, $eventFactory;
+        /** @var FactoryUnions $unionFactory */
+        $unionFactory = FactoryBase::getFactory(API_Union::class);
+        /** @var FactoryEvents $eventFactory */
+        $eventFactory = FactoryBase::getFactory(API_Event::class);
 
         // Set-up.
         list($union, /*$unionID*/, $base, $partner) = $unionFactory->makeUnion(addPartner: true);

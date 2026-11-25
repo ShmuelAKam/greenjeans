@@ -13,6 +13,31 @@ abstract class FactoryBase
     private ShredderBase $shredder;
     private static string  $runType;
 
+    /**
+     * Lookup table to convert base API classes to the factories that create them.
+     * @var array <string, string>
+     */
+    private const FACTORY_LOOKUP = [
+        'API_Date'        => 'FactoryDates',
+        'API_Document'    => 'FactoryDocuments',
+        'API_Event'       => 'FactoryEvents',
+        'API_Location'    => 'FactoryLocations',
+        'API_Photo'       => 'FactoryPhotos',
+        'API_PhotoAlbum'  => 'FactoryPhotoAlbums',
+        'API_Profile'     => 'FactoryProfiles',
+        'API_Project'     => 'FactoryProjects',
+        'API_Union'       => 'FactoryUnions',
+        'API_Video'       => 'FactoryVideos',
+    ];
+
+    /**
+     * Cache of created factories.
+     * @var array <string, mixed>
+     */
+    private static array $factories = [];
+
+    //======================================================
+
     protected function __construct(string $shredderClass)
     {
         $this->shredder     = new $shredderClass();
@@ -34,6 +59,24 @@ abstract class FactoryBase
     public static function setRunType(string $runType): void
     {
         self::$runType = $runType;
+    }
+
+    public static function getFactory(string $objectClass): mixed
+    {
+        // Isolate classname from FQCN.
+
+        $className = basename(str_replace('\\', '/', $objectClass));
+
+        if (!isset(self::$factories [$className]))
+        {
+            $factoryClass = self::FACTORY_LOOKUP [$className];
+            $factoryFQCN  = 'ShmuelAKam\\Greenjeans\\Tests\\Api\\Help\\'
+                . $factoryClass;
+
+            self::$factories [$className] = new $factoryFQCN();
+        }
+
+        return self::$factories [$className];
     }
 
     //======================================================

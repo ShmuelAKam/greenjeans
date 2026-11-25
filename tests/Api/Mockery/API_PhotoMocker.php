@@ -2,6 +2,10 @@
 
 namespace ShmuelAKam\Greenjeans\Tests\Api\Mockery;
 
+use ShmuelAKam\Greenjeans\Api\API_Photo;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryPhotos;
+
 class API_PhotoMocker extends API_MediaMocker
 {
     /**
@@ -49,7 +53,8 @@ class API_PhotoMocker extends API_MediaMocker
      */
     protected function get(array $API_Params, array $urlActions = []): array
     {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
 
         $photo = parent::get($API_Params, $urlActions);
 
@@ -68,7 +73,8 @@ class API_PhotoMocker extends API_MediaMocker
      */
     protected function add(array $API_Params, array $urlActions = []): array
     {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
 
         $VALID_FIELDS = ['album_id', 'date', 'description', 'file', 'title'];
 

@@ -7,10 +7,10 @@ use ShmuelAKam\Greenjeans\Api\Data\API_Event;
 use ShmuelAKam\Greenjeans\Api\Data\API_Gender;
 use ShmuelAKam\Greenjeans\Api\Data\API_Location;
 use ShmuelAKam\Greenjeans\Api\Data\API_Name;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryEvents;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryLocations;
-
-use const ShmuelAKam\Greenjeans\Tests\Api\Help\TEST_SetGender;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryProfiles;
 
 /**
  * API_Profile test case for UPDATE methods only.
@@ -170,7 +170,7 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public static function provideSetGender(): array
     {
-        return self::flagify(TEST_SetGender);
+        return self::flagify(FactoryProfiles::TEST_SetGender);
     }
 
     /**
@@ -319,7 +319,8 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testSetIsAlivePublic(bool $baseAlive, bool $basePublic, bool $alive, bool $public): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Profile = $profileFactory->makeRandomProfile(alive: $baseAlive, public: $basePublic);
         $profileID         = $this->aPI_Profile->getID();
@@ -360,7 +361,8 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateSetIsAlive(bool $initialAlive, bool $setAlive): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Profile = $profileFactory->makeRandomProfile(alive: $initialAlive, public: false);
         $profileID         = $this->aPI_Profile->getID();
@@ -385,7 +387,8 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateSetPublic(bool $isAlive, bool $isPublic, bool $setPublic, bool $expected): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Profile = $profileFactory->makeRandomProfile($isAlive, $isPublic);
         $profileID         = $this->aPI_Profile->getID();
@@ -410,7 +413,8 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateSetCauseOfDeath(?string $expectedCause, bool $alive, bool $public): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Profile = $profileFactory->makeRandomProfile(alive: $alive, public: $public);
         $profileID         = $this->aPI_Profile->getID();
@@ -468,7 +472,8 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateSetString(string $setter, ?string $value, bool $alive, bool $public): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Profile = $profileFactory->makeRandomProfile(alive: $alive, public: $public);
         $profileID         = $this->aPI_Profile->getID();
@@ -489,7 +494,8 @@ class API_ProfileTestUpdate extends API_BaseTest
     // */
     // public function testUpdateSetMergeNote (?string $value, bool $alive, bool $public): void
     // {
-    // global $profileFactory;
+    //     /** @var FactoryProfiles $profileFactory */
+    //     $profileFactory = FactoryBase::getFactory(API_Profile::class);
     //
     // $this->aPI_Profile = $profileFactory->makeRandomProfile (alive: $alive, public: $public);
     //
@@ -513,7 +519,8 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateSetGender(API_Gender $fromGender, API_Gender $toGender, bool $alive, bool $public): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         list($firstName, $lastName) = $profileFactory->makeRandomName($fromGender);
 
@@ -546,7 +553,10 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateSetBirth(int $ignore, bool $alive, bool $public): void
     {
-        global $profileFactory, $eventFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
+        /** @var FactoryEvents $eventFactory */
+        $eventFactory = FactoryBase::getFactory(API_Event::class);
 
         $this->aPI_Profile = $profileFactory->makeRandomProfile(alive: $alive, public: $public);
 
@@ -576,7 +586,10 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateSetDeath(int $ignore, bool $alive, bool $public): void
     {
-        global $profileFactory, $eventFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
+        /** @var FactoryEvents $eventFactory */
+        $eventFactory = FactoryBase::getFactory(API_Event::class);
 
         $this->aPI_Profile = $profileFactory->makeRandomProfile(alive: $alive, public: $public);
 
@@ -606,7 +619,10 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateSetBurial(int $ignore, bool $alive, bool $public): void
     {
-        global $profileFactory, $eventFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
+        /** @var FactoryEvents $eventFactory */
+        $eventFactory = FactoryBase::getFactory(API_Event::class);
 
         $this->aPI_Profile = $profileFactory->makeRandomProfile(alive: $alive, public: $public);
 
@@ -636,7 +652,10 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateSetBaptism(int $ignore, bool $alive, bool $public): void
     {
-        global $profileFactory, $eventFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
+        /** @var FactoryEvents $eventFactory */
+        $eventFactory = FactoryBase::getFactory(API_Event::class);
 
         $this->aPI_Profile = $profileFactory->makeRandomProfile(alive: $alive, public: $public);
 
@@ -670,7 +689,8 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateCurrentResidence(API_Location $location, bool $alive, bool $public): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Profile = $profileFactory->makeTestProfile('Who', 'Dunnit', alive: $alive, public: $public, gender: API_Gender::Male);
         $profileID         = $this->aPI_Profile->getID();
@@ -698,7 +718,8 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateNickname($nicknameArray, bool $alive, bool $public): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Profile = $profileFactory->makeTestProfile('Who', 'Dunnit', alive: $alive, public: $public, gender: API_Gender::Male);
         $profileID         = $this->aPI_Profile->getID();
@@ -723,7 +744,8 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateSetNames(string $languageID, API_Name $name, bool $alive, bool $public): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Profile = $profileFactory->makeTestProfile('He', 'Diddit', alive: $alive, public: $public, gender: API_Gender::Male);
         $profileID         = $this->aPI_Profile->getID();
@@ -751,7 +773,8 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateSetNamesMultiple(array $testNames, bool $alive, bool $public): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Profile = $profileFactory->makeTestProfile('He', 'Diddit', alive: $alive, public: $public, gender: API_Gender::Male);
         $profileID         = $this->aPI_Profile->getID();
@@ -803,7 +826,8 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateSetFullName(API_Name $name, bool $alive, bool $public): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         // Using BLANK name fields in the test object, so nothing gets added.
 
@@ -839,7 +863,8 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateAboutMe(string $AboutMe, string $NewText, bool $alive, bool $public): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Profile = $profileFactory->makeRandomProfile(alive: $alive, public: $public);
         $profileID         = $this->aPI_Profile->getID();
@@ -862,7 +887,8 @@ class API_ProfileTestUpdate extends API_BaseTest
      */
     public function testUpdateAboutMe_Empty(string $AboutMe, string $NewText, bool $alive, bool $public): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Profile = $profileFactory->makeRandomProfile(alive: $alive, public: $public);
         $profileID         = $this->aPI_Profile->getID();

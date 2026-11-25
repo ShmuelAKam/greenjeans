@@ -2,6 +2,7 @@
 
 namespace ShmuelAKam\Greenjeans\Tests\Api\Help;
 
+use ShmuelAKam\Greenjeans\Api\API_Profile;
 use ShmuelAKam\Greenjeans\Api\Data\API_Date;
 use ShmuelAKam\Greenjeans\Api\Data\API_Event;
 use ShmuelAKam\Greenjeans\Api\Data\API_Location;
@@ -29,7 +30,11 @@ class FactoryEvents extends FactoryBase
     public function makeRandomEvent(): API_Event
     {
         // TODO Finish. Add random event name and description.
-        global $dateFactory, $locationFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
+        /** @var FactoryLocations $locationFactory */
+        $locationFactory = FactoryBase::getFactory(API_Location::class);
+
 
         $eventName        = 'Josh Brown';
         $eventDescription = 'Coming Home';
@@ -42,7 +47,11 @@ class FactoryEvents extends FactoryBase
 
     protected function makeBMDEvents(string $name, ?string $description = null, ?API_Date $date = null, ?API_Location $location = null, bool $random = true): API_Event
     {
-        global $dateFactory, $locationFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
+        /** @var FactoryLocations $locationFactory */
+        $locationFactory = FactoryBase::getFactory(API_Location::class);
+
 
         if ($random)
         {
@@ -55,7 +64,8 @@ class FactoryEvents extends FactoryBase
 
     public function makeBirthEvent(?string $child = null, ?string $description = null, ?API_Date $date = null, ?API_Location $location = null, bool $random = true): API_Event
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         if ($child == null)
         {
@@ -69,7 +79,8 @@ class FactoryEvents extends FactoryBase
 
     public function makeBaptismEvent(?string $child = null, ?string $description = null, ?API_Date $date = null, ?API_Location $location = null, bool $random = true): API_Event
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         if ($child == null)
         {
@@ -83,7 +94,8 @@ class FactoryEvents extends FactoryBase
 
     public function makeBurialEvent(?string $child = null, ?string $description = null, ?API_Date $date = null, ?API_Location $location = null, bool $random = true): API_Event
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         if ($child == null)
         {
@@ -97,7 +109,8 @@ class FactoryEvents extends FactoryBase
 
     public function makeMarriageEvent(?string $spouse1 = null, ?string $spouse2 = null, ?string $description = null, ?API_Date $date = null, ?API_Location $location = null, bool $random = true): API_Event
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         if ($spouse1 == null)
         {
@@ -116,7 +129,8 @@ class FactoryEvents extends FactoryBase
 
     public function makeDivorceEvent(?string $spouse1 = null, ?string $spouse2 = null, ?string $description = null, ?API_Date $date = null, ?API_Location $location = null, bool $random = true): API_Event
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         if ($spouse1 == null)
         {
@@ -135,7 +149,8 @@ class FactoryEvents extends FactoryBase
 
     public function makeDeathEvent(?string $person = null, ?string $description = null, ?API_Date $date = null, ?API_Location $location = null, bool $random = true): API_Event
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         if ($person == null)
         {
@@ -272,7 +287,8 @@ class FactoryEvents extends FactoryBase
 
     public function setConsecutiveDates(bool $on = true): void
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $dateFactory->setConsecutiveDates($on);
     }

@@ -4,10 +4,14 @@ namespace ShmuelAKam\Greenjeans\Tests\Api;
 
 use ShmuelAKam\Greenjeans\Api\API_Base;
 use ShmuelAKam\Greenjeans\Api\API_Document;
+use ShmuelAKam\Greenjeans\Api\API_Profile;
 use ShmuelAKam\Greenjeans\Api\API_Project;
 use ShmuelAKam\Greenjeans\Api\Data\API_Comment;
 use ShmuelAKam\Greenjeans\Api\Data\API_Date;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDates;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDocuments;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryProfiles;
 
 /**
  * API_Document test case.
@@ -105,11 +109,10 @@ class API_DocumentTest extends API_BaseTest
 
         foreach (FactoryDocuments::DOCUMENTS_UPLOADED_FROM_URL as $docName => $UploadedDoc)
         {
-            $fullFileName     = $GLOBALS ['API_TEST_SERVER'] . 'Test/files/' . $docName;
-            $doc              = $UploadedDoc;
-            $doc ['filename'] = $fullFileName;
+            $fullFileName = $GLOBALS ['API_TEST_SERVER'] . 'Test/files/' . $docName;
+            $doc          = $UploadedDoc;
 
-            $fixedUploadedDocs [$docName] = $doc;
+            $fixedUploadedDocs [$fullFileName] = $doc;
         }
 
         return $fixedUploadedDocs;
@@ -358,7 +361,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testAdd_FromFields(string $title, ?string $description, ?string $file_name, ?string $file, ?string $labels, ?string $text): void
     {
-        $documentFactory = $GLOBALS['documentFactory'];
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         // --------------------------------------------------
         $newDoc = API_Document::add(
@@ -429,7 +433,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testAdd_FromFiles(?string $fileName, ?string $title, ?int $pageCount, ?string $contentType, ?string $text): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $fileName     = $documentFactory->fullFileName($fileName);
         $fileContents = file_get_contents($fileName);
@@ -453,7 +458,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testUpdateFromArray(string $title, ?string $description, ?string $file_name, ?string $file, ?string $labels, ?string $text): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $updateArray = $this->makeTestArray($title, $description, $file_name, $file, $labels, $text);
 
@@ -492,7 +498,8 @@ class API_DocumentTest extends API_BaseTest
     // public function testMakeParamArray (string $title, ?string $description, ?string $file_name,
     // ?string $file, ?string $labels, ?string $text): void
     // {
-    // global $documentFactory;
+    // /** @var FactoryDocuments $documentFactory */
+    // $documentFactory = FactoryBase::getFactory(API_Document::class);
     //
     // $doc = $documentFactory->makeDocument ($title, $description, $file_name, $file, $labels, $text);
     //
@@ -517,7 +524,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGet(int $ignore): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $doc   = $documentFactory->makeRandomDocument();
         $docID = $doc->getID();
@@ -537,7 +545,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testComment(string $title, string $comment): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $doc = $documentFactory->makeRandomDocument();
 
@@ -571,7 +580,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testComment_Multiple(int $count, array $comments): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $doc   = $documentFactory->makeRandomDocument();
         $docID = $doc->getID();
@@ -609,7 +619,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testDelete(int $ignore): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $doc   = $documentFactory->makeRandomDocument();
         $docID = $doc->getID();
@@ -637,7 +648,8 @@ class API_DocumentTest extends API_BaseTest
     */
     //     public function testDelete_Fail (int $ignore): void
     //     {
-    //         global $documentFactory;
+    //         /** @var FactoryDocuments $documentFactory */
+    //         $documentFactory = FactoryBase::getFactory(API_Document::class);
     //
     //         // Create document and DELETE it. We need a 'valid' ID. Now
     //         // delete it. The test tries to delete it a SECOND time. The
@@ -662,8 +674,10 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testTag(int $ignore): void
     {
-        global $documentFactory;
-        global $profileFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $doc   = $documentFactory->makeRandomDocument();
         $tagee = $profileFactory->makeRandomProfile();
@@ -702,8 +716,10 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testTag_Multiple(int $count): void
     {
-        global $documentFactory;
-        global $profileFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $doc    = $documentFactory->makeRandomDocument();
         $tagees = $profileFactory->makeProfiles($count);
@@ -752,8 +768,10 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testUntag(int $ignore): void
     {
-        global $documentFactory;
-        global $profileFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $doc   = $documentFactory->makeRandomDocument();
         $tagee = $profileFactory->makeRandomProfile();
@@ -800,8 +818,10 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testUntag_Multiple(int $tagCount, int $untagCount): void
     {
-        global $documentFactory;
-        global $profileFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $doc   = $documentFactory->makeRandomDocument();
         $docID = $doc->getID();
@@ -879,7 +899,10 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testUpdate(?string $title, ?string $description, bool $labels, bool $makeString): void
     {
-        global $documentFactory, $dateFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         if ($labels)
         {
@@ -956,7 +979,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetComments(int $count, array $comments): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $doc   = $documentFactory->makeRandomDocument();
         $docID = $doc->getID();
@@ -1048,7 +1072,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetProjects_DynamicAdd(string $ignore, array $projects): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         // Create document.
 
@@ -1097,8 +1122,10 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetTags(int $count): void
     {
-        global $documentFactory;
-        global $profileFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $doc    = $documentFactory->makeRandomDocument();
         $tagees = $profileFactory->makeProfiles($count);
@@ -1173,7 +1200,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetContentType(string $title, ?string $description, ?string $file_name, ?string $file, ?string $labels, ?string $text): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $doc         = $documentFactory->makeDocument($title, $description, $file_name, $file, $labels, $text);
         $docID       = $doc->getID();
@@ -1197,7 +1225,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetContentType_FromFile(?string $fileName, ?string $title, ?int $pageCount, ?string $contentType, ?string $text): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $fileName     = $documentFactory->fullFileName($fileName);
         $fileContents = file_get_contents($fileName);
@@ -1223,7 +1252,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetCreatedAt(string $title, ?string $description, ?string $file_name, ?string $file, ?string $labels, ?string $text): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $timeNow = time();
 
@@ -1248,7 +1278,10 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetDate(string $title, ?string $description, ?string $file_name, ?string $file, ?string $labels, ?string $text): void
     {
-        global $documentFactory, $dateFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $createDate = $dateFactory->makeRandomDate();
         $doc        = $documentFactory->makeDocument($title, $description, $file, $file_name, $labels, $text, $createDate);
@@ -1274,7 +1307,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetDescription(string $title, ?string $description, ?string $file_name, ?string $file, ?string $labels, ?string $text): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $doc   = $documentFactory->makeDocument($title, $description, $file_name, $file, $labels, $text);
         $docID = $doc->getID();
@@ -1329,7 +1363,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetID(string $title, ?string $description, ?string $file_name, ?string $file, ?string $labels, ?string $text): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $doc = $documentFactory->makeDocument($title, $description, $file_name, $file, $labels, $text);
 
@@ -1355,7 +1390,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetLabels(string $title, ?string $description, ?string $file_name, ?string $file, ?string $labels, ?string $text): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $doc   = $documentFactory->makeDocument($title, $description, $file_name, $file, $labels, $text);
         $docID = $doc->getID();
@@ -1415,7 +1451,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetPageCount(?string $fileName, ?string $title, ?int $pageCount, ?string $contentType, ?string $text): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $fileName     = $documentFactory->fullFileName($fileName);
         $fileContents = file_get_contents($fileName);
@@ -1443,7 +1480,8 @@ class API_DocumentTest extends API_BaseTest
     // public function testGetSizes(string $title, ?string $description, ?string $file_name,
     // ?string $file, ?string $labels, ?string $text): void
     // {
-    // global $documentFactory;
+    // /** @var FactoryDocuments $documentFactory */
+    // $documentFactory = FactoryBase::getFactory(API_Document::class);
     //
     // $doc = $documentFactory->makeDocument ($title, $description, $file_name, $file, $labels, $text);
     // $docID = $doc->getID ();
@@ -1477,7 +1515,7 @@ class API_DocumentTest extends API_BaseTest
         string $attribution,
     ): void {
         $doc       = API_Document::get($ID);
-        $sourceURL = 'Test/files/' . $this->dataName();
+        $sourceURL = $this->dataName();
 
         // --------------------------------------------------
         $docSourceURL = $doc->getSourceURL();
@@ -1493,7 +1531,10 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetTitle_FromDocument(string $title, ?string $description, ?string $file_name, ?string $file, ?string $labels, ?string $text): void
     {
-        global $documentFactory, $dateFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $todayDate = $dateFactory->makeTodayDate();
         $title     = "Test getTitle - " . $todayDate->toTimestamp();
@@ -1521,7 +1562,8 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetTitle_FromFileDocument(?string $fileName, ?string $title, ?int $pageCount, ?string $contentType, ?string $text): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $fileName     = $documentFactory->fullFileName($fileName);
         $fileContents = file_get_contents($fileName);
@@ -1549,7 +1591,10 @@ class API_DocumentTest extends API_BaseTest
      */
     public function testGetUpdatedAt(string $title, ?string $description, ?string $file_name, ?string $file, ?string $labels, ?string $text): void
     {
-        global $documentFactory, $dateFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $randomDate   = $dateFactory->makeRandomDate();
         $delaySeconds = rand(5, 15);

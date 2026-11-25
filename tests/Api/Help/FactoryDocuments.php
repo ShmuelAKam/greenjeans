@@ -43,7 +43,8 @@ class FactoryDocuments extends FactoryBase
         string   $text = null,
         API_Date $date = null,
     ): API_Document {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         if ($date == null)
         {
@@ -108,7 +109,8 @@ class FactoryDocuments extends FactoryBase
         string $file,
         string $file_name,
     ): API_Document {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $date = $dateFactory->makeRandomDate();
 

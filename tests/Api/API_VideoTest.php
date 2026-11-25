@@ -2,9 +2,12 @@
 
 namespace ShmuelAKam\Greenjeans\Tests\Api;
 
+use ShmuelAKam\Greenjeans\Api\API_Profile;
 use ShmuelAKam\Greenjeans\Api\API_Video;
 use ShmuelAKam\Greenjeans\Api\Data\API_Date;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDates;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryProfiles;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryVideos;
 
 /**
@@ -233,7 +236,10 @@ class API_VideoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $videoFactory, $dateFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         if ($dateJSON != null)
         {
@@ -281,7 +287,8 @@ class API_VideoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $videoFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
 
         $updateArray = $this->makeTestArray($title, $dateJSON, $description);
 
@@ -336,7 +343,8 @@ class API_VideoTest extends API_BaseTest
      */
     public function testGet(int $ignore): void
     {
-        global $videoFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
 
         $videoID = $videoFactory->getRandomID();
 
@@ -357,7 +365,8 @@ class API_VideoTest extends API_BaseTest
      */
     public function testComment(string $title, string $comment): void
     {
-        global $videoFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
 
         $video   = $videoFactory->makeRandomVideo();
         $videoID = $video->getID();
@@ -391,7 +400,8 @@ class API_VideoTest extends API_BaseTest
      */
     public function testComment_Multiple(int $count, array $comments): void
     {
-        global $videoFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
 
         $video   = $videoFactory->makeRandomVideo();
         $videoID = $video->getID();
@@ -468,7 +478,8 @@ class API_VideoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $videoFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
 
         $video   = $videoFactory->makeRandomVideo();
         $videoID = $video->getID();
@@ -498,8 +509,10 @@ class API_VideoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $videoFactory;
-        global $profileFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $video = $videoFactory->makeRandomVideo();
         $tagee = $profileFactory->makeRandomProfile();
@@ -539,8 +552,10 @@ class API_VideoTest extends API_BaseTest
      */
     public function testTag_Multiple(int $count): void
     {
-        global $videoFactory;
-        global $profileFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $video   = $videoFactory->makeRandomVideo();
         $tagees  = $profileFactory->makeProfiles($count);
@@ -595,8 +610,10 @@ class API_VideoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $videoFactory;
-        global $profileFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $video = $videoFactory->makeRandomVideo();
         $tagee = $profileFactory->makeRandomProfile();
@@ -644,8 +661,10 @@ class API_VideoTest extends API_BaseTest
      */
     public function testUntag_Multiple(int $tagCount, int $untagCount): void
     {
-        global $videoFactory;
-        global $profileFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $video   = $videoFactory->makeRandomVideo();
         $videoID = $video->getID();
@@ -724,7 +743,10 @@ class API_VideoTest extends API_BaseTest
      */
     public function testUpdate(?string $title, ?string $description, ?string $date): void
     {
-        global $videoFactory, $dateFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $video = $videoFactory->makeRandomVideo();
 
@@ -773,7 +795,8 @@ class API_VideoTest extends API_BaseTest
      */
     public function testGetComments(int $count, array $comments): void
     {
-        global $videoFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
 
         $video   = $videoFactory->makeRandomVideo();
         $videoID = $video->getID();
@@ -846,8 +869,10 @@ class API_VideoTest extends API_BaseTest
      */
     public function testGetTags(int $count): void
     {
-        global $videoFactory;
-        global $profileFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $video   = $videoFactory->makeRandomVideo();
         $tagees  = $profileFactory->makeProfiles($count);
@@ -930,7 +955,8 @@ class API_VideoTest extends API_BaseTest
     // public function testGetContentType (string $title, ?string $dateJSON, ?string $description,
     // ?string $fileName, ?string $fileType): void
     // {
-    // global $videoFactory;
+    //     /** @var FactoryVideos $videoFactory */
+    //     $videoFactory = FactoryBase::getFactory(API_Video::class);
 
     // $video = $videoFactory->makeVideo ($title, $dateJSON, $description, $fileName, $fileType);
 
@@ -982,7 +1008,8 @@ class API_VideoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $videoFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
 
         $timeNow = time();
 
@@ -1046,7 +1073,10 @@ class API_VideoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $videoFactory, $dateFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $createDate     = $dateFactory->makeRandomDate();
         $createDateJSON = $createDate->toJSON();
@@ -1118,7 +1148,8 @@ class API_VideoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $videoFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
 
         $video   = $videoFactory->makeVideo($title, $dateJSON, $description, $fileName, $fileType);
         $videoID = $video->getID();
@@ -1182,7 +1213,8 @@ class API_VideoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $videoFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
 
         $video = $videoFactory->makeVideo($title, $dateJSON, $description, $fileName, $fileType);
 
@@ -1247,7 +1279,8 @@ class API_VideoTest extends API_BaseTest
     // public function testGetSizes (string $title, ?string $dateJSON, ?string $description,
     // ?string $fileName, ?string $fileType): void
     // {
-    // global $videoFactory;
+    //     /** @var FactoryVideos $videoFactory */
+    //     $videoFactory = FactoryBase::getFactory(API_Video::class);
     //
     // $video = $videoFactory->makeVideo ($title, $dateJSON, $description, $fileName, $fileType);
     // $videoID = $video->getID ();
@@ -1277,7 +1310,10 @@ class API_VideoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $videoFactory, $dateFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $todayDate = $dateFactory->makeTodayDate();
         $title     = "Test getTitle - " . $todayDate->toTimestamp();
@@ -1336,7 +1372,10 @@ class API_VideoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $videoFactory, $dateFactory;
+        /** @var FactoryVideos $videoFactory */
+        $videoFactory = FactoryBase::getFactory(API_Video::class);
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $randomDate   = $dateFactory->makeRandomDate();
         $delaySeconds = rand(5, 15);

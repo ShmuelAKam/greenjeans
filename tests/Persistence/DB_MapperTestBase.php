@@ -5,8 +5,6 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence;
 use PDO;
 use PHPUnit\Framework\TestCase;
 use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDates;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryLocations;
 
 /**
  * DB_MapperTestBase
@@ -27,8 +25,6 @@ abstract class DB_MapperTestBase extends TestCase
     {
         parent::setUp();
 
-        $this->restoreGlobals();
-
         $persistor   = DB_Persistor::getInstance();
         $this->runID = $persistor->getRunID();
         $this->pdo   = $persistor->getPDO();
@@ -37,31 +33,6 @@ abstract class DB_MapperTestBase extends TestCase
     protected function tearDown(): void
     {
         parent::tearDown();
-    }
-
-    //--------------------------------------------------------------
-
-    /**
-     * For some fragged reason phpunit "looses" the global variables at the
-     * beginning of every test. This function enables them to be found again.
-     * I do NOT want to recreate the factories every time, because some of
-     * them keep internal counters.
-     */
-    private function restoreGlobals(): void
-    {
-        global $dateFactory, $locationFactory;
-
-        /**
-         * These are global factory objects to create test objects used by the
-         * various test classes. These specific factories do NOT call the API,
-         * because dates and locations are always parts of larger objects that
-         * have their own API.
-         *
-         * @var FactoryDates     $dateFactory
-         * @var FactoryLocations $locationFactory
-         */
-        $dateFactory     = $GLOBALS ['dateFactory'];
-        $locationFactory = $GLOBALS ['locationFactory'];
     }
 
     //--------------------------------------------------------------

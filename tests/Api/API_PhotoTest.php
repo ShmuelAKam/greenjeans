@@ -3,8 +3,12 @@
 namespace ShmuelAKam\Greenjeans\Tests\Api;
 
 use ShmuelAKam\Greenjeans\Api\API_Photo;
+use ShmuelAKam\Greenjeans\Api\API_Profile;
 use ShmuelAKam\Greenjeans\Api\Data\API_Date;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDates;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryPhotos;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryProfiles;
 
 /**
  * API_Photo test case.
@@ -199,7 +203,8 @@ class API_PhotoTest extends API_BaseTest
         ?API_Date $date,
         ?string   $description,
     ): void {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
 
         if ($title != null)
         {
@@ -263,7 +268,11 @@ class API_PhotoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $photoFactory, $dateFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         if ($dateJSON != null)
         {
@@ -314,7 +323,9 @@ class API_PhotoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
 
         $updateArray = $this->makeTestArray($title, $dateJSON, $description);
 
@@ -342,7 +353,9 @@ class API_PhotoTest extends API_BaseTest
         ?string $ignore,
         ?string $ignore2,
     ): void {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
 
         $updateArray = $this->makeTestArray($title, $dateJSON, $description);
 
@@ -366,7 +379,9 @@ class API_PhotoTest extends API_BaseTest
      */
     public function testGet(int $ignore): void
     {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
 
         $photoID = $photoFactory->getRandomID();
 
@@ -387,7 +402,9 @@ class API_PhotoTest extends API_BaseTest
      */
     public function testComment(string $title, string $comment): void
     {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
 
         $photo   = $photoFactory->makeRandomPhoto();
         $photoID = $photo->getID();
@@ -420,7 +437,9 @@ class API_PhotoTest extends API_BaseTest
      */
     public function testComment_Multiple(int $count, array $comments): void
     {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
 
         $photo   = $photoFactory->makeRandomPhoto();
         $photoID = $photo->getID();
@@ -498,7 +517,9 @@ class API_PhotoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
 
         $photo   = $photoFactory->makeRandomPhoto();
         $photoID = $photo->getID();
@@ -529,8 +550,11 @@ class API_PhotoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $photoFactory;
-        global $profileFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $photo = $photoFactory->makeRandomPhoto();
         $tagee = $profileFactory->makeRandomProfile();
@@ -570,8 +594,11 @@ class API_PhotoTest extends API_BaseTest
      */
     public function testTag_Multiple(int $count): void
     {
-        global $photoFactory;
-        global $profileFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $photo   = $photoFactory->makeRandomPhoto();
         $tagees  = $profileFactory->makeProfiles($count);
@@ -627,8 +654,11 @@ class API_PhotoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $photoFactory;
-        global $profileFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $photo = $photoFactory->makeRandomPhoto();
         $tagee = $profileFactory->makeRandomProfile();
@@ -675,8 +705,11 @@ class API_PhotoTest extends API_BaseTest
      */
     public function testUntag_Multiple(int $tagCount, int $untagCount): void
     {
-        global $photoFactory;
-        global $profileFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $photo   = $photoFactory->makeRandomPhoto();
         $photoID = $photo->getID();
@@ -755,7 +788,11 @@ class API_PhotoTest extends API_BaseTest
      */
     public function testUpdate(?string $title, ?string $description, ?string $date): void
     {
-        global $photoFactory, $dateFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $photo = $photoFactory->makeRandomPhoto();
 
@@ -805,7 +842,9 @@ class API_PhotoTest extends API_BaseTest
      */
     public function testGetComments(int $count, array $comments): void
     {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
 
         $photo   = $photoFactory->makeRandomPhoto();
         $photoID = $photo->getID();
@@ -879,8 +918,11 @@ class API_PhotoTest extends API_BaseTest
      */
     public function testGetTags(int $count): void
     {
-        global $photoFactory;
-        global $profileFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $photo   = $photoFactory->makeRandomPhoto();
         $tagees  = $profileFactory->makeProfiles($count);
@@ -930,7 +972,9 @@ class API_PhotoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
 
         $photo   = $photoFactory->makePhoto($title, null, $dateJSON, $description, $fileName, $fileType);
         $photoID = $photo->getID();
@@ -998,7 +1042,9 @@ class API_PhotoTest extends API_BaseTest
     //     public function testGetContentType (string $title,    ?string $dateJSON, ?string $description,
     //                                        ?string $fileName, ?string $fileType): void
     //     {
-    //         global $photoFactory;
+    //         /** @var FactoryPhotos $photoFactory */
+    //         $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
 
     //         $photo    = $photoFactory->makePhoto ($title, NULL, $dateJSON, $description, $fileName, $fileType);
 
@@ -1050,7 +1096,9 @@ class API_PhotoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
 
         $timeNow = time();
 
@@ -1115,7 +1163,11 @@ class API_PhotoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $photoFactory, $dateFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $createDate     = $dateFactory->makeRandomDate();
         $createDateJSON = $createDate->toJSON();
@@ -1191,7 +1243,9 @@ class API_PhotoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
 
         $photo   = $photoFactory->makePhoto($title, null, $dateJSON, $description, $fileName, $fileType);
         $photoID = $photo->getID();
@@ -1255,7 +1309,9 @@ class API_PhotoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $photoFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
 
         $photo = $photoFactory->makePhoto($title, null, $dateJSON, $description, $fileName, $fileType);
 
@@ -1321,7 +1377,9 @@ class API_PhotoTest extends API_BaseTest
     //     public function testGetSizes (string $title, ?string $dateJSON, ?string $description,
     //                                  ?string $fileName, ?string $fileType): void
     //     {
-    //         global $photoFactory;
+    //         /** @var FactoryPhotos $photoFactory */
+    //         $photoFactory = FactoryBase::getFactory(API_Photo::class);
+    //
     //
     //         $photo    = $photoFactory->makePhoto ($title, NULL, $dateJSON, $description, $fileName, $fileType);
     //         $photoID  = $photo->getID ();
@@ -1351,7 +1409,11 @@ class API_PhotoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $photoFactory, $dateFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $todayDate = $dateFactory->makeTodayDate();
         $title     = "Test getTitle - " . $todayDate->toTimestamp();
@@ -1410,7 +1472,11 @@ class API_PhotoTest extends API_BaseTest
         ?string $fileName,
         ?string $fileType,
     ): void {
-        global $photoFactory, $dateFactory;
+        /** @var FactoryPhotos $photoFactory */
+        $photoFactory = FactoryBase::getFactory(API_Photo::class);
+
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $randomDate   = $dateFactory->makeRandomDate();
         $delaySeconds = rand(5, 15);

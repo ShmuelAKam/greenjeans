@@ -4,8 +4,12 @@ namespace ShmuelAKam\Greenjeans\Tests\Persistence\Help;
 
 use ShmuelAKam\Greenjeans\Api\API_Document;
 use ShmuelAKam\Greenjeans\Api\Data\API_Comment;
+use ShmuelAKam\Greenjeans\Api\Data\API_Date;
+use ShmuelAKam\Greenjeans\Api\Data\API_Location;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDates;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDocuments;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryLocations;
 
 /**
  * DO NOT call 'make' functions in the base class . They call the Geni Server which
@@ -174,7 +178,8 @@ class FactoryMapperDocuments extends FactoryDocuments
         string $file,
         string $file_name,
     ): API_Document {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $date       = $dateFactory->makeRandomDate();
         $fileBase64 = base64_encode($file);
@@ -219,7 +224,10 @@ class FactoryMapperDocuments extends FactoryDocuments
         int     $numComments = 0,
         bool    $full = true,
     ): array {
-        global $dateFactory, $locationFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
+        /** @var FactoryLocations $locationFactory */
+        $locationFactory = FactoryBase::getFactory(API_Location::class);
 
         static $HALF_HOUR = 60 * 30; // In seconds.
 

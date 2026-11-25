@@ -12,8 +12,6 @@ use PDO;
 use RuntimeException;
 use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDates;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryLocations;
 use ShmuelAKam\Greenjeans\Tests\Persistence\Help\FactoryMapperDocuments;
 
 $GLOBALS['startRunTime'] = time();
@@ -72,15 +70,9 @@ catch (LogicException $e)
     die();
 }
 
-//--------------------------------------------------------------
-// Seed factories
-//--------------------------------------------------------------
-
 FactoryBase::setRunType('Normal');
 
-global $dateFactory, $locationFactory;
-$dateFactory     = new FactoryDates();
-$locationFactory = new FactoryLocations();
+// Initialize some static variables that require some run-time operations.
 
 FactoryMapperDocuments::setup();
 

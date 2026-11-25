@@ -3,6 +3,7 @@
 namespace ShmuelAKam\Greenjeans\Tests\Api\Help;
 
 use ShmuelAKam\Greenjeans\Api\API_Profile;
+use ShmuelAKam\Greenjeans\Api\Data\API_Event;
 use ShmuelAKam\Greenjeans\Api\Data\API_Gender;
 
 class FactoryProfiles extends FactoryBase
@@ -358,7 +359,8 @@ class FactoryProfiles extends FactoryBase
      */
     public function makeSetBMD_Events(string $personName, ?string $spouseName = null, array $list = []): array // of API_Event objects.
     {
-        global $eventFactory;
+        /** @var FactoryEvents $eventFactory */
+        $eventFactory = FactoryBase::getFactory(API_Event::class);
 
         $eventArray = [];
 
@@ -407,25 +409,25 @@ class FactoryProfiles extends FactoryBase
 
         return $eventArray;
     }
+
+    // ====================================================================
+
+    // M - Male
+    // F - Female
+    // U - Unknown
+    public const TEST_SetGender = [
+        //              From                 To
+        'M-M' => [  API_Gender::Male,    API_Gender::Male     ],
+        'M-F' => [  API_Gender::Male,    API_Gender::Female   ],
+        'M-U' => [  API_Gender::Male,    API_Gender::Unknown  ],
+        'F-M' => [  API_Gender::Female,  API_Gender::Male     ],
+        'F-F' => [  API_Gender::Female,  API_Gender::Female   ],
+        'F-U' => [  API_Gender::Female,  API_Gender::Unknown  ],
+        'U-M' => [  API_Gender::Unknown, API_Gender::Male     ],
+        'U-F' => [  API_Gender::Unknown, API_Gender::Female   ],
+        'U-U' => [  API_Gender::Unknown, API_Gender::Unknown  ]
+    ];
 }
-
-// ====================================================================
-
-// M - Male
-// F - Female
-// U - Unknown
-const TEST_SetGender = [
-    //              From                 To
-    'M-M' => [  API_Gender::Male,    API_Gender::Male     ],
-    'M-F' => [  API_Gender::Male,    API_Gender::Female   ],
-    'M-U' => [  API_Gender::Male,    API_Gender::Unknown  ],
-    'F-M' => [  API_Gender::Female,  API_Gender::Male     ],
-    'F-F' => [  API_Gender::Female,  API_Gender::Female   ],
-    'F-U' => [  API_Gender::Female,  API_Gender::Unknown  ],
-    'U-M' => [  API_Gender::Unknown, API_Gender::Male     ],
-    'U-F' => [  API_Gender::Unknown, API_Gender::Female   ],
-    'U-U' => [  API_Gender::Unknown, API_Gender::Unknown  ]
-];
 
 const GIRL_NAMES = [
     'Amelia',

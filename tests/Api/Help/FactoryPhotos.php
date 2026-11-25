@@ -46,7 +46,8 @@ class FactoryPhotos extends FactoryBase
         ?string $fileName = null,
         ?string $fileType = null,
     ): ?API_Photo {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         if ($album_id == null)
         {

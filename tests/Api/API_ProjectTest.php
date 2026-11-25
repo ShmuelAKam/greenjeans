@@ -2,7 +2,12 @@
 
 namespace ShmuelAKam\Greenjeans\Tests\Api;
 
+use ShmuelAKam\Greenjeans\Api\API_Document;
+use ShmuelAKam\Greenjeans\Api\API_Profile;
 use ShmuelAKam\Greenjeans\Api\API_Project;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDocuments;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryProfiles;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryProjects;
 
 /**
@@ -156,7 +161,8 @@ class API_ProjectTest extends API_BaseTest
      */
     public function testAddProfiles_ID(int $addCount): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Project = API_Project::get(FactoryProjects::PROJECT_IDS ['Test_Project']);
 
@@ -178,7 +184,8 @@ class API_ProjectTest extends API_BaseTest
      */
     public function testAddProfiles_GUID(int $addCount): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Project = API_Project::get(FactoryProjects::PROJECT_IDS ['Test_Project']);
 
@@ -199,7 +206,8 @@ class API_ProjectTest extends API_BaseTest
      */
     public function testAddDocuments(int $addCount): void
     {
-        global $documentFactory;
+        /** @var FactoryDocuments $documentFactory */
+        $documentFactory = FactoryBase::getFactory(API_Document::class);
 
         $this->aPI_Project = API_Project::get(FactoryProjects::PROJECT_IDS ['Test_Project']);
 
@@ -546,7 +554,8 @@ class API_ProjectTest extends API_BaseTest
      */
     public function testGetUpdatedAt(): void
     {
-        global $profileFactory;
+        /** @var FactoryProfiles $profileFactory */
+        $profileFactory = FactoryBase::getFactory(API_Profile::class);
 
         $this->aPI_Project = API_Project::get(FactoryProjects::PROJECT_IDS ['Test_Project']);
 

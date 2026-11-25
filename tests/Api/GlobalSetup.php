@@ -10,18 +10,14 @@ $GLOBALS ['TEST_FIXTURES_ROOT'] = $GLOBALS ['TEST_API_ROOT'] . '/fixtures/';
 require_once $GLOBALS ['PACKAGE_ROOT'] . '/vendor/autoload.php';
 
 use RuntimeException;
+use ShmuelAKam\Greenjeans\Api\API_Document;
+use ShmuelAKam\Greenjeans\Api\API_Photo;
+use ShmuelAKam\Greenjeans\Api\API_Profile;
+use ShmuelAKam\Greenjeans\Api\API_Video;
 use ShmuelAKam\Greenjeans\Api\Core\API_WrapperServer;
 use ShmuelAKam\Greenjeans\Tests\Api\Core\API_WrapperMocker;
 use ShmuelAKam\Greenjeans\Tests\Api\Core\API_WrapperRecorder;
 use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDates;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDocuments;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryEvents;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryLocations;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryPhotos;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryProfiles;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryUnions;
-use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryVideos;
 
 $GLOBALS ['startRunTime'] = time();
 
@@ -91,40 +87,6 @@ switch ($runType)
 
 FactoryBase::setRunType($runType);
 API_BaseTest::setRunningProfileID();
-
-/**
- * These are global factory objects to create test objects used by the
- * various test classes.
- *
- * @var \ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDates     $dateFactory
- * @var \ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDocuments $documentFactory
- * @var \ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryEvents    $eventFactory
- * @var \ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryLocations $locationFactory
- * @var \ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryPhotos    $photoFactory
- * @var \ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryProfiles  $profileFactory
- * @var \ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryUnions    $unionFactory
- * @var \ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryVideos    $videoFactory
- */
-
-$dateFactory     = new FactoryDates();
-$documentFactory = new FactoryDocuments();
-$eventFactory    = new FactoryEvents();
-$locationFactory = new FactoryLocations();
-$photoFactory    = new FactoryPhotos();
-$profileFactory  = new FactoryProfiles();
-$unionFactory    = new FactoryUnions();
-$videoFactory    = new FactoryVideos();
-
-// Force these variables into the $GLOBALS array explicitly at the end of bootstrap.
-
-$GLOBALS ['dateFactory']     = $dateFactory;
-$GLOBALS ['documentFactory'] = $documentFactory;
-$GLOBALS ['eventFactory'   ] = $eventFactory;
-$GLOBALS ['locationFactory'] = $locationFactory;
-$GLOBALS ['photoFactory'   ] = $photoFactory;
-$GLOBALS ['profileFactory' ] = $profileFactory;
-$GLOBALS ['unionFactory'   ] = $unionFactory;
-$GLOBALS ['videoFactory'   ] = $videoFactory;
 
 // Initialize some static variables that require some run-time operations.
 
@@ -197,7 +159,10 @@ function verifyMockers(): void
  * This code runs after ALL tests and any coverage generation
  */
 register_shutdown_function(function () {
-    global $documentFactory, $photoFactory, $profileFactory, $videoFactory;
+    $documentFactory = FactoryBase::getFactory(API_Document::class);
+    $photoFactory    = FactoryBase::getFactory(API_Photo::class);
+    $profileFactory  = FactoryBase::getFactory(API_Profile::class);
+    $videoFactory    = FactoryBase::getFactory(API_Video::class);
 
     // Delete all of the objects created on the server.
     // DO NOT run in mocking mode, or it will NOT delete

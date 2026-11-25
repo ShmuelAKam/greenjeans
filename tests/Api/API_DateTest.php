@@ -3,6 +3,8 @@
 namespace ShmuelAKam\Greenjeans\Tests\Api;
 
 use ShmuelAKam\Greenjeans\Api\Data\API_Date;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryBase;
+use ShmuelAKam\Greenjeans\Tests\Api\Help\FactoryDates;
 
 /**
  * API_Date test case.
@@ -45,7 +47,8 @@ class API_DateTest extends API_BaseTest
      */
     public static function provideDateParams(): array
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         static $NUM_DATES = 10;
 
@@ -75,7 +78,8 @@ class API_DateTest extends API_BaseTest
      */
     public static function provideFullDateParams(): array
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         static $NUM_DATES = 10;
 
@@ -121,7 +125,8 @@ class API_DateTest extends API_BaseTest
      */
     public static function provideNotEqualParams(): array
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $baseDates    = self::provideDateParams();
         $flaggedDates = self::flagify($baseDates, 3);
@@ -181,7 +186,8 @@ class API_DateTest extends API_BaseTest
             'Armageddon date'
         ];
 
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $dates = [];
 
@@ -232,7 +238,8 @@ class API_DateTest extends API_BaseTest
      */
     public static function provideDateFormats(): array
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         return $dateFactory::DATE_FORMATS;
     }
@@ -245,7 +252,8 @@ class API_DateTest extends API_BaseTest
      */
     public static function provideDateRangeFormats(): array
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         return $dateFactory::DATE_RANGE_FORMATS;
     }
@@ -320,7 +328,8 @@ class API_DateTest extends API_BaseTest
      */
     protected static function makeFullDate(array  $start, array $end): API_Date
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $day       = $start [0];
         $month     = $start [1];
@@ -471,7 +480,8 @@ class API_DateTest extends API_BaseTest
      */
     public function test__equals(int $day, int $month, int  $year, bool $circa): void
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $date     = $dateFactory->makeDate($day, $month, $year, $circa);
         $sameDate = $dateFactory->makeDate($day, $month, $year, $circa);
@@ -489,7 +499,8 @@ class API_DateTest extends API_BaseTest
      */
     public function test__NOTequals(int $day, int $month, int  $year, int $otherDay, int $otherMonth, int $otherYear): void
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $date     = $dateFactory->makeDate($day, $month, $year);
         $diffDate = $dateFactory->makeDate($otherDay, $otherMonth, $otherYear);
@@ -676,7 +687,8 @@ class API_DateTest extends API_BaseTest
      */
     public function testToEpoch(int $day, int $month, int $year, int $epoch, string $timestamp, string $JSON): void
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $date = $dateFactory->makeDate($day, $month, $year, circa: false);
 
@@ -693,7 +705,8 @@ class API_DateTest extends API_BaseTest
      */
     public function testToTimestamp(int $day, int $month, int $year, int $epoch, string $timestamp, string $JSON): void
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $date = $dateFactory->makeDate($day, $month, $year, circa: false);
 
@@ -741,7 +754,8 @@ class API_DateTest extends API_BaseTest
      */
     public function testToJSON(int $day, int $month, int $year, int $epoch, string $timestamp, string $JSON): void
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $date = $dateFactory->makeDate($day, $month, $year, circa: false);
 
@@ -758,7 +772,8 @@ class API_DateTest extends API_BaseTest
      */
     public function testFromEpoch(int $day, int $month, int $year, int $epoch, string $timestamp, string $JSON): void
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $date = $dateFactory->makeDate($day, $month, $year, circa: false);
 
@@ -775,7 +790,8 @@ class API_DateTest extends API_BaseTest
      */
     public function testFromTimestamp(int $day, int $month, int $year, int $epoch, string $timestamp, string $JSON): void
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $expected = $dateFactory->makeDate($day, $month, $year, circa: false);
 
@@ -825,7 +841,8 @@ class API_DateTest extends API_BaseTest
      */
     public function testFromJSON(int $day, int $month, int $year, int $epoch, string $timestamp, string $JSON): void
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $date = $dateFactory->makeDate($day, $month, $year, circa: false);
 
@@ -868,7 +885,8 @@ class API_DateTest extends API_BaseTest
      */
     public function testToday(): void
     {
-        global $dateFactory;
+        /** @var FactoryDates $dateFactory */
+        $dateFactory = FactoryBase::getFactory(API_Date::class);
 
         $expected = $dateFactory->makeTodayDate();
 

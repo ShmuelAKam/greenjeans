@@ -31,6 +31,15 @@ abstract class DB_BaseMapper
      */
     private static array $countTableStmts = [];
 
+    /**
+     * Constructor.
+     * @param PDO    $pdo     Global PDO used throughout the persistence layer.
+     * @param int    $run_id  defined at the beginning of the run. It is used
+     *                        throughout the persistence layer to define a "unit
+     *                        of work".
+     * @param string $tableName
+     * @param string $idColumn
+     */
     protected function __construct(PDO $pdo, int $run_id, string $tableName, string $idColumn)
     {
         $this->pdo       = $pdo;

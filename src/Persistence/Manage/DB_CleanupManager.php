@@ -7,10 +7,23 @@ use PDO;
 /**
  * DB_CleanupManager
  * Handles the removal of old synchronization data.
+ * TODO consider merging this class into DB_RunMapper.
  */
 class DB_CleanupManager
 {
-    public function __construct(private PDO $pdo) {}
+    /**
+     * @var \PDO This is the global PDO object used throughout the package.
+     */
+    private PDO    $pdo;
+
+    /**
+     * Constructor.
+     * @param PDO $pdo  Global PDO used throughout the persistence layer.
+     */
+    public function __construct(PDO $pdo)
+    {
+        $this->pdo = $pdo;
+    }
 
     /**
      * Delete a specific run by ID.

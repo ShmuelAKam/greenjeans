@@ -8,36 +8,51 @@ use PDOStatement;
 /**
  * This class handles ALL link tables by creating cached statements for all
  * link-table queries. These statements are identified by a key made from the
- * type of query, table details, and order specifications.
- * It has CRUD functions for table operations with deterministic read ordering.
- * @see ::getCachedStmt
+ * type of query, table details, and order specifications. It has CRUD functions
+ * for table operations with deterministic read ordering.
+ *
+ * While this class is derived from DB_BaseMapper, it does NOT make much use of
+ * it, except for the executeWithBinds function, and the getters  for runID and
+ * PDO. This is because the baseclass handles only a single table.
+ *
+ * @see DB_LinkTableMapper::getCachedStmt
+ * @see DB_BaseMapper::executeWithBinds
  * @author shmuel
  */
 class DB_LinkTableMapper extends DB_BaseMapper
 {
-    /** @var array<string, PDOStatement> Internal cache for various link tables */
+    /**
+     * @var array<string, PDOStatement> Internal cache for various queries to
+     * the link tables, that are created at runtime.
+     * @see DB_LinkTableMapper::getCachedStmt
+     */
     private array $linkStmts = [];
 
     //------------------------------------------------------
 
     /**
-     * @param PDO $pdo
-     * @param int $run_id
+     * Constructor.
+     * @param PDO $pdo     Global PDO used throughout the persistence layer.
+     * @param int $run_id  defined at the beginning of the run. Is used throughout
+     *                     the persistence layer to define a "unit of work".
      */
     public function __construct(PDO $pdo, int $run_id)
     {
+        // This object does not use a single table name or column,
+        // so leave those parameters blank.
+
         parent::__construct($pdo, $run_id, '', '');
     }
 
     /**
-     * Internal helper to cache statements by their structural fingerprint.
+     * Internal helper to create and cache statements by their structural fingerprint.
      *
      * @param 'insert'|'select'|'row'|'clear'|'count' $type The SQL operation type.
-     * @param string $table
-     * @param string $c1
-     * @param string $c2
-     * @param string $orderBy
-     * @param string $orderDir
+     * @param string  $table     Table name
+     * @param string  $c1        Key   column to operate by.
+     * @param string  $c2        Value column to insert or select.
+     * @param string  $orderBy   Sort  column, for sequences.
+     * @param string  $orderDir  Sort  order: 'DESC' or 'ASC'
      * @return PDOStatement
      */
     private function getCachedStmt(
@@ -48,21 +63,31 @@ class DB_LinkTableMapper extends DB_BaseMapper
         ?string $orderBy = null,
         string  $orderDir = 'ASC',
     ): PDOStatement {
+
         $dirKey = strtoupper($orderDir) === 'DESC' ? 'DESC' : 'ASC';
         $key    = "{$type}_{$table}_{$c1}_{$c2}";
 
         if ($orderBy !== null)
         {
+            // Add sequence parameters to key when defined.
             $key .= "_{$orderBy}_{$dirKey}";
         }
 
         if (!isset($this->linkStmts[$key]))
         {
-            $orderClause = $orderBy !== null ? " ORDER BY `{$orderBy}` {$dirKey}" : "";
+            // Relevant statement NOT found. Create it.
+
+            $orderClause = "";
+            if ($orderBy !== null)
+            {
+                $orderClause = " ORDER BY `{$orderBy}` {$dirKey}";
+            }
 
             $sql = match ($type)
             {
-                // TODO handle these SQL queries.
+                // Get SQL statement for current parameters. This is an internal
+                // function, so no 'SQL insertion' is possible.
+
                 'insert' => "INSERT INTO `$table` (`$c1`, `$c2`, run_id) VALUES (:key, :val, :run_id)",
                 'select' => "SELECT `$c2` FROM `$table` WHERE `$c1` = :key AND run_id = :run_id {$orderClause}",
                 'row'    => "SELECT *     FROM `$table` WHERE `$c1` = :key AND run_id = :run_id {$orderClause}",
@@ -80,16 +105,17 @@ class DB_LinkTableMapper extends DB_BaseMapper
     }
 
     //------------------------------------------------------
+    // Crud operations that use cached stmt objects.
 
     /**
-     * Create/Update: Set values to link table, with optional delete first.
+     * CREATE /UPDATE: Set values to link table, with optional delete first.
      *
-     * @param string      $table  Name of table.
-     * @param string      $keyCol Column containing key.
-     * @param string      $key    Key value.
-     * @param string      $column Linked column.
+     * @param string  $table  Name of table.
+     * @param string  $keyCol Key   column
+     * @param string  $key    Key   value.
+     * @param string  $column Value column.
      * @param array<string, mixed>|array <string>|null  $items  Values to enter.
-     * @param bool        $clear  Delete existing rows before insert (update).
+     * @param bool    $clear  Delete existing rows before insert (update).
      */
     public function save(
         string $table,
@@ -108,6 +134,7 @@ class DB_LinkTableMapper extends DB_BaseMapper
         {
             $stmt = $this->getCachedStmt('insert', $table, $keyCol, $column);
 
+            // For each row in array of values.
             foreach ($items as $itemID => $item)
             {
                 if (is_bool($item))
@@ -137,14 +164,14 @@ class DB_LinkTableMapper extends DB_BaseMapper
     }
 
     /**
-     * Create/Update: Set values to link table with sequence column.
-     * Data ALWAYS cleared first.
+     * CREATE /UPDATE: Set values to link table with sequence column. It ALWAYS
+     * first clears any previous sequence for the same parameters.
      *
-     * @param string      $table  Name of table.
-     * @param string      $keyCol Column containing key.
-     * @param string      $key    Key value.
-     * @param string      $column Linked column.
-     * @param string      $seqCol Column to insert sequence value into.
+     * @param string  $table  Name of table.
+     * @param string  $keyCol Key   column.
+     * @param string  $key    Key   value.
+     * @param string  $column Value column.
+     * @param string  $seqCol Column to insert sequence value into.
      * @param array<string, string>|null  $items  Values to enter.
      */
     public function saveSequence(
@@ -177,7 +204,7 @@ class DB_LinkTableMapper extends DB_BaseMapper
     }
 
     /**
-     * Read: single column of values from link-table (multiple rows).
+     * READ: single column of values from link-table (multiple rows).
      * Automatically defaults to sorting by target column for deterministic retrieval.
      *
      * @param string      $table    Name of table.
@@ -193,7 +220,7 @@ class DB_LinkTableMapper extends DB_BaseMapper
         string  $keyCol,
         string  $key,
         string  $valCol,
-        ?string $orderBy = null,
+        ?string $orderBy  = null,
         string  $orderDir = 'ASC',
     ): array {
         $sortCol = $orderBy ?? $valCol;
@@ -205,7 +232,7 @@ class DB_LinkTableMapper extends DB_BaseMapper
     }
 
     /**
-     * Read: get complete rows from link-table (multiple rows).
+     * READ: get complete rows from link-table (multiple rows).
      *
      * @param string      $table    Name of table.
      * @param string      $keyCol   Column containing key (e.g., 'profile_id').
@@ -218,7 +245,7 @@ class DB_LinkTableMapper extends DB_BaseMapper
         string  $table,
         string  $keyCol,
         string  $key,
-        ?string $orderBy = null,
+        ?string $orderBy  = null,
         string  $orderDir = 'ASC',
     ): array {
         $stmt = $this->getCachedStmt('row', $table, $keyCol, '', $orderBy, $orderDir);
@@ -229,7 +256,7 @@ class DB_LinkTableMapper extends DB_BaseMapper
     }
 
     /**
-     * Delete: Remove key-specific rows from link-table.
+     * DELETE: Remove key-specific rows from link-table.
      *
      * @param string $table  Name of table.
      * @param string $keyCol Column containing key.

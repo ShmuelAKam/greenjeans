@@ -288,7 +288,7 @@ class DB_ProjectMapperTest extends DB_MapperTestBase
         $project       = API_Project::newFromArray($projectParams, true);
         $projectID     = $project->getID();
 
-        $this->pdo->beginTransaction();
+        $this->getPDO()->beginTransaction();
 
         try
         {
@@ -296,14 +296,14 @@ class DB_ProjectMapperTest extends DB_MapperTestBase
 
             // Force duplicate primary key exception
             $sql  = "INSERT INTO geni_projects (project_id, run_id) VALUES (:id, :rid)";
-            $stmt = $this->pdo->prepare($sql);
-            $stmt->execute([':id' => $projectID, ':rid' => $this->runID]);
+            $stmt = $this->getPDO()->prepare($sql);
+            $stmt->execute([':id' => $projectID, ':rid' => $this->getRunID() ]);
 
-            $this->pdo->commit();
+            $this->getPDO()->commit();
         }
         catch (\PDOException $e)
         {
-            $this->pdo->rollBack();
+            $this->getPDO()->rollBack();
         }
 
         $this->assertNull($this->mapper->read($projectID, fullRead: false));

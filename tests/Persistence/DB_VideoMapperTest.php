@@ -356,8 +356,8 @@ class DB_VideoMapperTest extends DB_MapperTestBase
 
         // Capture initial child foreign keys
         $sql  = "SELECT date_id, location_id, size_id FROM geni_videos WHERE video_id = :id AND run_id = :rid";
-        $stmt = $this->pdo->prepare($sql);
-        $stmt->execute([':id' => $videoID, ':rid' => $this->runID]);
+        $stmt = $this->getPDO()->prepare($sql);
+        $stmt->execute([':id' => $videoID, ':rid' => $this->getRunID() ]);
         $initialIDs = $stmt->fetch(\PDO::FETCH_ASSOC);
 
         $this->assertNotEmpty($initialIDs['date_id']);
@@ -378,7 +378,7 @@ class DB_VideoMapperTest extends DB_MapperTestBase
         $this->assertEquals(0, $this->mapper->countTableRows('geni_video_sizes', 'id', $initialIDs['size_id']));
 
         // Assert parent record keys were updated
-        $stmt->execute([':id' => $videoID, ':rid' => $this->runID]);
+        $stmt->execute([':id' => $videoID, ':rid' => $this->getRunID() ]);
         $updatedIDs = $stmt->fetch(\PDO::FETCH_ASSOC);
 
         $this->assertNull($updatedIDs['location_id']);
@@ -412,8 +412,8 @@ class DB_VideoMapperTest extends DB_MapperTestBase
         $this->mapper->save($video);
 
         $sql  = "SELECT date_id, location_id, size_id FROM geni_videos WHERE video_id = :id AND run_id = :rid";
-        $stmt = $this->pdo->prepare($sql);
-        $stmt->execute([':id' => $videoID, ':rid' => $this->runID]);
+        $stmt = $this->getPDO()->prepare($sql);
+        $stmt->execute([':id' => $videoID, ':rid' => $this->getRunID() ]);
         $subIDs = $stmt->fetch(\PDO::FETCH_ASSOC);
 
         $this->mapper->delete($videoID);
@@ -442,7 +442,7 @@ class DB_VideoMapperTest extends DB_MapperTestBase
         $video       = API_Video::newFromArray($videoParams, fromDB: true);
         $videoID     = $video->getId();
 
-        $this->pdo->beginTransaction();
+        $this->getPDO()->beginTransaction();
 
         try
         {
@@ -450,14 +450,14 @@ class DB_VideoMapperTest extends DB_MapperTestBase
 
             // Force duplicate primary key exception
             $sql  = "INSERT INTO geni_videos (video_id, run_id) VALUES (:id, :rid)";
-            $stmt = $this->pdo->prepare($sql);
-            $stmt->execute([':id' => $videoID, ':rid' => $this->runID]);
+            $stmt = $this->getPDO()->prepare($sql);
+            $stmt->execute([':id' => $videoID, ':rid' => $this->getRunID() ]);
 
-            $this->pdo->commit();
+            $this->getPDO()->commit();
         }
         catch (\PDOException $e)
         {
-            $this->pdo->rollBack();
+            $this->getPDO()->rollBack();
         }
 
         $this->assertNull($this->mapper->read($videoID, fullRead: false));

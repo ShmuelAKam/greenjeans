@@ -214,8 +214,8 @@ class DB_PhotoAlbumMapperTest extends DB_MapperTestBase
 
         // Fetch cover size ID before deletion
         $sql  = "SELECT cover_sizes_id FROM geni_photo_albums WHERE album_id = :id AND run_id = :rid";
-        $stmt = $this->pdo->prepare($sql);
-        $stmt->execute([':id' => $albumID, ':rid' => $this->runID]);
+        $stmt = $this->getPDO()->prepare($sql);
+        $stmt->execute([':id' => $albumID, ':rid' => $this->getRunID() ]);
         $coverID = $stmt->fetchColumn();
 
         //-------------------------------
@@ -251,7 +251,7 @@ class DB_PhotoAlbumMapperTest extends DB_MapperTestBase
         $album       = API_PhotoAlbum::newFromArray($albumParams, true);
         $albumID     = $album->getID();
 
-        $this->pdo->beginTransaction();
+        $this->getPDO()->beginTransaction();
 
         try
         {
@@ -259,14 +259,14 @@ class DB_PhotoAlbumMapperTest extends DB_MapperTestBase
 
             // Force duplicate primary key exception
             $sql  = "INSERT INTO geni_photo_albums (album_id, run_id) VALUES (:id, :rid)";
-            $stmt = $this->pdo->prepare($sql);
-            $stmt->execute([':id' => $albumID, ':rid' => $this->runID]);
+            $stmt = $this->getPDO()->prepare($sql);
+            $stmt->execute([':id' => $albumID, ':rid' => $this->getRunID() ]);
 
-            $this->pdo->commit();
+            $this->getPDO()->commit();
         }
         catch (\PDOException $e)
         {
-            $this->pdo->rollBack();
+            $this->getPDO()->rollBack();
         }
 
         $this->assertNull($this->mapper->read($albumID, fullRead: false));

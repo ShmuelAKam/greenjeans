@@ -13,7 +13,15 @@ use ShmuelAKam\Greenjeans\Persistence\Manage\DB_Persistor;
  */
 abstract class DB_MapperTestBase extends TestCase
 {
+    /**
+     * @var \PDO This is the global PDO object used throughout the package.
+     */
     protected PDO          $pdo;
+
+    /**
+     * @var int run_ID defined at the beginning of the run. Is used throughout
+     *          the persistence layer to define a "unit of work".
+     */
     protected int          $runID;
 
     public static function setUpBeforeClass(): void

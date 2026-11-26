@@ -192,7 +192,7 @@ class DB_UserMapperTest extends DB_MapperTestBase
         $this->mapper->save($user);
 
         // Confirm user label rows exist.
-        $rowCount = $this->mapper->countTableRows('geni_user_labels', 'run_id', $this->runID);
+        $rowCount = $this->mapper->countTableRows('geni_user_labels', 'run_id', $this->getRunID());
         $this->assertGreaterThan(0, $rowCount, 'Fsiled to find user label rows');
 
         //-------------------------------
@@ -200,7 +200,7 @@ class DB_UserMapperTest extends DB_MapperTestBase
         //-------------------------------
 
         $retrieved = $this->mapper->read(fullRead: false);
-        $rowCount  = $this->mapper->countTableRows('geni_user_labels', 'run_id', $this->runID);
+        $rowCount  = $this->mapper->countTableRows('geni_user_labels', 'run_id', $this->getRunID());
 
         $this->assertNull($retrieved);
         $this->assertEquals(0, $rowCount, "Failed to delete. Found $rowCount label rows.");

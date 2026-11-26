@@ -288,7 +288,7 @@ class DB_SurnameMapperTest extends DB_MapperTestBase
         $surname       = API_Surname::newFromArray($surnameParams);
         $surnameID     = $surname->getID();
 
-        $this->pdo->beginTransaction();
+        $this->getPDO()->beginTransaction();
 
         try
         {
@@ -296,14 +296,14 @@ class DB_SurnameMapperTest extends DB_MapperTestBase
 
             // Force duplicate primary key exception
             $sql  = "INSERT INTO geni_surnames (surname_id, run_id) VALUES (:id, :rid)";
-            $stmt = $this->pdo->prepare($sql);
-            $stmt->execute([':id' => $surnameID, ':rid' => $this->runID]);
+            $stmt = $this->getPDO()->prepare($sql);
+            $stmt->execute([':id' => $surnameID, ':rid' => $this->getRunID() ]);
 
-            $this->pdo->commit();
+            $this->getPDO()->commit();
         }
         catch (\PDOException $e)
         {
-            $this->pdo->rollBack();
+            $this->getPDO()->rollBack();
         }
 
         $this->assertNull($this->mapper->read($surnameID, fullRead: false));

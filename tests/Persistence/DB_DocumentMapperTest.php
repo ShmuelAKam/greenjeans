@@ -554,8 +554,8 @@ class DB_DocumentMapperTest extends DB_MapperTestBase
 
         // Fetch child foreign keys stored on the parent record
         $sql  = "SELECT date_id, location_id, size_id FROM geni_documents WHERE doc_id = :id AND run_id = :rid";
-        $stmt = $this->pdo->prepare($sql);
-        $stmt->execute([':id' => $docID, ':rid' =>$this->runID]);
+        $stmt = $this->getPDO()->prepare($sql);
+        $stmt->execute([':id' => $docID, ':rid' =>$this->getRunID() ]);
         $initialIDs = $stmt->fetch(\PDO::FETCH_ASSOC);
 
         $this->assertNotEmpty($initialIDs['date_id'], 'Date ID should exist.');
@@ -586,7 +586,7 @@ class DB_DocumentMapperTest extends DB_MapperTestBase
         );
 
         // Assert parent foreign keys were updated to NULL while date_id remains populated
-        $stmt->execute([':id' => $docID, ':rid' =>$this->runID]);
+        $stmt->execute([':id' => $docID, ':rid' =>$this->getRunID() ]);
         $updatedIDs = $stmt->fetch(\PDO::FETCH_ASSOC);
 
         $this->assertNull($updatedIDs['location_id']);
@@ -620,7 +620,7 @@ class DB_DocumentMapperTest extends DB_MapperTestBase
         $docID = $doc->getID();
 
         // Begin manual transaction block to test atomicity
-        $this->pdo->beginTransaction();
+        $this->getPDO()->beginTransaction();
 
         try
         {
@@ -629,14 +629,14 @@ class DB_DocumentMapperTest extends DB_MapperTestBase
 
             // Force a duplicate primary key constraint violation
             $sql  = "INSERT INTO geni_documents (doc_id, run_id) VALUES (:id, :rid)";
-            $stmt = $this->pdo->prepare($sql);
-            $stmt->execute([':id' => $docID, ':rid' =>$this->runID]);
+            $stmt = $this->getPDO()->prepare($sql);
+            $stmt->execute([':id' => $docID, ':rid' =>$this->getRunID() ]);
 
-            $this->pdo->commit();
+            $this->getPDO()->commit();
         }
         catch (\PDOException $e)
         {
-            $this->pdo->rollBack();
+            $this->getPDO()->rollBack();
         }
 
         // Verify database rolled back completely to clean state

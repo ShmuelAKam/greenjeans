@@ -410,8 +410,8 @@ class DB_PhotoMapperTest extends DB_MapperTestBase
 
         // Capture initial child foreign keys
         $sql  = "SELECT date_id, location_id, size_id FROM geni_photos WHERE photo_id = :id AND run_id = :rid";
-        $stmt = $this->pdo->prepare($sql);
-        $stmt->execute([':id' => $photoID, ':rid' =>$this->runID]);
+        $stmt = $this->getPDO()->prepare($sql);
+        $stmt->execute([':id' => $photoID, ':rid' =>$this->getRunID() ]);
         $initialIDs = $stmt->fetch(\PDO::FETCH_ASSOC);
 
         $this->assertNotEmpty($initialIDs['date_id']);
@@ -432,7 +432,7 @@ class DB_PhotoMapperTest extends DB_MapperTestBase
         $this->assertEquals(0, $this->mapper->countTableRows('geni_photo_sizes', 'id', $initialIDs['size_id']));
 
         // Assert parent record keys were updated
-        $stmt->execute([':id' => $photoID, ':rid' =>$this->runID]);
+        $stmt->execute([':id' => $photoID, ':rid' =>$this->getRunID() ]);
         $updatedIDs = $stmt->fetch(\PDO::FETCH_ASSOC);
 
         $this->assertNull($updatedIDs['location_id']);
@@ -466,8 +466,8 @@ class DB_PhotoMapperTest extends DB_MapperTestBase
         $this->mapper->save($photo);
 
         $sql  = "SELECT date_id, location_id, size_id FROM geni_photos WHERE photo_id = :id AND run_id = :rid";
-        $stmt = $this->pdo->prepare($sql);
-        $stmt->execute([':id' => $photoID, ':rid' =>$this->runID]);
+        $stmt = $this->getPDO()->prepare($sql);
+        $stmt->execute([':id' => $photoID, ':rid' =>$this->getRunID() ]);
         $subIDs = $stmt->fetch(\PDO::FETCH_ASSOC);
 
         $this->mapper->delete($photoID);
@@ -497,7 +497,7 @@ class DB_PhotoMapperTest extends DB_MapperTestBase
         $photo       = API_Photo::newFromArray($photoParams, fromDB: true);
         $photoID     = $photo->getId();
 
-        $this->pdo->beginTransaction();
+        $this->getPDO()->beginTransaction();
 
         try
         {
@@ -505,14 +505,14 @@ class DB_PhotoMapperTest extends DB_MapperTestBase
 
             // Force duplicate primary key exception
             $sql  = "INSERT INTO geni_photos (photo_id, run_id) VALUES (:id, :rid)";
-            $stmt = $this->pdo->prepare($sql);
-            $stmt->execute([':id' => $photoID, ':rid' =>$this->runID]);
+            $stmt = $this->getPDO()->prepare($sql);
+            $stmt->execute([':id' => $photoID, ':rid' =>$this->getRunID() ]);
 
-            $this->pdo->commit();
+            $this->getPDO()->commit();
         }
         catch (\PDOException $e)
         {
-            $this->pdo->rollBack();
+            $this->getPDO()->rollBack();
         }
 
         $this->assertNull($this->mapper->read($photoID, fullRead: false));
